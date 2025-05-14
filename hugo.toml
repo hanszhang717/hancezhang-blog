@@ -12,9 +12,6 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   ShowReadingTime = true
   showtoc = false
-  distance = 100
-  keys = ["title"]
-  customCSS = ["css/custom.css"]
 
   [[params.socialIcons]]
     name = "x"
@@ -48,3 +45,5 @@ theme = 'PaperMod'
   minMatchCharLength = 2
   threshold = 0.2
   location = 0
+  distance = 100
+  keys = ["title"]
