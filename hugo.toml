@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://www.hancezhang.blog/"
 canonifyURLs = true
 languageCode = 'en-us'
 title = "Hance Zhang's Blog"
