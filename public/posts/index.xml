@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Hance Zhang&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Hance Zhang&#39;s Blog</description>
+    <generator>Hugo -- 0.125.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corporates Hire by Abundance, Not by Necessity</title>
+      <link>http://localhost:1313/posts/big-tech-hiring/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/big-tech-hiring/</guid>
+      <description>Big-tech hiring is driven by excess, not necessity.</description>
+    </item>
+    <item>
+      <title>Socratic Questioning and the Reality Distortion Field</title>
+      <link>http://localhost:1313/posts/rdf/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/rdf/</guid>
+      <description>Simply doing Socratic questioning can be simply annoying.</description>
+    </item>
+    <item>
+      <title>The Heresy of Simplicity</title>
+      <link>http://localhost:1313/posts/the-heresy-of-simplicity/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-heresy-of-simplicity/</guid>
+      <description>The best businesses make complexity invisible.</description>
+    </item>
+    <item>
+      <title>Designing Anti-fragility</title>
+      <link>http://localhost:1313/posts/designing-anti-fragility/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/designing-anti-fragility/</guid>
+      <description>How to build systems that grow stronger from randomness.</description>
+    </item>
+    <item>
+      <title>Brian Chesky and Founder Mode</title>
+      <link>http://localhost:1313/posts/founder-mode/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/founder-mode/</guid>
+      <description>Great leadership is not absence; presence</description>
+    </item>
+    <item>
+      <title>Don&#39;t Put the Founder on a Pedestal—Or Anyone Else</title>
+      <link>http://localhost:1313/posts/no-pedestals/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/no-pedestals/</guid>
+      <description>Resist the urge to place founders or leaders on pedestals; it hinders growth and critical thinking.</description>
+    </item>
+    <item>
+      <title>Self Management for Effective Leaders</title>
+      <link>http://localhost:1313/posts/self-management-effective-leaders/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/self-management-effective-leaders/</guid>
+      <description>Leadership isn&amp;rsquo;t about innate traits but cultivated skills, especially self-management.</description>
+    </item>
+    <item>
+      <title>Six Principles to Build a Great Product</title>
+      <link>http://localhost:1313/posts/principles-product-development/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/principles-product-development/</guid>
+      <description>A redacted excerpt from an internal letter on product strategy.</description>
+    </item>
+    <item>
+      <title>How to Provide Advice in a Helpful Way</title>
+      <link>http://localhost:1313/posts/constructive-feedback/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/constructive-feedback/</guid>
+      <description>Protect the positive reinforcement loop if you really wish others to grow</description>
+    </item>
+    <item>
+      <title>Selling Whys</title>
+      <link>http://localhost:1313/posts/selling-whys/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/selling-whys/</guid>
+      <description>Find a compelling why and sell it.</description>
+    </item>
+    <item>
+      <title>Why I Write Blogs?</title>
+      <link>http://localhost:1313/posts/why-i-write-blogs/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-i-write-blogs/</guid>
+      <description>Exploring the motivations behind blogging, from clarifying thoughts to sharing knowledge.</description>
+    </item>
+  </channel>
+</rss>

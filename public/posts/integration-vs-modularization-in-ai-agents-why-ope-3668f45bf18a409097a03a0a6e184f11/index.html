@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Hance Zhang&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Integration vs Modularization in AI Agents: Why Open-Source is the Future type: Post status: Published date: 2024/08/23 slug: integration-vs-modularization category: Work
+A frequent question I encounter from developers and candidates is, “What’s the end-game for the AI Agents development ecosystem?” It&rsquo;s a profound question, but my succinct answer is this: much like the rivalry between iOS and Android, it&rsquo;s a battle between integration and modularization.
+The Ecosystem Challenge: Beyond Engineering Projects To address the end-game question, we first need to understand the essential components that support developers in creating AI applications.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/posts/integration-vs-modularization-in-ai-agents-why-ope-3668f45bf18a409097a03a0a6e184f11/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/posts/integration-vs-modularization-in-ai-agents-why-ope-3668f45bf18a409097a03a0a6e184f11/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Hance Zhang&#39;s Blog (Alt + H)">Hance Zhang&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">5 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#integration-vs-modularization-in-ai-agents-why-open-source-is-the-future" aria-label="Integration vs Modularization in AI Agents: Why Open-Source is the Future">Integration vs Modularization in AI Agents: Why Open-Source is the Future</a></li>
+                <li>
+                    <a href="#the-ecosystem-challenge-beyond-engineering-projects" aria-label="The Ecosystem Challenge: Beyond Engineering Projects">The Ecosystem Challenge: Beyond Engineering Projects</a></li>
+                <li>
+                    <a href="#integration-vs-modularization-the-path-forward" aria-label="Integration vs Modularization: The Path Forward">Integration vs Modularization: The Path Forward</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="integration-vs-modularization-in-ai-agents-why-open-source-is-the-future">Integration vs Modularization in AI Agents: Why Open-Source is the Future<a hidden class="anchor" aria-hidden="true" href="#integration-vs-modularization-in-ai-agents-why-open-source-is-the-future">#</a></h1>
+<p>type: Post
+status: Published
+date: 2024/08/23
+slug: integration-vs-modularization
+category: Work</p>
+<p>A frequent question I encounter from developers and candidates is, “What’s the end-game for the AI Agents development ecosystem?” It&rsquo;s a profound question, but my succinct answer is this: much like the rivalry between iOS and Android, it&rsquo;s a battle between integration and modularization.</p>
+<h1 id="the-ecosystem-challenge-beyond-engineering-projects"><strong>The Ecosystem Challenge: Beyond Engineering Projects</strong><a hidden class="anchor" aria-hidden="true" href="#the-ecosystem-challenge-beyond-engineering-projects">#</a></h1>
+<p>To address the end-game question, we first need to understand the essential components that support developers in creating AI applications.</p>
+<p>The past year in the AI market has made one thing clear: a simple GPT wrapper is insufficient. While LLMs are powerful, they are merely tools within a broader toolkit. Creating something truly valuable to customers requires a combination of tools, not just the best models, but also a myriad of small, composable, functional components. At MyShell, we refer to these as widgets, or in more traditional Computer Science terms, library functions (thank you, college, for those C programming classes). I love the analogy to library functions because it encompasses everything from models to front-end UI plugins, APIs, mini code blocks, specialized knowledge bases, and more.</p>
+<p>An abundant widget ecosystem is a necessity. First off, developers have different areas of expertise, and not everything can be solved by querying LLMs. Outsourcing solutions for specific needs becomes vital. Second, in many cases, particularly in consumer markets, app development has so many shared features, and distributing the development cost of these shared needs is essential. Most importantly, this ensures that the ecosystem thrives without relying on one or two viral apps. As Elon Musk aptly put it, this approach “builds a machine that builds a machine.” Python and MATLAB aren&rsquo;t popular merely because they are great programming languages—they thrive because of the ecosystems (library functions) they support, with tools like NumPy, Pandas, Matplotlib, TensorFlow, PyTorch, and so on.</p>
+<p>Understanding this reveals why an ecosystem is necessary for AI app developers. It’s fundamentally about the division of labor.</p>
+<p>The proliferation of AI agent development platforms today stems from the fact that building an agentic framework is not an insurmountable task, nor should it be a company’s primary competitive advantage, or moat. While it might be challenging for a startup to train an LLM from scratch, building an agentic framework is a complex but feasible engineering project.</p>
+<p>The true value, or moat, lies within the ecosystem—a brand new ecosystem the world has never seen before. MyShell is a multilateral platform involving at least five types of participants: app developers, app users, widget contributors, investors, and the platform itself. None of these parties can complete the value chain independently, and the success of one party relies on the success of others. Copying one party’s contribution and bringing it to market is easy, but overthrowing an existing ecosystem is extremely difficult.</p>
+<p>Smaller, dispersed entities within an ecosystem often struggle to address systemic issues and lack the incentive to fill gaps for the entire ecosystem. To build this new ecosystem, we, as a platform, must tackle some of the toughest challenges: creating an open-source agentic framework that invites participation from all parties, providing cloud services so that every app has a place to be hosted, offering marketing and monetization support, and most importantly, using the creator economy powered by Web3 to ensure all contributors are fairly rewarded.</p>
+<p>We often talk about how AI can turn individuals into 10X experts—a belief I still hold—but achieving this requires more than just AI. We need contributors.</p>
+<h1 id="integration-vs-modularization-the-path-forward"><strong>Integration vs Modularization: The Path Forward</strong><a hidden class="anchor" aria-hidden="true" href="#integration-vs-modularization-the-path-forward">#</a></h1>
+<p>Now that we’ve established that building an ecosystem is the only viable path forward, we must decide between integration and modularization. Integration means centralizing everything, building the widget ecosystem with your own resources. Modularization, on the other hand, involves a decentralized approach, striving for maximum compatibility to leverage the successes of others.</p>
+<p>The classic battle between integration and modularization is epitomized by Apple’s iOS and Google’s Android. Steve Jobs, with his obsessive drive to make Apple’s products the best in the market, often quoted Alan Kay: “People who are really serious about software should make their own hardware.” This philosophy led Apple to integrate everything in its production stream, from chips to hardware, from OS to apps. iOS is not compatible with any other hardware, and iPhones cannot be produced by any other OEMs. Google, by contrast, took the opposite approach.</p>
+<p>The question is, will this duopoly reoccur in the battle for AI agent development platforms? My guess is yes. OpenAI’s GPTs may not have achieved the desired success, but it still illustrates Sam Altman’s ambition. If a tech giant like OpenAI can build the best model across all modalities, use the power of thousands of engineers to develop all the supporting widgets, and provide all the necessary marketing and logistical support, they will have achieved vertical integration.</p>
+<p>As Ben Thompson wrote in Stratechery, integration can indeed offer a superior user experience because it optimizes every detail—just as the iPhone provides a premium experience compared to Android devices. A modularized solution, while taking away some freedom (and responsibility) from developers to ensure interoperability, may not always achieve the very optimal solution. However, it still holds a significant stake in the market, offering the most diverse, nuanced features to a broad audience.</p>
+<p>As of today, no tech giant is attempting to build an integrated solution for AI agent development platforms, and I don&rsquo;t foresee one emerging in the next 1-2 years, as the battle for frontier models is far from over. Therefore, I have full confidence that a modularized solution like MyShell will be the answer.</p>
+<p>We’re open-sourcing our AI agentic framework in September, and the creator economy is ready for contributors. Follow me on X for opportunities to participate. Let’s build the future together.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/">Hance Zhang&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

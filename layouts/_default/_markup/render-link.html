@@ -1,0 +1,11 @@
+{{- $ytpattern := `^https?://(www\.)?(youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11}).*` -}}
+{{- $link := .Destination -}}
+{{- $match := findRE $ytpattern $link -}}
+{{- if gt (len $match) 0 -}}
+  {{- $id := replaceRE $ytpattern `$3` $link -}}
+  <div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $id }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+{{- else -}}
+  <a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}} 

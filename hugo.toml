@@ -1,0 +1,50 @@
+baseURL = "http://localhost:1313/"
+canonifyURLs = true
+languageCode = 'en-us'
+title = "Hance Zhang's Blog"
+theme = 'PaperMod'
+
+# Site configured
+
+# Home page greeting
+[params]
+  homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, product building, and investment. I'm currently based on Tokyo, DM me via X!"}
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  showtoc = false
+  distance = 100
+  keys = ["title"]
+  customCSS = ["css/custom.css"]
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/hance_zhang7"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hanszhang717@gmail.com"
+
+# Main menu links
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 2
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  includeMatches = true
+  findAllMatches = false
+  minMatchCharLength = 2
+  threshold = 0.2
+  location = 0
