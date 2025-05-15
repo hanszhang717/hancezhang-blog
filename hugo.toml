@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313/"
-canonifyURLs = false
+baseURL = "https://www.hancezhang.blog/"
+canonifyURLs = true
 theme = 'PaperMod'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
