@@ -97,8 +97,4 @@ The lesson: obsessing over user experience isn't just for finding PMF. It's fore
 
 Airbnb, even as a giant, still cares about that 10-star ideal. Understand users. Strive for great moments. Keep the core experience solid. Always.
 
-### Build What's Worth Scaling
-
-So, before you chase growth hacks and tiny conversion wins, ask: Do we get our users? Have we built something they'll rave about?
-
 Real growth, especially early on, is often unscalable. It's manual work, deep empathy, relentless delight. Do things that don't scale to find what's truly valuable. Only then do you have something worth scaling. That's how you build more than a product. You build a phenomenon.
