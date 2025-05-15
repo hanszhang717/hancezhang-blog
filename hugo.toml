@@ -53,6 +53,7 @@ defaultContentLanguageInSubdir = true
   ShowReadingTime = true
   showtoc = false
   showtranslations = true # For PaperMod language switcher
+  displayFullLangName = true
 
   [[params.socialIcons]]
     name = "x"
