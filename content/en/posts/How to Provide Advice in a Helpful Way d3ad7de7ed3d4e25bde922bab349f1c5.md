@@ -8,9 +8,6 @@ slug: "constructive-feedback"
 ---
 
 
-
-This blog's insight gave credits to my discussion with Helen.
-
 One of the most common criticisms of Asian parenting is the lack of unconditional encouragement.
 
 Imagine a Chinese student scoring 90 out of 100 on a final exam—a solid achievement by most standards. Yet, in many cases, this student might face one of two responses. The harsher type of parent might immediately focus on the lost 10 points, saying things like, "Why can others score higher than 90, but you can't?" or "Do you realize how many people will outscore you in the Gaokao (the Chinese College Entrance Exam) if you keep losing points like this?" The more considerate type of parent might start with a brief compliment, "You did a good job," but then quickly pivot to a debriefing session: "Now, let's analyze why you missed those 10 points. Can you be less careless next time?"
@@ -24,3 +21,5 @@ As a parent, the best course of action in this moment is simple: celebrate with 
 If you want someone to improve at anything, you must first build a positive reinforcement loop. This includes offering genuine, unconditional praise when they succeed. If you truly want your child to get better, save the constructive feedback for a setting where they themselves acknowledge that their performance was below expectations. It's even better if your child comes to you seeking advice after things go wrong—but that level of trust requires a solid foundation.
 
 What I've said here doesn't just apply to parenting—it applies to the workplace and all human interactions. Providing advice is an art that requires careful consideration of how, when, and where you do it. Dumping advice without regard for the situation might make you feel like you're being honest, objective, and promoting a growth mindset. But in reality, you're just satisfying a didactic craving and reflecting a sense of arrogance. Most of the time, people aren't in the right frame of mind to receive feedback, and your untimely advice will only backfire.
+
+This blog's insight gave credits to my discussion with Helen.

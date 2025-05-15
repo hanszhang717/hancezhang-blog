@@ -51,7 +51,7 @@ This question depends heavily on your personality and the type of business you'r
 
 ### 1. Being Detail-Oriented
 
-Being detail-oriented does **not** mean micromanaging. For a better understanding, you can refer to my blog on [Brian Chesky and Founder Mode ](https://www.notion.so/Brian-Chesky-and-Founder-Mode-14eaf43046b480ffbaa4f4037db9f3b5?pvs=21).Being detail-oriented means you need to know as much as possible—if not all—about the projects you're overseeing, both technical and non-technical. This is easier than it sounds.
+Being detail-oriented does **not** mean micromanaging. For a better understanding, you can refer to my blog on [Brian Chesky and Founder Mode ](https://www.hancezhang.blog/en/posts/founder-mode/).Being detail-oriented means you need to know as much as possible—if not all—about the projects you're overseeing, both technical and non-technical. This is easier than it sounds.
 
 However, you must control the urge to manage every detail directly. If you fail to do this, you'll make life miserable for the people working for you and, worse, erode their initiative—which is critical to building a sustainable organization.
 
