@@ -1,8 +1,28 @@
-{{/* Better reading time for Chinese */}}
+{{/* Post meta with publish date and reading time; Chinese reading speed 500 chars/min */}}
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+  {{- $scratch.Add "meta" (slice (printf "<time datetime=\"%s\">%s</time>" (.Date.Format "2006-01-02") (.Date.Format (default "2006-01-02" site.Params.DateFormat)))) }}
+{{- end }}
+
 {{- $rt := .ReadingTime -}}
 {{- if eq .Page.Lang "zh" -}}
   {{- $chars := len (.Plain) -}}
   {{- $rt = div (add $chars 499) 500 -}}
   {{- if lt $rt 1 }}{{ $rt = 1 }}{{ end }}
 {{- end -}}
-{{ $rt }} min
+{{- if (.Param "ShowReadingTime") -}}
+  {{- $scratch.Add "meta" (slice (printf "%d min" $rt)) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+  {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+  {{- with (partial "author.html" .) }}
+    {{- $scratch.Add "meta" (slice .) }}
+  {{- end }}
+{{- end }}
+
+{{- delimit ($scratch.Get "meta") "&nbsp;·&nbsp;" | safeHTML -}}
