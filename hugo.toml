@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
     title = "Hance Zhang的博客"
     contentDir = "content/zh"
     [languages.zh.params]
-      homeInfoParams = {Title = "👋 欢迎来到 Hance Zhang的博客", Content = "我撰写关于领导力、产品构建和投资方面的学习心得。我目前常驻东京，可以通过X私信我！"}
+      homeInfoParams = {Title = "👋 欢迎来到 Hance Zhang的博客", Content = "我撰写关于领导力、产品思考和投资方面的学习心得。目前base东京，可以通过X私信我！文章原文是英文，中文都是AI翻译的"}
     [[languages.zh.menu.main]]
       name = "文章"
       url = "/posts/"
