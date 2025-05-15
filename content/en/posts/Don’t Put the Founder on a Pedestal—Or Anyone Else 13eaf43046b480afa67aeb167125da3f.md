@@ -7,7 +7,6 @@ categories: ["Work"]
 slug: "no-pedestals"
 ---
 
-# Don't Put the Founder on a Pedestal—Or Anyone Else
 
 I have a deep respect for the founders at my company; otherwise, I wouldn't still be here. From my perspective, they're all remarkable leaders. But that doesn't contradict the point of this article: idolizing your founder, leader, or anyone else—whether they're Elon Musk, Steve Jobs, or anyone else—is a mistake. The reason is simple: they're not superhuman, no one is.
 
