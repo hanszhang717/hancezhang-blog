@@ -1,0 +1,8 @@
+{{/* Better reading time for Chinese */}}
+{{- $rt := .ReadingTime -}}
+{{- if eq .Page.Lang "zh" -}}
+  {{- $chars := len (.Plain) -}}
+  {{- $rt = math.Ceil (div $chars 300) -}}
+  {{- if lt $rt 1 }}{{ $rt = 1 }}{{ end }}
+{{- end -}}
+{{ $rt }} min
