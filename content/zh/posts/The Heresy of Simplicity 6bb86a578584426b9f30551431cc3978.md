@@ -2,7 +2,7 @@
 title: "为什么我们需要极简主义"
 date: 2025-05-13
 draft: false
-summary: "[TRANSLATE] The best businesses make complexity invisible."
+summary: "好的生意往往都是通过帮助别人省略复杂性来创造价值."
 categories: ["Mindsets"]
 slug: "the-heresy-of-simplicity"
 lang: zh
