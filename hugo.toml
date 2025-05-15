@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir = true
     title = "Hance Zhang's Blog"
     contentDir = "content/en"
     [languages.en.params]
-      homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, product building, and investment. I'm currently based on Tokyo, DM me via X!"}
+      homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, product building, and investment. I'm currently based in Tokyo, DM me via X!"}
     [[languages.en.menu.main]]
       name = "Posts"
       url = "/posts/"
