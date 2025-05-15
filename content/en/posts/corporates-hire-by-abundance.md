@@ -6,6 +6,7 @@ summary: "Big-tech hiring is driven by excess, not necessity."
 categories: ["Mindsets"]
 slug: "big-tech-hiring"
 ---
+
 There's an uncomfortable truth hidden behind the glossy careers pages of big tech companies: **most of their hiring isn't driven by genuine necessity, but by abundance.**
 
 Companies like Google, Meta, or Amazon don't add thousands of new hires every year because each employee is critically essential. They hire simply because they can afford to. Elon Musk illustrated this dramatically at Twitter—laying off 80% of the workforce had surprisingly little impact on the core product. In most tech companies, perhaps only 20% of employees work on truly vital, revenue-driving projects. Google's search and ads make up the lion's share of its revenue, yet only a fraction of its workforce is directly tied to these core areas. Meanwhile, entire teams work on projects that might never ship—projects that are less about necessity and more about optionality.

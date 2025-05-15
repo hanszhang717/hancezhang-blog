@@ -7,7 +7,6 @@ categories: ["Work"]
 slug: "no-pedestals"
 ---
 
-
 I have a deep respect for the founders at my company; otherwise, I wouldn't still be here. From my perspective, they're all remarkable leaders. But that doesn't contradict the point of this article: idolizing your founder, leader, or anyone else—whether they're Elon Musk, Steve Jobs, or anyone else—is a mistake. The reason is simple: they're not superhuman, no one is.
 
 One common misconception is that leaders possess greater technical skill than frontline employees, and people attribute that to their leader's promotion. But leadership is just a different role. It demands a distinct skill set—one that's often rarer and generally more difficult, which tends to earn higher compensation. But that's all there is to it.

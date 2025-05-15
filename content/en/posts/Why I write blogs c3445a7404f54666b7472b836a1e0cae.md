@@ -23,11 +23,6 @@ Whenever I meet a new interesting person, or catching up with some old friends, 
 
 Blogging also helps me build a personal brand. I believe personal branding is an underestimated asset in its impact and overestimated in its cost. Like any other asset, personal branding yields compound interest. Starting early on the path of exponential growth can lead to significant rewards in the end.
 
-<aside>
-💡 Why? Checkout → [Exponential Growth and Compound Interest](https://www.notion.so/Exponential-Growth-and-Compound-Interest-12edc4a87f624469a4e6dab2e769dffb?pvs=21)
-
-</aside>
-
 I'm lazy, uninterested, and incompetent in other form of medias (music, art, video, and others), which makes blogging a no-brainer.
 
 ## Practice writing
@@ -38,4 +33,4 @@ Given that the potential audience of this blog primarily uses Chinese and Englis
 
 ## On originality
 
-I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Paul Graham, Sam Altman, Brain Chesky, Steve Jobs and Naval Ravikant, among others.(keep adding on this list..)
+I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brain Chesky, Steve Jobs and Naval Ravikant, among others.(keep adding on this list..)

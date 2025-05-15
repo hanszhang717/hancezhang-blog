@@ -7,7 +7,6 @@ categories: ["Leadership"]
 slug: "constructive-feedback"
 ---
 
-
 One of the most common criticisms of Asian parenting is the lack of unconditional encouragement.
 
 Imagine a Chinese student scoring 90 out of 100 on a final exam—a solid achievement by most standards. Yet, in many cases, this student might face one of two responses. The harsher type of parent might immediately focus on the lost 10 points, saying things like, "Why can others score higher than 90, but you can't?" or "Do you realize how many people will outscore you in the Gaokao (the Chinese College Entrance Exam) if you keep losing points like this?" The more considerate type of parent might start with a brief compliment, "You did a good job," but then quickly pivot to a debriefing session: "Now, let's analyze why you missed those 10 points. Can you be less careless next time?"
