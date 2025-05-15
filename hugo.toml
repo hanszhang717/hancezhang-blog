@@ -1,17 +1,57 @@
 baseURL = "https://www.hancezhang.blog/"
 canonifyURLs = true
-languageCode = 'en-us'
-title = "Hance Zhang's Blog"
 theme = 'PaperMod'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
-# Site configured
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+    title = "Hance Zhang's Blog"
+    contentDir = "content/en"
+    [languages.en.params]
+      homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, product building, and investment. I'm currently based on Tokyo, DM me via X!"}
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Archive"
+      url = "/archives/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Search"
+      url = "/search/"
+      weight = 3
 
-# Home page greeting
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    weight = 2
+    title = "Hance Zhang的博客"
+    contentDir = "content/zh"
+    [languages.zh.params]
+      homeInfoParams = {Title = "👋 欢迎来到 Hance Zhang的博客", Content = "我撰写关于领导力、产品构建和投资方面的学习心得。我目前常驻东京，可以通过X私信我！"}
+    [[languages.zh.menu.main]]
+      name = "文章"
+      url = "/posts/"
+      weight = 1
+    [[languages.zh.menu.main]]
+      name = "归档"
+      url = "/archives/"
+      weight = 2
+    [[languages.zh.menu.main]]
+      name = "搜索"
+      url = "/search/"
+      weight = 3
+
 [params]
-  homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, product building, and investment. I'm currently based on Tokyo, DM me via X!"}
   defaultTheme = "auto"
   ShowReadingTime = true
   showtoc = false
+  showtranslations = true # For PaperMod language switcher
 
   [[params.socialIcons]]
     name = "x"
@@ -20,30 +60,16 @@ theme = 'PaperMod'
     name = "email"
     url = "mailto:hanszhang717@gmail.com"
 
-# Main menu links
-[[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 1
-[[menu.main]]
-  name = "Archive"
-  url = "/archives/"
-  weight = 2
-[[menu.main]]
-  name = "Search"
-  url = "/search/"
-  weight = 3
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    includeMatches = true
+    findAllMatches = false
+    minMatchCharLength = 2
+    threshold = 0.2
+    location = 0
+    distance = 100
+    keys = ["title"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  includeMatches = true
-  findAllMatches = false
-  minMatchCharLength = 2
-  threshold = 0.2
-  location = 0
-  distance = 100
-  keys = ["title"]
