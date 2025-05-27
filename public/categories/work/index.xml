@@ -10,23 +10,23 @@
     <atom:link href="http://localhost:1313/categories/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Don&#39;t Put the Founder on a Pedestal—Or Anyone Else</title>
-      <link>http://localhost:1313/posts/no-pedestals/</link>
+      <link>http://localhost:1313/en/posts/no-pedestals/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/no-pedestals/</guid>
+      <guid>http://localhost:1313/en/posts/no-pedestals/</guid>
       <description>Resist the urge to place founders or leaders on pedestals; it hinders growth and critical thinking.</description>
     </item>
     <item>
       <title>Self Management for Effective Leaders</title>
-      <link>http://localhost:1313/posts/self-management-effective-leaders/</link>
+      <link>http://localhost:1313/en/posts/self-management-effective-leaders/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/self-management-effective-leaders/</guid>
+      <guid>http://localhost:1313/en/posts/self-management-effective-leaders/</guid>
       <description>Leadership isn&amp;rsquo;t about innate traits but cultivated skills, especially self-management.</description>
     </item>
     <item>
       <title>Six Principles to Build a Great Product</title>
-      <link>http://localhost:1313/posts/principles-product-development/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/principles-product-development/</guid>
+      <link>http://localhost:1313/en/posts/principles-product-development/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/principles-product-development/</guid>
       <description>A redacted excerpt from an internal letter on product strategy.</description>
     </item>
   </channel>

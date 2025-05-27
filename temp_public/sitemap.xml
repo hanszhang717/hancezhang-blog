@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/categories/</loc><lastmod>2025-05-14T00:00:00+00:00</lastmod></url><url><loc>/posts/designing-anti-fragility/</loc><lastmod>2025-05-14T00:00:00+00:00</lastmod></url><url><loc>/</loc><lastmod>2025-05-14T00:00:00+00:00</lastmod></url><url><loc>/categories/mindsets/</loc><lastmod>2025-05-14T00:00:00+00:00</lastmod></url><url><loc>/posts/</loc><lastmod>2025-05-14T00:00:00+00:00</lastmod></url><url><loc>/posts/big-tech-hiring/</loc><lastmod>2025-05-13T00:00:00+00:00</lastmod></url><url><loc>/categories/leadership/</loc><lastmod>2025-05-13T00:00:00+00:00</lastmod></url><url><loc>/posts/rdf/</loc><lastmod>2025-05-13T00:00:00+00:00</lastmod></url><url><loc>/posts/founder-mode/</loc><lastmod>2024-11-30T00:00:00+00:00</lastmod></url><url><loc>/posts/no-pedestals/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/categories/personal/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/posts/self-management-effective-leaders/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/posts/principles-product-development/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/posts/why-i-write-blogs/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/categories/work/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod></url><url><loc>/posts/constructive-feedback/</loc><lastmod>2024-08-19T00:00:00+00:00</lastmod></url><url><loc>/posts/constructive-feedback/</loc><lastmod>2024-08-19T00:00:00+00:00</lastmod></url><url><loc>/posts/selling-whys/</loc><lastmod>2024-08-19T00:00:00+00:00</lastmod></url><url><loc>/posts/integration-vs-modularization/</loc></url><url><loc>/posts/the-heresy-of-simplicity-6bb86a578584426b9f30551431cc3978/</loc></url><url><loc>/archives/</loc></url><url><loc>/search/</loc></url><url><loc>/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://www.hancezhang.blog/en/sitemap.xml</loc>
+    
+      <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://www.hancezhang.blog/zh/sitemap.xml</loc>
+    
+      <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

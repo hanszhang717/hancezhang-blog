@@ -10,23 +10,23 @@
     <atom:link href="http://localhost:1313/categories/mindsets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corporates Hire by Abundance, Not by Necessity</title>
-      <link>http://localhost:1313/posts/big-tech-hiring/</link>
+      <link>http://localhost:1313/en/posts/big-tech-hiring/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/big-tech-hiring/</guid>
+      <guid>http://localhost:1313/en/posts/big-tech-hiring/</guid>
       <description>Big-tech hiring is driven by excess, not necessity.</description>
     </item>
     <item>
       <title>The Heresy of Simplicity</title>
-      <link>http://localhost:1313/posts/the-heresy-of-simplicity/</link>
+      <link>http://localhost:1313/en/posts/the-heresy-of-simplicity/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-heresy-of-simplicity/</guid>
+      <guid>http://localhost:1313/en/posts/the-heresy-of-simplicity/</guid>
       <description>The best businesses make complexity invisible.</description>
     </item>
     <item>
       <title>Designing Anti-fragility</title>
-      <link>http://localhost:1313/posts/designing-anti-fragility/</link>
+      <link>http://localhost:1313/en/posts/designing-anti-fragility/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/designing-anti-fragility/</guid>
+      <guid>http://localhost:1313/en/posts/designing-anti-fragility/</guid>
       <description>How to build systems that grow stronger from randomness.</description>
     </item>
   </channel>

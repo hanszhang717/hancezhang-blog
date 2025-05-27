@@ -10,30 +10,30 @@
     <atom:link href="http://localhost:1313/categories/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Socratic Questioning and the Reality Distortion Field</title>
-      <link>http://localhost:1313/posts/rdf/</link>
+      <link>http://localhost:1313/en/posts/rdf/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rdf/</guid>
+      <guid>http://localhost:1313/en/posts/rdf/</guid>
       <description>Simply doing Socratic questioning can be simply annoying.</description>
     </item>
     <item>
       <title>Brian Chesky and Founder Mode</title>
-      <link>http://localhost:1313/posts/founder-mode/</link>
+      <link>http://localhost:1313/en/posts/founder-mode/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/founder-mode/</guid>
+      <guid>http://localhost:1313/en/posts/founder-mode/</guid>
       <description>Great leadership is not absence; presence</description>
     </item>
     <item>
       <title>How to Provide Advice in a Helpful Way</title>
-      <link>http://localhost:1313/posts/constructive-feedback/</link>
+      <link>http://localhost:1313/en/posts/constructive-feedback/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/constructive-feedback/</guid>
+      <guid>http://localhost:1313/en/posts/constructive-feedback/</guid>
       <description>Protect the positive reinforcement loop if you really wish others to grow</description>
     </item>
     <item>
       <title>Selling Whys</title>
-      <link>http://localhost:1313/posts/selling-whys/</link>
+      <link>http://localhost:1313/en/posts/selling-whys/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/selling-whys/</guid>
+      <guid>http://localhost:1313/en/posts/selling-whys/</guid>
       <description>Find a compelling why and sell it.</description>
     </item>
   </channel>

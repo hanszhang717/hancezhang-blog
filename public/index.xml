@@ -10,80 +10,87 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corporates Hire by Abundance, Not by Necessity</title>
-      <link>http://localhost:1313/posts/big-tech-hiring/</link>
+      <link>http://localhost:1313/en/posts/big-tech-hiring/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/big-tech-hiring/</guid>
+      <guid>http://localhost:1313/en/posts/big-tech-hiring/</guid>
       <description>Big-tech hiring is driven by excess, not necessity.</description>
     </item>
     <item>
       <title>Socratic Questioning and the Reality Distortion Field</title>
-      <link>http://localhost:1313/posts/rdf/</link>
+      <link>http://localhost:1313/en/posts/rdf/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rdf/</guid>
+      <guid>http://localhost:1313/en/posts/rdf/</guid>
       <description>Simply doing Socratic questioning can be simply annoying.</description>
     </item>
     <item>
       <title>The Heresy of Simplicity</title>
-      <link>http://localhost:1313/posts/the-heresy-of-simplicity/</link>
+      <link>http://localhost:1313/en/posts/the-heresy-of-simplicity/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-heresy-of-simplicity/</guid>
+      <guid>http://localhost:1313/en/posts/the-heresy-of-simplicity/</guid>
       <description>The best businesses make complexity invisible.</description>
     </item>
     <item>
       <title>Designing Anti-fragility</title>
-      <link>http://localhost:1313/posts/designing-anti-fragility/</link>
+      <link>http://localhost:1313/en/posts/designing-anti-fragility/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/designing-anti-fragility/</guid>
+      <guid>http://localhost:1313/en/posts/designing-anti-fragility/</guid>
       <description>How to build systems that grow stronger from randomness.</description>
     </item>
     <item>
       <title>Brian Chesky and Founder Mode</title>
-      <link>http://localhost:1313/posts/founder-mode/</link>
+      <link>http://localhost:1313/en/posts/founder-mode/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/founder-mode/</guid>
+      <guid>http://localhost:1313/en/posts/founder-mode/</guid>
       <description>Great leadership is not absence; presence</description>
     </item>
     <item>
       <title>Don&#39;t Put the Founder on a Pedestal—Or Anyone Else</title>
-      <link>http://localhost:1313/posts/no-pedestals/</link>
+      <link>http://localhost:1313/en/posts/no-pedestals/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/no-pedestals/</guid>
+      <guid>http://localhost:1313/en/posts/no-pedestals/</guid>
       <description>Resist the urge to place founders or leaders on pedestals; it hinders growth and critical thinking.</description>
     </item>
     <item>
       <title>Self Management for Effective Leaders</title>
-      <link>http://localhost:1313/posts/self-management-effective-leaders/</link>
+      <link>http://localhost:1313/en/posts/self-management-effective-leaders/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/self-management-effective-leaders/</guid>
+      <guid>http://localhost:1313/en/posts/self-management-effective-leaders/</guid>
       <description>Leadership isn&amp;rsquo;t about innate traits but cultivated skills, especially self-management.</description>
     </item>
     <item>
       <title>Six Principles to Build a Great Product</title>
-      <link>http://localhost:1313/posts/principles-product-development/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/principles-product-development/</guid>
+      <link>http://localhost:1313/en/posts/principles-product-development/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/principles-product-development/</guid>
       <description>A redacted excerpt from an internal letter on product strategy.</description>
     </item>
     <item>
       <title>How to Provide Advice in a Helpful Way</title>
-      <link>http://localhost:1313/posts/constructive-feedback/</link>
+      <link>http://localhost:1313/en/posts/constructive-feedback/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/constructive-feedback/</guid>
+      <guid>http://localhost:1313/en/posts/constructive-feedback/</guid>
       <description>Protect the positive reinforcement loop if you really wish others to grow</description>
     </item>
     <item>
       <title>Selling Whys</title>
-      <link>http://localhost:1313/posts/selling-whys/</link>
+      <link>http://localhost:1313/en/posts/selling-whys/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/selling-whys/</guid>
+      <guid>http://localhost:1313/en/posts/selling-whys/</guid>
       <description>Find a compelling why and sell it.</description>
     </item>
     <item>
       <title>Why I Write Blogs?</title>
-      <link>http://localhost:1313/posts/why-i-write-blogs/</link>
+      <link>http://localhost:1313/en/posts/why-i-write-blogs/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-i-write-blogs/</guid>
+      <guid>http://localhost:1313/en/posts/why-i-write-blogs/</guid>
       <description>Exploring the motivations behind blogging, from clarifying thoughts to sharing knowledge.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/posts/the-scorecard-fallacy-how-promotion-decisions-are-really-made/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/the-scorecard-fallacy-how-promotion-decisions-are-really-made/</guid>
+      <description>The Scorecard Fallacy: How Promotion Decisions Are Really Made Many of us, especially those who excelled in structured environments like school, carry a particular model of the world into our careers. We tend to believe that advancement, like getting good grades, is the result of a fair, well-calculated, numerical system. Do task A, get 10 points. Do task B, get 20. Rack up enough points, outperform others on the scorecard, and a promotion is the logical outcome.</description>
     </item>
   </channel>
 </rss>

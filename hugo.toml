@@ -55,6 +55,9 @@ defaultContentLanguageInSubdir = true
   showtranslations = true # For PaperMod language switcher
   displayFullLangName = true
 
+  [params.assets]
+    favicon = "favicon.svg"
+
   [[params.socialIcons]]
     name = "x"
     url = "https://x.com/hance_zhang7"

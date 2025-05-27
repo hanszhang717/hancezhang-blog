@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Work on Hance Zhang的博客</title>
+    <link>https://www.hancezhang.blog/zh/categories/work/</link>
+    <description>Recent content in Work on Hance Zhang的博客</description>
+    <generator>Hugo -- 0.125.4</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.hancezhang.blog/zh/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不要把创始人——或任何其他人——捧上神坛</title>
+      <link>https://www.hancezhang.blog/zh/posts/no-pedestals/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/no-pedestals/</guid>
+      <description>神化他人会阻碍你的成长和客观思考</description>
+    </item>
+    <item>
+      <title>高效领导者的自我管理</title>
+      <link>https://www.hancezhang.blog/zh/posts/self-management-effective-leaders/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/self-management-effective-leaders/</guid>
+      <description>领导力不是天生的，而是自我管理等可培养的技能</description>
+    </item>
+    <item>
+      <title>打造卓越产品的六项原则</title>
+      <link>https://www.hancezhang.blog/zh/posts/principles-product-development/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/principles-product-development/</guid>
+      <description>来自内部信的产品策略精华摘录</description>
+    </item>
+  </channel>
+</rss>
