@@ -1,4 +1,4 @@
-baseURL = "https://hancezhang.blog/"
+baseURL = "https://www.hancezhang.blog/"
 canonifyURLs = true
 buildFuture = true
 theme = 'PaperMod'
