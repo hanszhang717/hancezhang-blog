@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leadership on Hance Zhang's Blog</title><link>https://www.hancezhang.blog/en/categories/leadership/</link><description>Recent content in Leadership on Hance Zhang's Blog</description><generator>Hugo -- 0.125.4</generator><language>en-us</language><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hancezhang.blog/en/categories/leadership/index.xml" rel="self" type="application/rss+xml"/><item><title>Socratic Questioning and the Reality Distortion Field</title><link>https://www.hancezhang.blog/en/posts/rdf/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/rdf/</guid><description>Simply doing Socratic questioning can be simply annoying.</description></item><item><title>Brian Chesky and Founder Mode</title><link>https://www.hancezhang.blog/en/posts/founder-mode/</link><pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/founder-mode/</guid><description>Great leadership is not absence; presence</description></item><item><title>How to Provide Advice in a Helpful Way</title><link>https://www.hancezhang.blog/en/posts/constructive-feedback/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/constructive-feedback/</guid><description>Protect the positive reinforcement loop if you really wish others to grow</description></item><item><title>Selling Whys</title><link>https://www.hancezhang.blog/en/posts/selling-whys/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/selling-whys/</guid><description>Find a compelling why and sell it.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Leadership on Hance Zhang&#39;s Blog</title>
+    <link>http://localhost:1313/en/categories/leadership/</link>
+    <description>Recent content in Leadership on Hance Zhang&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Socratic Questioning and the Reality Distortion Field</title>
+      <link>http://localhost:1313/en/posts/rdf/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/rdf/</guid>
+      <description>Simply doing Socratic questioning can be simply annoying.</description>
+    </item>
+    <item>
+      <title>Brian Chesky and Founder Mode</title>
+      <link>http://localhost:1313/en/posts/founder-mode/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/founder-mode/</guid>
+      <description>Great leadership is not absence; presence</description>
+    </item>
+    <item>
+      <title>How to Provide Advice in a Helpful Way</title>
+      <link>http://localhost:1313/en/posts/constructive-feedback/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/constructive-feedback/</guid>
+      <description>Protect the positive reinforcement loop if you really wish others to grow</description>
+    </item>
+    <item>
+      <title>Selling Whys</title>
+      <link>http://localhost:1313/en/posts/selling-whys/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/selling-whys/</guid>
+      <description>Find a compelling why and sell it.</description>
+    </item>
+  </channel>
+</rss>

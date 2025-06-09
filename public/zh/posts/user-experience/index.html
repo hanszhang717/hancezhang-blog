@@ -1,6 +1,581 @@
-<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡 | Hance Zhang的博客</title>
-<meta name=keywords content><meta name=description content="PMF 前，增长黑客与 A/B 测试并非良方；真正的起点是：用不规模化的方式，打造用户热爱的&rsquo;十星级&rsquo;体验。"><meta name=author content><link rel=canonical href=https://www.hancezhang.blog/zh/posts/user-experience/><link crossorigin=anonymous href=https://www.hancezhang.blog/assets/css/stylesheet.ba664448be29c57181cf0589d33b59bbfc9f5c5b68a66d48eb70603d57f3e764.css integrity="sha256-umZESL4pxXGBzwWJ0ztZu/yfXFtopm1I63BgPVfz52Q=" rel="preload stylesheet" as=style><link rel=icon href=https://www.hancezhang.blog/favicon.svg><link rel=icon type=image/png sizes=16x16 href=https://www.hancezhang.blog/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.hancezhang.blog/favicon-32x32.png><link rel=apple-touch-icon href=https://www.hancezhang.blog/apple-touch-icon.png><link rel=mask-icon href=https://www.hancezhang.blog/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://www.hancezhang.blog/en/posts/user-experience/><link rel=alternate hreflang=zh href=https://www.hancezhang.blog/zh/posts/user-experience/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:url" content="https://www.hancezhang.blog/zh/posts/user-experience/"><meta property="og:site_name" content="Hance Zhang的博客"><meta property="og:title" content="为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡"><meta property="og:description" content="PMF 前，增长黑客与 A/B 测试并非良方；真正的起点是：用不规模化的方式，打造用户热爱的’十星级’体验。"><meta property="og:locale" content="zh-cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-05-16T00:00:00+00:00"><meta property="article:modified_time" content="2025-05-16T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡"><meta name=twitter:description content="PMF 前，增长黑客与 A/B 测试并非良方；真正的起点是：用不规模化的方式，打造用户热爱的&rsquo;十星级&rsquo;体验。"></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://www.hancezhang.blog/zh/ accesskey=h title="Hance Zhang的博客 (Alt + H)">Hance Zhang的博客</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://www.hancezhang.blog/en/ title=English aria-label=English>English</a></li></ul></div></div><ul id=menu><li><a href=https://www.hancezhang.blog/zh/posts/ title=文章><span>文章</span></a></li><li><a href=https://www.hancezhang.blog/zh/archives/ title=归档><span>归档</span></a></li><li><a href=https://www.hancezhang.blog/zh/search/ title=搜索><span>搜索</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡</h1><div class=post-meta><time datetime=2025-05-16>2025-05-16</time>&nbsp;·&nbsp;16 min&nbsp;|&nbsp;语言:<ul class=i18n_list><li><a href=https://www.hancezhang.blog/en/posts/user-experience/>English</a></li></ul></div></header><div class=post-content><p>初创公司创始人热衷于增长黑客。凡事都要 A/B test。从第一天就追求规模化。构建一个 MVP，获取用户，然后调整：功能 A 提升了 X% 的留存，功能 B 提升了 Y% 的转化。这看起来像是系统性的进展。</p><p>但果真如此吗？尤其是在产品与市场达到契合（PMF）之前？这种急于优化的做法可能是一个危险的干扰。</p><p>事实是，增长黑客在 PMF 之前通常是无效的。即便在 PMF 之后，你真正的核心工作依然是用户体验。这不是空泛的建议。像 Airbnb 这样的公司，正是通过"做那些不规模化的事"起步的。</p><h3 id=过早优化的陷阱>过早优化的陷阱<a hidden class=anchor aria-hidden=true href=#过早优化的陷阱>#</a></h3><p>在 PMF 之前，你对你的用户和他们真正的问题知之甚少。那么你究竟在优化什么？此时的增长黑客就像给一辆没有引擎的汽车抛光——看起来忙忙碌碌，实则原地踏步。</p><p>三个错误的假设常常误导初创企业：</p><ol><li>微小、数据驱动的调整总是最佳选择。</li><li>&ldquo;数据驱动"天然等同于科学决策。</li><li>规模化是第一天就必须考虑的问题。</li></ol><p>Airbnb 的实践证明了这些假设的谬误。他们专注于用户体验，而非过早优化，从而获得了更高的增长上限。</p><h3 id=做那些不规模化的事>做那些不规模化的事<a hidden class=anchor aria-hidden=true href=#做那些不规模化的事>#</a></h3><p>Paul Graham 说过：&ldquo;做那些不规模化的事。&ldquo;很多人引用这句话，但鲜有人真正理解其精髓。在早期阶段，那些无法规模化的努力并非弯路，而是主干道。与用户交谈，手动帮助他们上手，提供管家式的服务。为什么要这样做？</p><ul><li><strong>了解你的市场：</strong> 获取原始、未经过滤的反馈。洞察他们的痛点和让他们眼前一亮的"啊哈"时刻。这些是数据看板无法呈现的。</li><li><strong>以服务赢得细分市场：</strong> 初创企业可以提供大公司无法比拟的"极致体验&rdquo;。Tim Cook 不会给你手写感谢信，但你可以。这种无微不至的个性化服务能帮助你深入理解并占领一个细分市场，从而建立起用户的强烈忠诚感，而不仅仅是收集反馈。</li><li><strong>培养"布道者&rdquo;：</strong> 即便只针对少数用户，卓越的早期体验也能让他们成为你产品的热情推广者，其效果远超任何早期广告投入。</li></ul><p>这并非否定数据的重要性，而是在找到 PMF 之前，优先进行"正确类型"的学习。</p><h3 id=airbnb-的大师课从10-星体验到规模化现实>Airbnb 的大师课：从"10 星体验"到规模化现实<a hidden class=anchor aria-hidden=true href=#airbnb-的大师课从10-星体验到规模化现实>#</a></h3><p>Airbnb 不是从 A/B test 按钮颜色开始的。他们从一开始就痴迷于用户旅程。Brian Chesky 曾力推团队设计"10 星体验&rdquo;。</p><p><strong>1. 设计"10 星体验"</strong></p><p>什么是"10 星体验"？Brian Chesky 引导团队想象：</p><ul><li><strong>5 星：</strong> 抵达住处，房东接待你入住。一切与描述相符。（符合预期）</li><li><strong>7 星：</strong> 房东欢迎你。冰箱里有你喜欢的零食，冲浪板也已备好。（令人愉悦）</li><li><strong>10 星：</strong> 如同披头士乐队抵达美国时的场景，5000 名粉丝在机场为你欢呼。（夸张，但拓展思路）</li><li><strong>11 星：</strong> Elon Musk 在机场亲自送你上太空。（超越夸张）</li></ul><p>目标并非要实现字面上的 11 星。而是要打破"差不多就行"的思维定式，找到能让用户赞不绝口的点。大胆构想，然后反推至一个既惊艳又可行的 6 星、7 星或 8 星体验。</p><p><strong>2. &ldquo;白雪公主故事板&rdquo;：编写完美旅程的脚本</strong></p><p>为了将这一愿景落到实处，Airbnb 聘请了一位 Pixar 的动画师。他们将整个用户旅程——包括房客、房东甚至员工的触点——绘制成 45 帧的故事板。每一帧都清晰标注了用户的场景、情绪和动机。</p><p>这种"白雪公主"方法威力巨大：</p><ul><li>它让每个人都将产品视为一个<strong>整体体验</strong>，而不仅仅是供 PM 进行 A/B test 的功能集合。</li><li>它精准定位了关键的情感杠杆点：入住、首次沟通、信任感建立等。这些是建立用户忠诚度的关键所在。</li><li>它为整个公司创造了一个共享的"电影脚本"，统一了所有人的预期。</li></ul><p>这些故事板成为了实践"10 星体验"的蓝图。</p><p><strong>3. 从无法规模化的手工艺到可规模化的系统</strong></p><p>这正是"做那些不规模化的事"与"10 星体验"交汇的地方。Airbnb 最初手动为少数用户打造这些理想体验的原型，以证明它们值得规模化。</p><ul><li><strong>专业摄影 (2009)：</strong> 当时 Airbnb 在纽约的房源预订情况惨淡。照片质量差被认为是症结所在。Joe Gebbia 和 Brian Chesky 租了相机，亲自挨家挨户敲开纽约房东的门，为他们的公寓拍摄更好的照片。他们并非专业摄影师，但深知好照片的重要性。这完全无法规模化。结果呢？纽约的周收入在一周内翻了一番。事实证明：专业照片能有效提升转化率。<strong>然后</strong>，他们才着手建立了可规模化的摄影师项目。</li><li><strong>与房东同住：</strong> 创始人亲自住进房东家里，记录反馈。这些直接催生了用户个人资料和双向评价系统等功能。这不是算法的功劳，而是源于深入的、无法规模化的人际体察。</li><li><strong>Ricardo 的完美旧金山之旅：</strong> 团队为一位名叫 Ricardo 的测试用户精心策划了一次"10 星"旧金山之旅，从接机到特色活动，无微不至。Ricardo 被深深打动，喜极而泣。这个无法规模化的实验证明了"人情味旅程"的巨大潜力。结论是什么？&ldquo;人情味连接"是强大的驱动力。可规模化的解决方案？Airbnb Experiences (体验活动)。</li></ul><p>其模式清晰可见：</p><ol><li>定义极致。</li><li>将其用画板画出来化。</li><li>为少数用户手工打造极致的体验原型。</li><li>验证其魔力。</li><li>如果成功，再设法规模化其<strong>价值</strong>，而非最初的手工操作。</li></ol><p><strong>4. Brian Chesky 对 A/B Testing 的"批判&rdquo;</strong></p><p>Brian Chesky 曾说：&ldquo;A/B testing 是将产品决策的责任转移给了用户。&ldquo;他并非全盘否定 A/B test，而是反对在重大决策上滥用它，或沉溺于微小改进而忽视了整体大局。</p><p>如果福特当年只是 A/B test 更快的马，他永远也发明不了汽车。</p><p>Airbnb 的做法通常是：</p><ul><li>始于一个强有力的、由体验驱动的假设（例如，&ldquo;专业照片能建立信任&rdquo;）。</li><li>通过小范围、无法规模化的方式进行定性验证。</li><li>如果有效，则投入资源进行规模化，并使用长期指标（如留存率、推荐率）来衡量效果。</li><li><strong>然后</strong>，再使用 A/B test 来微调已规模化方案的细节（例如，如何向房东推广摄影服务）。</li></ul><h3 id=用户体验永恒的关注点>用户体验：永恒的关注点<a hidden class=anchor aria-hidden=true href=#用户体验永恒的关注点>#</a></h3><p>核心的教训是：对用户体验的极致追求，并不仅仅是为了找到 PMF 的早期策略，而是一项永无止境的承诺。在 PMF 之后，在一个蹩脚的体验之上堆砌增长黑客技巧，并不能让你走得太远。用户能够分辨出产品是经过精心设计的旅程，还是各种优化手段的随意拼凑。</p><p>因此，在你投身于最新的增长黑客策略、沉迷于提升零点几个百分点的转化率之前，请先自问：我们真正理解我们的用户吗？我们设计出的体验，哪怕只是其中一小部分，能让他们赞不绝口吗？</p><p>真正的增长，尤其在早期，往往是无法规模化的。它需要手动操作、深度共情和对极致愉悦的不懈追求。做那些不规模化的事，去发现真正有价值的东西。只有这样，你才拥有了真正值得规模化的东西。这才是打造非凡产品，乃至现象级产品的方法。</p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://www.hancezhang.blog/zh/>Hance Zhang的博客</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡 | Hance Zhang的博客</title>
+<meta name="keywords" content="">
+<meta name="description" content="PMF 前，增长黑客与 A/B 测试并非良方；真正的起点是：用不规模化的方式，打造用户热爱的&rsquo;十星级&rsquo;体验。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/zh/posts/user-experience/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.ebb3465b309c53ed14835a380ee24075c602e53edaaa26169c2910b9b81ae49e.css" integrity="sha256-67NGWzCcU&#43;0Ug1o4DuJAdcYC5T7aqiYWnCkQubga5J4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/user-experience/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/zh/posts/user-experience/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/zh/" accesskey="h" title="Hance Zhang的博客 (Alt + H)">Hance Zhang的博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/zh/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/zh/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/zh/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+            <li class="subscribe-menu-item">
+                <button id="subscribe-toggle" class="subscribe-btn" aria-label="订阅">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>订阅</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="subscribe-modal" class="subscribe-modal" style="display: none;">
+    <div class="subscribe-modal-content">
+        <span class="subscribe-close">&times;</span>
+<div class="newsletter-section">
+    <div class="newsletter-container">
+        <h3>📧 订阅博客更新</h3>
+        <p class="newsletter-description">
+            
+                订阅我的博客，第一时间获取关于领导力、AI、产品构建和投资的最新文章。
+            
+        </p>
+        
+        
+        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
+            <div class="form-group">
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="输入您的邮箱地址" 
+                    required 
+                    class="email-input"
+                >
+                <button type="submit" class="subscribe-button">
+                    订阅
+                </button>
+            </div>
+            <p class="privacy-notice">
+                
+                    我们尊重您的隐私，不会发送垃圾邮件。您可以随时取消订阅。
+                
+            </p>
+        </form>
+    </div>
+</div>
+
+<style>
+.newsletter-section {
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.newsletter-container h3 {
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+.newsletter-description {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: var(--tertiary);
+    box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.1);
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    background: var(--tertiary);
+    color: var(--theme);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.subscribe-button:hover {
+    opacity: 0.9;
+}
+
+.privacy-notice {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+</style> 
+    </div>
+</div>
+
+<style>
+ 
+.subscribe-menu-item {
+    margin-left: 10px;
+}
+
+.subscribe-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--tertiary);
+    color: var(--theme);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.subscribe-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.subscribe-btn svg {
+    flex-shrink: 0;
+}
+
+ 
+.subscribe-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.subscribe-modal-content {
+    position: relative;
+    background-color: var(--theme);
+    margin: 10% auto;
+    padding: 0;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    animation: modalShow 0.3s ease;
+}
+
+@keyframes modalShow {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.subscribe-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: var(--secondary);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.subscribe-close:hover {
+    color: var(--primary);
+    background-color: var(--code-bg);
+}
+
+ 
+.subscribe-modal .newsletter-section {
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .subscribe-btn span {
+        display: none;
+    }
+    
+    .subscribe-btn {
+        padding: 8px;
+        min-width: 36px;
+        justify-content: center;
+    }
+    
+    .subscribe-modal-content {
+        margin: 5% auto;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscribe-menu-item {
+        margin-left: 5px;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeBtn = document.getElementById('subscribe-toggle');
+    const modal = document.getElementById('subscribe-modal');
+    const closeBtn = document.querySelector('.subscribe-close');
+    
+    if (subscribeBtn && modal) {
+        subscribeBtn.addEventListener('click', function() {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
+</script> <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡
+    </h1>
+    <div class="post-meta"><time datetime="2025-05-16">2025-05-16</time>&nbsp;·&nbsp;16 min&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/en/posts/user-experience/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>初创公司创始人热衷于增长黑客。凡事都要 A/B test。从第一天就追求规模化。构建一个 MVP，获取用户，然后调整：功能 A 提升了 X% 的留存，功能 B 提升了 Y% 的转化。这看起来像是系统性的进展。</p>
+<p>但果真如此吗？尤其是在产品与市场达到契合（PMF）之前？这种急于优化的做法可能是一个危险的干扰。</p>
+<p>事实是，增长黑客在 PMF 之前通常是无效的。即便在 PMF 之后，你真正的核心工作依然是用户体验。这不是空泛的建议。像 Airbnb 这样的公司，正是通过&quot;做那些不规模化的事&quot;起步的。</p>
+<h3 id="过早优化的陷阱">过早优化的陷阱<a hidden class="anchor" aria-hidden="true" href="#过早优化的陷阱">#</a></h3>
+<p>在 PMF 之前，你对你的用户和他们真正的问题知之甚少。那么你究竟在优化什么？此时的增长黑客就像给一辆没有引擎的汽车抛光——看起来忙忙碌碌，实则原地踏步。</p>
+<p>三个错误的假设常常误导初创企业：</p>
+<ol>
+<li>微小、数据驱动的调整总是最佳选择。</li>
+<li>&ldquo;数据驱动&quot;天然等同于科学决策。</li>
+<li>规模化是第一天就必须考虑的问题。</li>
+</ol>
+<p>Airbnb 的实践证明了这些假设的谬误。他们专注于用户体验，而非过早优化，从而获得了更高的增长上限。</p>
+<h3 id="做那些不规模化的事">做那些不规模化的事<a hidden class="anchor" aria-hidden="true" href="#做那些不规模化的事">#</a></h3>
+<p>Paul Graham 说过：&ldquo;做那些不规模化的事。&ldquo;很多人引用这句话，但鲜有人真正理解其精髓。在早期阶段，那些无法规模化的努力并非弯路，而是主干道。与用户交谈，手动帮助他们上手，提供管家式的服务。为什么要这样做？</p>
+<ul>
+<li><strong>了解你的市场：</strong> 获取原始、未经过滤的反馈。洞察他们的痛点和让他们眼前一亮的&quot;啊哈&quot;时刻。这些是数据看板无法呈现的。</li>
+<li><strong>以服务赢得细分市场：</strong> 初创企业可以提供大公司无法比拟的&quot;极致体验&rdquo;。Tim Cook 不会给你手写感谢信，但你可以。这种无微不至的个性化服务能帮助你深入理解并占领一个细分市场，从而建立起用户的强烈忠诚感，而不仅仅是收集反馈。</li>
+<li><strong>培养&quot;布道者&rdquo;：</strong> 即便只针对少数用户，卓越的早期体验也能让他们成为你产品的热情推广者，其效果远超任何早期广告投入。</li>
+</ul>
+<p>这并非否定数据的重要性，而是在找到 PMF 之前，优先进行&quot;正确类型&quot;的学习。</p>
+<h3 id="airbnb-的大师课从10-星体验到规模化现实">Airbnb 的大师课：从&quot;10 星体验&quot;到规模化现实<a hidden class="anchor" aria-hidden="true" href="#airbnb-的大师课从10-星体验到规模化现实">#</a></h3>
+<p>Airbnb 不是从 A/B test 按钮颜色开始的。他们从一开始就痴迷于用户旅程。Brian Chesky 曾力推团队设计&quot;10 星体验&rdquo;。</p>
+<p><strong>1. 设计&quot;10 星体验&quot;</strong></p>
+<p>什么是&quot;10 星体验&quot;？Brian Chesky 引导团队想象：</p>
+<ul>
+<li><strong>5 星：</strong> 抵达住处，房东接待你入住。一切与描述相符。（符合预期）</li>
+<li><strong>7 星：</strong> 房东欢迎你。冰箱里有你喜欢的零食，冲浪板也已备好。（令人愉悦）</li>
+<li><strong>10 星：</strong> 如同披头士乐队抵达美国时的场景，5000 名粉丝在机场为你欢呼。（夸张，但拓展思路）</li>
+<li><strong>11 星：</strong> Elon Musk 在机场亲自送你上太空。（超越夸张）</li>
+</ul>
+<p>目标并非要实现字面上的 11 星。而是要打破&quot;差不多就行&quot;的思维定式，找到能让用户赞不绝口的点。大胆构想，然后反推至一个既惊艳又可行的 6 星、7 星或 8 星体验。</p>
+<p><strong>2. &ldquo;白雪公主故事板&rdquo;：编写完美旅程的脚本</strong></p>
+<p>为了将这一愿景落到实处，Airbnb 聘请了一位 Pixar 的动画师。他们将整个用户旅程——包括房客、房东甚至员工的触点——绘制成 45 帧的故事板。每一帧都清晰标注了用户的场景、情绪和动机。</p>
+<p>这种&quot;白雪公主&quot;方法威力巨大：</p>
+<ul>
+<li>它让每个人都将产品视为一个<strong>整体体验</strong>，而不仅仅是供 PM 进行 A/B test 的功能集合。</li>
+<li>它精准定位了关键的情感杠杆点：入住、首次沟通、信任感建立等。这些是建立用户忠诚度的关键所在。</li>
+<li>它为整个公司创造了一个共享的&quot;电影脚本&quot;，统一了所有人的预期。</li>
+</ul>
+<p>这些故事板成为了实践&quot;10 星体验&quot;的蓝图。</p>
+<p><strong>3. 从无法规模化的手工艺到可规模化的系统</strong></p>
+<p>这正是&quot;做那些不规模化的事&quot;与&quot;10 星体验&quot;交汇的地方。Airbnb 最初手动为少数用户打造这些理想体验的原型，以证明它们值得规模化。</p>
+<ul>
+<li><strong>专业摄影 (2009)：</strong> 当时 Airbnb 在纽约的房源预订情况惨淡。照片质量差被认为是症结所在。Joe Gebbia 和 Brian Chesky 租了相机，亲自挨家挨户敲开纽约房东的门，为他们的公寓拍摄更好的照片。他们并非专业摄影师，但深知好照片的重要性。这完全无法规模化。结果呢？纽约的周收入在一周内翻了一番。事实证明：专业照片能有效提升转化率。<strong>然后</strong>，他们才着手建立了可规模化的摄影师项目。</li>
+<li><strong>与房东同住：</strong> 创始人亲自住进房东家里，记录反馈。这些直接催生了用户个人资料和双向评价系统等功能。这不是算法的功劳，而是源于深入的、无法规模化的人际体察。</li>
+<li><strong>Ricardo 的完美旧金山之旅：</strong> 团队为一位名叫 Ricardo 的测试用户精心策划了一次&quot;10 星&quot;旧金山之旅，从接机到特色活动，无微不至。Ricardo 被深深打动，喜极而泣。这个无法规模化的实验证明了&quot;人情味旅程&quot;的巨大潜力。结论是什么？&ldquo;人情味连接&quot;是强大的驱动力。可规模化的解决方案？Airbnb Experiences (体验活动)。</li>
+</ul>
+<p>其模式清晰可见：</p>
+<ol>
+<li>定义极致。</li>
+<li>将其用画板画出来化。</li>
+<li>为少数用户手工打造极致的体验原型。</li>
+<li>验证其魔力。</li>
+<li>如果成功，再设法规模化其<strong>价值</strong>，而非最初的手工操作。</li>
+</ol>
+<p><strong>4. Brian Chesky 对 A/B Testing 的&quot;批判&rdquo;</strong></p>
+<p>Brian Chesky 曾说：&ldquo;A/B testing 是将产品决策的责任转移给了用户。&ldquo;他并非全盘否定 A/B test，而是反对在重大决策上滥用它，或沉溺于微小改进而忽视了整体大局。</p>
+<p>如果福特当年只是 A/B test 更快的马，他永远也发明不了汽车。</p>
+<p>Airbnb 的做法通常是：</p>
+<ul>
+<li>始于一个强有力的、由体验驱动的假设（例如，&ldquo;专业照片能建立信任&rdquo;）。</li>
+<li>通过小范围、无法规模化的方式进行定性验证。</li>
+<li>如果有效，则投入资源进行规模化，并使用长期指标（如留存率、推荐率）来衡量效果。</li>
+<li><strong>然后</strong>，再使用 A/B test 来微调已规模化方案的细节（例如，如何向房东推广摄影服务）。</li>
+</ul>
+<h3 id="用户体验永恒的关注点">用户体验：永恒的关注点<a hidden class="anchor" aria-hidden="true" href="#用户体验永恒的关注点">#</a></h3>
+<p>核心的教训是：对用户体验的极致追求，并不仅仅是为了找到 PMF 的早期策略，而是一项永无止境的承诺。在 PMF 之后，在一个蹩脚的体验之上堆砌增长黑客技巧，并不能让你走得太远。用户能够分辨出产品是经过精心设计的旅程，还是各种优化手段的随意拼凑。</p>
+<p>因此，在你投身于最新的增长黑客策略、沉迷于提升零点几个百分点的转化率之前，请先自问：我们真正理解我们的用户吗？我们设计出的体验，哪怕只是其中一小部分，能让他们赞不绝口吗？</p>
+<p>真正的增长，尤其在早期，往往是无法规模化的。它需要手动操作、深度共情和对极致愉悦的不懈追求。做那些不规模化的事，去发现真正有价值的东西。只有这样，你才拥有了真正值得规模化的东西。这才是打造非凡产品，乃至现象级产品的方法。</p>
+
+
+  </div>
+
+
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/zh/">Hance Zhang的博客</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Work on Hance Zhang's Blog</title><link>https://www.hancezhang.blog/en/categories/work/</link><description>Recent content in Work on Hance Zhang's Blog</description><generator>Hugo -- 0.125.4</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hancezhang.blog/en/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Don't Put the Founder on a Pedestal—Or Anyone Else</title><link>https://www.hancezhang.blog/en/posts/no-pedestals/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/no-pedestals/</guid><description>Resist the urge to place founders or leaders on pedestals; it hinders growth and critical thinking.</description></item><item><title>Self Management for Effective Leaders</title><link>https://www.hancezhang.blog/en/posts/self-management-effective-leaders/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/self-management-effective-leaders/</guid><description>Leadership isn&amp;rsquo;t about innate traits but cultivated skills, especially self-management.</description></item><item><title>Six Principles to Build a Great Product</title><link>https://www.hancezhang.blog/en/posts/principles-product-development/</link><pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.hancezhang.blog/en/posts/principles-product-development/</guid><description>A redacted excerpt from an internal letter on product strategy.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Work on Hance Zhang&#39;s Blog</title>
+    <link>http://localhost:1313/en/categories/work/</link>
+    <description>Recent content in Work on Hance Zhang&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t Put the Founder on a Pedestal—Or Anyone Else</title>
+      <link>http://localhost:1313/en/posts/no-pedestals/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/no-pedestals/</guid>
+      <description>Resist the urge to place founders or leaders on pedestals; it hinders growth and critical thinking.</description>
+    </item>
+    <item>
+      <title>Self Management for Effective Leaders</title>
+      <link>http://localhost:1313/en/posts/self-management-effective-leaders/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/self-management-effective-leaders/</guid>
+      <description>Leadership isn&amp;rsquo;t about innate traits but cultivated skills, especially self-management.</description>
+    </item>
+    <item>
+      <title>Six Principles to Build a Great Product</title>
+      <link>http://localhost:1313/en/posts/principles-product-development/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/principles-product-development/</guid>
+      <description>A redacted excerpt from an internal letter on product strategy.</description>
+    </item>
+  </channel>
+</rss>
