@@ -7,8 +7,6 @@ categories: ["Work"]
 slug: "self-management-effective-leaders"
 ---
 
-# Self Management for Effective Leaders
-
 ## How should you manage your time?
 
 In one sentence: **A leader's job is to ensure the team produces the outcomes that matter most to the company.**

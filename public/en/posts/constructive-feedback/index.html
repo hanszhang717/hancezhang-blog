@@ -121,14 +121,10 @@
                 </a>
             </li>
             
-            <li class="subscribe-menu-item">
-                <button id="subscribe-toggle" class="subscribe-btn" aria-label="Subscribe">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
+            <li>
+                <a href="#" id="subscribe-toggle" aria-label="Subscribe">
                     <span>Subscribe</span>
-                </button>
+                </a>
             </li>
         </ul>
     </nav>
@@ -257,33 +253,12 @@
 
 <style>
  
-.subscribe-menu-item {
-    margin-left: 10px;
-}
-
-.subscribe-btn {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background: var(--tertiary);
-    color: var(--theme);
-    border: none;
-    border-radius: 6px;
-    padding: 8px 12px;
-    font-size: 14px;
-    font-weight: 500;
+#subscribe-toggle {
     cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
 }
 
-.subscribe-btn:hover {
-    opacity: 0.9;
-    transform: translateY(-1px);
-}
-
-.subscribe-btn svg {
-    flex-shrink: 0;
+#subscribe-toggle:hover {
+    opacity: 0.8;
 }
 
  
@@ -352,25 +327,9 @@
 
  
 @media (max-width: 768px) {
-    .subscribe-btn span {
-        display: none;
-    }
-    
-    .subscribe-btn {
-        padding: 8px;
-        min-width: 36px;
-        justify-content: center;
-    }
-    
     .subscribe-modal-content {
         margin: 5% auto;
         max-width: 90%;
-    }
-}
-
-@media (max-width: 480px) {
-    .subscribe-menu-item {
-        margin-left: 5px;
     }
 }
 </style>
@@ -382,7 +341,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeBtn = document.querySelector('.subscribe-close');
     
     if (subscribeBtn && modal) {
-        subscribeBtn.addEventListener('click', function() {
+        subscribeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
             modal.style.display = 'block';
             document.body.style.overflow = 'hidden';
         });

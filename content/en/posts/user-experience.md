@@ -95,6 +95,5 @@ Airbnb's way:
 
 The lesson: obsessing over user experience isn't just for finding PMF. It's forever. After PMF, growth hacks on a clunky experience won't save you. Users know a patchwork from a real journey.
 
-Airbnb, even as a giant, still cares about that 10-star ideal. Understand users. Strive for great moments. Keep the core experience solid. Always.
 
 Real growth, especially early on, is often unscalable. It's manual work, deep empathy, relentless delight. Do things that don't scale to find what's truly valuable. Only then do you have something worth scaling. That's how you build more than a product. You build a phenomenon.

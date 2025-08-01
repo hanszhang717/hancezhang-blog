@@ -7,12 +7,8 @@ categories: ["Work"]
 slug: "principles-product-development"
 ---
 
-<aside>
-💭
-
 This is a redacted excerpt from an internal letter I wrote, with all sensitive information removed or masked.
 
-</aside>
 
 **Reaffirming Strategic Principles: Prioritization of Objectives, Trade-Offs on Different Objectives, and Building a Chain of Interconnected Actions**
 

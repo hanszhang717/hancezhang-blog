@@ -1,8 +1,8 @@
 ---
-title: "Designing Anti-fragility"
+title: "Does Proactive Design still mean anything in the world of randomness?"
 date: 2025-03-14
 draft: false
-summary: "How to build systems that grow stronger from randomness."
+summary: "Great design is not about predicting the future but about crafting the antifragile system"
 categories: ["Mindsets"]
 slug: "designing-anti-fragility"
 ---
