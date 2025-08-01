@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mindsets on Hance Zhang&#39;s Blog</title>
-    <link>http://localhost:1313/en/categories/mindsets/</link>
+    <link>https://www.hancezhang.blog/en/categories/mindsets/</link>
     <description>Recent content in Mindsets on Hance Zhang&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/mindsets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hancezhang.blog/en/categories/mindsets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Scorecard Fallacy: How Promotion Decisions Are Really Made</title>
-      <link>http://localhost:1313/en/posts/the-scorecard-fallacy/</link>
+      <link>https://www.hancezhang.blog/en/posts/the-scorecard-fallacy/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/the-scorecard-fallacy/</guid>
+      <guid>https://www.hancezhang.blog/en/posts/the-scorecard-fallacy/</guid>
       <description>Your stellar performance review isn&amp;rsquo;t the key to promotion; the real secret lies in understanding the humans making the decision.</description>
     </item>
     <item>
       <title>Corporates Hire by Abundance, Not by Necessity</title>
-      <link>http://localhost:1313/en/posts/big-tech-hiring/</link>
+      <link>https://www.hancezhang.blog/en/posts/big-tech-hiring/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/big-tech-hiring/</guid>
+      <guid>https://www.hancezhang.blog/en/posts/big-tech-hiring/</guid>
       <description>Big-tech hiring is driven by excess, not necessity.</description>
     </item>
     <item>
       <title>The Heresy of Simplicity</title>
-      <link>http://localhost:1313/en/posts/the-heresy-of-simplicity/</link>
+      <link>https://www.hancezhang.blog/en/posts/the-heresy-of-simplicity/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/the-heresy-of-simplicity/</guid>
+      <guid>https://www.hancezhang.blog/en/posts/the-heresy-of-simplicity/</guid>
       <description>The best businesses make complexity invisible.</description>
     </item>
     <item>
-      <title>Designing Anti-fragility</title>
-      <link>http://localhost:1313/en/posts/designing-anti-fragility/</link>
+      <title>Does Proactive Design still mean anything in the world of randomness?</title>
+      <link>https://www.hancezhang.blog/en/posts/designing-anti-fragility/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/designing-anti-fragility/</guid>
-      <description>How to build systems that grow stronger from randomness.</description>
+      <guid>https://www.hancezhang.blog/en/posts/designing-anti-fragility/</guid>
+      <description>Great design is not about predicting the future but about crafting the antifragile system</description>
     </item>
   </channel>
 </rss>

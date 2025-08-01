@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Bitter Lesson, 端到端 Coding, 创作者经济的未来 | Hance Zhang的博客</title>
+<meta name="keywords" content="">
+<meta name="description" content="对 Bitter Lesson 的误读
+在 AI 圈里，“The Bitter Lesson” (苦涩的教训) 已经成了一种口头禅。
+这个由研究员 Rich Sutton 提出的观点是，试图将人类知识融入模型是一种短期的拐杖。历史表明，最大的进步来自于将海量计算应用于通用方法。
+许多行业领袖现在都支持这一观点。他们认为，最纯粹的路径是让 LLM 自己解决问题。你的产品越是这样做，就被认为越“agentic”。
+但我在构建产品时的经验却讲述了一个不同的故事。The Bitter Lesson 在研究领域是正确的，但在产品侧，你需要辩证地看待它。
+原则：顺势而为，而非逆流而上
+给 LLM 灌输太多外部知识可能是一场灾难。我称正确的做法为**“顺毛驴”理论**。
+LLM 如同木材的纹理，有其自然的倾向。它已经拥有大量关于 coding 模式和 architecture 的先验知识。如果你顺着它的知识体系（顺着毛驴的毛）来提要求，就能最大限度地发挥其效能，并最小化幻觉带来的损害。
+强迫 LLM 学习一个完全陌生的 architecture 是一定会失败的。它不仅表现糟糕，还会消耗模型有限的 context——这是它最宝贵的资源。我们衡量一个模型，不应只看其 context window 的大小，更要看它的 &ldquo;in-context capability&rdquo;：即它能可靠执行的逻辑复杂度。
+正是在这一点上，对 Bitter Lesson 的教条式看法分崩离析了。最务实、最有效的工具，比如 Base44，之所以快速又可靠，恰恰因为它严重依赖预制模板，而 LLM 的工作只是“填空”。相比之下，更教条主义的路线——即完全依赖 LLM 从零开始生成一个生产级的应用——通常结果很糟糕，这也是今天许多 AI coding 产品的核心问题。
+Base44 的方法有其代价——一旦用户请求超出其模板范围，产出质量就会急剧下降——但它证明了关键的一点。在产品开发中，时间窗口最重要。 做一个可能会被下一波模型浪潮淘汰的过渡性产品是完全可以接受的。如果加入人类的 heuristics 能帮助你在当前的时间窗口内解决用户问题、创造商业价值，那它就是好的技术选择。 技术是手段，不是目的。
+AI Coding 的演进：四个阶段
+AI coding 的游戏正在四个阶段中展开，其中第二和第三阶段正在并行发生。
+1. AI-Assisted Coding
+这是最早的阶段，代表是早期 Cursor 等工具中的 tab 代码补全功能。">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.hancezhang.blog/zh/posts/bitter-lesson/">
+<link crossorigin="anonymous" href="https://www.hancezhang.blog/assets/css/stylesheet.ebb3465b309c53ed14835a380ee24075c602e53edaaa26169c2910b9b81ae49e.css" integrity="sha256-67NGWzCcU&#43;0Ug1o4DuJAdcYC5T7aqiYWnCkQubga5J4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.hancezhang.blog/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.hancezhang.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.hancezhang.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.hancezhang.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.hancezhang.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.hancezhang.blog/en/posts/bitter-lesson/">
+<link rel="alternate" hreflang="zh" href="https://www.hancezhang.blog/zh/posts/bitter-lesson/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript> <meta property="og:url" content="https://www.hancezhang.blog/zh/posts/bitter-lesson/">
+  <meta property="og:site_name" content="Hance Zhang的博客">
+  <meta property="og:title" content="Bitter Lesson, 端到端 Coding, 创作者经济的未来">
+  <meta property="og:description" content="对 Bitter Lesson 的误读 在 AI 圈里，“The Bitter Lesson” (苦涩的教训) 已经成了一种口头禅。
+这个由研究员 Rich Sutton 提出的观点是，试图将人类知识融入模型是一种短期的拐杖。历史表明，最大的进步来自于将海量计算应用于通用方法。
+许多行业领袖现在都支持这一观点。他们认为，最纯粹的路径是让 LLM 自己解决问题。你的产品越是这样做，就被认为越“agentic”。
+但我在构建产品时的经验却讲述了一个不同的故事。The Bitter Lesson 在研究领域是正确的，但在产品侧，你需要辩证地看待它。
+原则：顺势而为，而非逆流而上 给 LLM 灌输太多外部知识可能是一场灾难。我称正确的做法为**“顺毛驴”理论**。
+LLM 如同木材的纹理，有其自然的倾向。它已经拥有大量关于 coding 模式和 architecture 的先验知识。如果你顺着它的知识体系（顺着毛驴的毛）来提要求，就能最大限度地发挥其效能，并最小化幻觉带来的损害。
+强迫 LLM 学习一个完全陌生的 architecture 是一定会失败的。它不仅表现糟糕，还会消耗模型有限的 context——这是它最宝贵的资源。我们衡量一个模型，不应只看其 context window 的大小，更要看它的 “in-context capability”：即它能可靠执行的逻辑复杂度。
+正是在这一点上，对 Bitter Lesson 的教条式看法分崩离析了。最务实、最有效的工具，比如 Base44，之所以快速又可靠，恰恰因为它严重依赖预制模板，而 LLM 的工作只是“填空”。相比之下，更教条主义的路线——即完全依赖 LLM 从零开始生成一个生产级的应用——通常结果很糟糕，这也是今天许多 AI coding 产品的核心问题。
+Base44 的方法有其代价——一旦用户请求超出其模板范围，产出质量就会急剧下降——但它证明了关键的一点。在产品开发中，时间窗口最重要。 做一个可能会被下一波模型浪潮淘汰的过渡性产品是完全可以接受的。如果加入人类的 heuristics 能帮助你在当前的时间窗口内解决用户问题、创造商业价值，那它就是好的技术选择。 技术是手段，不是目的。
+AI Coding 的演进：四个阶段 AI coding 的游戏正在四个阶段中展开，其中第二和第三阶段正在并行发生。
+1. AI-Assisted Coding 这是最早的阶段，代表是早期 Cursor 等工具中的 tab 代码补全功能。">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-08T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bitter Lesson, 端到端 Coding, 创作者经济的未来">
+<meta name="twitter:description" content="对 Bitter Lesson 的误读
+在 AI 圈里，“The Bitter Lesson” (苦涩的教训) 已经成了一种口头禅。
+这个由研究员 Rich Sutton 提出的观点是，试图将人类知识融入模型是一种短期的拐杖。历史表明，最大的进步来自于将海量计算应用于通用方法。
+许多行业领袖现在都支持这一观点。他们认为，最纯粹的路径是让 LLM 自己解决问题。你的产品越是这样做，就被认为越“agentic”。
+但我在构建产品时的经验却讲述了一个不同的故事。The Bitter Lesson 在研究领域是正确的，但在产品侧，你需要辩证地看待它。
+原则：顺势而为，而非逆流而上
+给 LLM 灌输太多外部知识可能是一场灾难。我称正确的做法为**“顺毛驴”理论**。
+LLM 如同木材的纹理，有其自然的倾向。它已经拥有大量关于 coding 模式和 architecture 的先验知识。如果你顺着它的知识体系（顺着毛驴的毛）来提要求，就能最大限度地发挥其效能，并最小化幻觉带来的损害。
+强迫 LLM 学习一个完全陌生的 architecture 是一定会失败的。它不仅表现糟糕，还会消耗模型有限的 context——这是它最宝贵的资源。我们衡量一个模型，不应只看其 context window 的大小，更要看它的 &ldquo;in-context capability&rdquo;：即它能可靠执行的逻辑复杂度。
+正是在这一点上，对 Bitter Lesson 的教条式看法分崩离析了。最务实、最有效的工具，比如 Base44，之所以快速又可靠，恰恰因为它严重依赖预制模板，而 LLM 的工作只是“填空”。相比之下，更教条主义的路线——即完全依赖 LLM 从零开始生成一个生产级的应用——通常结果很糟糕，这也是今天许多 AI coding 产品的核心问题。
+Base44 的方法有其代价——一旦用户请求超出其模板范围，产出质量就会急剧下降——但它证明了关键的一点。在产品开发中，时间窗口最重要。 做一个可能会被下一波模型浪潮淘汰的过渡性产品是完全可以接受的。如果加入人类的 heuristics 能帮助你在当前的时间窗口内解决用户问题、创造商业价值，那它就是好的技术选择。 技术是手段，不是目的。
+AI Coding 的演进：四个阶段
+AI coding 的游戏正在四个阶段中展开，其中第二和第三阶段正在并行发生。
+1. AI-Assisted Coding
+这是最早的阶段，代表是早期 Cursor 等工具中的 tab 代码补全功能。">
+ 
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.hancezhang.blog/zh/" accesskey="h" title="Hance Zhang的博客 (Alt + H)">Hance Zhang的博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://www.hancezhang.blog/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.hancezhang.blog/zh/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/zh/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/zh/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" id="subscribe-toggle" aria-label="订阅">
+                    <span>订阅</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="subscribe-modal" class="subscribe-modal" style="display: none;">
+    <div class="subscribe-modal-content">
+        <span class="subscribe-close">&times;</span>
+<div class="newsletter-section">
+    <div class="newsletter-container">
+        <h3>📧 订阅博客更新</h3>
+        <p class="newsletter-description">
+            
+                订阅我的博客，第一时间获取关于领导力、AI、产品构建和投资的最新文章。
+            
+        </p>
+        
+        
+        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
+            <div class="form-group">
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="输入您的邮箱地址" 
+                    required 
+                    class="email-input"
+                >
+                <button type="submit" class="subscribe-button">
+                    订阅
+                </button>
+            </div>
+            <p class="privacy-notice">
+                
+                    我们尊重您的隐私，不会发送垃圾邮件。您可以随时取消订阅。
+                
+            </p>
+        </form>
+    </div>
+</div>
+
+<style>
+.newsletter-section {
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.newsletter-container h3 {
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+.newsletter-description {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: var(--tertiary);
+    box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.1);
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    background: var(--tertiary);
+    color: var(--theme);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.subscribe-button:hover {
+    opacity: 0.9;
+}
+
+.privacy-notice {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+</style> 
+    </div>
+</div>
+
+<style>
+ 
+#subscribe-toggle {
+    cursor: pointer;
+}
+
+#subscribe-toggle:hover {
+    opacity: 0.8;
+}
+
+ 
+.subscribe-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.subscribe-modal-content {
+    position: relative;
+    background-color: var(--theme);
+    margin: 10% auto;
+    padding: 0;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    animation: modalShow 0.3s ease;
+}
+
+@keyframes modalShow {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.subscribe-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: var(--secondary);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.subscribe-close:hover {
+    color: var(--primary);
+    background-color: var(--code-bg);
+}
+
+ 
+.subscribe-modal .newsletter-section {
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .subscribe-modal-content {
+        margin: 5% auto;
+        max-width: 90%;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeBtn = document.getElementById('subscribe-toggle');
+    const modal = document.getElementById('subscribe-modal');
+    const closeBtn = document.querySelector('.subscribe-close');
+    
+    if (subscribeBtn && modal) {
+        subscribeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
+</script> <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Bitter Lesson, 端到端 Coding, 创作者经济的未来
+    </h1>
+    <div class="post-meta"><time datetime="2025-01-08">2025-01-08</time>&nbsp;·&nbsp;22 min&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="https://www.hancezhang.blog/en/posts/bitter-lesson/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="对-bitter-lesson-的误读">对 Bitter Lesson 的误读<a hidden class="anchor" aria-hidden="true" href="#对-bitter-lesson-的误读">#</a></h3>
+<p>在 AI 圈里，<strong>“The Bitter Lesson” (苦涩的教训)</strong> 已经成了一种口头禅。</p>
+<p>这个由研究员 Rich Sutton 提出的观点是，试图将人类知识融入模型是一种短期的拐杖。历史表明，最大的进步来自于将海量计算应用于通用方法。</p>
+<p>许多行业领袖现在都支持这一观点。他们认为，最纯粹的路径是让 LLM 自己解决问题。你的产品越是这样做，就被认为越“agentic”。</p>
+<p>但我在构建产品时的经验却讲述了一个不同的故事。<strong>The Bitter Lesson 在研究领域是正确的，但在产品侧，你需要辩证地看待它。</strong></p>
+<h3 id="原则顺势而为而非逆流而上">原则：顺势而为，而非逆流而上<a hidden class="anchor" aria-hidden="true" href="#原则顺势而为而非逆流而上">#</a></h3>
+<p>给 LLM 灌输太多外部知识可能是一场灾难。我称正确的做法为**“顺毛驴”理论**。</p>
+<p>LLM 如同木材的纹理，有其自然的倾向。它已经拥有大量关于 coding 模式和 architecture 的先验知识。<strong>如果你顺着它的知识体系（顺着毛驴的毛）来提要求，就能最大限度地发挥其效能，并最小化幻觉带来的损害。</strong></p>
+<p>强迫 LLM 学习一个完全陌生的 architecture 是一定会失败的。它不仅表现糟糕，还会消耗模型有限的 context——这是它最宝贵的资源。我们衡量一个模型，不应只看其 context window 的大小，更要看它的 <strong>&ldquo;in-context capability&rdquo;</strong>：即它能可靠执行的逻辑复杂度。</p>
+<p>正是在这一点上，对 Bitter Lesson 的教条式看法分崩离析了。最务实、最有效的工具，比如 <strong>Base44</strong>，之所以快速又可靠，恰恰因为它严重依赖预制模板，而 LLM 的工作只是“填空”。相比之下，更教条主义的路线——即完全依赖 LLM 从零开始生成一个生产级的应用——通常结果很糟糕，这也是今天许多 AI coding 产品的核心问题。</p>
+<p>Base44 的方法有其代价——一旦用户请求超出其模板范围，产出质量就会急剧下降——但它证明了关键的一点。在产品开发中，<strong>时间窗口最重要。</strong> 做一个可能会被下一波模型浪潮淘汰的过渡性产品是完全可以接受的。<strong>如果加入人类的 heuristics 能帮助你在当前的时间窗口内解决用户问题、创造商业价值，那它就是好的技术选择。</strong> 技术是手段，不是目的。</p>
+<h3 id="ai-coding-的演进四个阶段">AI Coding 的演进：四个阶段<a hidden class="anchor" aria-hidden="true" href="#ai-coding-的演进四个阶段">#</a></h3>
+<p>AI coding 的游戏正在四个阶段中展开，其中第二和第三阶段正在并行发生。</p>
+<p><strong>1. AI-Assisted Coding</strong>
+这是最早的阶段，代表是早期 Cursor 等工具中的 tab 代码补全功能。</p>
+<p><strong>2. AI Pair Coding</strong>
+这个阶段包含了更 agentic 的工具，如 Cursor Composer/ Windsurf Cascade。它最适合能获得巨大生产力提升的经验丰富的开发者，但你仍需了解底层原理才能有效使用它。这种体验就像是<strong>手动挡汽车</strong>的发明：你还需要学离合，甚至大概了解汽车的基本构造才可以开车，不过由于是很多人类第一次驾驶高等级交通工具，这里面的aha moment 感觉非常强，这也和现在很多人追求的驾驶感很像。</p>
+<p><strong>3. Vibe Coding 1.0</strong>
+这个阶段以 Lovable、Bolt.new 等产品为代表，旨在帮助非开发者构建软件。它就像是<strong>自动挡汽车</strong>的发明，极大地降低了入门门槛，即便牺牲了一些精细的“驾驶感”。然而，它仍然需要用户巨大的热情和耐心。交互模式常常是“说一件事情做一件事情”，其使用者还远非大众市场，而是<strong>AI 爱好者和略懂技术的专业人士</strong>，比如设计师和产品经理。</p>
+<p>这些工具大多还“只做前端”，并依赖于 Supabase 这样的平台。这意味着用户仍面临着陡峭的学习曲线：他们需要学习 prompting、database、CDN 和组件变量——这些概念 AI 很难替你猜好。继续用自动驾驶做类比，有点像自动档被发明出来。 开车的学习门槛被大幅降低了，虽然“精细驾驶感”有所丧失，但是这让很多由于专业能力学不会手动档的人开上了车。</p>
+<p>最近有个产品非常惊艳，叫<strong>Trickle AI</strong>, 用Canvas的形式把网站开发需要的必备要素全部可视化出来 （比如database, assets, version control)， 在网站部署上也下了心思，做了SEO ， 也让视觉编辑（visual edits) 变得直觉了很多。我认为这很可能是vibe coding 1.0 目前达到的最好的交互效果，类似最顶级的自动挡车型，驾驶感，舒适度，仪表盘都拉满了</p>
+<p><strong>关于 Vibe Coding 和网站未来的个人思考：</strong> 稍微岔开一点话题， 现在大量的vibe coding 1.0 工具都在痴迷于卷前端网页生成和部署。我个人是不想牵扯到这个疯狂的竞争中来的。做好一个 UI 很难，因为视觉品味是主观的，AI 很难一次就让用户满意。一个完整、视觉效果好的网页需要巨大的工作量。比如更改卡片圆角、整体配色、增加顶部导航以及为网页增加移动端适配等等。</p>
+<p>更重要的是，<strong>在一个日益 agentic 的未来，我质疑网页是否还拥有过去20年的价值。</strong> 过去20年，网站是信息和 GUI 的关键载体。但现在，agent 正在自动化信息检索和后端服务调用。信息正被 Deep Research 这样的产品覆盖，而 GUI 操作很可能会被 agent 的 computer-use 能力处理掉。我们已经看到 ChatGPT 改变了我们使用浏览器的方式。我担心我们正在创造一个未来，那里有大量的工具在制造大量的、只有 agent 会访问的网页。</p>
+<p><strong>4. Fully Autonomous Coding</strong> 这是我认为未来发展的方向，他并不会和前面的产品和市场冲突，而是会拓展到更广阔的受众范围和人群。 AI 可以以完全自主的形式，端到端地完成coding 任务，就像现在deep research 对于信息检索一样。 你只需要给一个需求，甚至都不需要描绘的非常详细， AI 会揣测你这个需求背后的想法和想实现的东西，完全端到端的搭建出来，直接可用，后续的修改也应聚焦于新功能开发，而不是视觉雕花或者修bug。 显然这还是一个未来的范式，像比如Devin 这样的公司正在跑到enterprise级的codebase里面去解决这样的问题。</p>
+<p>不过，我们觉得这里可能有一些机会。端到端地构建一个<em>完整的 web app</em> 挑战巨大，因为它涉及 GUI、云部署、视觉调整和数据库，更不用说 token 成本。但如果我们<strong>背叛 Bitter Lesson，采用一种预填充的、基于模板的方法呢？</strong> 我们可以将 UI 限制在最简单、最核心的交互上：几个按钮、一个调用后端的自然语言对话框，或者一个带有预设 GUI 模板的简单 H5 应用。这恰好落在了当前 AI 能力的舒适区。当然这也一定有取舍，任何超出这样交互范围，需要复杂看板，fancy 视觉页面的生成一概做不了。不过至少我们可以尝试在小范围实现完全的端到端。这里的价值似乎已经足够大了。</p>
+<p>它就像<strong>Waymo 通过高精地图和 LiDAR 在仅旧金山市区实现全自动无人驾驶</strong>：一个强大但有地理限制的解决方案。任何超出预设范围的东西都无法实现。也许两年后，一个“特斯拉级别”的产品会出现，将我们碾压过去。但在 AI 创业中，你不能指望一个持久的护城河。在绝对的智能面前，护城河是短暂的。<strong>能做好一年的产品，就先做一年。</strong> 不要作太多预测。</p>
+<h3 id="为什么完全自动化编程的普及不会扼杀专业市场">为什么完全自动化编程的普及不会扼杀专业市场<a hidden class="anchor" aria-hidden="true" href="#为什么完全自动化编程的普及不会扼杀专业市场">#</a></h3>
+<p>用拍照这个事情举例子。21世纪出生的现代人觉得手机打开，点开camera，点击拍摄，所见即所得似乎非常合理并且符合直觉，似乎摄像机天然就应该是这样的。但是摄像和成像这样的技术也是演进了无数年才到今日的毫秒级出片，速度快到你甚至都意识不到这里面有大量underlying work。</p>
+<p><strong>一张手机照片背后的复杂流程：</strong>
+当你按下快门，一个多阶段的过程在毫秒内完成：</p>
+<ol>
+<li><strong>光线捕捉:</strong> 光线穿过镜头，聚焦后落在 <code>CMOS</code> 传感器上，将光子转化为原始数字信号。</li>
+<li><strong>图像处理:</strong> 图像信号处理器 (<code>ISP</code>) 为每个像素“补色”，降噪，校正白平衡，并融合多次曝光以实现 <code>HDR</code>。</li>
+<li><strong>最终润色:</strong> 处理器将颜色映射到 <code>sRGB</code> 空间，锐化边缘以增强清晰度，最后将一个 12MB 的数据流压缩成一个 2MB 的 <code>JPEG</code> 或 <code>HEIF</code> 文件。</li>
+</ol>
+<p>这整个流程才是“按下快门即出片”体验背后的魔法。我仍记得以前摄影需要暗房来冲洗胶卷——一个漫长、繁琐且需要专业技能的过程。正是经过了多年的技术迭代，才实现了我们今天人人享有的拍照自由，并催生了像 Instagram 这样的新市场和产品。</p>
+<p>但即使在今天，<strong>智能手机摄影的便捷也并未消灭专业摄影师、</strong> 爱好者或专业相机市场。当一项技术的成本和复杂性下降时，新的市场规模将变得超乎想象。智能手机将摄影市场扩大了百倍，但并未摧毁专业领域。</p>
+<p>我相信软件行业也会如此。<strong>在 AI 的加持下，终有一天，创造软件会感觉像我们今天用手机拍照一样简单、本能和理所当然。</strong></p>
+<h3 id="创作者经济的未来从广告到-api">创作者经济的未来：从广告到 API<a hidden class="anchor" aria-hidden="true" href="#创作者经济的未来从广告到-api">#</a></h3>
+<p>Agent 的崛起让我对创作者经济的未来深感担忧。许多创作者，比如Podcast 主播，目前依赖广告收入为生。但是AI的出现已经让很多人听播客的渠道变了，要么是AI 直接抓取博客内容做文字总结，要么是把一堆音频丢给NotebookLM 之类的产品然后生成一个更全面更符合用户个人口味，绝对无广的podcast。甚至在有些podcast 评论区已经能看到比如“没有AI总结内容，这期我不看了” 的评论。未来越来越多的信息，内容，和服务调用的入口会被Agent 取代，这是几乎一定会发生的事情。 那在这样的情况下，创作者经济该何去何从？</p>
+<p>这是一个更大、不可避免的转变的一部分：<strong>信息、内容和服务的入口正在从平台转向个人 agent。</strong> 这将迫使广告业发生巨大变革，就像 <code>SEO</code> 正在适应 AI 搜索一样。过去那种在特定页面上捕获用户注意力的旧逻辑正在终结。未来，用户的注意力将被他们自己的个人 agent 所掌握。</p>
+<p>对于创作者来说，最好的出路是<strong>为自己的内容、功能或信息直接收费。</strong> 他们可以将自己的服务作为 <code>API</code> 暴露出来，让 agent 调用，并按次收费。我认为这是一种比广告更理性、更可持续的模式。在生产力场景下，应用商店的“浏览-发现”模式将被 agent 主导的推荐和搜索所取代。娱乐和电商领域会更微妙，因为用户常常享受挑选过程本身。</p>
+
+
+  </div>
+
+
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://www.hancezhang.blog/zh/">Hance Zhang的博客</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

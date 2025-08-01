@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hance Zhang的博客</title>
-    <link>http://localhost:1313/zh/</link>
+    <link>https://www.hancezhang.blog/zh/</link>
     <description>Recent content on Hance Zhang的博客</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hancezhang.blog/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡</title>
-      <link>http://localhost:1313/zh/posts/user-experience/</link>
+      <link>https://www.hancezhang.blog/zh/posts/user-experience/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/user-experience/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/user-experience/</guid>
       <description>PMF 前，增长黑客与 A/B 测试并非良方；真正的起点是：用不规模化的方式，打造用户热爱的&amp;rsquo;十星级&amp;rsquo;体验。</description>
     </item>
     <item>
       <title>从“我觉得”到“我试了”：用AI构建以实验为核心的团队文化</title>
-      <link>http://localhost:1313/zh/posts/experiment-culture/</link>
+      <link>https://www.hancezhang.blog/zh/posts/experiment-culture/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/experiment-culture/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/experiment-culture/</guid>
       <description>&lt;p&gt;我们都经历过这样的会议：讨论一个新想法、一个创新项目，然后陷入无休止的争论。每个人都言之凿凿，引经据典（或者只是引用昨天看到的某篇文章），但讨论似乎原地打转，最后往往不了了之，或者变成由声音最大、职位最高或最固执的人拍板。为什么会这样？尤其是在创新领域？&lt;/p&gt;
 &lt;h2 id=&#34;创新的共识沼泽&#34;&gt;创新的“共识沼泽”&lt;/h2&gt;
 &lt;p&gt;问题的根源在于，创新项目处理的是未知。
@@ -60,79 +60,100 @@
     </item>
     <item>
       <title>理解决策背后的事实：无人在帮你记分</title>
-      <link>http://localhost:1313/zh/posts/the-scorecard-fallacy/</link>
+      <link>https://www.hancezhang.blog/zh/posts/the-scorecard-fallacy/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/the-scorecard-fallacy/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/the-scorecard-fallacy/</guid>
       <description>理解人比单纯把事情做好重要的多.</description>
     </item>
     <item>
       <title>大厂招聘：富余驱动，而非刚需</title>
-      <link>http://localhost:1313/zh/posts/big-tech-hiring/</link>
+      <link>https://www.hancezhang.blog/zh/posts/big-tech-hiring/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/big-tech-hiring/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/big-tech-hiring/</guid>
       <description>大厂招人的背后往往是预算富余，而不是业务必须。</description>
     </item>
     <item>
       <title>苏格拉底式提问与现实扭曲力场</title>
-      <link>http://localhost:1313/zh/posts/rdf/</link>
+      <link>https://www.hancezhang.blog/zh/posts/rdf/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/rdf/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/rdf/</guid>
       <description>仅仅不断地问‘为什么不？’往往会让人厌烦。</description>
     </item>
     <item>
       <title>为什么我们需要极简主义</title>
-      <link>http://localhost:1313/zh/posts/the-heresy-of-simplicity/</link>
+      <link>https://www.hancezhang.blog/zh/posts/the-heresy-of-simplicity/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/the-heresy-of-simplicity/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/the-heresy-of-simplicity/</guid>
       <description>好的生意往往都是通过帮助别人省略复杂性来创造价值.</description>
     </item>
     <item>
       <title>在充满随机的世界里，主动设计还有意义吗？</title>
-      <link>http://localhost:1313/zh/posts/designing-anti-fragility/</link>
+      <link>https://www.hancezhang.blog/zh/posts/designing-anti-fragility/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/designing-anti-fragility/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/designing-anti-fragility/</guid>
       <description>主动应体现在构建从随机性中获益的系统</description>
     </item>
     <item>
+      <title>Bitter Lesson, 端到端 Coding, 创作者经济的未来</title>
+      <link>https://www.hancezhang.blog/zh/posts/bitter-lesson/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/bitter-lesson/</guid>
+      <description>&lt;h3 id=&#34;对-bitter-lesson-的误读&#34;&gt;对 Bitter Lesson 的误读&lt;/h3&gt;
+&lt;p&gt;在 AI 圈里，&lt;strong&gt;“The Bitter Lesson” (苦涩的教训)&lt;/strong&gt; 已经成了一种口头禅。&lt;/p&gt;
+&lt;p&gt;这个由研究员 Rich Sutton 提出的观点是，试图将人类知识融入模型是一种短期的拐杖。历史表明，最大的进步来自于将海量计算应用于通用方法。&lt;/p&gt;
+&lt;p&gt;许多行业领袖现在都支持这一观点。他们认为，最纯粹的路径是让 LLM 自己解决问题。你的产品越是这样做，就被认为越“agentic”。&lt;/p&gt;
+&lt;p&gt;但我在构建产品时的经验却讲述了一个不同的故事。&lt;strong&gt;The Bitter Lesson 在研究领域是正确的，但在产品侧，你需要辩证地看待它。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;原则顺势而为而非逆流而上&#34;&gt;原则：顺势而为，而非逆流而上&lt;/h3&gt;
+&lt;p&gt;给 LLM 灌输太多外部知识可能是一场灾难。我称正确的做法为**“顺毛驴”理论**。&lt;/p&gt;
+&lt;p&gt;LLM 如同木材的纹理，有其自然的倾向。它已经拥有大量关于 coding 模式和 architecture 的先验知识。&lt;strong&gt;如果你顺着它的知识体系（顺着毛驴的毛）来提要求，就能最大限度地发挥其效能，并最小化幻觉带来的损害。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;强迫 LLM 学习一个完全陌生的 architecture 是一定会失败的。它不仅表现糟糕，还会消耗模型有限的 context——这是它最宝贵的资源。我们衡量一个模型，不应只看其 context window 的大小，更要看它的 &lt;strong&gt;&amp;ldquo;in-context capability&amp;rdquo;&lt;/strong&gt;：即它能可靠执行的逻辑复杂度。&lt;/p&gt;
+&lt;p&gt;正是在这一点上，对 Bitter Lesson 的教条式看法分崩离析了。最务实、最有效的工具，比如 &lt;strong&gt;Base44&lt;/strong&gt;，之所以快速又可靠，恰恰因为它严重依赖预制模板，而 LLM 的工作只是“填空”。相比之下，更教条主义的路线——即完全依赖 LLM 从零开始生成一个生产级的应用——通常结果很糟糕，这也是今天许多 AI coding 产品的核心问题。&lt;/p&gt;
+&lt;p&gt;Base44 的方法有其代价——一旦用户请求超出其模板范围，产出质量就会急剧下降——但它证明了关键的一点。在产品开发中，&lt;strong&gt;时间窗口最重要。&lt;/strong&gt; 做一个可能会被下一波模型浪潮淘汰的过渡性产品是完全可以接受的。&lt;strong&gt;如果加入人类的 heuristics 能帮助你在当前的时间窗口内解决用户问题、创造商业价值，那它就是好的技术选择。&lt;/strong&gt; 技术是手段，不是目的。&lt;/p&gt;
+&lt;h3 id=&#34;ai-coding-的演进四个阶段&#34;&gt;AI Coding 的演进：四个阶段&lt;/h3&gt;
+&lt;p&gt;AI coding 的游戏正在四个阶段中展开，其中第二和第三阶段正在并行发生。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. AI-Assisted Coding&lt;/strong&gt;
+这是最早的阶段，代表是早期 Cursor 等工具中的 tab 代码补全功能。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Brian Chesky 与 Founder Mode</title>
-      <link>http://localhost:1313/zh/posts/founder-mode/</link>
+      <link>https://www.hancezhang.blog/zh/posts/founder-mode/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/founder-mode/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/founder-mode/</guid>
       <description>Great leadership is not absence; presence</description>
     </item>
     <item>
-      <title>不要把创始人——或任何其他人——捧上神坛</title>
-      <link>http://localhost:1313/zh/posts/no-pedestals/</link>
+      <title>不要把创始人捧上神坛</title>
+      <link>https://www.hancezhang.blog/zh/posts/no-pedestals/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/no-pedestals/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/no-pedestals/</guid>
       <description>神化他人会阻碍你的成长和客观思考</description>
     </item>
     <item>
       <title>高效领导者的自我管理</title>
-      <link>http://localhost:1313/zh/posts/self-management-effective-leaders/</link>
+      <link>https://www.hancezhang.blog/zh/posts/self-management-effective-leaders/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/self-management-effective-leaders/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/self-management-effective-leaders/</guid>
       <description>领导力不是天生的，而是自我管理等可培养的技能</description>
     </item>
     <item>
       <title>打造卓越产品的六项原则</title>
-      <link>http://localhost:1313/zh/posts/principles-product-development/</link>
+      <link>https://www.hancezhang.blog/zh/posts/principles-product-development/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/principles-product-development/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/principles-product-development/</guid>
       <description>来自内部信的产品策略精华摘录</description>
     </item>
     <item>
       <title>如何有效提供建议</title>
-      <link>http://localhost:1313/zh/posts/constructive-feedback/</link>
+      <link>https://www.hancezhang.blog/zh/posts/constructive-feedback/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/constructive-feedback/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/constructive-feedback/</guid>
       <description>如果你真心希望他人成长，那就保护好他们的正反馈链路</description>
     </item>
     <item>
       <title>销售 Whys</title>
-      <link>http://localhost:1313/zh/posts/selling-whys/</link>
+      <link>https://www.hancezhang.blog/zh/posts/selling-whys/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/selling-whys/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/selling-whys/</guid>
       <description>&lt;p&gt;我一直在深入研究一种被称为 Steve Jobs 的 reality distortion field (现实扭曲力场) 的现象，试图理解他是如何做到的。这让我得出了一个有趣的见解，部分灵感来自于 Simon Sinek 一次著名的 TED 演讲。&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qp0HIF3SfI4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
@@ -147,9 +168,9 @@
     </item>
     <item>
       <title>为什么写博客</title>
-      <link>http://localhost:1313/zh/posts/why-i-write-blogs/</link>
+      <link>https://www.hancezhang.blog/zh/posts/why-i-write-blogs/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/why-i-write-blogs/</guid>
+      <guid>https://www.hancezhang.blog/zh/posts/why-i-write-blogs/</guid>
       <description>&lt;h2 id=&#34;一种真正自然的冲动&#34;&gt;一种真正自然的冲动&lt;/h2&gt;
 &lt;p&gt;我很快发现了自己对写作的热情，我甚至比阅读更喜欢写作。我的父亲，一位前作家后转型的企业家，可能影响了我。我很小的时候，在小学就开始写作，诗歌是我的初恋。&lt;/p&gt;
 &lt;p&gt;写作感觉更像是一种自然的冲动，而非一项责任。如果我不写作，我会感到不适。脑海中有无数思绪盘旋，写作提供了一种释放，几乎像一种治愈。&lt;/p&gt;

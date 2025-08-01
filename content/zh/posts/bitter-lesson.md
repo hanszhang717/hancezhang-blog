@@ -2,7 +2,9 @@
 title: "Bitter Lesson, 端到端 Coding, 创作者经济的未来"
 date: "2025-01-08"
 draft: false
-slug: "Bitter-Lesson"
+summary: "Bitter Lesson 在研究领域是正确的，但产品开发需要顺着模型的纹理，而非逆向而行。"
+categories: ["Mindsets"]
+slug: "bitter-lesson"
 ---
 
 
