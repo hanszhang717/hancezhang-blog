@@ -1,6 +1,6 @@
 ---
 title: "Bitter Lesson, End-to-end Coding, Creator Economy"
-date: "2025-01-08"
+date: "2025-08-01"
 draft: false
 summary: "The Bitter Lesson is true for research, but product development requires working with the model's grain, not against it."
 categories: ["Mindsets"]
