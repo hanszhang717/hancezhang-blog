@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Hance Zhang的博客</title>
+    <link>https://www.hancezhang.blog/zh/categories/ai/</link>
+    <description>Recent content in AI on Hance Zhang的博客</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.hancezhang.blog/zh/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算力是新的杠杆（而且可能是最好的）</title>
+      <link>https://www.hancezhang.blog/zh/posts/compute-leverage/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/compute-leverage/</guid>
+      <description>随着算力作为杠杆超越了人力，广泛共识已不再是必需品</description>
+    </item>
+  </channel>
+</rss>
