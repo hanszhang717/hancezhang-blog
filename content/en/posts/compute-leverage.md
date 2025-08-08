@@ -2,8 +2,8 @@
 title: "Compute Is the New Leverage (and Probably the Best One)"
 date: 2025-08-08
 draft: false
-summary: "Rich consensus is no longer necessary as compute outperforms labor as leverage"
-categories: ["Mindsets"]
+summary: "Rich concensus is no longer necessary as compute outperforms labor as a leverage"
+categories: ["AI"]
 slug: "compute-leverage"
 ---
 
@@ -52,7 +52,7 @@ The debate isn't about *whether* AI improves productivity; it's about recognizin
 
 This leads to a new kind of organization: a **thin core** with **thick compute**. The core team is small, focused on strategy and defining clear objectives. The execution is handled by a vast periphery of AI agents and automated workflows. A company like Midjourney is a perfect example. Its core team is tiny, focused on research, product vision, and model tuning. Its "workforce" is an infinitely scalable layer of compute that serves millions of users. They don't hire hundreds of artists; they orchestrate GPUs. This is the "thin core, thick compute" model in action. In this model, the rewards for being "contrarian and right" are more direct. You don't need to convince a committee. You just need to convince the market, and the market rewards results, not alignment.
 
-### **Will Compute Become the New Land?**
+### **Will Compute Become the New Means of Production?**
 
 If compute is a new factor of production, we have to ask about its distribution. Like land, compute requires capital to acquire (GPUs, cloud credits, energy). It is rivalrous and has economies of scale.
 
