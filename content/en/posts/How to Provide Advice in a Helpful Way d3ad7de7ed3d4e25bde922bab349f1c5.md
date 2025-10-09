@@ -21,4 +21,3 @@ If you want someone to improve at anything, you must first build a positive rein
 
 What I've said here doesn't just apply to parenting—it applies to the workplace and all human interactions. Providing advice is an art that requires careful consideration of how, when, and where you do it. Dumping advice without regard for the situation might make you feel like you're being honest, objective, and promoting a growth mindset. But in reality, you're just satisfying a didactic craving and reflecting a sense of arrogance. Most of the time, people aren't in the right frame of mind to receive feedback, and your untimely advice will only backfire.
 
-This blog's insight gave credits to my discussion with Helen.
