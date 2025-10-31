@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Stop Debating, Build the Experiment Machine | Hance Zhang&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Product development in the AI era isn&rsquo;t about building better products—it&rsquo;s about building better assembly lines">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.hancezhang.blog/en/posts/stop-debating-build-experiment-machine/">
+<link crossorigin="anonymous" href="https://www.hancezhang.blog/assets/css/stylesheet.ebb3465b309c53ed14835a380ee24075c602e53edaaa26169c2910b9b81ae49e.css" integrity="sha256-67NGWzCcU&#43;0Ug1o4DuJAdcYC5T7aqiYWnCkQubga5J4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.hancezhang.blog/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.hancezhang.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.hancezhang.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.hancezhang.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.hancezhang.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.hancezhang.blog/en/posts/stop-debating-build-experiment-machine/">
+<link rel="alternate" hreflang="zh" href="https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript> <meta property="og:url" content="https://www.hancezhang.blog/en/posts/stop-debating-build-experiment-machine/">
+  <meta property="og:site_name" content="Hance Zhang&#39;s Blog">
+  <meta property="og:title" content="Stop Debating, Build the Experiment Machine">
+  <meta property="og:description" content="Product development in the AI era isn’t about building better products—it’s about building better assembly lines">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-31T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Stop Debating, Build the Experiment Machine">
+<meta name="twitter:description" content="Product development in the AI era isn&rsquo;t about building better products—it&rsquo;s about building better assembly lines">
+ 
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.hancezhang.blog/en/" accesskey="h" title="Hance Zhang&#39;s Blog (Alt + H)">Hance Zhang&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://www.hancezhang.blog/zh/" title="中文"
+                            aria-label="中文">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.hancezhang.blog/en/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/en/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/en/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" id="subscribe-toggle" aria-label="Subscribe">
+                    <span>Subscribe</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="subscribe-modal" class="subscribe-modal" style="display: none;">
+    <div class="subscribe-modal-content">
+        <span class="subscribe-close">&times;</span>
+<div class="newsletter-section">
+    <div class="newsletter-container">
+        <h3>📧 Subscribe to Updates</h3>
+        <p class="newsletter-description">
+            
+                Subscribe to get the latest posts about leadership, AI, product building, and investment delivered to your inbox.
+            
+        </p>
+        
+        
+        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
+            <div class="form-group">
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Enter your email address" 
+                    required 
+                    class="email-input"
+                >
+                <button type="submit" class="subscribe-button">
+                    Subscribe
+                </button>
+            </div>
+            <p class="privacy-notice">
+                
+                    We respect your privacy. No spam, unsubscribe at any time.
+                
+            </p>
+        </form>
+    </div>
+</div>
+
+<style>
+.newsletter-section {
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.newsletter-container h3 {
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+.newsletter-description {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: var(--tertiary);
+    box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.1);
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    background: var(--tertiary);
+    color: var(--theme);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.subscribe-button:hover {
+    opacity: 0.9;
+}
+
+.privacy-notice {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+</style> 
+    </div>
+</div>
+
+<style>
+ 
+#subscribe-toggle {
+    cursor: pointer;
+}
+
+#subscribe-toggle:hover {
+    opacity: 0.8;
+}
+
+ 
+.subscribe-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.subscribe-modal-content {
+    position: relative;
+    background-color: var(--theme);
+    margin: 10% auto;
+    padding: 0;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    animation: modalShow 0.3s ease;
+}
+
+@keyframes modalShow {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.subscribe-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: var(--secondary);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.subscribe-close:hover {
+    color: var(--primary);
+    background-color: var(--code-bg);
+}
+
+ 
+.subscribe-modal .newsletter-section {
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .subscribe-modal-content {
+        margin: 5% auto;
+        max-width: 90%;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeBtn = document.getElementById('subscribe-toggle');
+    const modal = document.getElementById('subscribe-modal');
+    const closeBtn = document.querySelector('.subscribe-close');
+    
+    if (subscribeBtn && modal) {
+        subscribeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
+</script> <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Stop Debating, Build the Experiment Machine
+    </h1>
+    <div class="post-meta"><time datetime="2025-10-31">2025-10-31</time>&nbsp;·&nbsp;10 min&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Recently, I had a conversation with our engineering lead. He raised a concern many technical teams share: as AI coding capabilities improve and delivery speed accelerates, will we eventually run out of things to do?</p>
+<p>My answer: You don&rsquo;t need to worry. This is a classic Jevons Paradox.</p>
+<p>In the 19th century, economist William Stanley Jevons observed something counterintuitive: when steam engines became more efficient and coal costs dropped, coal consumption increased rather than decreased. The reason was simple—<strong>lower costs made previously unworthy tasks suddenly worthwhile</strong>.</p>
+<p>AI works the same way. When delivery costs fall, demand doesn&rsquo;t shrink—it explodes. The real question isn&rsquo;t &ldquo;will we run out of work,&rdquo; but rather <strong>the game has changed. Are you ready?</strong></p>
+<h3 id="the-death-spiral-of-debate-driven-development">The Death Spiral of Debate-Driven Development<a hidden class="anchor" aria-hidden="true" href="#the-death-spiral-of-debate-driven-development">#</a></h3>
+<p>In traditional product development, massive time gets consumed by discussions. In product meetings, designers argue the button should be bigger, PMs say it should be smaller, engineers say both are feasible, so the debate continues&hellip;</p>
+<p>When should we trigger the paywall popup? What&rsquo;s the pricing strategy? How should the interaction interface work? These relatively detailed questions easily devolve into &ldquo;he said, she said&rdquo; territory.</p>
+<p>You can make an argument, someone else can make the opposite argument. Human rationality—or more accurately, theory and reasoning—loses too much reference value here. You can say anything: &ldquo;I think users need this,&rdquo; &ldquo;my experience tells me this,&rdquo; &ldquo;I feel it should be designed this way&rdquo;&hellip;</p>
+<p>The result is endless meetings, hours of discussion with no conclusion.</p>
+<p>Worse still, <strong>the vast majority of our hypotheses are actually wrong</strong>. According to experiment data from companies like Google and Microsoft, only 10-33% of product hypotheses ultimately prove effective—meaning 67-90% fail. These assumptions based on imagination and reasoning often don&rsquo;t match real user needs.</p>
+<p>The fundamental problem: <strong>we&rsquo;re using reasoning to solve empirical problems</strong>. And the only answer to empirical problems lies with users.</p>
+<h3 id="0-to-1-vs-1-to-100-the-methodological-divide">0-to-1 vs 1-to-100: The Methodological Divide<a hidden class="anchor" aria-hidden="true" href="#0-to-1-vs-1-to-100-the-methodological-divide">#</a></h3>
+<p>But this doesn&rsquo;t mean all stages should be experiment-driven. Different product development phases require completely different methodologies.</p>
+<p><strong>The 0-to-1 Phase</strong>: You&rsquo;re seeking Product-Market Fit, still figuring out what users truly need. This stage requires:</p>
+<ul>
+<li>Intuition and gut instinct</li>
+<li>Rapid iteration</li>
+<li>Deep user interviews</li>
+<li>Doing things that don&rsquo;t scale</li>
+</ul>
+<p>As I discussed in a <a href="https://www.hancezhang.blog/en/posts/user-experience/">previous article</a>, prematurely pursuing A/B testing and growth hacking before PMF is futile. Airbnb&rsquo;s success didn&rsquo;t come from optimizing button colors—it came from founders Brian Chesky and Joe Gebbia personally photographing NYC listings and manually crafting 10-star experiences.</p>
+<p>At this stage, <strong>product direction requires taste—insight into human nature</strong>. If you keep A/B testing better horses, you&rsquo;ll never invent the car.</p>
+<p><strong>The 1-to-100 Phase</strong>: You&rsquo;ve found PMF and have stable user traffic. This stage requires:</p>
+<ul>
+<li>Experiment-driven approach</li>
+<li>Data validation</li>
+<li>Rapid iteration</li>
+<li>Scaled optimization</li>
+</ul>
+<p>As Marshall Goldsmith&rsquo;s widely quoted saying goes: <strong>&ldquo;What got you here won&rsquo;t get you there.&rdquo;</strong></p>
+<p>These two phases have fundamentally different methodologies. Confuse them, and you&rsquo;ll either over-optimize during 0-to-1 or keep guessing during 1-to-100.</p>
+<h3 id="prerequisites-and-traps-of-experiment-driven-development">Prerequisites and Traps of Experiment-Driven Development<a hidden class="anchor" aria-hidden="true" href="#prerequisites-and-traps-of-experiment-driven-development">#</a></h3>
+<p>Experiment-driven development isn&rsquo;t a panacea. It has clear prerequisites and pitfalls to watch for.</p>
+<p><strong>Prerequisites:</strong></p>
+<ol>
+<li><strong>PMF established</strong>: Product direction is clear, no longer fundamental exploration</li>
+<li><strong>Sufficient traffic</strong>: Can run statistically significant experiments</li>
+<li><strong>Clear metrics definition</strong>: Know what matters and what doesn&rsquo;t</li>
+</ol>
+<p><strong>Trap One: Data-Centric Instead of User-Centric</strong></p>
+<p>Many people misunderstand data-driven. They become data-centric—optimizing metrics for metrics&rsquo; sake, chasing vanity metrics, ultimately harming user experience.</p>
+<p>The correct approach: <strong>Data-driven but user-centric</strong>.</p>
+<p>Data is the means; user value is the end. You can&rsquo;t sacrifice overall experience by showing popups the moment users arrive just to boost conversion by 5%. Brian Chesky is clear: if you optimize short-term conversion at the expense of the 10-star experience, you&rsquo;re killing the golden goose.</p>
+<p><strong>Trap Two: Blindly Pursuing Metrics</strong></p>
+<p>If you define the wrong metric or over-optimize a single metric, it might be worse than ignoring data entirely.</p>
+<p>Metrics should reflect genuine user value. If your metric is &ldquo;number of videos generated,&rdquo; you might optimize for a pile of low-quality videos. If your metric is &ldquo;average video quality users can achieve,&rdquo; you&rsquo;re actually solving the real problem.</p>
+<p><strong>Trap Three: Killing Disruptive Innovation</strong></p>
+<p>Pure data-driven approaches have a classic trap: local optimization vs global innovation.</p>
+<p>When iPhone launched, critics argued users needed physical keyboards. In Airbnb&rsquo;s early days, conventional wisdom said no one would stay in strangers&rsquo; homes. When Netflix shifted from DVD to streaming, short-term data was indeed negative.</p>
+<p><strong>The key: during paradigm shifts, rely on human judgment and taste. During optimization phases, rely on experiments and data.</strong></p>
+<h3 id="the-experiment-cycle-from-hypothesis-to-validation">The Experiment Cycle: From Hypothesis to Validation<a hidden class="anchor" aria-hidden="true" href="#the-experiment-cycle-from-hypothesis-to-validation">#</a></h3>
+<p>With experiment-driven principles established, the product development process fundamentally transforms.</p>
+<p>As I discussed in a <a href="https://www.hancezhang.blog/en/posts/experiment-culture/">previous piece on experiment culture</a>, AI&rsquo;s true value isn&rsquo;t just boosting productivity—it&rsquo;s enabling us to transform &ldquo;I think&rdquo; into &ldquo;I tried.&rdquo; When experiment costs drop dramatically, the necessity of debate vanishes.</p>
+<p>A typical experiment cycle:</p>
+<ol>
+<li><strong>Define hypothesis</strong>: Clear hypothesis and success metrics</li>
+<li><strong>Rapid build</strong>: Use AI assistance to create MVP in days</li>
+<li><strong>Gradual rollout</strong>: Not 100% release, but first to a subset of users</li>
+<li><strong>Data validation</strong>: See data changes the next day</li>
+<li><strong>Fast decision</strong>: Continue, adjust, or kill</li>
+</ol>
+<p>No need to argue for hours in conference rooms—you can ship the feature and let data speak. The premise: sufficient traffic and confirmed PMF.</p>
+<p>The key to this cycle is <strong>speed</strong>. The faster you go from hypothesis to validation, the better. This is why momentum matters so much in the AI era.</p>
+<h3 id="momentum-as-moat">Momentum as Moat<a hidden class="anchor" aria-hidden="true" href="#momentum-as-moat">#</a></h3>
+<p>Now we can understand why momentum matters so much in the AI era.</p>
+<p>If you can data-drive shipping and experimenting with 5 product features per day or week, validating what works and what doesn&rsquo;t with data, compared to teams still debating in meetings and writing PRDs, <strong>this is a generational gap</strong>.</p>
+<p>Essentially, you&rsquo;re wielding nuclear weapons while they&rsquo;re still using cold steel. This growth battle isn&rsquo;t even close to fair.</p>
+<p><strong>Momentum itself is the moat</strong>.</p>
+<p>Competitors ship one feature per month; you ship five experiments. You learn five times faster. This learning compounds into better products. It&rsquo;s not about &ldquo;speed&rdquo; itself, but about <strong>the velocity of the learning loop</strong>.</p>
+<p>HeyGen&rsquo;s product development handbook captures this beautifully: &ldquo;Competitors ship one feature per month; we ship five experiments. We learn five times faster. That learning compounds into superior products.&rdquo; This is speed&rsquo;s true value—<strong>not delivering features quickly, but delivering learning quickly</strong>.</p>
+<p>Some will ask: with such rapid iteration, what about technical debt? What about user experience consistency?</p>
+<p>My view: <strong>Technical debt is much like financial debt</strong>. It&rsquo;s not something to avoid, but a form of leverage.</p>
+<p>You trade technical debt for product growth velocity. In this momentum-defined AI era, this is a reasonable trade-off. <strong>When technical debt accumulation outpaces growth velocity, that&rsquo;s when you pause to address it</strong>.</p>
+<p>As for user experience consistency, rapid experimentation does create challenges—if you run multiple experiments simultaneously, different users might see completely different product interfaces, causing confusion and increased support costs.</p>
+<p>But this is a feature gate and gradual rollout problem. You don&rsquo;t need to 100% rollout every experiment to all users. You can test on new users first, on only 10% of users, by region, by scenario. The key is ensuring <strong>each individual user sees a consistent experience</strong>, not a button on the left today and on the right tomorrow.</p>
+<p>This requires more flexible thinking, not rigidly believing &ldquo;experiment = full rollout.&rdquo;</p>
+<h3 id="what-ai-native-really-means-ride-the-wave">What AI Native Really Means: Ride the Wave<a hidden class="anchor" aria-hidden="true" href="#what-ai-native-really-means-ride-the-wave">#</a></h3>
+<p>So what is an AI Native company?</p>
+<p>Not just &ldquo;using AI tools to accelerate development,&rdquo; but <strong>designing the entire product development process from scratch as AI-first</strong>.</p>
+<p>HeyGen systematically articulates this philosophy in their <a href="https://x.com/joshua_xu_/status/1978837502787219578">product development handbook</a>. Their core insight: In the AI era, we operate without a stable technology foundation. Every few months, AI technology evolves dramatically. Model capabilities are unknown and changing rapidly.</p>
+<p>Traditional software development assumes stable foundations. But in the AI era, <strong>this foundation changes every 2-3 months</strong>.</p>
+<p>This isn&rsquo;t a bug—it&rsquo;s an opportunity. The key: <strong>Ride the wave, don&rsquo;t fight the current</strong>.</p>
+<p><strong>From Stable Foundation to Surfing:</strong></p>
+<p>Traditional era thinking:</p>
+<ul>
+<li>Build on stable foundations</li>
+<li>Optimize for longevity</li>
+<li>Plan 12-18 months ahead</li>
+<li>Polish, then ship</li>
+</ul>
+<p>AI era thinking:</p>
+<ul>
+<li>Surf the technology wave</li>
+<li>Build products that automatically improve</li>
+<li>2-month realistic planning cycles (aligned with model upgrade cycles)</li>
+<li>Ship to learn</li>
+<li>Parallel experimentation</li>
+</ul>
+<p><strong>Core AI Native Principles:</strong></p>
+<ol>
+<li>
+<p><strong>Distinguish what changes vs. what stays constant</strong>: Models change, capabilities change, but users&rsquo; core problems and workflows don&rsquo;t. Build systems around what doesn&rsquo;t change while surfing model improvements.</p>
+</li>
+<li>
+<p><strong>Design self-improving products</strong>: When GPT-5 arrives, your product should automatically get better, not require refactoring. Build abstraction layers that let product experience ride on top of AI advancement.</p>
+</li>
+<li>
+<p><strong>Flexible architecture</strong>: Expect change. Version everything aggressively. Build replaceable systems.</p>
+</li>
+<li>
+<p><strong>2-month planning cycles</strong>: Long enough to build meaningful things, short enough to adapt when the landscape shifts. Synchronized with AI model upgrade cycles.</p>
+</li>
+<li>
+<p><strong>6-12 month strategic bets</strong>: While realistic planning is 2 months, predict capabilities 6-12 months out and position early.</p>
+</li>
+</ol>
+<p>This isn&rsquo;t a difference in tools, but <strong>a fundamental difference in organizational structure and mindset</strong>.</p>
+<h3 id="build-the-machine-that-builds-the-machine">Build the Machine that Builds the Machine<a hidden class="anchor" aria-hidden="true" href="#build-the-machine-that-builds-the-machine">#</a></h3>
+<p>Elon Musk once said: &ldquo;It&rsquo;s important to build the machine that builds the machine.&rdquo;</p>
+<p>I now have a deeper understanding of this statement.</p>
+<p>Pursuing extreme attention to product detail is reasonable—necessary, even. But these pursuits can&rsquo;t be subjective &ldquo;I think it&rsquo;s good.&rdquo; They require objective measurement standards. That objective standard: <strong>do users love it</strong>.</p>
+<p>Whether users love it is largely evidenced by the metrics you define and the data you collect.</p>
+<p>Therefore, <strong>building your product optimization workflow well matters more than building any single product</strong>. This is what I mean by &ldquo;build the machine.&rdquo;</p>
+<p>What is this machine? It&rsquo;s a complete, self-evolving product development system with three layers:</p>
+<p><strong>Technical Infrastructure Layer:</strong></p>
+<ul>
+<li>Feature flag system: Enables rapid feature toggles and gradual rollout</li>
+<li>A/B testing platform: Supports multivariate experiments and statistical analysis</li>
+<li>Real-time monitoring and analytics tools: Quickly identifies issues and opportunities</li>
+<li>Abstraction layers designed for AI model upgrades: Products automatically improve as models evolve</li>
+</ul>
+<p><strong>Organizational Capability Layer:</strong></p>
+<ul>
+<li>Experiment-driven culture: Let data speak, not opinions debate</li>
+<li>Rapid decision mechanisms: Two-way door decisions same day, avoid consensus traps</li>
+<li>2-month planning cycles synchronized with AI model upgrades</li>
+<li>Disagree and commit principle: Prioritize speed, correct quickly if wrong</li>
+</ul>
+<p><strong>Strategic Cognitive Layer:</strong></p>
+<ul>
+<li>Correct metrics definition: Reflects genuine user value, avoids vanity metrics</li>
+<li>Data-driven but user-centric: Data is the means, users are the end</li>
+<li>Distinguish 0-to-1 vs 1-to-100 methodologies: Know when to rely on taste, when on data</li>
+<li>Understand what changes (AI capabilities) vs. what doesn&rsquo;t (user needs)</li>
+</ul>
+<p><strong>This is a meta-capability—you&rsquo;re not optimizing individual products, but optimizing the &ldquo;optimization capability&rdquo; itself</strong>.</p>
+<p>All the elements discussed earlier—experiment cycles, momentum, AI Native, Ride the Wave—converge in this machine. You&rsquo;re not building a product; you&rsquo;re building a system that continuously produces better products.</p>
+<p>Most startups lack the capability to build this machine, which is why 0-to-1 and 1-to-100 are completely different problems.</p>
+<p>But in the AI era, this is no longer optional—it&rsquo;s required coursework.</p>
+<h3 id="the-quality-paradox">The Quality Paradox<a hidden class="anchor" aria-hidden="true" href="#the-quality-paradox">#</a></h3>
+<p>Some will ask: isn&rsquo;t moving fast contradictory to pursuing excellence?</p>
+<p>Answer: No contradiction. In fact, <strong>moving fast is the prerequisite for building better products long-term</strong>.</p>
+<p>When competitors ship one feature per month, you ship five experiments. You learn five times faster. This learning compounds into superior products.</p>
+<p>Moving fast doesn&rsquo;t mean shipping features quickly—it means <strong>delivering customer value quickly</strong> (and learning quickly). Speed serves the ultimate goal: being the absolute best.</p>
+<p>HeyGen&rsquo;s quality bar is clear: for video content and creative tools especially, quality is non-negotiable. Users don&rsquo;t love products because of polished UI—they love products that solve their problems with exceptional quality. The success metric: <strong>the average video quality any user can achieve on the platform</strong>.</p>
+<p>This is the right north star.</p>
+<h3 id="the-game-has-changed">The Game Has Changed<a hidden class="anchor" aria-hidden="true" href="#the-game-has-changed">#</a></h3>
+<p>Back to the engineer&rsquo;s concern: will AI leave us with nothing to do?</p>
+<p>Answer: <strong>It won&rsquo;t leave you with nothing to do, but it will fundamentally change what you do</strong>.</p>
+<p>Delivery costs drop, demand explodes. But the real question is: are you adapting to new rules with old methods, or are you building the machine?</p>
+<p>Product development in the AI era isn&rsquo;t about building better products—it&rsquo;s about <strong>building better assembly lines</strong>.</p>
+<p>Stop debating. Start experimenting. Build your experiment machine.</p>
+<p>This is the only way to compete in the AI era.</p>
+
+
+  </div>
+
+
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://www.hancezhang.blog/en/">Hance Zhang&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

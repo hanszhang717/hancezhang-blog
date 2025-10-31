@@ -67,6 +67,19 @@
                 href="https://www.hancezhang.blog/zh/posts/"
                 />
   </url><url>
+    <loc>https://www.hancezhang.blog/zh/categories/product/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/categories/product/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/categories/product/"
+                />
+  </url><url>
     <loc>https://www.hancezhang.blog/zh/posts/technology-domesticates-humans/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -78,6 +91,19 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.hancezhang.blog/zh/posts/technology-domesticates-humans/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/stop-debating-build-experiment-machine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/posts/gpt5/</loc>
@@ -117,19 +143,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.hancezhang.blog/zh/posts/bitter-lesson/"
-                />
-  </url><url>
-    <loc>https://www.hancezhang.blog/zh/categories/product/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.hancezhang.blog/en/categories/product/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.hancezhang.blog/zh/categories/product/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/posts/user-experience/</loc>

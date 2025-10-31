@@ -6,8 +6,15 @@
     <description>Recent content in Product on Hance Zhang的博客</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.hancezhang.blog/zh/categories/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>停止讨论，打造实验机器</title>
+      <link>https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/posts/stop-debating-build-experiment-machine/</guid>
+      <description>AI时代的产品开发不是打造更好的产品，而是打造更好的生产线</description>
+    </item>
     <item>
       <title>为什么在 PMF 之前，增长黑客和 A/B 测试都是扯淡</title>
       <link>https://www.hancezhang.blog/zh/posts/user-experience/</link>
