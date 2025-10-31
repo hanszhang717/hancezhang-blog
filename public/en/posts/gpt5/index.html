@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Bitter Lesson, End-to-end Coding, Creator Economy | Hance Zhang&#39;s Blog</title>
+<title>GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39; | Hance Zhang&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="The Bitter Lesson is true for research, but product development requires working with the model&rsquo;s grain, not against it.">
+<meta name="description" content="The model and product layers in the AI industry are more clearly separated than ever.">
 <meta name="author" content="">
-<link rel="canonical" href="https://www.hancezhang.blog/en/posts/bitter-lesson/">
+<link rel="canonical" href="https://www.hancezhang.blog/en/posts/gpt5/">
 <link crossorigin="anonymous" href="https://www.hancezhang.blog/assets/css/stylesheet.ebb3465b309c53ed14835a380ee24075c602e53edaaa26169c2910b9b81ae49e.css" integrity="sha256-67NGWzCcU&#43;0Ug1o4DuJAdcYC5T7aqiYWnCkQubga5J4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.hancezhang.blog/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.hancezhang.blog/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="https://www.hancezhang.blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://www.hancezhang.blog/en/posts/bitter-lesson/">
-<link rel="alternate" hreflang="zh" href="https://www.hancezhang.blog/zh/posts/bitter-lesson/">
+<link rel="alternate" hreflang="en" href="https://www.hancezhang.blog/en/posts/gpt5/">
+<link rel="alternate" hreflang="zh" href="https://www.hancezhang.blog/zh/posts/gpt5/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,18 +56,18 @@
         }
 
     </style>
-</noscript> <meta property="og:url" content="https://www.hancezhang.blog/en/posts/bitter-lesson/">
+</noscript> <meta property="og:url" content="https://www.hancezhang.blog/en/posts/gpt5/">
   <meta property="og:site_name" content="Hance Zhang&#39;s Blog">
-  <meta property="og:title" content="Bitter Lesson, End-to-end Coding, Creator Economy">
-  <meta property="og:description" content="The Bitter Lesson is true for research, but product development requires working with the model’s grain, not against it.">
+  <meta property="og:title" content="GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39;">
+  <meta property="og:description" content="The model and product layers in the AI industry are more clearly separated than ever.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-08-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-08-01T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-08-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-09T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Bitter Lesson, End-to-end Coding, Creator Economy">
-<meta name="twitter:description" content="The Bitter Lesson is true for research, but product development requires working with the model&rsquo;s grain, not against it.">
+<meta name="twitter:title" content="GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39;">
+<meta name="twitter:description" content="The model and product layers in the AI industry are more clearly separated than ever.">
  
 </head>
 
@@ -386,61 +386,68 @@ document.addEventListener('DOMContentLoaded', function() {
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Bitter Lesson, End-to-end Coding, Creator Economy
+      GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39;
     </h1>
-    <div class="post-meta"><time datetime="2025-08-01">2025-08-01</time>&nbsp;·&nbsp;8 min&nbsp;|&nbsp;Translations:
+    <div class="post-meta"><time datetime="2025-08-09">2025-08-09</time>&nbsp;·&nbsp;7 min&nbsp;|&nbsp;Translations:
 <ul class="i18n_list">
     <li>
-        <a href="https://www.hancezhang.blog/zh/posts/bitter-lesson/">中文</a>
+        <a href="https://www.hancezhang.blog/zh/posts/gpt5/">中文</a>
     </li>
 </ul>
 
 </div>
   </header> 
-  <div class="post-content"><h3 id="the-misreading-of-bitter-lesson">The Misreading of Bitter Lesson<a hidden class="anchor" aria-hidden="true" href="#the-misreading-of-bitter-lesson">#</a></h3>
-<p>It’s become a kind of mantra in AI circles: <strong>“The Bitter Lesson.”</strong></p>
-<p>The idea, from researcher Rich Sutton, is that trying to bake human knowledge into models is a short-term crutch. History shows the biggest gains come from applying massive computation to general-purpose methods.</p>
-<p>Many industry leaders now champion this take. They suggest the purest path is to let the LLM figure things out for itself. The more your product does this, the more “agentic” it’s considered to be.</p>
-<p>But my experience building products tells a different story. <strong>The Bitter Lesson is true for pure research, but building a product requires a more dialectical view.</strong></p>
-<h3 id="principle-work-with-the-model-not-against-it">Principle: Work <em>With</em> the Model, Not Against It<a hidden class="anchor" aria-hidden="true" href="#principle-work-with-the-model-not-against-it">#</a></h3>
-<p>Giving an LLM too much external knowledge can be a disaster. I call the correct approach <strong>&ldquo;going with the grain.&rdquo;</strong></p>
-<p>An LLM has a natural inclination, like the grain in wood. It already possesses vast prior knowledge of coding patterns and architectures. <strong>If you align your requests with its existing knowledge, you maximize effectiveness and minimize hallucinations.</strong></p>
-<p>Attempting to force an LLM to learn a completely foreign architecture is a recipe for failure. It not only performs poorly but also consumes the model&rsquo;s finite context—its most precious resource. We should measure a model not just by its context window size, but by its <strong>&ldquo;in-context capability&rdquo;:</strong> the complexity of logic it can reliably execute.</p>
-<p>This is where a purely dogmatic view of the Bitter Lesson falls apart. The most pragmatic and effective tools, like <strong>Base44</strong>, are fast and reliable precisely because they rely heavily on pre-built templates where the LLM’s job is simply to &ldquo;fill in the blanks.&rdquo; In contrast, the more dogmatic approach of relying on an LLM to generate a production-ready app from scratch usually produces terrible results, a core problem for many AI coding products today.</p>
-<p>Base44&rsquo;s approach has trade-offs—its quality drops dramatically on requests outside its templates—but it proves a crucial point. In product development, <strong>the window of opportunity is what matters.</strong> It&rsquo;s okay to build transitional products that the next model wave might render obsolete. <strong>If adding human heuristics solves a user&rsquo;s problem now, it&rsquo;s the right choice.</strong> Technology is a means, not an end.</p>
-<h3 id="how-ai-coding-is-evolving-the-four-stages">How AI Coding is Evolving: The Four Stages<a hidden class="anchor" aria-hidden="true" href="#how-ai-coding-is-evolving-the-four-stages">#</a></h3>
-<p>The AI coding game is unfolding in four stages, with stages 2 and 3 happening concurrently.</p>
-<p><strong>1. AI-Assisted Coding</strong>
-This is the earliest stage, represented by tab-to-complete features in early versions of tools like Cursor.</p>
-<p><strong>2. AI Pair Coding</strong>
-This stage includes more agentic tools like Cursor Composer. The experience is like the invention of the <strong>manual transmission</strong>: powerful, but still requiring significant skill. It&rsquo;s best used by experienced developers who can get a massive productivity boost, but you still need to understand the fundamentals to use it effectively.</p>
-<p><strong>3. Vibe Coding 1.0</strong>
-This stage, represented by products like Lovable and Bolt.new, aims to help non-developers build software. It&rsquo;s like the invention of the <strong>automatic transmission</strong>, dramatically lowering the barrier to entry, even if some fine-grained control is lost. However, it still requires huge enthusiasm and patience. The interaction is often a &ldquo;say one thing, do one thing&rdquo; process, and its adopters are not yet the mass market, but rather <strong>AI enthusiasts and tech-savvy professionals</strong> like designers and PMs.</p>
-<p>Most of these tools are also &ldquo;front-end only&rdquo; and rely on platforms like Supabase. This means users still face a steep learning curve: they need to learn about prompting, databases, CDNs, and component variables—concepts an AI can&rsquo;t easily guess for them.</p>
-<p>A product called <strong>Trickle AI</strong> is particularly impressive here. It uses a canvas to visualize development essentials (database, assets, version control) and has put real thought into intuitive visual edits and deployment. It’s like a top-of-the-line automatic car where the ride, comfort, and dashboard are all maxed out.</p>
-<p><strong>A Personal Aside on Vibe Coding and the Future of Websites:</strong>
-I&rsquo;m personally avoiding the frenzy to compete on front-end generation. Building a good UI is hard because visual taste is subjective, making it difficult for an AI to satisfy a human in one shot. The amount of work for a complete, visually appealing webpage is immense.</p>
-<p>More importantly, <strong>I question the long-term value of webpages in an agentic future.</strong> For 20 years, websites have been key carriers of information and GUIs. But agents are now automating information retrieval and service calls. Information is being covered by products like Deep Research, and GUI operations will likely be handled by an agent&rsquo;s computer-use capabilities. We already see this with ChatGPT changing how we use browsers. I worry we&rsquo;re building a future with a flood of tools to create websites that only other agents will ever visit.</p>
-<p><strong>4. Fully Autonomous Coding</strong>
-This is where I believe the future is headed, expanding the market to a much broader audience. The vision is for an AI to complete coding tasks end-to-end from a simple, high-level request, much like Deep Research does for information retrieval. The AI would infer your underlying intent and build a ready-to-use application, with subsequent edits focused on functional improvements.</p>
-<p>While this is still a future paradigm, we can achieve a constrained version of it now. The challenge with building a <em>full web app</em> end-to-end is immense due to the complexity of GUIs, cloud deployment, visual adjustments, and databases—not to mention token costs. But what if we <strong>betray the Bitter Lesson and use a pre-filled, template-based approach?</strong> We could constrain the UI to its simplest, most essential forms: a few buttons, using natural language to call a backend, or a simple H5 app with pre-set GUI templates. This lands squarely in the comfort zone of current AI.</p>
-<p>This approach has a clear trade-off. It&rsquo;s like <strong>Waymo achieving self-driving, but only in San Francisco:</strong> a powerful but geographically limited solution. Anything outside the pre-defined scope is impossible. Perhaps a &ldquo;Tesla-level&rdquo; product will make this obsolete in two years. But in an AI startup, you can&rsquo;t wait for a lasting moat. In the face of absolute intelligence, moats are fleeting. <strong>If you can build a product that works for a year, focus on that year.</strong> Don&rsquo;t make too many predictions.</p>
-<h3 id="why-democratized-coding-wont-kill-the-market">Why Democratized Coding Won&rsquo;t Kill the Market<a hidden class="anchor" aria-hidden="true" href="#why-democratized-coding-wont-kill-the-market">#</a></h3>
-<p>Think about the magic behind taking a photo with your phone. To a modern user, the process feels instantaneous and intuitive. But this simplicity hides immense underlying complexity, a technological marvel that evolved over decades.</p>
-<p><strong>The Hidden Complexity of a Smartphone Photo:</strong>
-When you press the shutter, a multi-stage process executes in milliseconds:</p>
+  <div class="post-content"><p>The day GPT-5 arrived, model felt a bit stronger, but it quickly became clear that simply measuring its power in a chat window was missing the forest for the trees. The race for benchmark supremacy is becoming a distraction. The truly groundbreaking applications aren&rsquo;t emerging from a slightly smarter model, but from a richer <strong>environment</strong> that allows that model to act. The focus is shifting from the model itself to the system that unleashes its potential.</p>
+<p>So, when I look at a new model release now, I find myself skipping the benchmarks and heading straight for the developer documentation. The most telling signals aren&rsquo;t in the leaderboards, but in the API design, the cost curves, the context management, and the in-context capabilities. These are the signals that show us where the real work—and the real value—is. GPT-5 is a watershed moment not because it&rsquo;s the new king of the hill, but because it’s the clearest signal yet that the king-maker is the environment.</p>
+<h2 id="what-is-an"><strong>What Is an &ldquo;Environment&rdquo;?</strong><a hidden class="anchor" aria-hidden="true" href="#what-is-an">#</a></h2>
+<p>When I say &ldquo;environment,&rdquo; I don&rsquo;t just mean the dependencies. I mean the entire set of external conditions and mechanisms that allow a model to perform real-world tasks effectively. It&rsquo;s the scaffold that turns a powerful but inert model into a useful, reliable agent.</p>
+<p>This scaffold is made of several distinct components:</p>
 <ol>
-<li><strong>Light Capture:</strong> Light passes through lenses, is focused, and hits a CMOS sensor, which converts photons into a raw digital signal.</li>
-<li><strong>Image Processing:</strong> An Image Signal Processor (ISP) &ldquo;fills in&rdquo; color for each pixel, reduces noise, corrects white balance, and merges multiple exposures for HDR.</li>
-<li><strong>Final Touches:</strong> The processor maps colors to the sRGB space, sharpens edges for clarity, and finally compresses a 12 MB data stream into a 2 MB JPEG or HEIF file.</li>
+<li><strong>Data:</strong> First-party user data, domain knowledge, and a closed feedback loop. This provides the specific, proprietary context that makes a generic model feel like <em>your</em> model.</li>
+<li><strong>Context and Memory:</strong> Sophisticated retrieval, session memory, and persistent user profiles. It’s about remembering what matters, not just having a long context window.</li>
+<li><strong>Execution and Orchestration:</strong> The runtime that connects the model to the real world via tools and APIs. It handles task decomposition, failure recovery, and reliable execution.</li>
+<li><strong>Interaction and Workflow:</strong> The user-facing layer that shapes the model&rsquo;s power into a useful workflow, giving users clarity, control, and the ability to guide and correct the agent.</li>
+<li><strong>Runtime and Cost:</strong> The practical mechanics of performance and economics. An environment must be efficient in terms of speed, concurrency, and token usage to be viable.</li>
 </ol>
-<p>This entire pipeline is the magic that creates the &ldquo;point-and-shoot&rdquo; experience. I still remember when photography required a darkroom to develop film—a long, tedious, and professional process. It took years of iteration to achieve the universal access we have today, which in turn gave birth to new markets and products like Instagram.</p>
-<p>But even today, <strong>the convenience of smartphone cameras hasn&rsquo;t eliminated professional photographers,</strong> hobbyists, or the market for professional cameras. As the cost and complexity of a technology drop, the new market size becomes unimaginable. The smartphone expanded the photography market a hundredfold without destroying the professional niche.</p>
-<p>I believe the same will be true for software. <strong>AI will one day make software creation feel as simple, as instinctive, and as self-evident as taking a picture with our phones today.</strong></p>
-<h3 id="the-future-of-the-creator-economy-from-ads-to-apis">The Future of the Creator Economy: From Ads to APIs<a hidden class="anchor" aria-hidden="true" href="#the-future-of-the-creator-economy-from-ads-to-apis">#</a></h3>
-<p>The rise of agents leads to a deep concern for the creator economy. Many creators, like podcasters, currently survive on ad revenue. But <strong>AI is fundamentally changing consumption habits and threatening this model.</strong> Users now feed podcast audio into tools like NotebookLM to generate personalized, ad-free summaries. This behavior is becoming an expectation; you can already find comments on podcasts saying, &ldquo;No AI summary? I&rsquo;m not listening to this episode.&rdquo;</p>
-<p>This is part of a larger, inevitable shift: <strong>the entry point for information, content, and services is moving from platforms to personal agents.</strong> This will force a massive transformation in advertising, just as SEO is now adapting to AI search. The old logic of capturing user attention on a specific page is ending. In the future, user attention will be held by their personal agent.</p>
-<p>For creators, the best path forward is to <strong>charge for their content, functions, or information directly.</strong> They can expose their services as an API that agents call, charging on a per-use basis. I believe this is a more rational and sustainable model than advertising. In productivity scenarios, the &ldquo;browse and discover&rdquo; model of app stores will be replaced by agent-led recommendations and search. Entertainment and e-commerce will be trickier, as users often enjoy the process of browsing itself.</p>
+<p>The key insight is that the same model, when supported by different environments, can exhibit performance differences of an order of magnitude. A model is a powerful engine, but the environment is the vehicle—the transmission, the wheels, the steering—that determines where it can go and how fast.</p>
+<h2 id="the"><strong>The &ldquo;Environment-Friendly&rdquo; Signals from GPT-5</strong><a hidden class="anchor" aria-hidden="true" href="#the">#</a></h2>
+<p>What I found most exciting about the GPT-5 release wasn&rsquo;t the headline capabilities, but the subtle, &ldquo;environment-friendly&rdquo; shifts in the platform itself.</p>
+<p>First, the <strong>API is significantly more robust</strong>. The documentation is clearer, the parameters are more semantically meaningful. This is a clear nod to developers who are building complex orchestration layers on top.</p>
+<p>Second, the <strong>unit cost of intelligence continues to fall</strong>. With more granular pricing tiers and inference options, it becomes economically feasible to build &ldquo;thicker&rdquo; environments. You can afford to make more speculative calls, build more sophisticated caching strategies, and run more complex agentic loops without breaking the bank.</p>
+<p>Finally, the product is full of <strong>developer-centric details</strong>. This isn&rsquo;t just polish; it&rsquo;s a significant engineering and strategic shift. For a long time, the conventional wisdom was that the market was neatly divided: Anthropic was the developer-centric company focused on robust APIs, while OpenAI&rsquo;s strength was its massive consumer-facing product. This latest release blurs that line completely. By investing so heavily in the developer experience, OpenAI is implicitly acknowledging a crucial insight: while their consumer business is enormous, the path to truly massive scale runs through the API. It&rsquo;s a partial admission that consumer-led growth has its limits, and that the future depends on empowering an entire ecosystem of developers to build on their platform. They are admitting, through their actions, that the future is environment-first.</p>
+<h2 id="case-study-1-codingwhere-small-teams-won-by-building-thicker-environments"><strong>Case Study 1: Coding—Where Small Teams Won by Building Thicker Environments</strong><a hidden class="anchor" aria-hidden="true" href="#case-study-1-codingwhere-small-teams-won-by-building-thicker-environments">#</a></h2>
+<p>The coding assistant space is the clearest proof of the environment thesis. Early assistants were just clunky chat interfaces. You&rsquo;d paste code and ask for changes.</p>
+<p>Then, smaller teams like Cursor changed the game. They didn&rsquo;t build a better model; they built a better <strong>environment</strong> inside the IDE. By integrating the model with the entire project context, dependency graph, and a tight execution loop (suggest -&gt; run -&gt; test -&gt; feedback), they turned a simple chat into a true collaboration. The experience became a granular partnership on code, not just a conversation about it.</p>
+<p>The big players like Claude Code are now racing to replicate this deep integration, but they&rsquo;re following a path blazed by others. It proves the core lesson: when everyone has the same powerful engine (the LLM), the winner is the one who builds the best car around it.</p>
+<h2 id="case-study-2-educationthe-complementarity-of-duolingo-and-chatgpt"><strong>Case Study 2: Education—The Complementarity of Duolingo and ChatGPT</strong><a hidden class="anchor" aria-hidden="true" href="#case-study-2-educationthe-complementarity-of-duolingo-and-chatgpt">#</a></h2>
+<p>Consider Duolingo. Its strength isn&rsquo;t its AI, but its meticulously crafted learning environment. It has a structured <strong>curriculum</strong> that guides you from one concept to the next, a powerful <strong>gamification and retention engine</strong> that keeps you coming back, and a tight <strong>feedback loop</strong> of quizzes and corrections.</p>
+<p>When I use ChatGPT for language practice, the experience is completely different. It&rsquo;s an incredibly powerful and flexible conversation partner. I can explore any topic, ask for nuanced explanations, and get personalized practice. But it has no curriculum, no memory of what I&rsquo;ve learned, and no long-term plan for my progress.</p>
+<p>This highlights the power of a vertical-specific environment. In a future where Duolingo can plug in a model as powerful as GPT-5 via an API, its existing environment becomes a massive amplifier. It can combine its structured, motivating framework with the fluid, conversational power of a top-tier model. The model becomes a component, a super-powered processor inside a machine that is already expert at teaching.</p>
+<p>This is the pattern we&rsquo;ll see in many verticals. The best educational tool won&rsquo;t be a generic chatbot; it will be a purpose-built &ldquo;teaching machine&rdquo; that embeds a powerful generic model within its specialized environment.</p>
+<h2 id="redrawing-the-lines-the-model-layer-vs-the-environment-layer"><strong>Redrawing the Lines: The Model Layer vs. the Environment Layer</strong><a hidden class="anchor" aria-hidden="true" href="#redrawing-the-lines-the-model-layer-vs-the-environment-layer">#</a></h2>
+<p>This leads to a natural division of labor in the industry.</p>
+<p>The <strong>model layer</strong> <strong>is commoditizing</strong>. We have several major players (OpenAI, Anthropic, Google, Mistral) and a vibrant open-source ecosystem, all pushing in the same direction. The quality gap is narrowing, and competition is increasingly shifting to price, speed, and modality options (e.g., longer context, finer-grained tool use).</p>
+<p>It&rsquo;s highly unlikely that these model providers will successfully capture all the valuable vertical environments. The reasons are simple:</p>
+<ol>
+<li><strong>Organizational Focus:</strong> The number of valuable, specific verticals is immense. A single company cannot focus on building deep, best-in-class solutions for coding, education, healthcare, law, and finance simultaneously.</li>
+<li><strong>Engineering and Compliance Overhead:</strong> The details matter. The engineering challenges and compliance requirements for a medical AI are vastly different from those for a legal AI. These are deep moats that require specialized expertise.</li>
+<li><strong>The Economics of APIs:</strong> The API business is incredibly attractive. By providing the &ldquo;picks and shovels,&rdquo; model providers benefit from the entire ecosystem&rsquo;s innovation. Shutting down APIs to compete in a few verticals would mean sacrificing the immense marginal revenue and ecosystem energy from all the others.</li>
+</ol>
+<p>The logical conclusion is a stable, two-layer system: the model as infrastructure, and the environment as the product.</p>
+<h2 id="counterarguments-and-rebuttals"><strong>Counterarguments and Rebuttals</strong><a hidden class="anchor" aria-hidden="true" href="#counterarguments-and-rebuttals">#</a></h2>
+<p>There are a few common objections to this view.</p>
+<ul>
+<li><strong>Counterargument A: A major provider will close its API and vertically integrate to capture all the value in vertical environment.</strong>
+<ul>
+<li><strong>Rebuttal:</strong> This is unlikely to succeed. The competitive landscape guarantees that APIs are a permanent feature of the market. If one major provider closes its API, another will immediately step in to capture those customers. As long as high-quality APIs are available—and they will be—a model provider cannot realistically outcompete a vertical-specific company that has a superior environment built on deep experience, proprietary data, and specialized workflows.</li>
+</ul>
+</li>
+<li><strong>Counterargument B: A universal &ldquo;Agent OS&rdquo; will emerge and absorb all vertical applications.</strong>
+<ul>
+<li><strong>Rebuttal:</strong> A general-purpose OS will solve for breadth, but vertical applications will always win on depth, compliance, and proprietary data. You might use a general agent to book a flight, but you&rsquo;ll use a specialized, trusted agent to review a legal contract or diagnose a medical issue. The two will coexist.</li>
+</ul>
+</li>
+</ul>
 
 
   </div>

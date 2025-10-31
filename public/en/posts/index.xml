@@ -6,8 +6,43 @@
     <description>Recent content in Posts on Hance Zhang&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.hancezhang.blog/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domesticated by Technology</title>
+      <link>https://www.hancezhang.blog/en/posts/domesticated-by-technology/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/domesticated-by-technology/</guid>
+      <description>Efficiency gains don&amp;rsquo;t create leisure because technology is selecting what kind of humans survive</description>
+    </item>
+    <item>
+      <title>Mimetic Desire and the Performance of Contrarianism</title>
+      <link>https://www.hancezhang.blog/en/posts/mimetic-desire/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/mimetic-desire/</guid>
+      <description>In the AI gold rush, &amp;lsquo;being contrarian&amp;rsquo; has become its own consensus; the real move is choosing the life that fits you.</description>
+    </item>
+    <item>
+      <title>GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39;</title>
+      <link>https://www.hancezhang.blog/en/posts/gpt5/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/gpt5/</guid>
+      <description>The model and product layers in the AI industry are more clearly separated than ever.</description>
+    </item>
+    <item>
+      <title>Compute Is the New Leverage (and Probably the Best One)</title>
+      <link>https://www.hancezhang.blog/en/posts/compute-leverage/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/compute-leverage/</guid>
+      <description>Rich concensus is no longer necessary as compute outperforms labor as a leverage</description>
+    </item>
+    <item>
+      <title>Bitter Lesson, End-to-end Coding, Creator Economy</title>
+      <link>https://www.hancezhang.blog/en/posts/bitter-lesson/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/bitter-lesson/</guid>
+      <description>The Bitter Lesson is true for research, but product development requires working with the model&amp;rsquo;s grain, not against it.</description>
+    </item>
     <item>
       <title>Why Growth Hacking and A/B testing is Bullshit Before PMF</title>
       <link>https://www.hancezhang.blog/en/posts/user-experience/</link>
@@ -56,16 +91,6 @@
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://www.hancezhang.blog/en/posts/designing-anti-fragility/</guid>
       <description>Great design is not about predicting the future but about crafting the antifragile system</description>
-    </item>
-    <item>
-      <title>Bitter Lesson, End-to-end Coding, Creator Economy</title>
-      <link>https://www.hancezhang.blog/en/posts/bitter-lesson/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.hancezhang.blog/en/posts/bitter-lesson/</guid>
-      <description>&lt;h3 id=&#34;the-misreading-of-bitter-lesson&#34;&gt;The Misreading of Bitter Lesson&lt;/h3&gt;
-&lt;p&gt;It’s become a kind of mantra in AI circles: &lt;strong&gt;“The Bitter Lesson.”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The idea, from researcher Rich Sutton, is that trying to bake human knowledge into models is a short-term crutch. History shows the biggest gains come from applying massive computation to general-purpose methods.&lt;/p&gt;
-&lt;p&gt;Many industry leaders now champion this take. They suggest the purest path is to let the LLM figure things out for itself. The more your product does this, the more “agentic” it’s considered to be.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brian Chesky and Founder Mode</title>

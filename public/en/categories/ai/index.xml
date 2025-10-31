@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Hance Zhang&#39;s Blog</title>
+    <link>https://www.hancezhang.blog/en/categories/ai/</link>
+    <description>Recent content in AI on Hance Zhang&#39;s Blog</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.hancezhang.blog/en/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domesticated by Technology</title>
+      <link>https://www.hancezhang.blog/en/posts/domesticated-by-technology/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/domesticated-by-technology/</guid>
+      <description>Efficiency gains don&amp;rsquo;t create leisure because technology is selecting what kind of humans survive</description>
+    </item>
+    <item>
+      <title>GPT-5 Is the Watershed: From &#39;Model Will Absorb Everything&#39; to &#39;Environment Is What Matters&#39;</title>
+      <link>https://www.hancezhang.blog/en/posts/gpt5/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/gpt5/</guid>
+      <description>The model and product layers in the AI industry are more clearly separated than ever.</description>
+    </item>
+    <item>
+      <title>Compute Is the New Leverage (and Probably the Best One)</title>
+      <link>https://www.hancezhang.blog/en/posts/compute-leverage/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/compute-leverage/</guid>
+      <description>Rich concensus is no longer necessary as compute outperforms labor as a leverage</description>
+    </item>
+    <item>
+      <title>Bitter Lesson, End-to-end Coding, Creator Economy</title>
+      <link>https://www.hancezhang.blog/en/posts/bitter-lesson/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/bitter-lesson/</guid>
+      <description>The Bitter Lesson is true for research, but product development requires working with the model&amp;rsquo;s grain, not against it.</description>
+    </item>
+    <item>
+      <title>From &#39;I Think&#39; to &#39;I Tried&#39;: Building an Experiment-Centric Team Culture with AI</title>
+      <link>https://www.hancezhang.blog/en/posts/experiment-culture/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/en/posts/experiment-culture/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve all been in those meetings: discussing a new idea, an innovative project, and then getting bogged down in endless debate. Everyone speaks with conviction, citing classics (or perhaps just an article they saw yesterday), but the discussion seems to go in circles, often ending inconclusively or with the decision made by the loudest voice, the highest-ranking person, or the most stubborn. Why does this happen? Especially in the realm of innovation?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

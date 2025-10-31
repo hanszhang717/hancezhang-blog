@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hancezhang.blog/en/categories/ai/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/categories/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/categories/ai/"
+                />
+  </url><url>
     <loc>https://www.hancezhang.blog/en/categories/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -15,8 +28,21 @@
                 href="https://www.hancezhang.blog/en/categories/"
                 />
   </url><url>
+    <loc>https://www.hancezhang.blog/en/posts/domesticated-by-technology/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/technology-domesticates-humans/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/domesticated-by-technology/"
+                />
+  </url><url>
     <loc>https://www.hancezhang.blog/en/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -28,8 +54,21 @@
                 href="https://www.hancezhang.blog/en/"
                 />
   </url><url>
+    <loc>https://www.hancezhang.blog/en/categories/mindsets/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/categories/mindsets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/categories/mindsets/"
+                />
+  </url><url>
     <loc>https://www.hancezhang.blog/en/posts/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -39,6 +78,48 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://www.hancezhang.blog/en/posts/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/en/posts/mimetic-desire/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.hancezhang.blog/en/posts/gpt5/</loc>
+    <lastmod>2025-08-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/gpt5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/gpt5/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/en/posts/compute-leverage/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/compute-leverage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/compute-leverage/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/en/posts/bitter-lesson/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/bitter-lesson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/bitter-lesson/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/en/categories/product/</loc>
@@ -78,19 +159,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://www.hancezhang.blog/en/posts/experiment-culture/"
-                />
-  </url><url>
-    <loc>https://www.hancezhang.blog/en/categories/mindsets/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.hancezhang.blog/zh/categories/mindsets/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.hancezhang.blog/en/categories/mindsets/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/en/posts/the-scorecard-fallacy/</loc>
@@ -169,19 +237,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://www.hancezhang.blog/en/posts/designing-anti-fragility/"
-                />
-  </url><url>
-    <loc>https://www.hancezhang.blog/en/posts/bitter-lesson/</loc>
-    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.hancezhang.blog/zh/posts/bitter-lesson/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.hancezhang.blog/en/posts/bitter-lesson/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/en/posts/founder-mode/</loc>

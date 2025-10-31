@@ -2,6 +2,7 @@
 title: "从“我觉得”到“我试了”：用AI构建以实验为核心的团队文化"
 date: "2025-05-15"
 draft: false
+categories: ["AI"]
 slug: "experiment-culture"
 ---
 

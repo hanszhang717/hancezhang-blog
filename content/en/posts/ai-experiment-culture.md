@@ -2,6 +2,7 @@
 title: "From 'I Think' to 'I Tried': Building an Experiment-Centric Team Culture with AI"
 date: "2025-05-15"
 draft: false
+categories: ["AI"]
 slug: "experiment-culture"
 ---
 

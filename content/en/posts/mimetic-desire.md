@@ -34,3 +34,5 @@ I used to think that my old life—the one that followed consensus—was simply 
 Perhaps the truly contrarian move, right now, is to ignore the pressure to drop out and build a startup. Perhaps it's to quietly choose the life that fits you, not the costume that fits the moment.
 
 
+
+
