@@ -184,32 +184,20 @@
 <div class="newsletter-section">
     <div class="newsletter-container">
         <h3>📧 订阅博客更新</h3>
+        
         <p class="newsletter-description">
             
                 订阅我的博客，第一时间获取关于领导力、AI、产品构建和投资的最新文章。
             
         </p>
+
         
+        <p class="newsletter-unconfigured">
+            
+                订阅功能尚未配置，请直接发送邮件至 <a href="mailto:hanszhang717@gmail.com">hanszhang717@gmail.com</a>。
+            
+        </p>
         
-        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
-            <div class="form-group">
-                <input 
-                    type="email" 
-                    name="email" 
-                    placeholder="输入您的邮箱地址" 
-                    required 
-                    class="email-input"
-                >
-                <button type="submit" class="subscribe-button">
-                    订阅
-                </button>
-            </div>
-            <p class="privacy-notice">
-                
-                    我们尊重您的隐私，不会发送垃圾邮件。您可以随时取消订阅。
-                
-            </p>
-        </form>
     </div>
 </div>
 
@@ -282,6 +270,16 @@
     font-size: 0.875rem;
     color: var(--secondary);
     margin: 0;
+}
+
+.newsletter-unconfigured {
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.newsletter-unconfigured a {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

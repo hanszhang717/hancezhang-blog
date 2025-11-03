@@ -2,6 +2,7 @@
 <div class="newsletter-section">
     <div class="newsletter-container">
         <h3>{{ if eq .Language.Lang "zh" }}📧 订阅博客更新{{ else }}📧 Subscribe to Updates{{ end }}</h3>
+        {{ $action := site.Params.newsletterFormAction }}
         <p class="newsletter-description">
             {{ if eq .Language.Lang "zh" }}
                 订阅我的博客，第一时间获取关于领导力、AI、产品构建和投资的最新文章。
@@ -9,9 +10,9 @@
                 Subscribe to get the latest posts about leadership, AI, product building, and investment delivered to your inbox.
             {{ end }}
         </p>
-        
-        <!-- Replace ACTION_URL with your actual subscription service URL -->
-        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
+
+        {{ if $action }}
+        <form action="{{ $action }}" method="post" class="newsletter-form">
             <div class="form-group">
                 <input 
                     type="email" 
@@ -32,6 +33,15 @@
                 {{ end }}
             </p>
         </form>
+        {{ else }}
+        <p class="newsletter-unconfigured">
+            {{ if eq .Language.Lang "zh" }}
+                订阅功能尚未配置，请直接发送邮件至 <a href="mailto:hanszhang717@gmail.com">hanszhang717@gmail.com</a>。
+            {{ else }}
+                Subscription form isn’t configured yet. Feel free to email <a href="mailto:hanszhang717@gmail.com">hanszhang717@gmail.com</a> directly.
+            {{ end }}
+        </p>
+        {{ end }}
     </div>
 </div>
 
@@ -104,6 +114,16 @@
     font-size: 0.875rem;
     color: var(--secondary);
     margin: 0;
+}
+
+.newsletter-unconfigured {
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.newsletter-unconfigured a {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

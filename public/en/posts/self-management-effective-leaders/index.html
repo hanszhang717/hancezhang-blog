@@ -149,32 +149,20 @@
 <div class="newsletter-section">
     <div class="newsletter-container">
         <h3>📧 Subscribe to Updates</h3>
+        
         <p class="newsletter-description">
             
                 Subscribe to get the latest posts about leadership, AI, product building, and investment delivered to your inbox.
             
         </p>
+
         
+        <p class="newsletter-unconfigured">
+            
+                Subscription form isn’t configured yet. Feel free to email <a href="mailto:hanszhang717@gmail.com">hanszhang717@gmail.com</a> directly.
+            
+        </p>
         
-        <form action="YOUR_SUBSCRIPTION_SERVICE_URL" method="post" class="newsletter-form">
-            <div class="form-group">
-                <input 
-                    type="email" 
-                    name="email" 
-                    placeholder="Enter your email address" 
-                    required 
-                    class="email-input"
-                >
-                <button type="submit" class="subscribe-button">
-                    Subscribe
-                </button>
-            </div>
-            <p class="privacy-notice">
-                
-                    We respect your privacy. No spam, unsubscribe at any time.
-                
-            </p>
-        </form>
     </div>
 </div>
 
@@ -247,6 +235,16 @@
     font-size: 0.875rem;
     color: var(--secondary);
     margin: 0;
+}
+
+.newsletter-unconfigured {
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.newsletter-unconfigured a {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
