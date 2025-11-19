@@ -1,77 +1,81 @@
 ---
-title: "Six Principles of Product Strategy"
+title: "Six Principles to Build a Great Product"
 date: 2024-10-15
 draft: false
-summary: "Notes from the trenches: How to build in a chaotic world."
+summary: "A redacted excerpt from an internal letter on product strategy."
 categories: ["Work"]
 slug: "principles-product-development"
 ---
 
-*This is a redacted excerpt from an internal letter I wrote to my product team. Sensitive info has been scrubbed, but the logic remains.*
+This is a redacted excerpt from an internal letter I wrote, with all sensitive information removed or masked.
 
-**Strategic principles are about trade-offs. They are about how to leverage strengths, mitigate weaknesses, and build a chain of interconnected actions.**
 
-## 1. Step by Step (The Chain of Actions)
+**Reaffirming Strategic Principles: Prioritization of Objectives, Trade-Offs on Different Objectives, and Building a Chain of Interconnected Actions**
 
-The core of "step-by-step" is dynamic perspective switching. We split business functions to avoid bottlenecks, but now we must ensure we don't lose the ecosystem advantage.
+## **Principle 1: Step by Step**
 
-"Step by step" means avoiding extreme modularity where teams operate in silos. **Every move must connect.** We are building a chain, not a pile of disconnected bricks.
+The core of a "step-by-step" approach lies in dynamically shifting perspectives as we make modular progress, ensuring we don't lose the synergy of an integrated business ecosystem. Segmenting different business functions helped avoid internal bottlenecks. Now, in developer product development, "step-by-step" means avoiding extremes of modularity that isolate teams and instead ensuring that each move integrates tightly with the rest. **This step-by-step approach guarantees that our actions form an interconnected chain of progress, rather than haphazard rushes forward.**
 
-Every major update must ask: Does this connect with our traffic sources? Does it leverage our creator economy? Are we digging a moat or just a hole?
+Each major product update or expansion initiative should prompt a critical question: Have we connected with all the business lines or resources we have? Are we leveraging the advantages of our integrated ecosystem? Are we laying groundwork for future ecosystem alignment?
 
-Coordination has a cost. If one line fails, it drags down the others. We might move slower than a purely modular startup, but we are building the capacity to manage complex loops. By rigorously closing these feedback loops, our ecosystem advantage compounds.
+Coordinating closely with other business lines incurs a cost, and we need to acknowledge it. In simple terms, weak performance in one line can pull down others, which means we might not expand modularly as fast as possible. Instead, we must develop the ability to manage increasingly complex loops. By steadfastly building these feedback loops, we enhance the advantages of our integrated ecosystem over the long term, turning them into our core differentiator.
 
-This is also the counter to the "Quick Win" mentality. Do not get drunk on vanity metrics like MAU. **10 users who love you are worth more than 100 who tolerate you.**
+The step-by-step principle is also a powerful counter to "quick-win" expansion strategies. Let's avoid being misled by performance metrics like DAU or MAU, at least for now. Remember: ten users who love you are more valuable than a hundred who only kind of like you. And where does user loyalty come from? From leveraging our ecosystem's strengths.
 
-## 2. Proximate Goals
+Leveraging vertical integration on a smaller scale helps us concentrate our strengths even if, overall, our ecosystem is less mature than competitors'. This lets us compete from a stronger position on our chosen ground.
 
-> "A leader’s most important responsibility is to identify the biggest challenge and devise a coherent approach to overcoming it."
-> — *Richard Rumelt, Good Strategy / Bad Strategy*
+## **Principle 2: Proximate Goals**
 
-Grand visions generate excitement, but also fear. If you only have a 5-year goal, engineers freeze.
+> All leaders have a crucial responsibility: **to simplify complex and ambiguous problems** and present them in a solvable form for their organization. Many leaders fall short here, often declaring ambitious goals without properly mapping out the obstacles. Taking responsibility doesn't only mean owning up to mistakes but also setting achievable, proximate goals that offer the organization solvable challenges.
+— *Good Strategy, Bad Strategy*
+> 
 
-We must empower frontline teams with decision-making power, but we must also **reduce ambiguity**. Break the mountain down into climbable hills. Set **Proximate Goals**—targets that are challenging but clearly achievable.
+Ambitious goals can drive excitement, but they can also cause confusion and fear. Without achievable, smaller goals, our engineers don't have a clear starting point. We must empower frontline teams with decision-making power, while also reducing the ambiguity they face. Break down goals into tasks whenever possible. Focusing on proximate goals over grand visions keeps the team moving forward.
 
-Proximate goals provide the dopamine hit of progress. Product warfare is a long game. You won't get constant applause from the market. Completing small, meaningful loops keeps morale alive in the trenches.
+Proximate goals also provide timely motivation. Building a new business will be a long-term endeavor. We can't expect constant, strong positive feedback from the market, so setting and achieving smaller goals gives our team the positive reinforcement crucial for morale.
 
-## 3. Ship Often, Ship Early
+## **Principle 3: Go-To-Market Multiple Times**
 
-> "90% of product ideas are bad. The difference is how fast you find out."
-> — *Marc Randolph, Netflix Co-founder*
+> Ninety percent of product ideas are bad—what matters is how quickly you realize they are.
+— *Marc Randolph, Co-founder of Netflix*
+> 
 
-Constant market engagement does three things:
-1.  Prevents "ivory tower" development (building things nobody wants).
-2.  Uses new products as scouts to probe real demand.
-3.  Stress-tests our internal execution.
+Constant market engagement has three main benefits:
 
-Product development is a social experiment. The "Genius PM" who invents the perfect product in isolation is a myth. The market is the lab. **Speed of iteration is the only advantage that matters.**
+- Preventing insularity and creating products people actually need
+- Using new products to probe true market needs (the "scouting" approach),
+- Testing the reliability of our internal teams.
 
-Mark Zuckerberg viewed product as a turn-based strategy game: the secret is simply to have more turns than your opponent.
+Developing products is like running social experiments. Genius product managers don't create universally-needed products out of thin air; the market is our lab. **The faster we obtain real results, the clearer our differentiation from competitors will be.** Mark Zuckerberg once said that building products is a turn-based strategy game and the winning secret is to ship it fast to have more turns than others. Accelerate problem exposure, increase visibility of issues, and ensure everyone is accountable for what they build and understands the use cases deeply.
 
-## 4. Engineers Must Feel the Pain (User Culture)
+Getting market feedback is an art. We can't let market requests dictate every move or become tunnel-visioned on internal development goals. The answer is neither, but in accelerating our frequency of market engagement, reducing bias in feedback, and identifying core demands.
 
-Product competition is a war of attrition. We need a team that is durable.
+## **Principle 4: Build a User Culture**
 
-If engineers don't care about users, they are mercenaries, not missionaries. Mercenaries flee when things get hard.
+Recognizing that product development will be long-term means understanding that we need an exceptional, durable team. As we noted, we're still in the early stages; the real competition will be even tougher.
 
-**User culture is not optional.** Why?
-*   **Empowerment requires context.** If you want engineers to make decisions (which you should), they need to understand the user's pain. Otherwise, they are just following instructions like robots.
-*   **Kill the middleman.** Roles that exist solely to pass messages between users and engineers are waste. They add noise and delay.
-*   **Build in Public.** Engineers should talk to users, fix bugs directly, and explain their work. If an engineer can't explain *why* a feature exists, they shouldn't be building it.
+Any member indifferent to user needs or uninterested in the business trajectory could hinder the team down the line. Building a strong team will also be a long-term commitment; rapid turnover of team members would only be another version of the "quick-win" fallacy. **Promoting a strong user culture is a necessity, not an option.**
 
-## 5. Brutal Honesty (Stay Objective)
+Why is this essential?
 
-Long-term competition tests your psychology. The enemy is delusion—either despair ("we are doomed") or arrogance ("we are winning").
+- If we're empowering frontline engineers, they must understand user needs deeply; otherwise, they're just following product requirement docs.
+- Eliminate any go-between roles that separate engineers from users; these roles only add noise and delays.
+- Principle three—**Go-To-Market Multiple Times**—is best served by "building in public," where engineers can directly address feedback and bugs. If an engineer can't explain their work clearly, it indicates a need for deeper understanding. This level of clarity is necessary before delegation can be effective.
 
-**Objectively Assess the Gap.**
-Use competitor products. Don't rely on reports. Feel the gap yourself. Don't buy into their PR; look at the product reality.
+## **Principle 5: Stay Objective**
 
-**Progress is Non-Linear.**
-Stop thinking "If I do A, I get B." That’s student thinking. In the real world, you do A, and nothing happens. Or you do A, and C happens. We are not omniscient. We are just guessing and checking. The goal is to check cheaply.
+Long-term competition tests our mindset: neither despair nor overconfidence are helpful. To maintain realistic assessments and a steady outlook, we must remind ourselves to stay objective.
 
-**Negative feedback is gold.** Silence is death. If users are complaining, at least they care.
+### **Objectively Assess the Gaps**
 
-## 6. Catch the Exponential Waves
+Stay informed of competitor dynamics. Where possible, try competitor products firsthand and monitor market feedback. Avoid being misled by competitors' "smoke-and-mirrors" updates, and keep a realistic view of market prospects and competition intensity.
 
-**Growth is exponential in the long run, but volatile in the short run.**
-We can't predict the breakout moments. We can only prepare for them. We build capacity, we survive the flat periods, and we stay ready to surf the wave when it comes.
+### **Recognize the Twisting Path of Progress**
+
+**Progress is not linear.** We're not omniscient and will have to continuously adapt. Don't fall into the trap of assuming "A will lead to B." New features won't automatically bring users; multiple factors could be at play. Our aim should be to test widely and cheaply.
+
+Negative feedback is still feedback. Being criticized by users is better than market silence; it proves that our needs assessment was somewhat accurate.
+
+## **Principle 6: Stay Attuned to Opportunities**
+
+**Growth over the long term follows a exponential curve, with bursts of short-term volatility.** Opportunities are unpredictable, and to grow, we must be prepared to seize them. Our ability to capture these moments must be continually maintained.

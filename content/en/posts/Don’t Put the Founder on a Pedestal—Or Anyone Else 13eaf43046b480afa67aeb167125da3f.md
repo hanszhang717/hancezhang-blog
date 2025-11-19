@@ -7,50 +7,27 @@ categories: ["Work"]
 slug: "no-pedestals"
 ---
 
-I have deep respect for the founders I work with. I wouldn't be working here otherwise. In my eyes, they are remarkable leaders.
+I have a deep respect for the founders at my company; otherwise, I wouldn't still be here. From my perspective, they're all remarkable leaders. But that doesn't contradict the point of this article: idolizing your founder, leader, or anyone else—whether they're Elon Musk, Steve Jobs, or anyone else—is a mistake. The reason is simple: they're not superhuman, no one is.
 
-But here is the nuance: idolizing your founder, your CEO, or anyone else—whether it’s Elon Musk, Steve Jobs, or your direct manager—is a trap. The reason is simple: **there are no superhumans.**
+One common misconception is that leaders possess greater technical skill than frontline employees, and people attribute that to their leader's promotion. But leadership is just a different role. It demands a distinct skill set—one that's often rarer and generally more difficult, which tends to earn higher compensation. But that's all there is to it.
 
-### The Myth of Superiority
+In an ideal work environment, the leader shouldn't be the one making every decision. If they are, it typically means one of two things:
 
-The biggest myth in tech is that your boss is smarter than you.
+- They're micromanaging, or
+- They've hired people who can't outperform them in specialized areas.
 
-People often assume leaders have superior technical skills or higher IQs, and that’s why they’re in charge. But leadership is just a different role. It requires a specific, rare, and difficult skill set—vision, capital allocation, people management—which is why it pays well. But it’s not a higher plane of existence.
+Neither scenario is ideal. Instead, a good leader functions as a "provider of hidden information" and a "big-picture decision-maker." Their value lies in vision, strategy, objective-setting, and people skills—not in expertise within every specific domain.
 
-In a healthy organization, the leader *shouldn't* be the one making every decision. If they are, it usually means:
-1. They are micromanaging.
-2. They’ve hired people who aren't actually good at their jobs.
+Recognizing that leaders are simply playing a different role clarifies why idolizing them is risky.
 
-Neither is a good sign. A great leader functions as a **"Router of Context."** Their job is to provide the hidden information you don't see, set the objective, and then get out of the way. Their value is in the big picture, not in out-coding or out-designing you.
+**1. Idolization Leads to Emotional Extremes**
 
-Once you realize leadership is a role, not a superpower, you see why putting them on a pedestal is dangerous.
+When we put leaders on a pedestal, we become prone to emotional extremes. If you believe your leader is right in every decision, eventually reality will show you otherwise. This disillusionment often leads people to the opposite extreme, viewing the leader as entirely flawed. I've seen this happen repeatedly, and it usually stems from a lack of perspective—a tendency to see leaders as all-knowing, which leaves little room for objective evaluation.
 
-### 1. Idolatry Breeds Instability
+**2. Idolization Can Make You Lose Your Position**
 
-When you put a leader on a pedestal, you set yourself up for emotional volatility.
+The best organizations are made up of extraordinary people who excel in their specific areas, and a leader who brings them together and guides the big picture. If you believe your leader is a superhuman, you may start to doubt your own value, perhaps wishing they could be cloned to handle your role, too. But viewing your leader's strengths and weaknesses realistically allows you to better complement their abilities. Great leaders are often self-aware enough to acknowledge their own weaknesses and encourage you to fill in those gaps. But many leaders lack this level of self-awareness, so it's up to you to understand the team's objectives, identify the leader's blind spots, and find your best contribution.
 
-If you believe your leader is infallible, reality will eventually punch you in the face. Leaders screw up. Strategies fail. When this happens, the "superfan" employee often swings violently to the opposite extreme. The worship turns into cynicism.
+**3. Objectivity Helps You Learn What Leadership Really Involves**
 
-I’ve seen this "fan-to-hater" pipeline happen repeatedly. It stems from a lack of perspective. If you start by seeing them as all-knowing gods, you leave no room for them to be human. And humans make mistakes.
-
-### 2. Worship Erases Your Value
-
-The best companies are built by extraordinary specialists led by a generalist.
-
-If you believe your leader is a superhuman who could do your job better than you if they only had the time, **you devalue your own contribution.** You start to wish they could just clone themselves. You stop taking ownership.
-
-But if you view your leader realistically—as someone with specific strengths (vision, sales, strategy) and specific blind spots—you can actually do your job. Your job is to complement them.
-
-Great leaders are self-aware enough to admit their weaknesses and hire you to fill them. Bad leaders believe their own hype. But regardless of which one you work for, your strategy should be the same: understand the objective, identify their blind spots, and fill the gap.
-
-### 3. Demystification is the Only Way to Learn
-
-By dropping the idolization, you can finally start learning what leadership actually is.
-
-It’s messy. It involves making high-stakes decisions with 50% of the information. It involves managing trade-offs where every option is bad. It involves anxiety, hesitation, and irrationality.
-
-If you attribute every move your founder makes to "innate genius," you learn nothing. You just watch the magic show.
-
-But if you look closely at the messy reality—the doubts, the pivots, the wrong calls—you might actually learn how to lead.
-
-Most of the time, they are more like you than you think. They’re just figuring it out as they go.
+By dropping the idolization, you can begin to learn what good leadership actually entails. Leaders make big, impactful decisions—and they also make mistakes, often ones that aren't immediately obvious. The only way to understand their decision-making is to examine the trade-offs, anxieties, hesitations, and sometimes even the irrationality behind their choices. Attributing your leader's decision to "genius" or "innate talent" won't help you grow. But understanding the practical, often messy reality of leadership just might. Most of the time, you're more like them than you might think.
