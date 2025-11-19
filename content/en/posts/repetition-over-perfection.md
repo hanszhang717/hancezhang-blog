@@ -21,9 +21,9 @@ These are simply behaviors that compound over time if you keep doing them. Waiti
 
 ## Repetition Is What Actually Matters
 
-Here's the uncomfortable truth: **perfection is the enemy of repetition.**
+The uncomfortable truth? **Perfection is the enemy of repetition.**
 
-Most people approach behavior change backwards. They obsess over technique, optimal strategies, and perfect execution. They read books about the best workout routines, the ideal writing process, the most effective productivity systems.
+Most people get behavior change backwards. They obsess over technique, optimal strategies, and perfect execution. They read books about the best workout routines, the ideal writing process, the most effective productivity systems.
 
 But if you can't sustain the behavior long enough for it to compound, none of that matters.
 
@@ -39,7 +39,7 @@ Reality doesn't work that way. If you stop going to the gym, your muscles atroph
 
 Duolingo became the most successful language-learning company in the world not by building the best curriculum, but by obsessing over retention. **70% of their employees work on product improvements**, and they run hundreds of A/B tests every week, almost all focused on keeping users engaged.
 
-The result? Daily active users grew 4.5x over four years. Current User Retention Rate improved by 21%. As their VP of Growth put it, they explicitly "prioritized retention over new user acquisition."
+The result? Daily active users grew 4.5x over four years. Retention rates improved by 21%. As their VP of Growth put it, they explicitly "prioritized retention over new user acquisition."
 
 Here's what's revealing about this strategy: **academic research found that Duolingo's gamification mechanics sometimes make users "too fixated" on streaks and leaderboards, distracting them from actual learning.** And yet the company kept doubling down on engagement, because they understood something fundamental:
 
@@ -173,7 +173,7 @@ Phillippa Lally's research at University College London found that it takes an a
 
 Translation: **the first two months are going to suck.** You will have to consciously decide to do the thing, every single time. It will feel effortful. It won't feel natural yet.
 
-This is the danger zone. This is where most people quit.
+This is the danger zone. The graveyard of good intentions.
 
 **3. The world can't distinguish between talent and consistency**
 
@@ -194,7 +194,7 @@ But showing up? That's just engineering. It's about:
 - Designing commitment devices that make continuation easier
 - Choosing incremental habits over restrictive ones
 
-You can't "decide" to be twice as smart. But you can absolutely engineer your environment to double your consistency.
+You can't *will* yourself to be twice as smart. But you can absolutely engineer your environment to double your consistency.
 
 **This is the ultimate leverage point.** Not because it's fair, but because it's *within your control.*
 
