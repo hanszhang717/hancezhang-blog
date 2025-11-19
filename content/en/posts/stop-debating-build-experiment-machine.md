@@ -11,7 +11,7 @@ Recently, I had a conversation with our engineering lead. He raised a concern ma
 
 My answer: You don't need to worry. This is a classic Jevons Paradox.
 
-In the 19th century, economist William Stanley Jevons observed something counterintuitive: when steam engines became more efficient and coal costs dropped, coal consumption increased rather than decreased. The reason was simple—**lower costs made previously unworthy tasks suddenly worthwhile**.
+In the 19th century, economist William Stanley Jevons observed something counterintuitive: when steam engines became more efficient and coal costs dropped, coal consumption increased rather than decreased. The reason was simple—**lower costs made previously uneconomical tasks suddenly worthwhile**.
 
 AI works the same way. When delivery costs fall, demand doesn't shrink—it explodes. The real question isn't "will we run out of work," but rather **the game has changed. Are you ready?**
 
@@ -19,9 +19,9 @@ AI works the same way. When delivery costs fall, demand doesn't shrink—it expl
 
 In traditional product development, massive time gets consumed by discussions. In product meetings, designers argue the button should be bigger, PMs say it should be smaller, engineers say both are feasible, so the debate continues...
 
-When should we trigger the paywall popup? What's the pricing strategy? How should the interaction interface work? These relatively detailed questions easily devolve into "he said, she said" territory.
+When should we trigger the paywall popup? What's the pricing strategy? How should the interaction design work? These relatively detailed questions easily devolve into subjective back-and-forth.
 
-You can make an argument, someone else can make the opposite argument. Human rationality—or more accurately, theory and reasoning—loses too much reference value here. You can say anything: "I think users need this," "my experience tells me this," "I feel it should be designed this way"...
+You can make an argument, someone else can make the opposite argument. Human rationality—or more accurately, theory and reasoning—becomes largely irrelevant here. You can say anything: "I think users need this," "my experience tells me this," "I feel it should be designed this way"...
 
 The result is endless meetings, hours of discussion with no conclusion.
 
@@ -106,7 +106,7 @@ The key to this cycle is **speed**. The faster you go from hypothesis to validat
 
 Now we can understand why momentum matters so much in the AI era.
 
-If you can data-drive shipping and experimenting with 5 product features per day or week, validating what works and what doesn't with data, compared to teams still debating in meetings and writing PRDs, **this is a generational gap**.
+If you can drive your shipping and experiments with data, delivering 5 product features per day or week, validating what works and what doesn't with data, compared to teams still debating in meetings and writing PRDs, **this is a generational gap**.
 
 Essentially, you're wielding nuclear weapons while they're still using cold steel. This growth battle isn't even close to fair.
 
@@ -195,7 +195,7 @@ What is this machine? It's a complete, self-evolving product development system 
 - 2-month planning cycles synchronized with AI model upgrades
 - Disagree and commit principle: Prioritize speed, correct quickly if wrong
 
-**Strategic Cognitive Layer:**
+**Strategic Mindset Layer:**
 - Correct metrics definition: Reflects genuine user value, avoids vanity metrics
 - Data-driven but user-centric: Data is the means, users are the end
 - Distinguish 0-to-1 vs 1-to-100 methodologies: Know when to rely on taste, when on data
