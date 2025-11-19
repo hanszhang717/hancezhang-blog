@@ -1,36 +1,44 @@
 ---
-title: "Why I Write Blogs?"
+title: "Why I Write"
 date: 2024-07-15
 draft: false
-summary: "Exploring the motivations behind blogging, from clarifying thoughts to sharing knowledge."
+summary: "Writing isn't a hobby. It's a biological imperative."
 categories: ["Personal"]
 slug: "why-i-write-blogs"
 ---
 
-## A truly natural impulse
+## A Biological Imperative
 
-I quickly discovered my passion for writing, which I enjoy even more than reading. My father, a former writer turned entrepreneur, likely influenced me. I started writing at a young age in elementary school, with poetry as my first love.
+I didn't choose writing; it chose me.
 
-Writing feels more like a natural impulse than a duty. If I don't write, I feel discomfort. With countless thoughts circling in my mind, writing provides a release, almost like a cure.
+I discovered early on that I enjoy writing even more than reading. Maybe it’s genetic—my father was a writer turned entrepreneur. I started in elementary school, scribbling poetry.
 
-I recognize the benefits of writing: it helps in reorganizing thoughts, formulating structured ideas, and consolidating understanding, as Feynman emphasized in his learning method. However, these benefits don't push me to write. I write because I feel uneasy if I don't. I truly believe that's how humanity works for most people: a habit is sustainable only if it feels like a constant, urgent demand from within. Merely stating "it's a good habit to have" rarely motivates people to adopt it.
+For me, writing feels less like a hobby and more like a **biological imperative**. If I don't write, I feel a physical discomfort. My mind gets clogged with looping thoughts. Writing is the release valve. It’s not a chore; it’s a cure.
 
-I used to organize my thoughts using the iPhone's native memo app. But as I graduated from college, my thoughts became more complex and systematic, beyond what a simple memo could handle. So, I decided to start blogging.
+We all know the intellectual benefits: writing structures thought, as Feynman famously taught. But logic isn't what gets you to the keyboard at 11 PM. **Obsession does.** A habit only sticks if it feels like a hunger.
 
-## A window for people to know me, aka personal branding
+I used to dump everything into my iPhone Notes. But as I left college, the thoughts grew too complex for a jagged list. I needed a bigger canvas.
 
-Whenever I meet a new interesting person, or catching up with some old friends, I really do have a lot to share, and those sharing are generally less about news but more about learnings. As I met more interesting people daily (a good sign!), I felt the repetition of introducing my learnings has been annoying enough that I wanted some form of automation, and blogging seems to be a great way to do it.
+## Scaling Myself
 
-Blogging also helps me build a personal brand. I believe personal branding is an underestimated asset in its impact and overestimated in its cost. Like any other asset, personal branding yields compound interest. Starting early on the path of exponential growth can lead to significant rewards in the end.
+Whenever I meet an interesting person, I have so much to download to them—usually not news, but learnings, models, and mental shifts.
 
-I'm lazy, uninterested, and incompetent in other form of medias (music, art, video, and others), which makes blogging a no-brainer.
+As my circle grew (a good problem to have), I found myself repeating the same monologues. I realized I needed to **automate my output**. A blog is simply a way to scale my conversation.
 
-## Practice writing
+It is also the foundation of a personal brand.
 
-Even though I often claim I'm bilingual in both Chinese and English, I must confess I'm terrible at both in writing very concise, elegant articles (I admire George Orwell for that). Often times my English writing sounds Chinese-translated, and vice versa. In reality, my natural writing style is a blend of both languages.
+I believe personal brand is an asset that is **drastically undervalued in impact and drastically overvalued in cost.** Like any asset, it compounds. The earlier you start the exponential curve, the crazier the backend results.
 
-Given that the potential audience of this blog primarily uses Chinese and English, I've decided to make the blog bilingual. This will also help me practice and improve my writing skills in both languages.
+Plus, let’s be honest: I’m lazy and incompetent at other media. I can’t edit video. I can’t compose music. Text is the only weapon I know how to wield.
 
-## On originality
+## Thinking in Public
 
-I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brain Chesky, Steve Jobs and Naval Ravikant, among others.(keep adding on this list..)
+I often claim to be bilingual, but the truth is I’m terrible at writing elegant prose in both Chinese and English. (I read Orwell and weep). My English sounds like translated Chinese, and my Chinese sounds like translated English. My natural operating system is a weird hybrid of both.
+
+So, I decided to make this blog bilingual. It’s a forcing function. It forces me to clarify my thinking in two distinct logical structures.
+
+## Remixing Giants
+
+I don't claim to be an original thinker. Most of my ideas are just my own remixes of the giants I worship: Elon Musk, Paul Graham, Sam Altman, Brian Chesky, Steve Jobs, Naval Ravikant.
+
+I digest their wisdom, filter it through my experience, and write it down to see if I truly understand it.

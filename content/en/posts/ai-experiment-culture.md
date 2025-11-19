@@ -1,72 +1,43 @@
 ---
-title: "From 'I Think' to 'I Tried': Building an Experiment-Centric Team Culture with AI"
+title: "Stop Arguing. Start Testing."
 date: "2025-05-15"
 draft: false
 categories: ["AI"]
 slug: "experiment-culture"
 ---
 
-We've all been in those meetings: discussing a new idea, an innovative project, and then getting bogged down in endless debate. Everyone speaks with conviction, citing classics (or perhaps just an article they saw yesterday), but the discussion seems to go in circles, often ending inconclusively or with the decision made by the loudest voice, the highest-ranking person, or the most stubborn. Why does this happen? Especially in the realm of innovation?
+We’ve all been in that meeting.
+The Circular Debate. The "I think" vs "I feel." The HiPPO (Highest Paid Person's Opinion) deciding the outcome because everyone else is exhausted.
 
-## The "Consensus Swamp" of Innovation
+Why does this happen?
+Because **Innovation is a Consensus Swamp.**
+When you build something new, there are no facts. Only opinions. And opinions are cheap.
 
-The root of the problem is that innovation projects deal with the unknown.
-If you're building a standard bridge or optimizing a mature system, experience is king. You can find people who have done similar things, and their experience constitutes reliable "facts." Based on these facts, reaching consensus is relatively easy.
-But innovation is different. When you're exploring a brand-new AI application or an unprecedented business model, there's no existing map. Past experience might not only be useless but even detrimental. At this point, the basis for discussion is no longer reliable experience, but opinions.
+### AI: The Validity Engine
 
-> "I think users will like this feature."
-> "I believe this technical direction has more potential."
-> "I feel the market isn't ready yet."
+But AI changes the math.
+It lowers the **Cost of Curiosity** to near zero.
+Previously, testing an idea took weeks of engineering. Now? A PM can hack a prototype in an afternoon with Cursor. A designer can generate a working UI with V0.
 
-These are all opinions, not facts. The problem with opinions is that they are extremely subjective, heavily influenced by personal background, information cocoons, and even one's mood on a given day. Worse, opinions are difficult to falsify. You can't logically "prove" an opinion right or wrong because it often pertains to predictions about the future and personal beliefs.
+**AI turns "I think" into "I tried."**
 
-Thus, discussions based on opinions easily get stuck. Sometimes it becomes an endless debate where both sides try to persuade the other with logic, ignoring that their underlying assumptions might be fundamentally different. Sometimes, when opinions cannot be reconciled, the discussion slides into emotional confrontation, escalating into personal attacks or battles of will, which is devastating for team morale. Another common scenario is that the decision ultimately becomes a game of power or trust, where the winning idea isn't the best one, but the opinion of the person who is more trusted or has more power.
+### The Lab Mindset
 
-In any case, the outcome is extremely inefficient and severely undermines the team's innovative capacity and psychological safety. We waste a vast amount of precious time wallowing in the mire of "I think" instead of seeking real answers.
+We need to shift from a "Debate Culture" to a "Lab Culture."
 
-## AI: The Engine from "Opinion" to "Fact"
+**The Rule:** If you have an opinion, you must bring data.
+Don't say "I think users want X."
+Say "I ran a simulation with 50 AI personas, and 70% picked X." Or "I built a 10-minute prototype, and here is the log."
 
-Fortunately, we are in an era of explosive AI capabilities. AI, especially recent generative AI and AI-assisted development tools, gives us a powerful weapon to escape the "opinion swamp."
-The key is: AI dramatically lowers the cost and barrier to "trying things out."
+**Hypothesis -> Hack -> Data -> Decision.**
 
-In the past, validating an idea might have required weeks or even months of engineering effort to create a rudimentary prototype. But now, with AI Copilots, low-code platforms, and AI prototype generation tools, a product manager, a designer, or even an operations staff member can cobble together a working demo or complete a preliminary experiment in hours or days.
+This kills the ego. It kills the politics.
+When the data is on the table, the loudest voice doesn't win. The truth wins.
 
-For example, want to know how a specific AI model handles a certain type of user request? Don't guess; use an AI tool to write a simple script and run it. Want to know how users react to a new interaction method? Use AI to quickly generate an interactive prototype and test it with a few people.
-What these quick experiments produce are the facts we urgently need.
+### Why This Matters
 
-Here, "fact" doesn't mean absolute truth, but rather an observable, reproducible experimental result under specific conditions. For example: "After using model X, this specific System Prompt, and 5 rounds of interaction, the probability of it accurately understanding this complex instruction is 70%." This is a fact. It's objective, doesn't involve "I think," and provides a solid starting point for discussion.
+1.  **Speed**: You stop wasting time in conference rooms.
+2.  **Safety to Fail**: When experiments are cheap, being wrong isn't a career-ending move. It's just a data point.
+3.  **Democratization**: The intern with a working prototype beats the VP with a PowerPoint.
 
-## Building an Experiment-Centric Culture
-
-Leveraging this capability provided by AI, we can build a new team culture—an experiment-centric culture.
-The core principle of this culture is simple: encourage (or even require) the rapid transformation of ideas into low-cost, small-scale experiments, and use the facts generated by these experiments to drive discussions and decisions.
-
-Its operating model is roughly as follows: First, based on an understanding of the problem, clearly formulate a hypothesis. Then, design a small experiment, clearly defining what you want to verify, what prerequisites are needed (tools, data, models, etc.), and how to measure the results. The key is to keep the experiment small and fast enough. Next, use AI tools to quickly conduct the experiment, build a POC, demo, or perform simulations. Once completed, clearly record and share the facts, including the experimental process, prerequisites, and results; transparency is key. Finally, conduct discussions based on these shared facts: first find consensus ("We all saw that under condition A, the result is B"), which consolidates shared understanding; then identify disagreements and unknowns ("Why is the result different under condition C?" "This experiment didn't cover situation D"), which naturally become directions for the next experiments. This is a continuous iterative process, gradually approaching the truth of the problem by accumulating facts.
-
-To cultivate this culture, it's necessary to encourage curiosity and initiative, embrace "failed" experiments (they also provide valuable facts, helping to eliminate wrong paths), emphasize transparent sharing, and focus discussions on the experimental process and data, rather than targeting individuals.
-
-So, does this mean completely eliminating predictions about the future and "opinions"? Not at all. Innovation itself involves imagining the future. The key difference is that in an experimental culture, predictive opinions are no longer castles in the air but need to be explicitly linked to "facts" already obtained through experimentation. The discussion model becomes: "Based on the experimental results A and B that we've seen, I predict that if we try direction C, we might get result D." This way, the basis of the opinion becomes transparent and traceable.
-
-More importantly, this culture encourages treating predictions themselves as hypotheses that need validation. When someone proposes a predictive opinion, the team's natural reaction shouldn't be to directly refute or accept it, but to ask: "On what facts and assumptions is this prediction based?" and "What kind of small experiment can we design to quickly validate this prediction (or its underlying key assumptions)?" Thus, predictive discussion is no longer the endpoint, but the starting point for the next round of experiments. It helps us identify the most important uncertainties and explore them at minimal cost, rather than getting bogged down in endless debates about an unverifiable future. This makes opinion discussions also serve the ultimate goal of accumulating facts and reducing uncertainty.
-
-## Why Is This Important?
-
-The shift from "I think" to "I tried" brings tangible benefits. The most direct is smarter, faster decisions. When discussions are based on facts rather than eloquence or volume, the time wasted on unproductive arguments is greatly reduced. This is followed by an acceleration of innovation—rapid trial-and-error, rapid learning, rapid iteration, which is exactly the rhythm innovation should have.
-
-On a deeper level, consensus built on jointly observed facts is far more stable and meaningful than "pseudo-consensus" based on compromise or power. This is crucial for improving team collaboration and psychological safety. When discussions revolve around facts, negative emotions and personal attacks arising from conflicting opinions lose their breeding ground. At the same time, because the barrier to "trying things out" is lowered, members who typically "haven't done it" can more easily participate, contributing their observations and thoughts. And those who "have done the experiment," because the facts are shared, are less likely to develop unnecessary superiority. This naturally fosters a safer, more open environment where different ideas can get a chance for quick validation.
-
-Furthermore, by conducting experiments firsthand, each member gains direct experience, thereby enhancing the entire team's depth of understanding of the problem domain. This way of working also naturally aligns with the principles of efficient communication—first establish consensus, then focus on resolving differences, making meetings and discussions more productive.
-
-## Challenges Ahead
-
-Of course, transformation is not instantaneous. Implementing this culture may encounter some practical challenges. For example, ensuring team members have basic skills in using relevant AI tools (tools and skills) might require some training or guidance. The team also needs to learn how to design meaningful and lightweight experiments (experiment design), avoiding experimentation for experimentation's sake. At the same time, be wary of over-interpreting or misinterpreting experimental data (result interpretation). The biggest challenge might come from cultural inertia; breaking the long-standing habit of "meetings are for debating" requires time and sustained promotion and demonstration by leaders.
-
-But these challenges are not insurmountable; they are more like obstacles to be overcome during the transformation process, rather than unbridgeable gaps.
-
-## Conclusion
-
-AI is not just a productivity tool; it's more like a catalyst that can reshape our ways of collaboration and team culture. By embracing the rapid experimentation capabilities AI offers, we can liberate our teams from inefficient arguments based on subjective "opinions" and move towards efficient collaboration based on objective "facts."
-
-From "I think" to "I tried" is not just a shift in working methods, but an upgrade in mindset. In an era of innovation full of uncertainty, this might be one of the most important changes we can make.
-
-Why not start with your next project, your next discussion, and ask yourself and your team: "Can we quickly try this with AI?"
+Stop arguing. Go build.

@@ -1,68 +1,73 @@
 ---
-title: "Self Management for Effective Leaders"
+title: "Self-Management for Leaders: How to Manage Your Time and Your Team"
 date: 2024-11-15
 draft: false
-summary: "Leadership isn't about innate traits but cultivated skills, especially self-management."
+summary: "Leadership isn't a gene. It's a discipline."
 categories: ["Work"]
 slug: "self-management-effective-leaders"
 ---
 
-## How should you manage your time?
+## How to Manage Your Time
 
-In one sentence: **A leader's job is to ensure the team produces the outcomes that matter most to the company.**
+In one sentence: **A leader has one job—to ensure the team produces the highest-value outcome for the company.**
 
-To break this down, there are four key areas:
+To do this, you must master four domains:
 
-1. **Objective**: Identifying what's important and what's not.
-2. **Strategy**: Creating a step-by-step plan to achieve the objective.
-3. **Executive Management**: Ensuring everyone is rowing in the same direction and removing bottlenecks.
-4. **People Management**: Maintaining morale, positioning people for success, and managing hiring and firing.
+1.  **Objective**: Defining the target.
+2.  **Strategy**: Mapping the path.
+3.  **Execution**: Removing friction.
+4.  **People**: Assembling the squad.
 
-### Objective
+### 1. Objective
 
-I spend at least 40% of my most productive hours reading, learning, and analyzing the market and technology trends. This is to ensure we have an objective that's both feasible and critical. I can't stress this enough: leaders need to spend more time thinking about **what to do** than simply doing things. This is particularly important in this era, when things change in a rate which we can't imagine. Keep doing something that's not important has **huge opportunity costs**. 
+I burn at least **40% of my best brain cycles** on one thing: **"What are we actually doing?"**
 
-### Strategy
+I read, I study the market, I analyze trends. Why? Because in this era of suffocating change, the cost of working on the wrong thing is fatal.
 
-Once you have an objective (or your boss gives you one), strategy becomes essential. Great outcomes rarely happen in one strike. You need a clear step-by-step plan to achieve the goal. Without this, you risk harming your team's performance and morale when early attempts fail. Developing strategy also falls under the 40% of time spent on thinking and planning.
+Productivity is useless if you are running in the wrong direction. A leader’s primary output is **decision quality**, not task quantity.
 
-### Executive Management
+### 2. Strategy
 
-This is the least glamorous part of leadership—it's repetitive, action-heavy, and often boring. But it compounds over time. You get better at it day by day.
+Strategy is just a fancy word for "How do we get there?"
 
-I spend my "not-so-productive" hours here: listening to reports, talking to users, speaking with frontline developers, and using the product myself. I minimize indirect reports because they make me lose touch with the ground truth. If a product is underperforming, don't delegate your way out of the problem—use it yourself and talk to users. Lead by example so your team does the same.
+Great outcomes don't happen by accident. You need a sequence of moves. Without a clear map, your team will burn out on trial and error. Strategy is the bridge between the "What" and the "Result."
 
-### People Management
+### 3. Execution (The Grind)
 
-People management rarely feels urgent until something goes wrong—like when you need to fire someone or deal with attrition. When it becomes a problem, however, it should be your top priority.
+This is the unsexy plumbing of leadership. It’s repetitive, boring, and endless.
 
-Sam Altman once said the highest ROI for a leader is in hiring. My contrarian view is that I don't trust HR for this task—not just here but in general. Hiring is too important to delegate to someone who has little understanding of your business. The risk is too high.
+I spend my "lower-energy" hours here: listening to reports, unblocking developers, testing the product.
 
-Use HR as a tool: let them handle logistics like posting jobs and managing processes. But as a leader, you should proactively seek out great talent yourself. You should know where to find the best people because you are one of them.
+**I try to eliminate layers.** Indirect reports are information filters. They distort reality. If a product sucks, don't delegate the fix—use it yourself. Feel the pain. If you don't care about the details, your team won't either.
 
-## How should you manage your reports
+### 4. People
 
-This question depends heavily on your personality and the type of business you're running. For example, my leader doesn't endorse all of my methods—he has his philosophy, and it works for him but not quite for me. My approach is rooted in two principles:
+People management feels optional until it becomes urgent. When it rains, it pours.
 
-1. **Being Detail-Oriented**
-2. **Being Importance-Oriented**
+Sam Altman says hiring has the highest ROI of any activity. My contrarian take? **I don't trust HR to hire.**
 
-### 1. Being Detail-Oriented
+HR handles logistics. But **A-players know where A-players hang out.** You, the leader, must be the headhunter. Delegating hiring to someone who doesn't understand the craft is a recipe for mediocrity.
 
-Being detail-oriented does **not** mean micromanaging. For a better understanding, you can refer to my blog on [Brian Chesky and Founder Mode ](https://www.hancezhang.blog/en/posts/founder-mode/).Being detail-oriented means you need to know as much as possible—if not all—about the projects you're overseeing, both technical and non-technical. This is easier than it sounds.
+## How to Manage Your Team
 
-However, you must control the urge to manage every detail directly. If you fail to do this, you'll make life miserable for the people working for you and, worse, erode their initiative—which is critical to building a sustainable organization.
+My philosophy boils down to two principles:
 
-Being detail-oriented also requires that you talk directly to the people doing the actual work, not their managers. Bureaucracy thrives when you need to talk to a VP, who then relays the request to a middle manager, who finally asks the people writing the code. This chain is inefficient and prone to information loss.
+### 1. Be Detail-Oriented
 
-Skipping the reporting line is often treated as a taboo in many organizations. But I believe this taboo exists mainly to protect incompetent managers. The people on the front lines are what I call the **ground truth** of your business. You have no excuse not to access that truth directly.
+"Detail-oriented" is often confused with micromanagement. It’s not. (See my post on [Founder Mode](/en/posts/founder-mode/)).
 
-One huge advantage of being detail-oriented is that you can use your unique influence to unblock bottlenecks. Businesses often stall not because the people are incompetent but because they face obstacles they can't resolve on their own. Due to bureaucracy or inertia, they might not ask for help, allowing these bottlenecks to persist. As a leader, being detail-oriented allows you to identify and eliminate these issues effectively.
+Being detail-oriented means you know the **Ground Truth**. You understand the tech stack, the design constraints, and the user feedback.
 
-### 2. Being Importance-Oriented
+**Skip-level meetings are only taboo to mediocre managers.**
 
-Being importance-oriented means ensuring that most of your team's efforts are directed toward solving the **most important problem** at any given time. A common mistake is when people work hard but on things that don't matter, leading to poor outcomes overall.
+Bureaucracy loves chains of command: You tell the VP, who tells the Director, who tells the Manager, who tells the Engineer. By the time the message arrives, it’s garbage.
 
-This is a task only leaders can do because it requires having a broader perspective of the entire business to determine what's important and what's not.
+Go to the source. Talk to the people writing the code. The people on the front lines have the truth; your job is to access it.
 
-Being detail-oriented helps here, too. You can only verify whether your team is working on the most critical problem if you're close to the details. Without this connection, you risk leading the team in the wrong direction.
+### 2. Be Importance-Oriented
+
+Most teams work hard. Few teams work smart.
+
+Your job is to constantly realign the vector. Ensure that 80% of the energy is hitting the **single most critical problem** of the moment.
+
+Only you can do this, because only you have the context of the whole business. If you aren't in the details, you won't know what's important. If you don't know what's important, your team is just burning fuel.

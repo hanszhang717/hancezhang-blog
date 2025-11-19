@@ -1,99 +1,64 @@
 ---
-title: "Why Growth Hacking and A/B testing is Bullshit Before PMF"
+title: "Growth Hacking is Bullshit Before PMF"
 date: 2025-05-16
 draft: false
-summary: "Forget growth hacks before PMF; your first, unscalable mission is to craft a '10-star' user experience that people truly love and rave about"
+summary: "Scale is the enemy. Do the unscalable work to build something people love."
 categories: ["Product"]
 slug: "user-experience"
 ---
 
-Startup founders love growth hacks. A/B test everything. Scale from day one. Build an MVP, get users, then tweak: feature A lifts retention X%, feature B boosts conversion Y%. It looks like methodical progress.
+Founders love growth hacks. A/B tests. Funnel optimization.
+It feels like **Science**. It feels like progress.
+"If we change this button to green, conversion goes up 0.5%."
 
-But is it? Especially before Product-Market Fit? This rush to optimize might be a dangerous distraction.
-
-The truth? Growth hacks usually fail before PMF. And even after PMF, your real job is the user experience. This isn't fluffy advice. It's how companies like Airbnb started—by doing things that don't scale.
+**But before Product-Market Fit (PMF), this is delusion.**
+It is polishing a car that has no engine. It looks busy, but it goes nowhere.
 
 ### The Illusion of Premature Optimization
 
-Before PMF, you barely know your users or their real problem. So what are you optimizing? Growth hacking then is like polishing a car with no engine. It looks busy but goes nowhere.
+Three lies kill startups:
+1.  "Data-driven" is always better.
+2.  Scalability is a Day 1 requirement.
+3.  Small tweaks lead to big wins.
 
-Three bad assumptions lead startups astray:
-
-1. Small, data-backed tweaks are always best.
-2. "Data-driven" automatically means scientific.
-3. Scalability is a day-one requirement.
-
-Airbnb proved these wrong. They focused on user experience, not premature optimization, and found a higher ceiling.
+**Wrong.**
+Before PMF, you don't need data. You need **Truth**.
+And Truth doesn't come from a dashboard. It comes from talking to a human being.
 
 ### Do Things That Don't Scale
 
-Paul Graham said: "Do things that don't scale." Many quote it; few grasp it. Early on, unscalable work isn't a detour; it's the main road. Talk to users. Onboard them by hand. Be a concierge. Why?
+Paul Graham’s advice is famous, but rarely followed.
+**Unscalable work is not a detour. It is the path.**
 
-* **Learn your market:** Get raw feedback. See their pain, their "aha!" moments. Dashboards don't show this.
-* **Win a niche with service:** Startups can offer an "insanely great experience" big companies can't. Tim Cook won't send a handwritten note; you can. This over-the-top, personal service helps you deeply understand and capture a niche. You build fierce loyalty, not just collect feedback.
-* **Create evangelists:** A fantastic early experience, even for a few, makes users your sales force.
+*   **Onboard users by hand.** Watch them struggle. Feel their pain.
+*   **Be a Concierge.** Do the work for them manually.
+*   **Send handwritten notes.** Be human.
 
-This isn't anti-data. It's about the *right kind* of learning before PMF.
+Why? Because you are building a **Niche Monopoly**.
+You can't beat Google on scale. You can beat them on **Love**.
+You need 100 users who scream about your product, not 10,000 who "kinda like it."
 
-### Airbnb's Masterclass: From 10-Star Dreams to Scalable Reality
+### The Airbnb Playbook: Disneyfy the Journey
 
-Airbnb didn't A/B test button colors. They obsessed over the user's journey. Brian Chesky pushed for a "10-star experience."
+Airbnb didn't start with algorithms. They started with **Brian Chesky knocking on doors in New York**.
+They went to hosts' houses. They took photos. They stayed for dinner.
+**This is totally unscalable. And it saved the company.**
 
-**1. Designing "10-Star Experience"**
+Chesky obsessed over the **"10-Star Experience."**
+*   5-Star: You knock, they open the door. (Standard)
+*   7-Star: They welcome you with a surfboard and your favorite chips. (Delight)
+*   10-Star: The Beatles arrive at JFK. 5,000 cheering fans. (Magic)
 
-What's a 10-star experience? Chesky made his team imagine:
+You can't scale a 10-star experience. But if you design it first, you can scale back to a 7-star experience that is still **insanely great**.
+They used **"Snow White Storyboards"** to map every emotional moment of the trip. Not "User clicks button," but "User feels anxious about arriving late."
 
-* **5-star:** Arrive, host lets you in. As described. (Expected)
-* **7-star:** Host welcomes you. Favorite snacks in fridge, surfboard ready. (Delightful)
-* **10-star:** Beatles-style airport arrival. 5,000 fans. (Absurd, but expands thought)
-* **11-star:** Elon Musk flies you to space. (Beyond Absurd)
+### Don't A/B Test Your Soul
 
-The goal wasn't literal 11-stars. It was to break "good enough" thinking. Find what makes users rave. Dream big, then work back to a 6, 7, or 8-star version that's amazing and doable.
+Chesky famously said: **"A/B testing is abdicating your responsibility to the user."**
+If you A/B test everything, you will optimize yourself into a local maximum.
+If Ford A/B tested horses, he would have bred a slightly faster horse.
 
-**2. "Snow White Storyboards": Scripting the Perfect Journey**
+**Use data to optimize. Use intuition to invent.**
 
-To make this real, Airbnb hired a Pixar animator. They storyboarded the entire journey—guest, host, employee—in 45 frames. Each showed context, emotion, motivation.
-
-This "Snow White" method was powerful:
-
-* It made everyone see the *whole experience*, not just features for PMs to A/B test.
-* It pinpointed key emotional moments: check-in, first contact, trust. This is where you forge user love.
-* It created a shared "movie" for the whole company to align expectations.
-
-These storyboards showed where to aim for 10-star moments.
-
-**3. From Unscalable Craft to Scalable Systems**
-
-This is where "doing things that don't scale" met the 10-star dream. Airbnb manually prototyped these perfect experiences for a few users. They had to prove they were worth scaling.
-
-* **Pro Photos (2009):** NYC listings tanked. Bad photos? Gebbia and Chesky, armed with a rented camera, literally went door-to-door in New York, knocking on hosts' doors and offering to take better pictures of their apartments. They weren't professional photographers, but they knew good photos mattered. Totally unscalable. Result? NYC revenue doubled in a week. Proof: pro photos convert. *Then* they built a scalable photo program.
-* **Living with Hosts:** Founders stayed in hosts' homes. They took notes. This led to profiles and two-way reviews. No algorithm did this. Just deep, unscalable empathy.
-* **Ricardo's Perfect Trip:** The team gave one guest, Ricardo, a 10-star SF trip. Airport pickup, curated events. Ricardo cried with joy. Proof: "human connection" was huge. The scalable fix? Airbnb Experiences.
-
-The pattern:
-
-1. Define the extreme.
-2. Storyboard it.
-3. Hand-craft it for a few users.
-4. See if it's magic.
-5. If yes, find a way to scale the *value*, not the manual labor.
-
-**4. The Chesky "Critique" of A/B Testing**
-
-Chesky said, "A/B testing is moving the product decision responsibility to the user." He wasn't against all A/B tests. He was against misusing them for big decisions or getting stuck on tiny improvements while missing the big picture.
-
-If Ford had A/B tested faster horses, he wouldn't have invented the car.
-
-Airbnb's way:
-
-* Start with a strong hypothesis (e.g., "pro photos build trust").
-* Test it qualitatively, unscalably.
-* If it works, scale it. Measure with long-term metrics (retention, referrals).
-* *Then* use A/B tests to tweak the scaled version (e.g., how to offer the photo service).
-
-### User Experience: The Unending Watch
-
-The lesson: obsessing over user experience isn't just for finding PMF. It's forever. After PMF, growth hacks on a clunky experience won't save you. Users know a patchwork from a real journey.
-
-
-Real growth, especially early on, is often unscalable. It's manual work, deep empathy, relentless delight. Do things that don't scale to find what's truly valuable. Only then do you have something worth scaling. That's how you build more than a product. You build a phenomenon.
+Real growth comes from a product so good that users do the marketing for you.
+**Stop hacking. Start crafting.**
