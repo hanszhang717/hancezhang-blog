@@ -17,7 +17,7 @@ You don't need a philosophical justification to start exercising. You don't need
 
 These are simply behaviors that compound over time if you keep doing them. Waiting for a "why" powerful enough to overcome a difficult "how" guarantees you never start.
 
-**The real insight isn't about finding meaning. It's about making repetition so frictionless that the *need* for meaning dissolves.**
+**The real insight isn't about finding meaning; it's about making repetition so frictionless that the *need* for meaning dissolves.**
 
 ## Repetition Is What Actually Matters
 
