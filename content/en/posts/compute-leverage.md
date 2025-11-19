@@ -2,12 +2,12 @@
 title: "Compute Is the New Leverage (and Probably the Best One)"
 date: 2025-08-08
 draft: false
-summary: "Rich concensus is no longer necessary as compute outperforms labor as a leverage"
+summary: "Rich consensus is no longer necessary as compute outperforms labor as a leverage"
 categories: ["AI"]
 slug: "compute-leverage"
 ---
 
-Naval Ravikant famously outlined a hierarchy of leverage. The oldest is **labor**, or the people who work for you. It’s powerful but messy. Managing people is hard because aligning them is hard, and the communication overhead grows faster than the team size. These systems, built to optimize for stability and consensus, are necessary for managing labor. In most parts of society—governments, large corporations, even social circles—being contrarian and right doesn’t reward you. It often gets you into trouble.
+Naval Ravikant famously outlined a hierarchy of leverage. The oldest is **labor**, or the people who work for you. It’s powerful but messy. Managing people is difficult; aligning them is even harder, and the communication overhead grows faster than the team size. These systems, built to optimize for stability and consensus, are necessary for managing labor. In most parts of society—governments, large corporations, even social circles—being contrarian and right doesn’t reward you. It often gets you into trouble.
 
 But the worlds of startups and investing are different. They are two of the few places where being contrarian and right is not just tolerated, but is the very source of outsized returns. You don't need rich consensus to buy a stock or start a company. In fact, consensus is often a sign that the opportunity is gone. This works because these fields have started to move beyond labor as their primary lever, relying instead on **capital** and **code**. Code is a fantastic form of leverage: write it once, and it can be run a million times for nearly zero marginal cost. It’s permissionless and scalable.
 
@@ -15,7 +15,7 @@ This fundamental insight explains why I’ve always done my best work either alo
 
 And as technology shifts the dominant form of leverage again, the importance of that consensus is starting to fade. I believe we are now in the early days of a new, even more powerful form of leverage: **compute**.
 
-In fields dense with information that can be automated, compute is becoming a more efficient and scalable lever than labor, code, or capital. AI is the key that has unlocked this. It has lowered the barrier to orchestrating vast amounts of computational power from an expert-level engineering task to something a single creator can do. This shift is poised to fundamentally change how we build teams, design organizations, and distribute rewards.
+In fields dense with information that can be automated, compute is becoming a more efficient and scalable lever than labor, code, or capital. AI is the key that has unlocked this. It has transformed orchestrating vast amounts of compute from an expert-level engineering task into something a single creator can do. This shift is poised to fundamentally change how we build teams, design organizations, and distribute rewards.
 
 ### **From Coordinating People to Orchestrating Compute**
 
@@ -50,7 +50,7 @@ We can already see the metrics changing. Imagine a team's goal is to ship 10 new
 
 The debate isn't about *whether* AI improves productivity; it's about recognizing that the *shape* of productivity is changing. It's becoming less about the number of engineers and more about the thickness of the compute layer supporting each one.
 
-This leads to a new kind of organization: a **thin core** with **thick compute**. The core team is small, focused on strategy and defining clear objectives. The execution is handled by a vast periphery of AI agents and automated workflows. A company like Midjourney is a perfect example. Its core team is tiny, focused on research, product vision, and model tuning. Its "workforce" is an infinitely scalable layer of compute that serves millions of users. They don't hire hundreds of artists; they orchestrate GPUs. This is the "thin core, thick compute" model in action. In this model, the rewards for being "contrarian and right" are more direct. You don't need to convince a committee. You just need to convince the market, and the market rewards results, not alignment.
+This leads to a new kind of organization: a **thin core** with **thick compute**. The core team is small, focused on strategy and defining clear objectives. Execution is offloaded to a vast periphery of AI agents and automated workflows. A company like Midjourney is a perfect example. Its core team is tiny, focused on research, product vision, and model tuning. Its "workforce" is an infinitely scalable layer of compute that serves millions of users. They don't hire hundreds of artists; they orchestrate GPUs. This is the "thin core, thick compute" model in action. In this model, the rewards for being "contrarian and right" are more direct. You don't need to convince a committee. You just need to convince the market, and the market rewards results, not alignment.
 
 ### **Will Compute Become the New Means of Production?**
 
@@ -58,7 +58,7 @@ If compute is a new factor of production, we have to ask about its distribution.
 
 This leads to the "compute landlord" hypothesis. Will a few cloud providers and chip manufacturers become oligarchs, extracting rent from everyone else who becomes a "compute tenant"? It's possible.
 
-But there are powerful counter-forces. Open-source models are democratizing access. Community-driven projects are pooling GPU resources. National industrial policies are trying to prevent monopolies. And as new chips are released, older, less powerful ones will flood the market, making a certain baseline of compute accessible to almost everyone. Look at the open-source communities around models like Llama or Stable Diffusion. Many individual developers are running and fine-tuning these models on consumer-grade GPUs (like an RTX 4090). This is like digital-age subsistence farming; while it can't compete with industrial-scale "compute landlords" like AWS or Google Cloud, it ensures the means of production are not entirely monopolized.
+But there are powerful counter-forces. Open-source models are democratizing access. Community-driven projects are pooling GPU resources. National industrial policies are trying to prevent monopolies. And as new chips are released, older, less powerful ones will flood the market, making a certain baseline of compute accessible to almost everyone. Look at the open-source communities around models like Llama or Stable Diffusion. Many individual developers are running and fine-tuning these models on consumer-grade GPUs (like an RTX 4090). This is akin to digital-age subsistence farming; while it can't compete with industrial-scale "compute landlords" like AWS or Google Cloud, it ensures the means of production are not entirely monopolized.
 
 The long-term trend for compute prices is down, and access is broadening, following a version of Wright's Law. However, the cutting edge of high-performance compute will likely remain a gated resource for some time, creating a new kind of inequality.
 
