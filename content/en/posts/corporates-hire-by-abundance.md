@@ -1,40 +1,24 @@
 ---
-title: "Big Tech Hires for Luxury, Not Necessity"
+title: "Corporates Hire by Abundance, Not by Necessity"
 date: 2025-05-13
 draft: false
-summary: "The open secret of corporate hiring: Headcount is a vanity metric."
+summary: "Big-tech hiring is driven by excess, not necessity."
 categories: ["Mindsets"]
 slug: "big-tech-hiring"
 ---
 
-Behind the glossy career pages and the free kombucha taps, there is an uncomfortable truth about Big Tech: **Most hiring is driven by abundance, not necessity.**
+There's an uncomfortable truth hidden behind the glossy careers pages of big tech companies: **most of their hiring isn't driven by genuine necessity, but by abundance.**
 
-Google, Meta, and Amazon don't hire thousands of people because they critically *need* them. They hire them because they *can*.
+Companies like Google, Meta, or Amazon don't add thousands of new hires every year because each employee is critically essential. They hire simply because they can afford to. Elon Musk illustrated this dramatically at Twitter—laying off 80% of the workforce had surprisingly little impact on the core product. In most tech companies, perhaps only 20% of employees work on truly vital, revenue-driving projects. Google's search and ads make up the lion's share of its revenue, yet only a fraction of its workforce is directly tied to these core areas. Meanwhile, entire teams work on projects that might never ship—projects that are less about necessity and more about optionality.
 
-Elon Musk proved this at Twitter. He fired 80% of the staff, and the site didn't crash. It kept running. In most tech giants, maybe 20% of the staff are doing the core, revenue-generating work. The rest? They are working on "optionality"—projects that might never ship, features that no one needs, and bureaucracy that exists to manage itself.
+**When companies grow sufficiently rich, hiring stops being about careful selection and becomes something closer to empire-building. It's no longer about who you genuinely need, but rather about who you can afford.**
 
-**When a company gets rich enough, hiring stops being about survival and starts being about empire-building.**
+Think of it like shopping at a supermarket. On a tight budget, you meticulously compare prices, check ingredients, and judge nutritional value. But if you have millions, you won't bother looking carefully. You grab the most expensive items on the shelf, believing price correlates directly with quality—even if it often doesn't. Big companies hire the same way. With abundant resources, they don't thoroughly evaluate the necessity of each new hire. Instead, they hire expensive talent, assuming higher salaries automatically guarantee better results.
 
-Think of it like the Supermarket Analogy.
-If you are on a budget, you check every price tag. You buy what you need to survive.
-If you are a billionaire, you don't check prices. You just grab the most expensive stuff on the shelf because you assume price equals quality.
+**Hiring becomes a kind of strategic luxury**. Managers don't just expand teams to tackle workloads—they expand to signal their own status and pave the way for promotions. The number of people reporting to a manager usually determines that manager's perceived value and salary within the organization. The head of a 200-person division has more influence, status, and earning potential than someone managing just 20, regardless of how many of those employees genuinely contribute to the company’s core success.
 
-Big Tech hires the same way. They hoard talent like luxury goods.
+There's also optionality at play. **Wealthy companies treat hiring as venture capital bets: low-risk investments with potentially huge returns.** Many hires are "hope it works" bets rather than carefully calculated moves. Occasionally, these speculative bets become game-changers—like Google's early investment in AI—but most don't pan out. When a company earns hundreds of billions annually, burning a billion dollars on speculative projects isn't catastrophic—though the same spending would be ruinous for a startup. This mentality often results in highly-qualified people performing mundane tasks: PhDs labeling datasets, master's degree holders managing routine operations—**not because these roles demand such expertise, but because optimization for cost-effectiveness isn't necessary.**
 
-**Headcount is a vanity metric.**
-For a middle manager, the number of people reporting to you is your status symbol. It determines your pay, your influence, and your promotion velocity. A Director with 200 reports is "more important" than one with 20, even if the team of 20 is shipping all the value.
+Why should this matter to you? Because it breaks down a dangerous illusion: **joining a prestigious tech giant doesn't necessarily mean you're indispensable, valuable, or even secure.** History shows, especially vividly around economic downturns (such as the cycle around 2021), that these companies expand and contract largely due to macroeconomic factors like interest rates—not  employee performance. When layoffs inevitably occur, the first casualties are often these "luxury hires," employees whose roles were never central to the company's essential success.
 
-So managers prioritize **expanding the team** over **efficiency**.
-
-There is also the VC mindset. Wealthy companies treat employees like Venture Capital bets.
-"Let's hire 50 PhDs and see if they invent something cool."
-If it fails? Who cares. Burning a billion dollars is a rounding error for Google. But for the people hired? It means you are a **highly paid benchwarmer**.
-
-You see brilliant minds doing mundane work—data labeling, internal tool maintenance, endless meetings—not because the work requires genius, but because the company didn't care to optimize the cost.
-
-**Why does this matter to you?**
-
-Because you need to avoid the **Prestige Trap**.
-Joining a Big Tech giant does not mean you are essential. It does not mean you are safe. In fact, when the economic cycle turns (like in 2023), the "luxury hires" are the first to go.
-
-If you want a career that is antifragile, don't just look for the biggest logo. Look for the role where your work actually moves the needle. **Don't be a luxury item. Be infrastructure.**
+If you're charting your career, particularly early on, understanding this is crucial. Prestige alone can be misleading. Often, the smarter move isn't boarding the largest, most prestigious ship—but one where your work visibly affects the company's trajectory. Seek roles clearly linked to core business outcomes. **Find positions where your individual impact is tangible and measurable, not buried beneath layers of internal politics.**
