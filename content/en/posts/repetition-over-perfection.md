@@ -1,39 +1,39 @@
 ---
 title: "Repetition Over Perfection: Why Showing Up Beats Talent"
-date: 2025-01-19
+date: 2025-11-19
 draft: false
 summary: "The real challenge isn't doing things well. It's doing them at all."
 categories: ["Mindsets", "Personal"]
 slug: "repetition-over-perfection"
 ---
 
-Everyone loves Nietzsche's line: "He who has a why can bear with any how."
+We all love Nietzsche's line: "He who has a why can bear with any how."
 
-It sounds profound. And for life-defining decisions (choosing a career, starting a company, committing to a relationship) it's probably true. A strong enough "why" can carry you through nearly anything.
+It sounds profound. And for life-defining decisions—choosing a career, starting a company, committing to a relationship—it's probably true. A strong enough "why" can carry you through nearly anything.
 
-But here's the problem: **most of the things worth doing don't come with a grand "why."**
+But here's the problem: **most worthwhile endeavors don't come with a grand "why."**
 
-You don't need a philosophical justification to start exercising. You don't need an existential purpose to learn a skill. You don't need a cosmic mission to write consistently or practice an instrument or cook better meals.
+You don't need a philosophical justification to start exercising. You don't need an existential purpose to learn a skill. You don't need a cosmic mission to write consistently, practice an instrument, or cook better meals.
 
-These are just behaviors that compound over time if you keep doing them. And waiting for a "why" powerful enough to overcome a difficult "how" means you'll never start.
+These are simply behaviors that compound over time if you keep doing them. Waiting for a "why" powerful enough to overcome a difficult "how" guarantees you never start.
 
-**The real insight isn't about finding meaning. It's about making repetition so frictionless that meaning becomes irrelevant.**
+**The real insight isn't about finding meaning. It's about making repetition so frictionless that the *need* for meaning dissolves.**
 
 ## Repetition Is What Actually Matters
 
-Here's the uncomfortable truth: **perfection is what prevents repetition from happening.**
+Here's the uncomfortable truth: **perfection is the enemy of repetition.**
 
-Most people approach behavior change backwards. They obsess over technique, optimal strategies, perfect execution. They read books about the best workout routines, the ideal writing process, the most effective productivity systems.
+Most people approach behavior change backwards. They obsess over technique, optimal strategies, and perfect execution. They read books about the best workout routines, the ideal writing process, the most effective productivity systems.
 
 But if you can't sustain the behavior long enough for it to compound, none of that matters.
 
 Charlie Munger said it best: **"Find the right thing to do, then repeat it."** Not "find the perfect way to do it." Not "optimize every detail." Just find something that works, and do it again. And again. And again.
 
-Expecting a single decision (one moment of clarity, one burst of willpower) to change everything is fundamentally lazy thinking. It's intellectual inertia disguised as decisive action. The fantasy that you can solve everything once and never have to think about it again.
+Expecting a single decision—one moment of clarity, one burst of willpower—to change everything is fundamentally lazy thinking. It's intellectual inertia masquerading as decisive action. It's the fantasy that you can solve a problem once and never have to think about it again.
 
-But reality doesn't work that way. If you stop going to the gym, your muscles atrophy. If you stop writing, your voice weakens. If you stop practicing, your skills decay. **There is no permanent solution. There is only the habit of repeating.**
+Reality doesn't work that way. If you stop going to the gym, your muscles atrophy. If you stop writing, your voice weakens. If you stop practicing, your skills decay. **There is no permanent solution. There is only the habit of repeating.**
 
-Because **repetition is how you focus in time, not just in space.** Focus is choosing to do the same thing every single day, even when it's not exciting anymore.
+**Repetition is how you focus in time, not just in space.** Focus is the choice to do the same thing daily, long after the excitement has faded.
 
 ## Why Retention Beats Perfection
 
@@ -47,7 +47,7 @@ Here's what's revealing about this strategy: **academic research found that Duol
 
 Imperfect repetition beats perfect execution every time. Because only one of them leads to compounding.
 
-Most beautiful things in life require sustained effort over time. There are very few cases where you do something once and immediately get results. Those are usually scams. Everything else (skills, relationships, wealth, health) requires you to stay in the game long enough for compounding to work.
+Most beautiful things in life require sustained effort over time. There are very few cases where you do something once and immediately get results. Those are usually scams. Everything else—skills, relationships, wealth, health—requires you to stay in the game long enough for compounding to work.
 
 **The implication is radical: if outcomes require persistence, then 90% of your effort should go toward making sure you keep showing up, not toward executing perfectly.**
 
@@ -214,7 +214,7 @@ This feels wrong to people who value craft and quality. It feels like we're opti
 
 But here's the nuance: **you can't optimize for quality if you quit.** The math is brutal but simple: **perfection × 0 days = 0. Mediocrity × 1000 days = mastery.**
 
-**The way to get good isn't to try to be perfect. It's to keep doing it until you can't help but get better.**
+**The path to greatness isn't perfection. It's repetition until improvement becomes inevitable.**
 
 ## Returning to Nietzsche
 
@@ -222,7 +222,7 @@ So what about Nietzsche's "why"?
 
 He wasn't wrong. A powerful "why" absolutely helps. If you're building a company, fighting for a cause, or pursuing something that requires years of sacrifice, you need a reason strong enough to sustain you.
 
-But for most of what matters in daily life (the habits that compound into health, skills, and personal growth) **you don't need a why. You need a how that's easy enough to not require one.**
+But for most of what matters in daily life—the habits that compound into health, skills, and personal growth—**you don't need a why. You need a how that's easy enough to not require one.**
 
 The irony is that the "why" often emerges *after* you start, not before. You don't fall in love with writing by thinking about why writing matters. You fall in love with it by writing badly for six months and discovering that you've gotten better.
 
