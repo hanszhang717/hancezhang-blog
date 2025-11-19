@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The Futility of Attribution | Hance Zhang&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Why psychological theories don&rsquo;t make you happier, and how the illusion of control creates more anxiety than ignorance ever did">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.hancezhang.blog/en/posts/the-futility-of-attribution/">
+<link crossorigin="anonymous" href="https://www.hancezhang.blog/assets/css/stylesheet.ebb3465b309c53ed14835a380ee24075c602e53edaaa26169c2910b9b81ae49e.css" integrity="sha256-67NGWzCcU&#43;0Ug1o4DuJAdcYC5T7aqiYWnCkQubga5J4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.hancezhang.blog/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.hancezhang.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.hancezhang.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.hancezhang.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.hancezhang.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.hancezhang.blog/en/posts/the-futility-of-attribution/">
+<link rel="alternate" hreflang="zh" href="https://www.hancezhang.blog/zh/posts/the-futility-of-attribution/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript> <meta property="og:url" content="https://www.hancezhang.blog/en/posts/the-futility-of-attribution/">
+  <meta property="og:site_name" content="Hance Zhang&#39;s Blog">
+  <meta property="og:title" content="The Futility of Attribution">
+  <meta property="og:description" content="Why psychological theories don’t make you happier, and how the illusion of control creates more anxiety than ignorance ever did">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-19T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Futility of Attribution">
+<meta name="twitter:description" content="Why psychological theories don&rsquo;t make you happier, and how the illusion of control creates more anxiety than ignorance ever did">
+ 
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.hancezhang.blog/en/" accesskey="h" title="Hance Zhang&#39;s Blog (Alt + H)">Hance Zhang&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://www.hancezhang.blog/zh/" title="中文"
+                            aria-label="中文">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.hancezhang.blog/en/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/en/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hancezhang.blog/en/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" id="subscribe-toggle" aria-label="Subscribe">
+                    <span>Subscribe</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="subscribe-modal" class="subscribe-modal" style="display: none;">
+    <div class="subscribe-modal-content">
+        <span class="subscribe-close">&times;</span>
+<div class="newsletter-section">
+    <div class="newsletter-container">
+        <h3>📧 Subscribe to Updates</h3>
+        
+        <p class="newsletter-description">
+            
+                Subscribe to get the latest posts about leadership, AI, product building, and investment delivered to your inbox.
+            
+        </p>
+
+        
+        <p class="newsletter-unconfigured">
+            
+                Subscription form isn’t configured yet. Feel free to email <a href="mailto:hanszhang717@gmail.com">hanszhang717@gmail.com</a> directly.
+            
+        </p>
+        
+    </div>
+</div>
+
+<style>
+.newsletter-section {
+    background: var(--theme);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.newsletter-container h3 {
+    margin: 0 0 1rem 0;
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+.newsletter-description {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: var(--tertiary);
+    box-shadow: 0 0 0 2px rgba(var(--tertiary-rgb), 0.1);
+}
+
+.subscribe-button {
+    padding: 0.75rem 1.5rem;
+    background: var(--tertiary);
+    color: var(--theme);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.subscribe-button:hover {
+    opacity: 0.9;
+}
+
+.privacy-notice {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.newsletter-unconfigured {
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.newsletter-unconfigured a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+</style> 
+    </div>
+</div>
+
+<style>
+ 
+#subscribe-toggle {
+    cursor: pointer;
+}
+
+#subscribe-toggle:hover {
+    opacity: 0.8;
+}
+
+ 
+.subscribe-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.subscribe-modal-content {
+    position: relative;
+    background-color: var(--theme);
+    margin: 10% auto;
+    padding: 0;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    animation: modalShow 0.3s ease;
+}
+
+@keyframes modalShow {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.subscribe-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: var(--secondary);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.subscribe-close:hover {
+    color: var(--primary);
+    background-color: var(--code-bg);
+}
+
+ 
+.subscribe-modal .newsletter-section {
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+}
+
+ 
+@media (max-width: 768px) {
+    .subscribe-modal-content {
+        margin: 5% auto;
+        max-width: 90%;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const subscribeBtn = document.getElementById('subscribe-toggle');
+    const modal = document.getElementById('subscribe-modal');
+    const closeBtn = document.querySelector('.subscribe-close');
+    
+    if (subscribeBtn && modal) {
+        subscribeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
+</script> <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      The Futility of Attribution
+    </h1>
+    <div class="post-meta"><time datetime="2025-11-19">2025-11-19</time>&nbsp;·&nbsp;9 min&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://www.hancezhang.blog/zh/posts/the-futility-of-attribution/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>We live in an era of over-explanation. Open any social media app, and you’ll find someone explaining exactly why you’re unhappy, why your relationships fail, why you can’t focus, why you’re anxious. There’s a theory for everything: Attachment styles. Love languages. Growth mindset. Impostor syndrome. The algorithms of self-knowledge promise that if you just understand the <em>why</em>, you can fix the <em>what</em>.</p>
+<p><strong>But knowing more psychological theories doesn&rsquo;t make you happier. It makes you more anxious.</strong></p>
+<p>The promise is control: learn the framework, identify your pattern, adjust the variables, and solve the problem. It’s a &ldquo;magic button&rdquo; worldview. But what if most of this attribution isn&rsquo;t just useless—what if it&rsquo;s actively harmful?</p>
+<h3 id="the-futility-of-attribution">The Futility of Attribution<a hidden class="anchor" aria-hidden="true" href="#the-futility-of-attribution">#</a></h3>
+<p>Let me start with a basic standard: <strong>attribution only makes sense when you can run experiments.</strong></p>
+<p>In physics or chemistry, you can isolate variables, repeat the experiment, and say with confidence: &ldquo;A causes B.&rdquo; This is why we have bridges that don’t collapse and drugs that actually work.</p>
+<p>But life? Relationships? Career success? Historical events? These are <strong>singular, non-repeatable phenomena</strong>. You can’t rerun your childhood with different parents, A/B test your marriage, or replay 2020 with a different pandemic response to see what would&rsquo;ve happened.</p>
+<p>Yet we treat these complex, one-time events as if they were lab experiments. &ldquo;My relationship failed because of attachment issues.&rdquo; &ldquo;I’m not successful because of impostor syndrome.&rdquo; &ldquo;The company failed because of poor product-market fit.&rdquo;</p>
+<p>Maybe. Or maybe there were a million other factors you couldn&rsquo;t see.</p>
+<p>Nassim Taleb makes this point brilliantly in <em>Antifragile</em>: <strong>the problem with medicine and social science is that they try to use statistical methods to explain complex systems, but complex systems are non-linear and path-dependent.</strong> You can’t isolate the variable, control for everything, or even <em>see</em> everything that matters.</p>
+<p>Think about it: A farmer in ancient China might blame the local magistrate for high taxes, unaware that the emperor issued a decree affecting the entire empire. A retail investor thinks they picked winning stocks, not realizing the entire market was in a bull run. An employee attributes their burnout to personal weakness, blind to systemic organizational dysfunction.</p>
+<p><strong>You see the tip of the iceberg. But you attribute as if you see the whole ocean.</strong></p>
+<h3 id="the-magic-button-illusion">The Magic Button Illusion<a hidden class="anchor" aria-hidden="true" href="#the-magic-button-illusion">#</a></h3>
+<p>Here’s the cycle that happens when you learn a new psychological framework:</p>
+<ol>
+<li>You encounter a problem (relationship stress, career confusion, general unhappiness).</li>
+<li>You find a theory that &ldquo;explains&rdquo; it (attachment theory, impostor syndrome, etc.).</li>
+<li>You feel relief: &ldquo;Oh, <em>that&rsquo;s</em> why I’m like this!&rdquo;</li>
+<li>You believe you now have control: &ldquo;If I just adjust X, I can fix Y.&rdquo;</li>
+</ol>
+<p>This is the <strong>magic button illusion</strong>. You think you’ve found a volume knob where turning left reduces the problem and turning right amplifies the solution.</p>
+<p>But life doesn&rsquo;t work like that.</p>
+<p>Even if you correctly identified one causal factor (which is already nearly impossible given your cognitive limitations), you still can’t control it. Because:</p>
+<ol>
+<li><strong>Most factors are outside your control.</strong> The economy crashes. Your partner has their own psychology. Your boss has different incentives. Randomness reigns.</li>
+<li><strong>Systems are too complex.</strong> There are a hundred thousand interacting variables. Changing one often triggers cascading effects you didn&rsquo;t anticipate.</li>
+<li><strong>Path dependence matters.</strong> Your past constrains your present. You can’t just &ldquo;undo&rdquo; attachment patterns formed in childhood by reading a blog post.</li>
+</ol>
+<p>Yet the illusion persists. And here’s the cruel irony: <strong>the more you believe you <em>should</em> be able to control something, the more anxious you become when you can’t.</strong></p>
+<p>Before you learned attachment theory, you might&rsquo;ve thought: &ldquo;This relationship isn&rsquo;t working.&rdquo; Simple. Sad, but simple.</p>
+<p>After learning attachment theory, you spiral: &ldquo;I’m anxious-attached, which explains my behavior, which means I should be able to change it, but I can’t seem to change it, which means I’m failing, which means I’m fundamentally broken, which means every future relationship will fail too&hellip;&rdquo;</p>
+<p>See the spiral? The theory gave you a framework. The framework promised control. The lack of control created anxiety. <strong>The cure became the disease.</strong></p>
+<h3 id="why-we-believe-contagion-over-validity">Why We Believe: Contagion Over Validity<a hidden class="anchor" aria-hidden="true" href="#why-we-believe-contagion-over-validity">#</a></h3>
+<p>If these theories don&rsquo;t actually help, why do they spread so widely?</p>
+<p>Nassim Taleb has a brutal answer: <strong>&ldquo;It is contagion that determines the fate of a theory in social science, not its validity.&rdquo;</strong></p>
+<p>Theories spread because they’re <em>emotionally satisfying</em>, not because they’re <em>true</em>. They spread because they tell people what they want to hear: &ldquo;You can understand yourself. You can control your life. You are not helpless.&rdquo;</p>
+<p>This is the attention market at work. Information spreads based on:</p>
+<ul>
+<li><strong>Emotional resonance</strong>: Does it make you feel understood?</li>
+<li><strong>Simplicity</strong>: Is it easy to grasp and repeat?</li>
+<li><strong>Status signaling</strong>: Does knowing this make you look sophisticated?</li>
+<li><strong>Anxiety relief</strong>: Does it give you something to <em>do</em> about your problems?</li>
+</ul>
+<p>Notice what’s <em>not</em> on that list: <strong>empirical validity</strong>.</p>
+<p>The pop-psychology industry thrives on this. Attachment theory gets simplified into neat boxes. Love languages become personality tests. Growth mindset becomes a corporate buzzword. Each simplification loses nuance but gains virality.</p>
+<p>And you, the consumer, adopt these frameworks not because you&rsquo;ve verified them through rigorous experimentation, but because <strong>everyone else is using them, and you crave the relief they promise.</strong></p>
+<p>It’s mimetic desire applied to epistemology. You want to know because others know, and you crave the control they claim to have. But it’s a mass delusion.</p>
+<h3 id="the-boundary-of-language">The Boundary of Language<a hidden class="anchor" aria-hidden="true" href="#the-boundary-of-language">#</a></h3>
+<p>There’s a deeper problem here: <strong>some things are fundamentally ineffable.</strong></p>
+<p>Wittgenstein said it best: &ldquo;Whereof one cannot speak, thereof one must be silent.&rdquo; But we don&rsquo;t stay silent. We try to explain everything through language and logic, even things that resist linguistic capture.</p>
+<p>What does it mean to love someone? What makes a life meaningful? Why do you feel drawn to certain people and not others?</p>
+<p>You can&rsquo;t really explain it. You can gesture toward it with metaphors and approximations, but the essence remains elusive. This isn&rsquo;t because you&rsquo;re inarticulate. It&rsquo;s because <strong>language has boundaries</strong>.</p>
+<p>Consider this: AI doesn&rsquo;t actually think through language. Despite being called &ldquo;large language models,&rdquo; they operate on tokens. Language is just the interface, the way they communicate with us. The actual &ldquo;thinking&rdquo; (if we can call it that) happens in high-dimensional vector spaces that don&rsquo;t map cleanly to human words.</p>
+<p>Or consider animals: A zebra foal can stand within 20 minutes of birth and run shortly after. No one taught it. There’s no language instruction. The knowledge is encoded in DNA, compiled across millions of years of evolution. <strong>Intelligence exists outside of language.</strong></p>
+<p>Humans have this too. Musicians improvise without verbalizing their choices, athletes make split-second decisions that bypass language entirely, and parents love their children for reasons that resist articulation.</p>
+<p>But we&rsquo;ve been over-educated into believing that <strong>if you can&rsquo;t articulate something, you don&rsquo;t really understand it.</strong> So we frantically try to force ineffable experiences into linguistic boxes, learning theories and adopting frameworks to explain ourselves to ourselves.</p>
+<p>In doing so, we lose something essential: the ability to simply <em>experience</em> without analyzing, to <em>feel</em> without diagnosing, to <em>be</em> without optimizing.</p>
+<h3 id="the-over-education-trap">The Over-Education Trap<a hidden class="anchor" aria-hidden="true" href="#the-over-education-trap">#</a></h3>
+<p>This brings me to the core problem: <strong>over-education</strong>.</p>
+<p>Not education itself—education is valuable. But <em>over-education</em> is when you’ve learned so many theories that you can no longer trust your direct experience. You replace observation with explanation, feeling with framework, and living with analyzing.</p>
+<p>You meet someone and feel a connection. But instead of enjoying it, you start theorizing: &ldquo;Is this just novelty? Hormones? Projection? Will it fade?&rdquo; You’ve learned so many theories about <em>why</em> connections happen that you can’t just accept that they <em>do</em>.</p>
+<p>You have a good day at work. But instead of feeling accomplished, you think: &ldquo;Is this sustainable? Am I setting unrealistic standards? What if it&rsquo;s just Dunning-Kruger?&rdquo; The theories rob you of the present moment.</p>
+<p>This is what I mean when I say: <strong>letting learned theories prevent you from being happy is a form of over-education.</strong></p>
+<p>The Daoist classic <em>Tao Te Ching</em> opens with: &ldquo;The Tao that can be spoken is not the eternal Tao.&rdquo; It points to the same truth. Some truths resist codification. Some wisdom is accessed through practice and presence, not through theoretical knowledge.</p>
+<p>There’s a concept in learning theory called &ldquo;unlearning.&rdquo; It’s as important as learning. You need to unlearn the compulsion to explain everything, the need to control everything, and the belief that more knowledge equals more happiness.</p>
+<p><strong>Most of the time, you can only change your interpretation of things, not the things themselves.</strong> This is a hard pill to swallow in a culture obsessed with agency and optimization. But it&rsquo;s true.</p>
+<h3 id="what-actually-helps">What Actually Helps<a hidden class="anchor" aria-hidden="true" href="#what-actually-helps">#</a></h3>
+<p>So what’s the alternative?</p>
+<p><strong>Observe. Feel. Accept.</strong></p>
+<p>Not as a cop-out. Not as passive resignation. But as a fundamental recognition that <strong>most things are beyond your control and beyond your comprehension—and that’s okay.</strong></p>
+<p>Does this mean psychological theories are worthless? No. Some frameworks are genuinely useful as <strong>observational tools</strong>. Maslow’s hierarchy of needs can help you recognize patterns. The concept of cognitive biases can make you more humble about your own thinking.</p>
+<p>But there’s a crucial difference:</p>
+<ul>
+<li><strong>Theory as observation tool</strong>: &ldquo;Interesting, I notice I tend to seek approval. Let me sit with that.&rdquo;</li>
+<li><strong>Theory as control tool</strong>: &ldquo;I have anxious attachment, so I need to do X, Y, Z to fix myself or I’m doomed.&rdquo;</li>
+</ul>
+<p>The first is curiosity; the second is anxiety. The first allows for complexity and mystery; the second demands certainty and control.</p>
+<p><strong>The next time you encounter a psychological framework that claims to explain you, ask yourself: Is this helping me observe more clearly? Or is it giving me another magic button to obsess over?</strong></p>
+<p>Most of the time, the answer is the latter.</p>
+<h3 id="conclusion-the-freedom-of-not-knowing">Conclusion: The Freedom of Not Knowing<a hidden class="anchor" aria-hidden="true" href="#conclusion-the-freedom-of-not-knowing">#</a></h3>
+<p>I know this might sound like nihilism. &ldquo;Nothing can be explained, nothing can be controlled, what’s the point?&rdquo;</p>
+<p>But it&rsquo;s not nihilism. It&rsquo;s realism.</p>
+<p>The point is to live more freely, to reduce the tyranny of &ldquo;should,&rdquo; and to stop treating yourself as a malfunctioning machine that needs the right manual to operate correctly.</p>
+<p>You are not a set of variables to be optimized, your relationships are not experiments to be controlled, and your life is not a problem to be solved through better theories.</p>
+<p><strong>You are a complex being in a complex world, and most of what happens is emergent, unpredictable, and ultimately mysterious. And that&rsquo;s not a bug. That&rsquo;s the feature.</strong></p>
+<p>Freedom comes from accepting this. From letting go of the fantasy that if you just read one more book, learned one more framework, understood one more theory, you’d finally have it all figured out.</p>
+<p>You won’t. None of us will.</p>
+<p>But you can still observe, feel, and act. Just without the crushing weight of thinking you should be able to control it all.</p>
+
+
+  </div>
+
+
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://www.hancezhang.blog/en/">Hance Zhang&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

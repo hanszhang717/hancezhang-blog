@@ -6,20 +6,27 @@
     <description>Recent content in Categories on Hance Zhang的博客</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.hancezhang.blog/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mindsets</title>
+      <link>https://www.hancezhang.blog/zh/categories/mindsets/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/categories/mindsets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://www.hancezhang.blog/zh/categories/personal/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.hancezhang.blog/zh/categories/personal/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://www.hancezhang.blog/zh/categories/ai/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://www.hancezhang.blog/zh/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mindsets</title>
-      <link>https://www.hancezhang.blog/zh/categories/mindsets/</link>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.hancezhang.blog/zh/categories/mindsets/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +48,6 @@
       <link>https://www.hancezhang.blog/zh/categories/work/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://www.hancezhang.blog/zh/categories/work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal</title>
-      <link>https://www.hancezhang.blog/zh/categories/personal/</link>
-      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.hancezhang.blog/zh/categories/personal/</guid>
       <description></description>
     </item>
   </channel>
