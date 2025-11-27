@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.hancezhang.blog/zh/categories/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/categories/mindsets/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -39,6 +39,32 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.hancezhang.blog/zh/categories/mindsets/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/zh/posts/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/"
+                />
+  </url><url>
+    <loc>https://www.hancezhang.blog/zh/posts/value-accessibility-balance/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.hancezhang.blog/en/posts/value-accessibility-balance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.hancezhang.blog/zh/posts/value-accessibility-balance/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/categories/personal/</loc>
@@ -52,19 +78,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.hancezhang.blog/zh/categories/personal/"
-                />
-  </url><url>
-    <loc>https://www.hancezhang.blog/zh/posts/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.hancezhang.blog/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.hancezhang.blog/zh/posts/"
                 />
   </url><url>
     <loc>https://www.hancezhang.blog/zh/posts/the-futility-of-attribution/</loc>
