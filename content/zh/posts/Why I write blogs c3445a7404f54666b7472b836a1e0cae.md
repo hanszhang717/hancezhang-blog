@@ -34,4 +34,4 @@ lang: zh
 
 ## 关于原创性 
 
-我不会声称我的写作有很多原创性。我的大部分内容都是对我所敬佩的人思想的个人重新诠释。我的灵感主要来源于 Elon Musk、Paul Graham、Sam Altman、Brian Chesky、Steve Jobs、Naval Ravikant、尼采（Friedrich Nietzsche）、勒内·吉拉尔（René Girard）和查理·芒格（Charlie Munger）等人。(这个名单会继续增加……)
+我不会声称我的写作有很多原创性。我的大部分内容都是对我所敬佩的人思想的个人重新诠释。我的灵感主要来源于 Elon Musk、Paul Graham、Sam Altman、Brian Chesky、Steve Jobs、Naval Ravikant、尼采（Friedrich Nietzsche）、勒内·吉拉尔（René Girard）、查理·芒格（Charlie Munger）和彼得·蒂尔（Peter Thiel）等人。(这个名单会继续增加……)

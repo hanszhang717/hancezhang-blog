@@ -33,4 +33,4 @@ Given that the potential audience of this blog primarily uses Chinese and Englis
 
 ## On originality
 
-I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brian Chesky, Steve Jobs, Naval Ravikant, Friedrich Nietzsche, René Girard, and Charlie Munger, among others.(keep adding on this list..)
+I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brian Chesky, Steve Jobs, Naval Ravikant, Friedrich Nietzsche, René Girard, Charlie Munger, and Peter Thiel, among others.(keep adding on this list..)
