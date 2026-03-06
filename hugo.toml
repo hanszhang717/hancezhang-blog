@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir = true
     title = "Hance Zhang's Blog"
     contentDir = "content/en"
     [languages.en.params]
-      homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "I write about learnings in leadership, AI, product building, and investment. I'm currently based in Tokyo, DM me via X!"}
+      homeInfoParams = {Title = "👋 Welcome to Hance Zhang's Blog", Content = "Hance Zhang writes about AI, product building, business models, investing, and human relationships. Across these topics, he is ultimately interested in one thing: structure.\n\nHis work explores how incentives shape behavior, how time amplifies what is already there, and how systems quietly train people, organizations, and markets over the long run. Rather than focusing on slogans or stated values, he is interested in the deeper mechanisms that produce durable outcomes."}
     [[languages.en.menu.main]]
       name = "Posts"
       url = "/posts/"
@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
     title = "Hance Zhang的博客"
     contentDir = "content/zh"
     [languages.zh.params]
-      homeInfoParams = {Title = "👋 欢迎来到 Hance Zhang的博客", Content = "我撰写关于领导力、AI、产品思考和投资方面的学习心得。目前base东京，可以通过X私信我！文章原文是英文，中文都是AI翻译的"}
+      homeInfoParams = {Title = "👋 欢迎来到 Hance Zhang的博客", Content = "Hance Zhang 关注 AI、产品、商业模式、投资，以及人与人之间关系的长期演化。贯穿这些主题的，是他对"结构"的持续兴趣。\n\n他的写作关注激励如何塑造行为，时间如何放大既有模式，以及系统如何在长期中悄悄训练个人、组织与市场。比起口号和表态，他更关心那些真正决定结果的深层机制。"}
     [[languages.zh.menu.main]]
       name = "文章"
       url = "/posts/"
