@@ -18,7 +18,7 @@ Who gets to be vague and who has to be precise. Put differently: whoever holds t
 
 Once you see this, you start recognizing it everywhere.
 
-The emperor's riddle is the classic version. A cryptic remark tossed out, and the entire court spends the night parsing it. Why do emperors love doing this? Because a clear order can be traced back when things go wrong. A vague one can't. If something fails, it's always the official who "didn't understand the assignment." The emperor retains the right to change the meaning after the fact. The interpretive authority never leaves his hands. The correct answer is always announced retroactively, by him alone.
+The emperor's riddle is the classic version. A cryptic remark tossed out, and the entire court spends the night parsing it. Emperors love doing this because a clear order can be traced back when things go wrong. A vague one can't. If something fails, it's always the official who "didn't understand the assignment." The emperor retains the right to change the meaning after the fact. The interpretive authority never leaves his hands. The correct answer is always announced retroactively, by him alone.
 
 This kind of structure has a very specific consequence: it selects for a certain type of person. In a system that runs on guessing, the people who survive aren't the best problem solvers. They're the best face readers. The court drifts further and further from reality because everyone's attention is consumed by one person's inner state, leaving no energy for what's actually happening outside.
 
@@ -26,7 +26,7 @@ The same thing shows up in modern companies, just with different vocabulary. A C
 
 Notice what happened. The person who hadn't figured it out should have been the one to say "I'm not sure yet, let's discuss it together." Instead, power shifted the burden: I haven't figured it out, but you should have figured it out for me. If you guessed right, you "get it." If you guessed wrong, it's poor execution on your part.
 
-There's a second-order effect too. When the boss's intent becomes the organization's central puzzle, discussions stop being about the business. The real debate becomes "What did the boss actually mean?" Whoever sits closest to the boss, whoever can translate the boss's words for everyone else, gains an extra layer of power. Their most important skill isn't judgment. It's claiming to understand the boss best. The company starts to feel like a royal court.
+There's a second-order effect too. When the boss's intent becomes the organization's central puzzle, discussions stop being about the business. The real debate becomes "What did the boss actually mean?" Whoever sits closest to the boss, whoever can translate the boss's words for everyone else, gains an extra layer of power. Their most important skill becomes claiming to understand the boss best. The company starts to feel like a royal court.
 
 In intimate relationships, this structure is harder to spot because it wears the costume of "connection."
 
@@ -40,7 +40,7 @@ In an equal relationship, asking "What do you actually want?" is safe. It doesn'
 
 These three scenarios span very different scales, from an empire to a company to a single sentence between two people in a room. But the operating logic is the same. One side keeps the right to remain unclear. The other side bears the consequences of guessing wrong.
 
-Why does vagueness confer power? Because the moment you turn a thought into a clear statement, it becomes something that can be checked, challenged, held against you. Your desire goes from oracle to sentence. People can quote you back to yourself, and you lose the freedom to rewrite things after the fact. Vagueness sidesteps all of that. Hint one thing today, say you were misunderstood tomorrow. You never committed to anything on paper. The cost of trial and error sits entirely with the other party, and you get to seem deep, because people tend to confuse hard-to-read with sophisticated.
+Vagueness confers power because the moment you turn a thought into a clear statement, it becomes something that can be checked, challenged, held against you. Your desire goes from oracle to sentence. People can quote you back to yourself, and you lose the freedom to rewrite things after the fact. Vagueness sidesteps all of that. Hint one thing today, say you were misunderstood tomorrow. You never committed to anything on paper. The cost of trial and error sits entirely with the other party, and you get to seem deep, because people tend to confuse hard-to-read with sophisticated.
 
 There's an even deeper cost to this structure. It redirects the attention of the entire system. Once a relationship enters "guess what I'm thinking" mode, everyone's energy shifts from the external world to one person's internal standards. The team stops asking whether a feature is useful for users and starts trying to figure out what the boss pictures when he says "AI." One partner stops thinking about what's reasonable and starts thinking about what the other person's mood means today. Real problems leave the room. Everyone's just trying to guess the right answer.
 
