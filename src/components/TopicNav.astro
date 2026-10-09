@@ -1,0 +1,71 @@
+---
+import { ui, type Lang } from '../i18n';
+import type { Topic } from '../lib/posts';
+
+interface Props {
+  lang: Lang;
+  topics: (Topic & { count: number })[];
+  total: number;
+  /** Slug of the topic being shown, if any. */
+  current?: string;
+}
+
+const { lang, topics, total, current } = Astro.props;
+const t = ui(lang);
+---
+
+<nav class="topics" aria-label={t.navTopics}>
+  <a href={`/${lang}/posts/`} aria-current={current ? undefined : 'page'}>
+    {t.allTopics}<span class="count">{total}</span>
+  </a>
+  {
+    topics.map((topic) => (
+      <a href={`/${lang}/categories/${topic.slug}/`} aria-current={topic.slug === current ? 'page' : undefined}>
+        {topic.name}
+        <span class="count">{topic.count}</span>
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 2rem;
+    padding-inline: 0.875rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    color: var(--text-2);
+    transition: color 0.15s var(--ease), border-color 0.15s var(--ease), background-color 0.15s var(--ease);
+  }
+
+  a:hover {
+    color: var(--text);
+    border-color: var(--rule-strong);
+  }
+
+  a[aria-current='page'] {
+    border-color: var(--text);
+    background: var(--text);
+    color: var(--bg);
+  }
+
+  .count {
+    font-size: 0.75rem;
+    color: var(--text-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  a[aria-current='page'] .count {
+    color: color-mix(in srgb, var(--bg) 72%, var(--text));
+  }
+</style>

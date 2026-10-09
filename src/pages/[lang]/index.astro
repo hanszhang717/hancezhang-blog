@@ -1,0 +1,323 @@
+---
+import Base from '../../layouts/Base.astro';
+import Subscribe from '../../components/Subscribe.astro';
+import { formatDate, getPosts } from '../../lib/posts';
+import { LANGS, LOCALES, ui, type Lang } from '../../i18n';
+import { SITE } from '../../site.config';
+
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+
+const lang = Astro.params.lang as Lang;
+const t = ui(lang);
+const posts = await getPosts(lang);
+const [latest] = posts;
+const featured = posts.filter((post) => post.featured && post !== latest).slice(0, 5);
+const recent = posts.filter((post) => post !== latest && !featured.includes(post)).slice(0, 6);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.author,
+  url: `${SITE.url}/${lang}/`,
+  inLanguage: LOCALES[lang].html,
+  author: { '@type': 'Person', name: SITE.author, url: SITE.url, sameAs: [SITE.x.url] },
+};
+---
+
+<Base lang={lang} alternates={{ en: '/en/', zh: '/zh/' }} jsonLd={jsonLd}>
+  <div class="page home">
+    <section class="hero">
+      <h1 class="hero-title">{t.heroTitle}</h1>
+      <p class="hero-lede">{t.heroLede}</p>
+      <p class="hero-body">{t.heroBody}</p>
+      <div class="hero-actions">
+        <a class="button" href={`/${lang}/posts/`}>{t.heroCta}</a>
+        <a class="button button-quiet" href={`/${lang}/subscribe/`}>{t.navSubscribe}</a>
+        <span class="hero-elsewhere">
+          <a href={SITE.x.url} rel="me" aria-label="X">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.46 21H2.39l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.17h1.7L7.4 4.73H5.57l11.1 14.44Z"></path>
+            </svg>
+          </a>
+          <a href={`mailto:${SITE.email}`} aria-label={t.emailMe}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m3.5 6 8.5 7 8.5-7"></path>
+            </svg>
+          </a>
+          <a href={`/${lang}/index.xml`} aria-label="RSS">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <circle cx="5" cy="19" r="2.5"></circle>
+              <path d="M2.5 9.5a12 12 0 0 1 12 12h-3a9 9 0 0 0-9-9zm0-7a19 19 0 0 1 19 19h-3a16 16 0 0 0-16-16z"></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </section>
+
+    {
+      latest && (
+        <section class="section latest" aria-labelledby="latest-label">
+          <h2 class="eyebrow" id="latest-label">
+            {t.latest}
+          </h2>
+          <a class="latest-link" href={latest.url}>
+            <span class="latest-title">{latest.title}</span>
+            <span class="latest-desc">{latest.description}</span>
+            <span class="meta">
+              <time datetime={latest.date.toISOString().slice(0, 10)}>{formatDate(latest.date, lang)}</time>
+              <span>{t.minRead(latest.minutes)}</span>
+              {latest.topics.length > 0 && <span>{latest.topics.map((topic) => topic.name).join(' / ')}</span>}
+            </span>
+          </a>
+        </section>
+      )
+    }
+
+    {
+      featured.length > 0 && (
+        <section class="section" aria-labelledby="start-here">
+          <h2 class="eyebrow" id="start-here">
+            {t.startHere}
+          </h2>
+          <ol class="essays" role="list">
+            {featured.map((post) => (
+              <li>
+                <a class="essay" href={post.url}>
+                  <span class="essay-title">{post.title}</span>
+                  <span class="essay-desc">{post.description}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="section" aria-labelledby="recent">
+      <h2 class="eyebrow" id="recent">{t.recent}</h2>
+      <ol class="essays" role="list">
+        {
+          recent.map((post) => (
+            <li>
+              <a class="essay essay-row" href={post.url}>
+                <span class="essay-title">{post.title}</span>
+                <time class="essay-date" datetime={post.date.toISOString().slice(0, 10)}>
+                  {formatDate(post.date, lang, 'short')}
+                </time>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+      <a class="arrow-link all-link" href={`/${lang}/posts/`}>{t.allEssays(posts.length)}</a>
+    </section>
+
+    <section class="section home-subscribe">
+      <Subscribe lang={lang} />
+    </section>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    padding-block: clamp(2.5rem, 7vw, 5.5rem) clamp(3rem, 6vw, 4.5rem);
+  }
+
+  .hero-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2.25rem, 1.5rem + 3vw, 3.75rem);
+    font-weight: 560;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+  }
+
+  :global(:lang(zh-CN)) .hero-title {
+    font-family: var(--font-sans);
+    font-size: clamp(1.875rem, 1.3rem + 2.2vw, 2.875rem);
+    font-weight: 600;
+    line-height: 1.32;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-lede {
+    max-width: 40rem;
+    margin-top: 1.75rem;
+    font-family: var(--font-body);
+    font-size: clamp(1.1875rem, 1.05rem + 0.5vw, 1.375rem);
+    line-height: 1.55;
+  }
+
+  .hero-body {
+    max-width: 40rem;
+    margin-top: 1rem;
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    color: var(--text-2);
+  }
+
+  :global(:lang(zh-CN)) .hero-lede {
+    line-height: 1.75;
+  }
+
+  :global(:lang(zh-CN)) .hero-body {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 2.25rem;
+  }
+
+  .hero-elsewhere {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: 0.5rem;
+  }
+
+  .hero-elsewhere a {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    color: var(--text-2);
+    transition: color 0.15s var(--ease), background-color 0.15s var(--ease);
+  }
+
+  .hero-elsewhere a:hover {
+    color: var(--text);
+    background: var(--bg-sunken);
+  }
+
+  .section {
+    padding-block: 2.25rem 0.5rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .section + .section {
+    margin-top: 2.5rem;
+  }
+
+  .latest-link {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .latest-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    transition: color 0.15s var(--ease);
+  }
+
+  :global(:lang(zh-CN)) .latest-title {
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+  }
+
+  .latest-link:hover .latest-title {
+    color: var(--accent);
+  }
+
+  .latest-desc {
+    max-width: 40rem;
+    font-family: var(--font-body);
+    font-size: 1.1875rem;
+    line-height: 1.6;
+    color: var(--text-2);
+  }
+
+  :global(:lang(zh-CN)) .latest-desc {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+  }
+
+  .essays {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .essays li + li {
+    border-top: 1px solid var(--rule);
+  }
+
+  .essay {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    padding-block: 1.125rem;
+  }
+
+  .essay-row {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .essay-title {
+    font-family: var(--font-display);
+    font-size: 1.1875rem;
+    font-weight: 600;
+    line-height: 1.35;
+    transition: color 0.15s var(--ease);
+  }
+
+  :global(:lang(zh-CN)) .essay-title {
+    font-size: 1.0625rem;
+    letter-spacing: 0.01em;
+  }
+
+  .essay:hover .essay-title {
+    color: var(--accent);
+  }
+
+  .essay-desc {
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--text-2);
+  }
+
+  .essay-date {
+    flex-shrink: 0;
+    font-size: 0.8125rem;
+    color: var(--text-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .all-link {
+    margin-top: 1rem;
+  }
+
+  .home-subscribe > :global(*) {
+    max-width: 36rem;
+  }
+
+  @media (max-width: 40rem) {
+    .hero-elsewhere {
+      margin-left: 0;
+    }
+
+    .essay-row {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .essay-date {
+      order: -1;
+    }
+  }
+</style>

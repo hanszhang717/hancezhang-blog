@@ -4,6 +4,7 @@ date: 2026-03-05
 draft: false
 summary: "A business model isn't an arithmetic problem. It's a behavioral training machine. Whatever it rewards, that's what your company becomes."
 categories: ["Mindsets"]
+featured: true
 slug: "business-model-as-incentive-structure"
 ---
 

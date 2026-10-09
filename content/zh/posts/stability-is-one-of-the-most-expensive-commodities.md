@@ -4,6 +4,7 @@ date: 2026-03-17
 draft: false
 summary: "很多商业关系表面上在交易产品、劳动、服务，底下真正被交易的，是稳定性。"
 categories: ["Mindsets"]
+featured: true
 slug: "stability-is-one-of-the-most-expensive-commodities"
 lang: zh
 ---

@@ -4,6 +4,7 @@ date: 2025-08-08
 draft: false
 summary: "随着算力作为杠杆超越了人力，广泛共识已不再是必需品"
 categories: ["AI"]
+featured: true
 slug: "compute-leverage"
 ---
 

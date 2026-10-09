@@ -1,0 +1,91 @@
+---
+import '@fontsource-variable/source-serif-4/wght.css';
+import '@fontsource-variable/source-serif-4/wght-italic.css';
+import '../styles/global.css';
+import serifLatin from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../site.config';
+import { LANGS, LOCALES, otherLang, ui, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  /** Page title without the site name; omit on the home page. */
+  title?: string;
+  description?: string;
+  /** Paths of this page in each language, including the current one. */
+  alternates?: Partial<Record<Lang, string>>;
+  type?: 'website' | 'article';
+  published?: Date;
+  jsonLd?: Record<string, unknown>;
+  /** Keep the page out of search results (and give it no canonical URL). */
+  noindex?: boolean;
+}
+
+const { lang, title, description, alternates = {}, type = 'website', published, jsonLd, noindex } = Astro.props;
+const t = ui(lang);
+const locale = LOCALES[lang];
+const fullTitle = title ? `${title} · ${SITE.author}` : SITE.author;
+const metaDescription = description ?? t.siteDescription;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const ogImage = new URL('/og.png', SITE.url).href;
+const translations = LANGS.filter((code) => alternates[code]);
+const switchHref = alternates[otherLang(lang)] ?? `/${otherLang(lang)}/`;
+---
+
+<!doctype html>
+<html lang={locale.html}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <meta name="author" content={SITE.author} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    {
+      translations.length > 1 &&
+        translations.map((code) => (
+          <link rel="alternate" hreflang={LOCALES[code].html} href={new URL(alternates[code]!, SITE.url).href} />
+        ))
+    }
+
+    <script is:inline>
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+    <link rel="preload" href={serifLatin} as="font" type="font/woff2" crossorigin />
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151514" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.author} (English)`} href="/en/index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.author}（中文）`} href="/zh/index.xml" />
+
+    <meta property="og:site_name" content={SITE.author} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? SITE.author} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={locale.og} />
+    {translations.length > 1 && <meta property="og:locale:alternate" content={LOCALES[otherLang(lang)].og} />}
+    {published && <meta property="article:published_time" content={published.toISOString()} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content={SITE.x.handle} />
+    <meta name="twitter:creator" content={SITE.x.handle} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">{t.skipToContent}</a>
+    <Header lang={lang} switchHref={switchHref} />
+    <main id="content">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

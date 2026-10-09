@@ -4,6 +4,7 @@ date: 2026-03-17
 draft: false
 summary: "Many business relationships appear to trade products, labor, or services. What's actually being traded, underneath, is stability."
 categories: ["Mindsets"]
+featured: true
 slug: "stability-is-one-of-the-most-expensive-commodities"
 ---
 

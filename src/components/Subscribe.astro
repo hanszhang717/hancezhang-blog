@@ -1,0 +1,216 @@
+---
+import { SITE } from '../site.config';
+import { ui, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  /** Heading level, so the block fits the page outline it is placed in. */
+  as?: 'h1' | 'h2';
+}
+
+const { lang, as: Heading = 'h2' } = Astro.props;
+const t = ui(lang);
+const { action, emailField } = SITE.newsletter;
+const feeds = [
+  { label: 'English', url: new URL('/en/index.xml', SITE.url).href },
+  { label: '中文', url: new URL('/zh/index.xml', SITE.url).href },
+];
+// The reader's own language first.
+if (lang === 'zh') feeds.reverse();
+---
+
+<section class="subscribe">
+  <Heading class="subscribe-title">{t.subscribeTitle}</Heading>
+  <p class="subscribe-lede">{t.subscribeLede}</p>
+
+  {
+    action && (
+      <form class="subscribe-form" action={action} method="post" target="_blank">
+        <label class="visually-hidden" for={`email-${Heading}`}>
+          {t.subscribeEmailLabel}
+        </label>
+        <input id={`email-${Heading}`} type="email" name={emailField} required autocomplete="email" placeholder="you@example.com" />
+        <button class="button" type="submit">
+          {t.subscribeButton}
+        </button>
+        <p class="subscribe-fine">{t.subscribePrivacy}</p>
+      </form>
+    )
+  }
+
+  <div class="feeds">
+    <p class="feeds-label">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <circle cx="5" cy="19" r="2.5"></circle>
+        <path d="M2.5 9.5a12 12 0 0 1 12 12h-3a9 9 0 0 0-9-9zm0-7a19 19 0 0 1 19 19h-3a16 16 0 0 0-16-16z"></path>
+      </svg>
+      {t.subscribeRss}
+    </p>
+    <ul class="feed-list" role="list">
+      {
+        feeds.map((feed) => (
+          <li class="feed">
+            <span class="feed-name">{feed.label}</span>
+            <a class="feed-url" href={feed.url}>{feed.url.replace('https://', '')}</a>
+            <button class="feed-copy" type="button" data-copy={feed.url} data-copied-label={t.copied}>
+              {t.copy}
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="subscribe-fine">{t.subscribeRssHint}</p>
+  </div>
+
+  <p class="subscribe-elsewhere">
+    <a class="text-link" href={SITE.x.url} rel="me">{t.followX}</a>
+    <a class="text-link" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+  </p>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((button) => {
+    const label = button.textContent;
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.copy!);
+        button.textContent = button.dataset.copiedLabel ?? label;
+        setTimeout(() => (button.textContent = label), 1800);
+      } catch {
+        window.location.href = button.dataset.copy!;
+      }
+    });
+  });
+</script>
+
+<style>
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .subscribe-title {
+    font-size: 1.5rem;
+  }
+
+  h1.subscribe-title {
+    font-size: clamp(2rem, 1.5rem + 2vw, 2.75rem);
+  }
+
+  .subscribe-lede {
+    color: var(--text-2);
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .subscribe-form input {
+    flex: 1 1 14rem;
+    height: 2.75rem;
+    padding: 0 1rem;
+    border: 1px solid var(--rule-strong);
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--text);
+    font: inherit;
+  }
+
+  .subscribe-form input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .subscribe-form .button {
+    height: 2.75rem;
+  }
+
+  .subscribe-form .subscribe-fine {
+    flex-basis: 100%;
+  }
+
+  .subscribe-fine {
+    font-size: 0.8125rem;
+    color: var(--text-3);
+  }
+
+  .feeds {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin-top: 0.5rem;
+  }
+
+  .feeds-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .feed-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+  }
+
+  .feed {
+    display: grid;
+    grid-template-columns: 4.5rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 0.625rem 0.625rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .feed + .feed {
+    border-top: 1px solid var(--rule);
+  }
+
+  .feed-name {
+    color: var(--text-2);
+  }
+
+  .feed-url {
+    overflow: hidden;
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .feed-url:hover {
+    color: var(--accent);
+  }
+
+  .feed-copy {
+    padding: 0.3rem 0.75rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: transparent;
+    font-size: 0.8125rem;
+    color: var(--text-2);
+    cursor: pointer;
+  }
+
+  .feed-copy:hover {
+    color: var(--text);
+    border-color: var(--rule-strong);
+  }
+
+  .subscribe-elsewhere {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+</style>

@@ -1,0 +1,54 @@
+---
+import { SITE } from '../site.config';
+import { ui, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="page footer-inner">
+    <p class="copyright">© {SITE.since}–{year} {SITE.author}</p>
+    <nav class="footer-links" aria-label={t.navElsewhere}>
+      <a href={`/${lang}/index.xml`}>RSS</a>
+      <a href={SITE.x.url} rel="me">X</a>
+      <a href={`mailto:${SITE.email}`}>{t.emailMe}</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 6rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    padding-block: 2rem 2.5rem;
+    font-size: 0.875rem;
+    color: var(--text-3);
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-links a {
+    transition: color 0.15s var(--ease);
+  }
+
+  .footer-links a:hover {
+    color: var(--text);
+  }
+</style>
