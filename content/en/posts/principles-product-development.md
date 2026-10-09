@@ -9,73 +9,72 @@ slug: "principles-product-development"
 
 This is a redacted excerpt from an internal letter I wrote, with all sensitive information removed or masked.
 
+To stress it again: our strategic principles are built on working out how to play to our strengths and avoid our weaknesses, how to make trade-offs between goals, and how to build a chain of interlocking moves.
 
-**Reaffirming Strategic Principles: Prioritization of Objectives, Trade-Offs on Different Objectives, and Building a Chain of Interconnected Actions**
+## Principle 1: Step by Step
 
-## **Principle 1: Step by Step**
+The core of going step by step is this: as we make progress module by module, we must remember to keep switching perspectives and make sure we haven't thrown away the advantage of our integrated ecosystem. If the point of splitting up the different businesses in the past was to stop us from tripping over our own feet and holding each other back, then the point of going step by step on any one product now is to make sure, at every step, that we haven't pushed modular thinking to an extreme and ended up each going our own way. Going step by step makes sure we are building a chain of interlocking moves, not charging ahead with our heads down and losing our objectivity.
 
-The core of a "step-by-step" approach lies in dynamically shifting perspectives as we make modular progress, ensuring we don't lose the synergy of an integrated business ecosystem. Segmenting different business functions helped avoid internal bottlenecks. Now, in developer product development, "step-by-step" means avoiding extremes of modularity that isolate teams and instead ensuring that each move integrates tightly with the rest. **This step-by-step approach guarantees that our actions form an interconnected chain of progress, rather than haphazard rushes forward.**
+With every major feature update or user-growth plan, we have to ask ourselves, rigorously: Is it connected with the traffic side? Is it connected with the creator-economy side? Does it make use of the advantage of our integrated ecosystem? Does it lay the groundwork for integrating the ecosystem later?
 
-Each major product update or expansion initiative should prompt a critical question: Have we connected with all the business lines or resources we have? Are we leveraging the advantages of our integrated ecosystem? Are we laying groundwork for future ecosystem alignment?
+Making sure every step is closely coordinated with the other business lines has a cost, and we must be clear about that. Put bluntly, when one business line flops, it drags the others down with it. This means we may have to live with not expanding module by module as fast as we could, but we must gradually build the ability to run more complex closed loops. We need to firmly believe that if we hold to the one-step-one-loop path without wavering, the advantage of our integrated ecosystem will only grow over time, and it will become our core moat.
 
-Coordinating closely with other business lines incurs a cost, and we need to acknowledge it. In simple terms, weak performance in one line can pull down others, which means we might not expand modularly as fast as possible. Instead, we must develop the ability to manage increasingly complex loops. By steadfastly building these feedback loops, we enhance the advantages of our integrated ecosystem over the long term, turning them into our core differentiator.
+The step-by-step principle is also an important rebuttal to the overly hasty expansion strategies of the "quick victory" theory. We must never let performance targets like MAU and DAU go to our heads. Always remember: 10 users who love you matter far more than 100 users who sort of like you.
 
-The step-by-step principle is also a powerful counter to "quick-win" expansion strategies. Let's avoid being misled by performance metrics like DAU or MAU, at least for now. Remember: ten users who love you are more valuable than a hundred who only kind of like you. And where does user loyalty come from? From leveraging our ecosystem's strengths.
+Using the advantage of vertical integration in one area means this: when our ecosystem as a whole is weaker than our rivals', we make the battlefield smaller and concentrate our strength there, so the weaker side can beat the stronger one.
 
-Leveraging vertical integration on a smaller scale helps us concentrate our strengths even if, overall, our ecosystem is less mature than competitors'. This lets us compete from a stronger position on our chosen ground.
+## Principle 2: Proximate Objectives
 
-## **Principle 2: Proximate Goals**
-
-> All leaders have a crucial responsibility: **to simplify complex and ambiguous problems** and present them in a solvable form for their organization. Many leaders fall short here, often declaring ambitious goals without properly mapping out the obstacles. Taking responsibility doesn't only mean owning up to mistakes but also setting achievable, proximate goals that offer the organization solvable challenges.
+> All leaders have an important responsibility: to reduce the complexity and ambiguity of a problem and, once it is simplified, hand it to the organization as a problem that can be solved. Many leaders do this job very badly. They keep announcing grand goals but never properly plan which obstacles will have to be overcome. Being "responsible" means more than being willing to take the blame once a problem shows up. It also means setting proximate objectives and giving the organization a problem it can actually solve.
 — *Good Strategy, Bad Strategy*
 > 
 
-Ambitious goals can drive excitement, but they can also cause confusion and fear. Without achievable, smaller goals, our engineers don't have a clear starting point. We must empower frontline teams with decision-making power, while also reducing the ambiguity they face. Break down goals into tasks whenever possible. Focusing on proximate goals over grand visions keeps the team moving forward.
+Goals that are too grand bring enthusiasm, but they also bring confusion and fear. If we set only big-picture goals and no proximate objectives, our engineers won't know where to start. We need to give the frontline engineering teams the power to make product decisions, and at the same time greatly reduce the ambiguity of the situation they make those decisions in. The more our goals are broken down to look like tasks, the better.
 
-Proximate goals also provide timely motivation. Building a new business will be a long-term endeavor. We can't expect constant, strong positive feedback from the market, so setting and achieving smaller goals gives our team the positive reinforcement crucial for morale.
+Another big benefit of setting proximate objectives is that it lets us motivate the team in time. Product competition is a protracted war, and a protracted war means we can't expect to keep getting lots of big positive feedback from the market. It is bound to be a war full of hardship and negative feedback. Setting one proximate objective after another, and motivating the team to reach them, gives the team very good positive feedback and lifts its morale. This matters especially in a protracted war.
 
-## **Principle 3: Go-To-Market Multiple Times**
+## Principle 3: Keep Going to the Market
 
-> Ninety percent of product ideas are bad—what matters is how quickly you realize they are.
+> 90% of product ideas are stupid. It all comes down to whether you can find out faster than others that they're stupid.
 — *Marc Randolph, Co-founder of Netflix*
 > 
 
-Constant market engagement has three main benefits:
+Going to the market again and again has three big benefits:
 
-- Preventing insularity and creating products people actually need
-- Using new products to probe true market needs (the "scouting" approach),
-- Testing the reliability of our internal teams.
+- It checks whether we are building behind closed doors, making things other people don't necessarily need.
+- It uses what we've just built to probe what the market really needs (scout thinking).
+- It tests whether our own team is reliable.
 
-Developing products is like running social experiments. Genius product managers don't create universally-needed products out of thin air; the market is our lab. **The faster we obtain real results, the clearer our differentiation from competitors will be.** Mark Zuckerberg once said that building products is a turn-based strategy game and the winning secret is to ship it fast to have more turns than others. Accelerate problem exposure, increase visibility of issues, and ensure everyone is accountable for what they build and understands the use cases deeply.
+Building products is basically a process of running social experiments. There has never been a genius product manager who made something everyone needed but nobody had thought of. The market is really our lab, and how fast we get results out of the lab is what will set us apart from our competitors. The truth is: speed up the process of exposing problems and increase their exposure, so people have to take responsibility for what they make, and everyone has to be tied closely to the situations where the things they make get used.
 
-Getting market feedback is an art. We can't let market requests dictate every move or become tunnel-visioned on internal development goals. The answer is neither, but in accelerating our frequency of market engagement, reducing bias in feedback, and identifying core demands.
+Getting feedback from the market is an art too. We can't forget our big-picture strategy and rush to build feature X as soon as a user says they need it; that would have us running around like headless chickens. Nor can we follow only our own urge to build and ignore the market's feedback completely, with our eyes shut and our ears stopped. There is no standard answer to this. The only way out is to keep going to the market more often and faster, reduce the bias in our feedback, and understand where the market's real core needs are.
 
-## **Principle 4: Build a User Culture**
+## Principle 4: Build a User Culture
 
-Recognizing that product development will be long-term means understanding that we need an exceptional, durable team. As we noted, we're still in the early stages; the real competition will be even tougher.
+Once we understand why product competition is bound to be a protracted war, we quickly realize that what we need is a rock-solid, excellent team to carry out this mission. As the part above about the three stages of competition said, we are still early in stage one, and this is not the hardest it will get. The competition ahead will only get bloodier and more hand-to-hand, and holding on to our drive will matter even more.
 
-Any member indifferent to user needs or uninterested in the business trajectory could hinder the team down the line. Building a strong team will also be a long-term commitment; rapid turnover of team members would only be another version of the "quick-win" fallacy. **Promoting a strong user culture is a necessity, not an option.**
+Any team member who pays no attention to users, doesn't care where the business is going, or isn't willing to stay for the long run will drag the team down someday. That said, building a great team is also a protracted war, and rushing to replace people often is the same mistake of counting on a quick victory. But we must treat building a great team with real seriousness and urgency. We need to see clearly that a team full of people who don't understand users will never get far. So pushing a user culture, hard and in earnest, is in no way optional; it is a must.
 
-Why is this essential?
+Why do we have to push a user culture, that is, why must our development team understand users so well?
 
-- If we're empowering frontline engineers, they must understand user needs deeply; otherwise, they're just following product requirement docs.
-- Eliminate any go-between roles that separate engineers from users; these roles only add noise and delays.
-- Principle three—**Go-To-Market Multiple Times**—is best served by "building in public," where engineers can directly address feedback and bugs. If an engineer can't explain their work clearly, it indicates a need for deeper understanding. This level of clarity is necessary before delegation can be effective.
+- If we are going to give frontline engineers decision-making power (and we must), then those engineers must understand users' needs very well. Otherwise they're just copying the PRD by rote, which is no different from building behind closed doors.
+- Get rid of every go-between sitting between engineers and users. A go-between does nothing except add extra burden and noise to the flow of information.
+- For Principle 3, "Keep Going to the Market," the most sensible approach is to make everyone build in public and answer questions and handle bugs directly. More importantly, if an engineer can't clearly explain the feature they built, or users don't understand it, then you need to know what it is you built and why it doesn't work well, and understand deeply what your feature actually does for users. Only once we've done this can we give engineers decision-making power.
 
-## **Principle 5: Stay Objective**
+## Principle 5: Stay Objective
 
-Long-term competition tests our mindset: neither despair nor overconfidence are helpful. To maintain realistic assessments and a steady outlook, we must remind ourselves to stay objective.
+What a protracted war tests most is our state of mind. We can't be pessimistic and feel victory is hopeless, and we can't try to play the hero with our numbers and be overly optimistic about the situation. To keep a sound judgment of the situation and a good state of mind, we must remind ourselves to stay objective.
 
-### **Objectively Assess the Gaps**
+### See the Gap Objectively
 
-Stay informed of competitor dynamics. Where possible, try competitor products firsthand and monitor market feedback. Avoid being misled by competitors' "smoke-and-mirrors" updates, and keep a realistic view of market prospects and competition intensity.
+We must always stay alert to what competitors are doing and how far they've gotten. As much as possible, we should try every competitor's product update ourselves and look at the market's response, so a competitor's smoke-screen update doesn't throw us into disarray. We also need to keep doing thorough research on the industries upstream and downstream of our competitors, so we don't get overly optimistic about the market's prospects or the difficulty of the competition, and so we don't build features in an already saturated market while thinking we're innovating.
 
-### **Recognize the Twisting Path of Progress**
+### Recognize That Things Twist and Turn
 
-**Progress is not linear.** We're not omniscient and will have to continuously adapt. Don't fall into the trap of assuming "A will lead to B." New features won't automatically bring users; multiple factors could be at play. Our aim should be to test widely and cheaply.
+Things move back and forth and twist and turn; they don't go straight to where we want. We're not gods, and we don't know what the right road looks like. All we can do is keep trying and failing (by going to the market) and keep adjusting our direction. Never fall into the student mindset that doing A will get you B. A new feature won't necessarily get used, and there can be many reasons for that: we misjudged the need, the product wasn't good enough, and so on. What we can do is try and fail as widely as possible at the lowest possible cost.
 
-Negative feedback is still feedback. Being criticized by users is better than market silence; it proves that our needs assessment was somewhat accurate.
+Always remember: negative feedback is still feedback. And among negative feedback, being scolded by users is better than dead silence; at the very least, it proves that we defined the need reasonably.
 
-## **Principle 6: Stay Attuned to Opportunities**
+## Principle 6: Stay Alert to Opportunities
 
-**Growth over the long term follows a exponential curve, with bursts of short-term volatility.** Opportunities are unpredictable, and to grow, we must be prepared to seize them. Our ability to capture these moments must be continually maintained.
+Over the long run, things grow along a compounding curve. Over the short run, they grow in waves, in small, intermittent bursts.
