@@ -2,47 +2,35 @@
 title: "The Scorecard Fallacy: How Promotion Decisions Are Really Made"
 date: 2025-05-14
 draft: false
-summary: "Your stellar performance review isn't the key to promotion; the real secret lies in understanding the humans making the decision."
+summary: "Promotions are decided by people, and understanding them matters more than a perfect scorecard."
 categories: ["Mindsets"]
 slug: "the-scorecard-fallacy"
 ---
 
 Many of us, especially those who excelled in structured environments like school, carry a particular model of the world into our careers. We tend to believe that advancement, like getting good grades, is the result of a fair, well-calculated, numerical system. Do task A, get 10 points. Do task B, get 20. Rack up enough points, outperform others on the scorecard, and a promotion is the logical outcome. This is the GPA model of career progression.
 
-But the reality of the workplace, especially when it comes to decisions like who gets promoted or why a customer buys your product, is often starkly different. It's far less about a transparently calculated score and far more about something much more human, and therefore, much more opaque.
+But the workplace often works very differently, especially when it comes to who gets promoted or why a customer buys your product. There is rarely a transparent, calculated score behind those decisions. People make them, so they are much more human, and much more opaque.
 
-**The Human Element**
+## Story first, reasons second
 
-The first thing to internalize is that decision-makers—your boss, your boss's boss, the investor, the customer—are human. Humans are not consistently rational creatures. If people can be wildly irrational with their own life savings in the stock market, driven by euphoria or panic, how can we expect them to be purely logical, spreadsheet-driven entities when deciding on your career or a purchase?
+The first thing to accept is that the people deciding (your boss, your boss's boss, the investor, the customer) are human, and humans are not consistently rational. If people can be wildly irrational with their own life savings in the stock market, driven by euphoria or panic, how can we expect them to decide on your career, or on a purchase, purely by logic and spreadsheets?
 
-The truth is, many decisions are born from an *impression*, a *feeling*. The reasons, the justifications, often come later. They are constructed, sometimes unconsciously, to support a conclusion that was already forming. No one likes to admit they operate on gut feelings, especially in a professional context, so a narrative is woven. But it's often story first, reasons second.
+Many decisions start from an *impression*, a *feeling*. The reasons and justifications often come later, constructed, sometimes unconsciously, to support a conclusion that was already forming. Nobody likes to admit they go on gut feeling, especially at work, so a narrative gets woven around it afterwards.
 
-What truly sways these human decision-makers? It's rarely just about the tasks you ticked off. It's about deeper, less quantifiable factors:
+What sways these decision-makers is usually harder to measure than the tasks you ticked off. One thing is trust: does your manager trust your judgment, your loyalty and your character, as well as your competence? Another is whether they see you as "one of them." That comes from a subtle, often subconscious recognition of shared values and perspectives (which is a different thing from blatant cronyism), or even from a sense that you remind them of a younger version of themselves. They're investing in someone they feel they *understand* and can *count on*, in a way that's hard to put on paper.
 
-* **Trust:** Does your manager trust you? Not just your competence, but your judgment, your loyalty, your character.  
-* **Shared Values:** Do they see you as "one of them"? This isn't about blatant cronyism, but a subtle, often subconscious, recognition of shared values, perspectives, or even a sense that you remind them of a younger version of themselves. They're investing in someone they feel they *understand* and can *count on* in a less tangible way.
+## Beyond the scorecard
 
-**Playing the Real Game**
+So the scorecard is only part of the game, and being a flawless task-completion machine only gets you so far. The most effective way to get promoted is often to help your manager succeed: to help them get *their* promotion, or reach *their* key objectives.
 
-If the scorecard isn't the whole game, what is? It's about understanding the human landscape you're operating in. The most effective way to get promoted isn't just to be a flawless task-completion machine. It's often to help your manager succeed, to help them get *their* promotion or achieve *their* key objectives.
+In practice, that starts with seeing things from their side: what pressures they're under, what keeps them up at night. Then look past your assigned tasks to the bigger picture, and ask how your work feeds your team's goals and your manager's. When your manager cares about a problem, offer a solution to it. If you can make their life easier and help them get what they're after, you become valuable in a way that ticking off tasks never makes you.
 
-This requires you to:
+## What gets in the way
 
-1. **Think From Their Perspective:** What are their pressures? What problems are they trying to solve? What keeps them up at night?  
-2. **Expand Your Scope:** Don't just focus on your assigned tasks. See the bigger picture. How does your work contribute to your team's and your manager's goals?  
-3. **Collaborate Proactively:** Offer solutions to the problems your manager cares about. If you can make their life easier and help them achieve their aims, you become invaluable in a way that transcends simple task execution.
+Working this way runs into a few widely held beliefs that, in my view, do real damage. The first is "This is just sucking up or playing politics." Many people, particularly those shaped by systems that reward individual, measurable achievement (like the exam-based education systems), recoil from the idea. It feels distasteful to them, a departure from a "fair" world where merit is rewarded objectively. They believe the "school system," with its perfect scores and clear rubrics, is how things should be. But the school system is largely an artificial construct. The world of human interaction, of unspoken cues and trust built up through relationships, is the default state of human affairs, and you can learn to work in it without giving up your principles.
 
-**Misconceptions That Hold You Back**
+Another is "Maintain strict boundaries; work is just work." Today's emphasis on work-life balance and professional boundaries matters, because it helps prevent burnout and keeps you out of office politics, but it can be misused. It can turn into a reductive, almost mechanical way of treating colleagues: "They are my upstream; they give me X. I am midstream; I process X and give Y to downstream." Being professional is important, but treating your colleagues, including your boss, as cogs in a machine is a mistake. They are people. Notice how they feel and what pressure they're under. You don't need to be best friends, but seeing them as people builds the kind of rapport and understanding that oils the wheels of collaboration and trust. Don't "gear-ify" yourself or others.
 
-Understanding and navigating this human element often bumps up against several widely held, and in my view, damaging, misconceptions.
+And then there's "I'm paid X, so I'll only do X amount of work/thinking." Many employees feel that thinking about their boss's problems, or going the extra mile beyond their job description, is unpaid labor: "They don't pay me enough to worry about that." I can understand this from a purely transactional point of view, but it's very shortsighted. It ignores the power balance in most employer-employee relationships, where the employer usually holds more bargaining power. If you rigidly stick to "I'll only do more if you pay me more first," you're likely to end up in a stalemate. More often, you need to be proactive and show your value and potential before the bigger pay comes. Think of that extra effort as an investment: it builds trust and shows what you can do, and that is what leads to bigger opportunities and rewards. Those who only focus on the immediate exchange often miss the bigger game.
 
-* Misconception 1: **"This is just sucking up or playing politics."**  
-Many, particularly those conditioned by systems that reward individual, measurable achievement (like the exam-based education systems), recoil from this idea. They see it as distasteful, a deviation from a "fair" world where merit is objectively rewarded. They believe the "school system" – the world of perfect scores and clear rubrics – is how things should be.  
-But here's the uncomfortable truth: the "school system" is largely an artificial construct. The world of human interaction, of unspoken cues, of trust built through nuanced relationships – this is the default state of human affairs. It's not an aberration; it's the reality. Learning to navigate it isn't about abandoning principles; it's about understanding the reality.  
-* Misconception 2: **"Maintain strict boundaries; work is just work."** The modern emphasis on work-life balance and professional boundaries, while important to prevent burnout and avoid office politics, can sometimes be misused. It can lead to a **reductionist, almost mechanical** approach to colleagues. "They are my upstream; they give me X. I am midstream; I process X and give Y to downstream." While professionalism is key, treating your colleagues – including your boss – as mere cogs in a machine is a mistake. They are people. Perceive their emotions, understand their pressures, listen to their joys and frustrations. You don't need to be best friends, but recognizing their humanity builds the kind of rapport and understanding that oils the wheels of collaboration and trust. Don't "gear-ify" yourself or others.  
-* Misconception 3: "I'm paid X, so I'll only do X amount of work/thinking."  
-Many employees feel that thinking about their boss's problems, or going the extra mile beyond their explicit job description, is uncompensated labor. "They don't pay me enough to worry about that."  
-This mindset, while understandable from a purely transactional viewpoint, is incredibly shortsighted. It ignores the power dynamic inherent in most employer-employee relationships. The employer generally holds more bargaining power. If you rigidly stick to "I'll only do more if you pay me more first," you're likely to find yourself in a stalemate.  
-The reality is, you often need to be proactive, to demonstrate your value and potential before the greater compensation comes. It's not about being exploited; it's about strategically investing your effort to build the trust and demonstrate the capability that leads to greater opportunities and rewards. Those who only focus on the immediate direct exchange often miss the bigger game.
-
-The world of work, like much of life, is governed by these less obvious, more human dynamics. Recognizing this isn't about cynicism; it's about effectiveness. It's about understanding that true advancement often comes not from acing a test, but from building trust, understanding people, and helping them succeed.
+Work, like much of life, runs on these less obvious, more human dynamics, and seeing them clearly makes you more effective. Promotions are decided by people. More than whoever has the best score, people promote those they trust and understand, and those who have helped them succeed.
