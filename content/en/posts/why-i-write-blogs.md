@@ -19,11 +19,11 @@ I used to organize my thoughts using the iPhone's native memo app. But as I grad
 
 ## A window for people to know me, aka personal branding
 
-Whenever I meet a new interesting person, or catching up with some old friends, I really do have a lot to share, and those sharing are generally less about news but more about learnings. As I met more interesting people daily (a good sign!), I felt the repetition of introducing my learnings has been annoying enough that I wanted some form of automation, and blogging seems to be a great way to do it.
+Whenever I meet a new interesting person, or catch up with some old friends, I really do have a lot to share, and what I share is generally less about news but more about learnings. As I met more interesting people daily (a good sign!), I felt the repetition of introducing my learnings has been annoying enough that I wanted some form of automation, and blogging seems to be a great way to do it.
 
 Blogging also helps me build a personal brand. I believe personal branding is an underestimated asset in its impact and overestimated in its cost. Like any other asset, personal branding yields compound interest. Starting early on the path of exponential growth can lead to significant rewards in the end.
 
-I'm lazy, uninterested, and incompetent in other form of medias (music, art, video, and others), which makes blogging a no-brainer.
+I'm lazy, uninterested, and incompetent in other forms of media (music, art, video, and others), which makes blogging a no-brainer.
 
 ## Practice writing
 
@@ -33,4 +33,4 @@ Given that the potential audience of this blog primarily uses Chinese and Englis
 
 ## On originality
 
-I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brian Chesky, Steve Jobs, Naval Ravikant, Friedrich Nietzsche, René Girard, Charlie Munger, and Peter Thiel, among others.(keep adding on this list..)
+I won't claim much originality in my writing. Most of my content is a personal reinterpretation of ideas from great minds I admire. I draw inspiration mainly from the works of Elon Musk, Paul Graham, Sam Altman, Brian Chesky, Steve Jobs, Naval Ravikant, Friedrich Nietzsche, René Girard, Charlie Munger, and Peter Thiel, among others (keep adding to this list...).
