@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { ui } from '../i18n';
+
+// One 404 page serves both languages; Chinese visitors get a Chinese line underneath.
+const t = ui('en');
+const zh = ui('zh');
+---
+
+<Base lang="en" title={t.notFoundTitle} noindex>
+  <div class="column not-found">
+    <p class="eyebrow">404</p>
+    <h1>{t.notFoundTitle}</h1>
+    <p>{t.notFoundBody}</p>
+    <p lang="zh-CN">{zh.notFoundBody}</p>
+    <p class="links">
+      <a class="arrow-link" href="/en/">{t.notFoundHome}</a>
+      <a class="arrow-link" href="/zh/" lang="zh-CN">{zh.notFoundHome}</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .not-found {
+    padding-top: clamp(3rem, 10vw, 7rem);
+  }
+
+  h1 {
+    margin-block: 0.75rem 1.25rem;
+    font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);
+  }
+
+  p:not(.eyebrow) {
+    color: var(--text-2);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+</style>

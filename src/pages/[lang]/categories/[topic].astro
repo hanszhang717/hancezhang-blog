@@ -1,0 +1,69 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Archive from '../../../components/Archive.astro';
+import TopicNav from '../../../components/TopicNav.astro';
+import { getPosts, getTopics } from '../../../lib/posts';
+import { LANGS, otherLang, ui, type Lang } from '../../../i18n';
+
+export async function getStaticPaths() {
+  const paths = await Promise.all(
+    LANGS.map(async (lang) => {
+      const topics = getTopics(await getPosts(lang));
+      const translated = new Set(getTopics(await getPosts(otherLang(lang))).map((topic) => topic.slug));
+      return topics.map((topic) => ({
+        params: { lang, topic: topic.slug },
+        props: { name: topic.name, hasTranslation: translated.has(topic.slug) },
+      }));
+    }),
+  );
+  return paths.flat();
+}
+
+const lang = Astro.params.lang as Lang;
+const slug = Astro.params.topic as string;
+const { name, hasTranslation } = Astro.props;
+const t = ui(lang);
+const posts = await getPosts(lang);
+const inTopic = posts.filter((post) => post.topics.some((topic) => topic.slug === slug));
+const alternates = { [lang]: `/${lang}/categories/${slug}/` } as Partial<Record<Lang, string>>;
+if (hasTranslation) alternates[otherLang(lang)] = `/${otherLang(lang)}/categories/${slug}/`;
+---
+
+<Base lang={lang} title={name} description={t.topicIntro(name, inTopic.length)} alternates={alternates}>
+  <div class="page listing">
+    <header class="listing-header">
+      <p class="eyebrow"><a href={`/${lang}/posts/`}>{t.writingTitle}</a></p>
+      <h1>{name}</h1>
+      <p>{t.topicIntro(name, inTopic.length)}</p>
+    </header>
+    <Archive lang={lang} posts={inTopic}>
+      <TopicNav lang={lang} topics={getTopics(posts)} total={posts.length} current={slug} />
+    </Archive>
+  </div>
+</Base>
+
+<style>
+  .listing {
+    padding-top: clamp(2.5rem, 6vw, 4.5rem);
+  }
+
+  .listing-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .eyebrow a:hover {
+    color: var(--accent);
+  }
+
+  h1 {
+    margin-top: 0.5rem;
+    font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);
+    letter-spacing: -0.02em;
+  }
+
+  .listing-header p:last-child {
+    margin-top: 0.875rem;
+    font-size: 1.0625rem;
+    color: var(--text-2);
+  }
+</style>

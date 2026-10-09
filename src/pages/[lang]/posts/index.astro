@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Archive from '../../../components/Archive.astro';
+import TopicNav from '../../../components/TopicNav.astro';
+import { getPosts, getTopics } from '../../../lib/posts';
+import { LANGS, ui, type Lang } from '../../../i18n';
+import { SITE } from '../../../site.config';
+
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+
+const lang = Astro.params.lang as Lang;
+const t = ui(lang);
+const posts = await getPosts(lang);
+---
+
+<Base lang={lang} title={t.writingTitle} alternates={{ en: '/en/posts/', zh: '/zh/posts/' }}>
+  <div class="page listing">
+    <header class="listing-header">
+      <h1>{t.writingTitle}</h1>
+      <p>{t.writingIntro(posts.length, SITE.since)}</p>
+    </header>
+    <Archive lang={lang} posts={posts}>
+      <TopicNav lang={lang} topics={getTopics(posts)} total={posts.length} />
+    </Archive>
+  </div>
+</Base>
+
+<style>
+  .listing {
+    padding-top: clamp(2.5rem, 6vw, 4.5rem);
+  }
+
+  .listing-header {
+    margin-bottom: 2.5rem;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);
+    letter-spacing: -0.02em;
+  }
+
+  .listing-header p {
+    margin-top: 0.875rem;
+    font-size: 1.0625rem;
+    color: var(--text-2);
+  }
+</style>

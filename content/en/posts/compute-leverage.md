@@ -4,6 +4,7 @@ date: 2025-08-08
 draft: false
 summary: "Rich consensus is no longer necessary as compute outperforms labor as a leverage"
 categories: ["AI"]
+featured: true
 slug: "compute-leverage"
 ---
 

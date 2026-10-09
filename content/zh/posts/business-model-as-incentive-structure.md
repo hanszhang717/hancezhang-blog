@@ -4,6 +4,7 @@ date: 2026-03-05
 draft: false
 summary: "商业模式不是一道算术题，而是一套行为训练器。它在奖励什么，就会把公司塑造成什么。"
 categories: ["Mindsets"]
+featured: true
 slug: "business-model-as-incentive-structure"
 lang: zh
 ---

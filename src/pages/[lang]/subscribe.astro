@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import Subscribe from '../../components/Subscribe.astro';
+import { LANGS, ui, type Lang } from '../../i18n';
+
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+
+const lang = Astro.params.lang as Lang;
+const t = ui(lang);
+---
+
+<Base
+  lang={lang}
+  title={t.subscribeTitle}
+  description={t.subscribeLede}
+  alternates={{ en: '/en/subscribe/', zh: '/zh/subscribe/' }}
+>
+  <div class="column subscribe-page">
+    <Subscribe lang={lang} as="h1" />
+  </div>
+</Base>
+
+<style>
+  .subscribe-page {
+    padding-top: clamp(2.5rem, 6vw, 4.5rem);
+  }
+</style>

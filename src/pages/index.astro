@@ -1,0 +1,39 @@
+---
+import { SITE } from '../site.config';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{SITE.author}</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={`${SITE.url}/en/`} />
+    <link rel="alternate" hreflang="en" href={`${SITE.url}/en/`} />
+    <link rel="alternate" hreflang="zh-CN" href={`${SITE.url}/zh/`} />
+    <link rel="alternate" hreflang="x-default" href={`${SITE.url}/`} />
+    <!-- Open in the language the reader picked before, else the browser's, else English. -->
+    <script is:inline>
+      (function () {
+        var lang;
+        try {
+          lang = localStorage.getItem('lang');
+        } catch (e) {}
+        if (lang !== 'en' && lang !== 'zh') {
+          lang = 'en';
+          var preferred = navigator.languages || [navigator.language || ''];
+          for (var i = 0; i < preferred.length; i++) {
+            var code = String(preferred[i]).toLowerCase();
+            if (code.indexOf('zh') === 0) lang = 'zh';
+            if (code.indexOf('zh') === 0 || code.indexOf('en') === 0) break;
+          }
+        }
+        location.replace('/' + lang + '/');
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>
+  </head>
+  <body>
+    <p><a href="/en/">English</a> · <a href="/zh/">中文</a></p>
+  </body>
+</html>

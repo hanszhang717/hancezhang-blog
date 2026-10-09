@@ -4,6 +4,7 @@ date: 2026-03-04
 draft: false
 summary: "现代文化把'长期'道德化成政治正确。但时间不自带复利，它只放大已有结构。"
 categories: ["Mindsets"]
+featured: true
 slug: "does-long-term-relationship-actually-compound"
 lang: zh
 ---

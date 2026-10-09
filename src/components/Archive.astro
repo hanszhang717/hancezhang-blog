@@ -1,0 +1,274 @@
+---
+import { formatMonthDay, groupByYear, type Post } from '../lib/posts';
+import { ui, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  posts: Post[];
+}
+
+const { lang, posts } = Astro.props;
+const t = ui(lang);
+---
+
+<div class="archive-tools">
+  <label class="search">
+    <span class="visually-hidden">{t.searchPlaceholder}</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="m20 20-3.5-3.5"></path>
+    </svg>
+    <input type="search" placeholder={t.searchPlaceholder} autocomplete="off" spellcheck="false" data-search-input data-index={`/${lang}/search.json`} />
+    <kbd aria-hidden="true">/</kbd>
+  </label>
+  <slot />
+</div>
+
+<div class="archive" data-archive>
+  {
+    groupByYear(posts).map(([year, items]) => (
+      <section class="archive-year" data-year>
+        <h2 class="archive-year-label">{year}</h2>
+        <ol class="archive-list" role="list">
+          {items.map((post) => (
+            <li class="archive-item" data-url={post.url}>
+              <a class="archive-link" href={post.url}>
+                <span class="archive-title">{post.title}</span>
+                <span class="archive-desc">{post.description}</span>
+              </a>
+              <span class="archive-meta">
+                <time datetime={post.date.toISOString().slice(0, 10)}>{formatMonthDay(post.date, lang)}</time>
+                <span class="archive-minutes">{t.minRead(post.minutes)}</span>
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+  <p class="archive-empty" hidden data-search-empty>{t.noResults}</p>
+</div>
+
+<script>
+  interface Entry {
+    url: string;
+    text: string;
+  }
+
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const items = [...document.querySelectorAll<HTMLElement>('.archive-item')];
+  const years = [...document.querySelectorAll<HTMLElement>('[data-year]')];
+  const empty = document.querySelector<HTMLElement>('[data-search-empty]');
+  const normalize = (value: string) => value.normalize('NFKC').toLowerCase();
+  // Until the full-text index arrives, search what's on the page.
+  let haystacks = new Map(items.map((item) => [item.dataset.url!, normalize(item.textContent ?? '')]));
+  let index: Promise<void> | undefined;
+
+  const loadIndex = () =>
+    (index ??= fetch(input!.dataset.index!)
+      .then((response) => response.json() as Promise<Entry[]>)
+      .then((entries) => {
+        haystacks = new Map(entries.map((entry) => [entry.url, normalize(entry.text)]));
+      })
+      .catch(() => {}));
+
+  function filter() {
+    const terms = normalize(input!.value).split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const item of items) {
+      const haystack = haystacks.get(item.dataset.url!) ?? '';
+      const match = terms.every((term) => haystack.includes(term));
+      item.hidden = !match;
+      if (match) shown += 1;
+    }
+    for (const year of years) year.hidden = !year.querySelector('.archive-item:not([hidden])');
+    if (empty) empty.hidden = shown > 0;
+  }
+
+  if (input) {
+    input.addEventListener('focus', loadIndex, { once: true });
+    input.addEventListener('input', () => {
+      filter();
+      loadIndex().then(filter);
+    });
+    document.addEventListener('keydown', (event) => {
+      const target = event.target as HTMLElement;
+      if (event.key === '/' && !target.closest('input, textarea, [contenteditable]')) {
+        event.preventDefault();
+        input.focus();
+      }
+      if (event.key === 'Escape' && target === input) {
+        input.value = '';
+        filter();
+        input.blur();
+      }
+    });
+  }
+</script>
+
+<style>
+  .archive-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 26rem;
+    color: var(--text-3);
+  }
+
+  .search svg {
+    position: absolute;
+    left: 0.875rem;
+    pointer-events: none;
+  }
+
+  .search input {
+    width: 100%;
+    height: 2.75rem;
+    padding: 0 2.75rem 0 2.5rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.9375rem;
+    transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease);
+  }
+
+  .search input::placeholder {
+    color: var(--text-3);
+  }
+
+  .search input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .search input::-webkit-search-cancel-button {
+    display: none;
+  }
+
+  .search kbd {
+    position: absolute;
+    right: 0.75rem;
+    min-width: 1.5rem;
+    padding: 0.0625rem 0.375rem;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .search input:focus ~ kbd {
+    display: none;
+  }
+
+  @media (hover: none) {
+    .search kbd {
+      display: none;
+    }
+  }
+
+  .archive-year + .archive-year {
+    margin-top: 3rem;
+  }
+
+  .archive-year-label {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--text-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .archive-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .archive-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.25rem 2rem;
+    padding-block: 1.25rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .archive-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  .archive-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    transition: color 0.15s var(--ease);
+  }
+
+  :global(:lang(zh-CN)) .archive-title {
+    font-size: 1.125rem;
+    letter-spacing: 0.01em;
+  }
+
+  .archive-link:hover .archive-title {
+    color: var(--accent);
+  }
+
+  .archive-desc {
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--text-2);
+  }
+
+  .archive-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+    padding-top: 0.3rem;
+    font-size: 0.8125rem;
+    color: var(--text-3);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .archive-empty {
+    padding-block: 2rem;
+    color: var(--text-2);
+  }
+
+  @media (max-width: 40rem) {
+    .archive-item {
+      grid-template-columns: 1fr;
+    }
+
+    .archive-meta {
+      flex-direction: row;
+      order: -1;
+      gap: 0.625rem;
+      padding-top: 0;
+    }
+
+    .archive-minutes::before {
+      content: '·';
+      margin-right: 0.625rem;
+      color: var(--rule-strong);
+    }
+  }
+</style>

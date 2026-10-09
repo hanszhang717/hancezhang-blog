@@ -4,6 +4,7 @@ date: 2026-03-04
 draft: false
 summary: "Modern culture has moralized 'long-term' into political correctness. But time doesn't compound by default. It only amplifies existing structure."
 categories: ["Mindsets"]
+featured: true
 slug: "does-long-term-relationship-actually-compound"
 ---
 

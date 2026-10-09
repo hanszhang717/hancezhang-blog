@@ -4,6 +4,7 @@ date: 2025-10-09
 draft: false
 summary: "In the AI gold rush, 'being contrarian' has become its own consensus; the real move is choosing the life that fits you."
 categories: ["Mindsets"]
+featured: true
 slug: "mimetic-desire"
 ---
 

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/archives/", "destination": "/en/posts/", "permanent": true },
+    { "source": "/search/", "destination": "/en/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/archives/", "destination": "/:lang/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/search/", "destination": "/:lang/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/categories/", "destination": "/:lang/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/page/:n/", "destination": "/:lang/", "permanent": true },
+    { "source": "/:lang(en|zh)/posts/page/:n/", "destination": "/:lang/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/categories/:topic/page/:n/", "destination": "/:lang/categories/:topic/", "permanent": true },
+    { "source": "/:lang(en|zh)/categories/index.xml", "destination": "/:lang/index.xml", "permanent": true },
+    { "source": "/:lang(en|zh)/categories/:topic/index.xml", "destination": "/:lang/index.xml", "permanent": true },
+    { "source": "/:lang(en|zh)/archives/index.xml", "destination": "/:lang/index.xml", "permanent": true },
+    { "source": "/:lang(en|zh)/search/index.xml", "destination": "/:lang/index.xml", "permanent": true },
+    { "source": "/:lang(en|zh)/tags/", "destination": "/:lang/posts/", "permanent": true },
+    { "source": "/:lang(en|zh)/tags/index.xml", "destination": "/:lang/index.xml", "permanent": true },
+    { "source": "/:lang(en|zh)/index.json", "destination": "/:lang/search.json", "permanent": true },
+    { "source": "/:lang(en|zh)/sitemap.xml", "destination": "/sitemap.xml", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/_astro/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}

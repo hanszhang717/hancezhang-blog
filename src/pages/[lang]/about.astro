@@ -1,0 +1,46 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../i18n';
+import { SITE } from '../../site.config';
+
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+
+const lang = Astro.params.lang as Lang;
+const page = await getEntry('pages', `${lang}/about`);
+if (!page) throw new Error(`Missing content/${lang}/about.md`);
+const { Content } = await render(page);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: { '@type': 'Person', name: SITE.author, url: SITE.url, email: SITE.email, sameAs: [SITE.x.url] },
+};
+---
+
+<Base
+  lang={lang}
+  title={page.data.title}
+  description={page.data.description}
+  alternates={{ en: '/en/about/', zh: '/zh/about/' }}
+  jsonLd={jsonLd}
+>
+  <article class="column about">
+    <h1>{page.data.title}</h1>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>
+
+<style>
+  .about {
+    padding-top: clamp(2.5rem, 6vw, 4.5rem);
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.25rem);
+    letter-spacing: -0.02em;
+  }
+</style>

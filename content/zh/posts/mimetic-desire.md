@@ -4,6 +4,7 @@ date: 2025-10-09
 draft: false
 summary: "在 AI 淘金热里，“做逆行者”本身成了最拥挤的赛道。"
 categories: ["Mindsets"]
+featured: true
 slug: "mimetic-desire"
 lang: zh
 ---
