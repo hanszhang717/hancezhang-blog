@@ -9,8 +9,7 @@ export const LOCALES: Record<Lang, { html: string; date: string; og: string; nam
 export const otherLang = (lang: Lang): Lang => (lang === 'en' ? 'zh' : 'en');
 
 const en = {
-  siteDescription:
-    'Essays by Hance Zhang on AI, products, business models, investing, and relationships, and on the structures underneath them.',
+  siteDescription: 'Essays by Hance Zhang on AI, products, business models, investing, and relationships.',
   skipToContent: 'Skip to content',
   navMain: 'Main',
   navElsewhere: 'Elsewhere',
@@ -21,11 +20,8 @@ const en = {
   navSubscribe: 'Subscribe',
   toggleTheme: 'Toggle dark mode',
 
-  heroTitle: 'Hi, I’m Hance. I write about structure.',
-  heroLede:
-    'How incentives shape behavior, how time amplifies what is already there, and how systems quietly train people, organizations, and markets over the long run.',
-  heroBody:
-    'My essays cover AI, product building, business models, investing, and human relationships. I care less about slogans and stated values than about the deeper mechanisms that produce durable outcomes.',
+  heroTitle: 'Hi, I’m Hance.',
+  heroLede: 'I write about AI, product building, business models, investing, and human relationships.',
   heroCta: 'Read the essays',
   latest: 'Latest essay',
   startHere: 'Start here',
@@ -59,7 +55,9 @@ const en = {
   copied: 'Copied',
   followX: 'Follow on X',
   emailMe: 'Email',
-  endnote: 'Thanks for reading. New essays arrive by email or RSS.',
+  // Says nothing about email: the email form only exists once SITE.newsletter is configured.
+  endnote: 'Thanks for reading.',
+  endnoteLink: 'Subscribe to new essays',
 
   notFoundTitle: 'Page not found',
   notFoundBody: 'This page doesn’t exist, or it moved when the site was rebuilt.',
@@ -69,7 +67,7 @@ const en = {
 export type UIStrings = typeof en;
 
 const zh: UIStrings = {
-  siteDescription: 'Hance Zhang 的文章：AI、产品、商业模式、投资与人际关系，以及藏在它们底下的结构。',
+  siteDescription: 'Hance Zhang 的文章：AI、产品、商业模式、投资与人际关系。',
   skipToContent: '跳到正文',
   navMain: '主导航',
   navElsewhere: '其他链接',
@@ -80,10 +78,8 @@ const zh: UIStrings = {
   navSubscribe: '订阅',
   toggleTheme: '切换深色模式',
 
-  heroTitle: '你好，我是 Hance。我关心的是「结构」。',
-  heroLede: '激励如何塑造行为，时间如何放大既有模式，系统如何在长期中悄悄训练个人、组织与市场。',
-  heroBody:
-    '我的文章涉及 AI、产品、商业模式、投资，以及人与人之间关系的长期演化。比起口号和表态，我更关心那些真正决定结果的深层机制。',
+  heroTitle: '你好，我是 Hance。',
+  heroLede: '我写 AI、产品、商业模式、投资，以及人与人之间的关系。',
   heroCta: '开始阅读',
   latest: '最新文章',
   startHere: '从这里开始',
@@ -116,7 +112,8 @@ const zh: UIStrings = {
   copied: '已复制',
   followX: '在 X 上关注',
   emailMe: '邮件',
-  endnote: '感谢阅读。新文章会通过邮件或 RSS 送达。',
+  endnote: '感谢阅读。',
+  endnoteLink: '订阅新文章',
 
   notFoundTitle: '页面不存在',
   notFoundBody: '这个页面不存在，或者在网站改版时换了地址。',

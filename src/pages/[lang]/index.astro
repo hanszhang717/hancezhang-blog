@@ -29,7 +29,6 @@ const jsonLd = {
     <section class="hero">
       <h1 class="hero-title">{t.heroTitle}</h1>
       <p class="hero-lede">{t.heroLede}</p>
-      <p class="hero-body">{t.heroBody}</p>
       <div class="hero-actions">
         <a class="button" href={`/${lang}/posts/`}>{t.heroCta}</a>
         <a class="button button-quiet" href={`/${lang}/subscribe/`}>{t.navSubscribe}</a>
@@ -86,6 +85,10 @@ const jsonLd = {
                 <a class="essay" href={post.url}>
                   <span class="essay-title">{post.title}</span>
                   <span class="essay-desc">{post.description}</span>
+                  <span class="meta essay-meta">
+                    <time datetime={post.date.toISOString().slice(0, 10)}>{formatDate(post.date, lang, 'short')}</time>
+                    <span>{t.minRead(post.minutes)}</span>
+                  </span>
                 </a>
               </li>
             ))}
@@ -102,9 +105,10 @@ const jsonLd = {
             <li>
               <a class="essay essay-row" href={post.url}>
                 <span class="essay-title">{post.title}</span>
-                <time class="essay-date" datetime={post.date.toISOString().slice(0, 10)}>
-                  {formatDate(post.date, lang, 'short')}
-                </time>
+                <span class="meta essay-meta">
+                  <time datetime={post.date.toISOString().slice(0, 10)}>{formatDate(post.date, lang, 'short')}</time>
+                  <span>{t.minRead(post.minutes)}</span>
+                </span>
               </a>
             </li>
           ))
@@ -148,22 +152,8 @@ const jsonLd = {
     line-height: 1.55;
   }
 
-  .hero-body {
-    max-width: 40rem;
-    margin-top: 1rem;
-    font-family: var(--font-body);
-    font-size: 1.0625rem;
-    line-height: 1.65;
-    color: var(--text-2);
-  }
-
   :global(:lang(zh-CN)) .hero-lede {
     line-height: 1.75;
-  }
-
-  :global(:lang(zh-CN)) .hero-body {
-    font-size: 1rem;
-    line-height: 1.85;
   }
 
   .hero-actions {
@@ -291,11 +281,14 @@ const jsonLd = {
     color: var(--text-2);
   }
 
-  .essay-date {
-    flex-shrink: 0;
+  .essay-meta {
+    margin-top: 0.125rem;
     font-size: 0.8125rem;
-    color: var(--text-3);
-    font-variant-numeric: tabular-nums;
+  }
+
+  .essay-row .essay-meta {
+    flex-shrink: 0;
+    margin-top: 0;
   }
 
   .all-link {
@@ -316,7 +309,7 @@ const jsonLd = {
       gap: 0.25rem;
     }
 
-    .essay-date {
+    .essay-row .essay-meta {
       order: -1;
     }
   }
