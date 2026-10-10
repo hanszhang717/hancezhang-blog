@@ -2,7 +2,7 @@
 title: "Do Long-Term Relationships Actually Compound?"
 date: 2026-03-04
 draft: false
-summary: "Modern culture has moralized 'long-term' into political correctness. But time doesn't compound by default. It only amplifies existing structure."
+summary: "Modern culture has moralized 'long-term' into a kind of political correctness. But time doesn't pick sides: whatever structure a relationship already has, good or bad, time magnifies it."
 categories: ["Mindsets"]
 featured: true
 slug: "does-long-term-relationship-actually-compound"
@@ -10,128 +10,82 @@ slug: "does-long-term-relationship-actually-compound"
 
 ## A Strange Kind of Political Correctness
 
-"Long-term" has become more than a choice. It's a moral statement.
+Today the words "long-term relationship" sound more like a moral statement. Say you want something long-term and you automatically get points for being "mature" and "responsible." If you don't want it, there's probably something wrong with you. "Long-term" has become a position that wins approval without any explanation, a safe card to play in any social setting.
 
-Say you're looking for something long-term and you instantly earn points for maturity and responsibility. Say you're not? Something must be wrong with you. "Long-term" has become a position that needs no justification, a safe card you can play in any social setting.
+The investing world has its own version: in many people's eyes, value investing long ago became a certificate of good character. Say you're a value investor and you're immediately labeled "disciplined" and "far-sighted." Trade short-term, and even if you make money, someone will always think you're speculating.
 
-Investing has the same thing. Say you're a value investor and people immediately label you disciplined and visionary. Trade short-term, and even if you're profitable, someone will call you a speculator. Value investing stopped being a strategy a long time ago. It's a virtue signal.
+The two cases have the same structure: a strategy has been moralized. Once a strategy becomes a matter of morality, it turns from a tool into an identity label. You don't need to really understand its cost structure, the conditions it suits, or the ways it fails. You only need to announce that you belong to the camp, and you get your pass.
 
-The underlying structure is the same: a strategy got moralized. Once a strategy becomes a moral stance, it stops being a tool and becomes an identity label. You don't need to understand its cost structure, when it applies, or how it fails. You just need to declare which camp you belong to and you get the pass.
+Declaring "I'll never sell" before you've studied the company and declaring "I want to spend my life with you" before you understand how the relationship is structured are the same kind of rashness. In both cases you're mistaking a posture for an ability.
 
-Announcing "I'll never sell" before you've read a single earnings report is no different from announcing "I want to spend my life with you" before you understand how the relationship actually works. In both cases, you're confusing the stance with the skill.
+Once "long-term" has been moralized, there's a less obvious consequence: it gets borrowed. Many people are actually after something short-term. A thrill, a moment of validation, possession in the here and now, some sense of identity. But they know that unless they package their desire as a long-term commitment, it will be hard to get what they want in the short term. So "long-term relationship" becomes an upscale coat thrown over a short-term deal: "I'm not after instant gratification, I want to build something with you for the long term." The other person hears this, lowers their guard, and starts putting in their own resources.
 
-## The Safest Thing You Can Say
+This isn't to say that everyone is a hypocrite. Once a narrative has been moralized, it becomes a pass that can be abused, and everyone is capable of talking themselves into things. You can easily convince yourself that "I really am after something long-term," even when your motives at the moment are entirely short-term.
 
-Once "long-term" gets moralized, something sneakier happens: it gets borrowed.
+Investing works the same way. Many people rush in at the top of a bull market, buy a stock, and then tell themselves, "I'm a value investor, I'm going to hold this for the long term." Put plainly, it's a psychological painkiller: it repackages an impulse buy as a carefully considered long-term decision, so you can fool yourself without feeling guilty.
 
-Many people are actually after something short-term. A thrill, a hit of validation, a sense of possession, an identity boost. But they know that if they don't wrap their desires in a long-term package, they won't get what they want quickly enough. So "long-term relationship" becomes premium packaging for a short-term deal: I'm not looking for instant gratification, I want to build something long-term with you. The other person hears this, drops their guard, and starts investing.
+Value investing often works because of one core premise: good assets compound. Buy a good company and time is on your side. Profits get reinvested, and the snowball rolls by itself. You don't need to step in often. Ideally, a good investment is like a machine that runs itself: you give it capital, and it grows on its own.
 
-This isn't about everyone being dishonest. More precisely: when a narrative gets moralized, it becomes a free pass that anyone can abuse. Everyone has the ability to convince themselves. You can easily talk yourself into "I really am looking for something long-term," even when your actual motivation is entirely short-term.
+Many people carry this logic straight over to relationships: find the right person, and leave the rest to time. But a relationship isn't an asset. With an asset, you can "buy right and lie back." With a relationship, you can't.
 
-Investing works the same way. How many people rushed in at the top of a bull market, bought a stock, then told themselves "I'm a value investor, I'm holding long-term"? It's a painkiller, plain and simple. It repackages an impulse buy as a carefully considered long-term decision.
+A relationship is more like a live, ongoing mandate: you hand your trust and attention to another person, and they do the same. This system is affected by the outside world and repriced every day. Leave it alone and it corrodes; hold it too tightly and it suffocates.
 
-Once a narrative is moralized, it lets you lie to yourself and feel good about it.
+The problem is that many people take "maintenance" to mean "doing more": sending messages, creating rituals, asking for reassurance again and again. They call it working on the relationship, but really they can't stand uncertainty. Investing is the same. People who watch the market and trade every day feel they're working hard, and end up underperforming people who do nothing at all. Every unnecessary "check-in" in a relationship works the same way: what it uses up is the trust balance and the other person's patience.
 
-## Found the Right Person. Now What?
+Assets can compound, and so can brands, network effects, reputation, and integrity. Whether relationships can is much harder to say, because I've seen too many counterexamples. Partners who worked together for years stab each other in the back; couples married for twenty years still cheat. "The longer you're together, the deeper the feelings" has so many counterexamples that you start to doubt it's worth much.
 
-Value investing often works because of a core premise: good assets compound. You buy a great company, time is on your side. Profits get reinvested, the snowball rolls itself. You don't need to intervene. Ideally, a good investment is a self-running machine: you provide the capital, it grows on its own.
+Later I figured it out: the problem is that the word "compounding" gets used for two things at once. When people say "relationships compound," they're actually talking about two completely different things.
 
-Many people port this logic directly onto relationships: find the right person, then let time do its thing.
+The first is that feelings grow stronger and stronger. That is very unreliable. Feelings are subjective experiences, shaped by hormones, novelty, outside circumstances, and two people growing at different speeds, and no mechanism guarantees that they keep rising over time. The second is that the ability to work together grows stronger and stronger, and that is real compounding.
 
-But a relationship is not an asset. You can buy the right asset and sit on it. You can't do that with a relationship.
+Munger and Buffett "not needing a contract" with each other comes down to this: the cost of building trust between them had fallen to almost zero. When Buffett bought Nebraska Furniture Mart in 1983, he did it the same way: no audit, just a handshake with Mrs. B. When the other side's behavior is highly predictable and the incentives stay stable over the long run, you can take the costs of monitoring, negotiating, and defending yourself out of the system. The resources you save can go into bigger things.
 
-A relationship is more like an ongoing exchange: you hand trust and attention to another person, and they do the same. The system gets influenced by external forces every day, gets repriced every day. Neglect it and it corrodes. Micromanage it and it suffocates.
+The value of thicker trust is that you can do bigger, more complex things together. What compounds in a relationship is the set of "things you can do together": you can shoulder bigger risks together, hand more over to each other, and move faster when things are uncertain.
 
-The problem is many people interpret "maintenance" as "do more stuff." Texting, creating rituals, endlessly confirming. They call it managing the relationship, but really it's an inability to sit with uncertainty. Investing is the same. People who watch the ticker all day, making moves constantly, feeling productive, end up underperforming someone who did nothing. In relationships, every unnecessary "check-in" works the same way: it drains trust reserves and the other person's patience.
+Good investments are the same. For a truly good company, profit is only the surface. What it's really accumulating is the ability to enter more markets and take on bigger risks, and in the end the stock price follows that ability.
 
-## Do Relationships Actually Compound?
+## Time Can Compound Debt Too
 
-Assets compound. Brands compound. Network effects compound. Reputation compounds. But do relationships?
+Even if compounding is real, plenty of long-term relationships still end in a wreck, because time doesn't pick sides. If the structure is good, it compounds your gains; if the structure is rotten, it compounds your debts. The more you trust someone, the more you delegate to them. The more you delegate, the bigger the drawdown if they betray you. Many relationships that fall apart after years did so because the wrong thing was compounding. Trust and the ability to work together barely grew, while inertia and sunk costs kept piling up.
 
-I've seen too many counterexamples. Business partners who collaborated for years backstabbing each other. Couples married for two decades still cheating. "The longer, the deeper" is a claim with so many counterexamples it's hard to take at face value.
+The bigger the sunk costs, the less willing you are to correct course. Ten years, two kids, a house, and an entire social network all riding on this one relationship: how could you possibly admit it's a bad loan? So small cracks go unrepaired and slowly widen into canyons, while you go on believing you're building an asset.
 
-I eventually figured out the problem: "compounding" gets conflated. When people say "relationships compound," they're actually talking about two completely different things.
+Investing is exactly the same. You buy a bad stock, it falls 40%, and you won't sell, because "I've already lost this much; if I sell now, the loss becomes real." So you keep holding and keep losing. Relationships are like this too. A relationship is not a naturally compounding asset; time only magnifies the structure that was already there.
 
-The first: feelings get stronger over time. This is unreliable. Feelings are subjective, shaped by hormones, novelty, external circumstances, and diverging growth rates. There's no reason to expect feelings to keep growing forever.
+Good relationship structures are this rare because there are so many constraints. The other person's behavior has to be predictable, incentives have to line up, fights have to be repairable, and if someone does leave, it has to be done with dignity. If any one of these breaks, the chain of compounding breaks. A relationship can't grow on its own the way a good stock with good fundamentals does. It's more like a system that needs constant upgrades, and every new version can introduce new problems.
 
-The second: the ability to cooperate gets stronger. This is real compounding.
+In *The Intelligent Investor*, Benjamin Graham created a character called "Mr. Market," your partner in a business. Every day he comes to see you, names a price for the stock you hold, and asks whether you want to sell. Sometimes he's euphoric and his price is high; sometimes he's depressed and his price is low. But his prices have nothing to do with what your stock is really worth.
 
-Munger and Buffett not needing a contract between them boils down to one thing: the cost of establishing trust has dropped to nearly zero. When someone's behavior is highly predictable and incentives stay aligned, you can strip out massive amounts of supervision, negotiation, and defensive overhead from the system. The resources you save can go into bigger things.
+Buffett later put it more bluntly: Mr. Market is there to serve you, not to guide you. His prices are just information, and you don't have to act on them. Your decisions should rest on your own judgment of value, whatever mood he happens to be in today.
 
-The value of deepening trust is that you can take on bigger, more complex things together. The range of what you can do together keeps growing.
+Relationships have a Mr. Market too. The world quotes you prices every day: a more interesting person you scroll past on social media, a more attractive colleague you meet at work, friends whose lives look more exciting in their posts. These are all quotes, and every day they ask you: is your current relationship still worth holding?
 
-What compounds in a relationship is the set of "what you can do together." You can shoulder bigger risks, delegate more to each other, and move faster when things get uncertain.
+Some people act as soon as they see a quote, treating the quote as reality. Others see the quote, know it's only noise, and leave the decision to their own internal valuation model. The difference is who has a layer of discipline between "seeing the quote" and "acting on it."
 
-Good investments work the same way. A truly great company's profit is just the surface. What it's really accumulating is the ability to enter more markets and absorb bigger shocks. Stock price follows; what leads is how much more the company can do today than it could yesterday.
+This also explains an interesting phenomenon: very attractive people face a kind of structural fragility in relationships (not that they're morally more inclined to betray anyone), because the terrain of the game has changed. The right to exit is inherently lopsided. Every day the outside world quotes the attractive one a high price: "You could do better." The other person lives in that shadow for years.
 
-## Time Can Roll Debt Too
+And the shadow wears you down more than an actual breakup would. Thinking every day that "they could walk out at any time," you start choosing your words carefully, and being together starts to feel like a negotiation. In the end it comes down to either pleasing or controlling. Control is like raising switching costs in a product: short-term retention numbers look good, but the long-term backlash is worse.
 
-If compounding works, why do so many long-term relationships blow up?
+The real moat is the other person seeing every quote out there and still choosing to stay. Good companies don't lock customers in with contracts; they rely on products so good that customers don't want to leave.
 
-Because time doesn't pick sides, it just amplifies whatever structure is already there.
+## Run When You're Wrong, Hold When You're Right
 
-The more you trust someone, the more you delegate. The more you delegate, the bigger the drawdown when they betray you. Many "long-term relationship disasters" don't mean time failed to compound. It's that the compounding was pointed at the wrong thing. Trust and cooperation didn't grow much. Inertia and sunk costs just kept piling up.
+If long-term shouldn't be a default stance, then the right attitude is one of the most counterintuitive rules of investment discipline: when you're wrong, cut your losses fast; when you're right, be patient and let it run. If you're wrong, stop the loss and correct course right away, before it drags on into a mistake you can't undo, and don't use "I've already put so much in" as a reason to keep being wrong. If you're right, let it run. Don't rush to cash out because you've made a little, and don't doubt your judgment over a brief swing. Good positions need time to prove themselves.
 
-The bigger the sunk costs, the less willing you are to correct course. Ten years, two kids, a house, an entire social network, all stacked on this one relationship. How do you admit it's a bad loan? So small cracks go unrepaired, slowly becoming canyons. You think you're building an asset. You're rolling debt.
+Many people do exactly the opposite. When they're wrong, they can't bring themselves to cut the loss and dream of getting back to even. When they're right, they want to pocket the first small gain, and the slightest uncertainty makes them anxious.
 
-Investing is exactly the same. You bought a bad stock, it's down 40%, you won't sell because "I've already lost this much, selling would make it real." So you keep holding, keep losing. All time accumulates is losses.
+Relationships are exactly the same, and the result is the worst possible combination: enduring bad relationships and running from good ones. How many people drag out a clearly unhealthy relationship for five or ten years? "I can't let go." "We've come this far." "Maybe it'll get better." Meanwhile, in a really good relationship, they feel uneasy. It seems too good to be true, they're afraid of losing it, and they're not sure they deserve it.
 
-Relationships are not natural compounding assets. Without good structure, time just makes things worse.
+There's an even more common kind of fake long-termism: going into a relationship carelessly, driven by impulse, without learning anything about the other person, and then, once problems appear, using "I'm committed to making this work for the long term" to avoid correcting the mistake. "Long-term" becomes an excuse for not cutting losses, the same as chasing a stock at the top of a bull market and then telling yourself, "I'm a value investor."
 
-Why is good relationship structure so rare? Too many constraints. The other person's behavior needs to be predictable, incentives need to stay aligned, fights need to be repairable, and exits need to be dignified. Break any one of these and the compounding chain snaps. A good stock with strong fundamentals can grow organically. A relationship is more like a system that needs continuous upgrades, and every new version might introduce new bugs.
+Real long-termists aren't afraid of cutting losses. They cut faster than anyone, because only by clearing out bad positions quickly do they have the resources and the energy to hold the good ones.
 
-## Graham's Moody Neighbor
+So "holding for the long term" shouldn't be a goal you set on day one; it should be an outcome. You hold a company for ten years because for ten years it kept getting better, and you couldn't find a reason to sell it.
 
-Benjamin Graham created a character in *The Intelligent Investor* called "Mr. Market." Every day he shows up at your door, offers a price for the stock you hold, and asks if you want to sell. Sometimes he's manic, the price is high. Sometimes he's depressed, the price is low. But his price has nothing to do with the actual value of your stock.
+Relationships are the same. When the structure is good, the incentives line up, fights get repaired, and outside quotes can't pry you loose, you can't find a reason to leave, and you naturally end up together for the long term.
 
-Graham's advice: treat him as a neighbor, not a teacher. His quotes are information, not instructions. Your decisions should be based on your own assessment of value, regardless of what mood he's in today.
+I don't judge the short term, and I don't judge speculation. As long as you know what you're doing, it's fine. Short-term is short-term and speculation is speculation, clean and simple, nothing to be ashamed of.
 
-Relationships have their own Mr. Market.
+What I really think is stupid is people who believe they're in it for the long term while they pile up debt every day. They haven't built the structure, they have no way to correct mistakes, and after hearing once that "value investing matters," they buy some random stock and plan never to let it go.
 
-The world quotes you prices every day. A more interesting person on social media. A more attractive colleague at work. A friend whose life looks better on Instagram. These are all quotes, asking you daily: is your current relationship still worth holding?
-
-Some people see a quote and act, treating the quote as reality. Others see the quote, recognize it as noise, and keep their decision-making anchored to their own valuation model. The difference is who has a layer of discipline between "seeing the quote" and "making a move."
-
-This also explains an interesting phenomenon: high-charisma people face a structural fragility in relationships. It's not that they're morally more likely to cheat. The dynamics have shifted. Exit power is inherently asymmetric. The world quotes high prices to attractive people every day: "You could do better." The other person lives in that shadow permanently.
-
-And the shadow grinds worse than actually leaving. Thinking "they could walk away any time" makes you careful with every word, turns being together into a negotiation. Eventually it pushes toward two extremes: people-pleasing, or control. Control is like raising switching costs in a product. Short-term retention metrics look great. Long-term blowback is worse.
-
-A real moat isn't locking the other person in. It's the other person seeing every quote on the market and choosing to stay. Great companies don't lock in customers with contracts. They make products so good that customers don't want to leave.
-
-## Wrong? Run. Right? Hold.
-
-After all that, we come back to a practical question: if long-term shouldn't be a default position, what's the right attitude?
-
-There's a deeply counterintuitive rule in investment discipline: when you're wrong, cut fast. When you're right, be patient.
-
-Wrong? Stop loss immediately. Correct course. Don't use "but I've already put in so much" as a reason to keep going. Making a mistake isn't expensive. Letting it become irreversible is.
-
-Right? Let it run. Don't rush to cash out at the first sign of profit. Don't second-guess your judgment over a temporary dip. Good positions need time to prove themselves.
-
-Most people do the exact opposite. When they're wrong, they can't bear to cut, fantasizing about a recovery. When they're right, they grab the first bit of gain, anxious at the slightest uncertainty.
-
-Relationships are no different. How many people stay in a clearly unhealthy relationship for five, ten years? "Can't let go." "We've come this far." "Maybe it'll get better." Meanwhile, in a genuinely good relationship, they feel uneasy. Too good to be real, afraid of losing it, unsure if they deserve it.
-
-The result is the worst possible combination: enduring bad relationships, running from good ones.
-
-There's an even more common form of fake long-termism: entering a relationship impulsively, doing zero due diligence, then using "I'm committed to the long term" to avoid correcting mistakes. "Long-term" becomes an excuse to dodge stop-losses. Same as chasing a stock at a bull market peak, then telling yourself "I'm a value investor."
-
-Real long-term thinkers aren't afraid of stop-losses. They cut faster than anyone, because only by clearing out bad positions quickly can they have the resources and energy to hold the good ones.
-
-## Long-Term Should Be an Outcome, Not a Goal
-
-So, "long-term hold" shouldn't be a goal you set on day one. It should be an outcome.
-
-You hold a company for ten years because for ten years it kept getting better and you couldn't find a reason to sell. Long-term is a byproduct of good decisions.
-
-Relationships work the same way. Because the structure is solid, incentives are aligned, fights are repairable, and outside quotes can't pry you away, you end up being long-term. Not because you swore an oath. Because you can't find a reason to leave.
-
-I don't judge short-term. I don't judge speculation. Know what you're doing and it's fine. Short-term is short-term, speculation is speculation. Clean and honest. Nothing wrong with it.
-
-What I do think is genuinely stupid is people who believe they're playing the long game while rolling debt every single day. No structure, no error-correction mechanism, heard "value investing matters" once and bought a random stock planning to hold forever. Long-termism on the surface, self-deception and procrastination underneath.
-
-The point is simple: treat "long-term" as an outcome that needs to be earned, not a moral slogan you declare upfront.
-
-You're willing to hold long-term because you actually have a good asset in your hands. You'll naturally stay together long-term because you've actually built a system worth running.
-
-Any other version of "long-term"? You just haven't figured out what you're actually doing yet.
+What this essay wants to say is simple: turn "long-term" from a moral slogan back into an outcome that has to be taken seriously. You're willing to hold for the long term because you really do have a good asset in your hands. You naturally stay together for the long term because the two of you have really built a system worth keeping running. Any other kind of "long-term" only shows that you haven't yet figured out what you're actually doing.

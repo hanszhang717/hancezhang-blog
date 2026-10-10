@@ -2,237 +2,49 @@
 title: "Stop Debating, Build the Experiment Machine"
 date: 2025-10-31
 draft: false
-summary: "Product development in the AI era isn't about building better products—it's about building better assembly lines"
+summary: "Once AI makes delivery cheap, product teams should spend less time arguing in meetings, run more experiments, and turn the way they run experiments into a machine"
 categories: ["Product", "AI"]
 slug: "stop-debating-build-experiment-machine"
 ---
 
-Recently, I had a conversation with our engineering lead. He raised a concern many technical teams share: as AI coding capabilities improve and delivery speed accelerates, will we eventually run out of things to do?
+Recently, I had a conversation with our engineering lead. He raised a concern many technical teams share: as AI coding capabilities improve and delivery speed keeps increasing, will we one day run out of things to do? My answer: you don't need to worry at all. This is a classic Jevons Paradox. In the 19th century, steam engines kept getting more efficient with coal, yet total coal consumption went up rather than down, because once coal got cheaper to use, many things that hadn't been worth doing became worth doing. AI works the same way. When delivery costs fall, demand won't shrink; it will only grow explosively, and what changes are the rules of the game.
 
-My answer: You don't need to worry. This is a classic Jevons Paradox.
+In traditional product development, a huge amount of time goes into discussion. In product meetings, the designer says the button should be bigger, the PM says it should be smaller, the engineer says both are doable, and so the discussion goes on... When should the paywall popup trigger? What's the pricing strategy? How should the interaction interface work? Relatively detailed questions like these easily devolve into "he said, she said" territory.
 
-In the 19th century, economist William Stanley Jevons observed something counterintuitive: when steam engines became more efficient and coal costs dropped, coal consumption increased rather than decreased. The reason was simple—**lower costs made previously uneconomical tasks suddenly worthwhile**.
+You can make an argument, and someone else can make the opposite argument. Human rationality (or more accurately, theory and reasoning) loses too much reference value here. You can say anything: "I think users need this," "my experience tells me this," "I feel it should be designed this way"... The result is endless meetings, hours of discussion with no conclusion. Worse still, the vast majority of our hypotheses are actually wrong. According to experiment data from companies like Google and Microsoft, only 10-33% of product hypotheses turn out to be effective, which means 67-90% fail. These hypotheses, built on imagination and reasoning, often don't match what real users need. The problem is that we're using reasoning to solve empirical problems, and the only answer to an empirical problem lies with users.
 
-AI works the same way. When delivery costs fall, demand doesn't shrink—it explodes. The real question isn't "will we run out of work," but rather **the game has changed. Are you ready?**
+## 0-to-1 and 1-to-100
 
-### The Death Spiral of Debate-Driven Development
+But this doesn't mean every stage should be experiment-driven; different stages of product development need completely different methodologies. In the 0-to-1 stage, you're searching for Product-Market Fit and still figuring out what users truly need. That calls for gut intuition, rapid iteration, deep user interviews, and doing things that don't scale. As I discussed in a [previous article](https://www.hancezhang.blog/en/posts/user-experience/), chasing A/B testing and growth hacking before PMF is futile. Airbnb's success had little to do with optimizing button colors; it came from founders Brian Chesky and Joe Gebbia personally photographing NYC listings and crafting 10-star experiences by hand. At this stage, judging product direction depends on taste, that is, on understanding your users' human nature. If you keep A/B testing better horse carriages, you'll never invent the car.
 
-In traditional product development, massive time gets consumed by discussions. In product meetings, designers argue the button should be bigger, PMs say it should be smaller, engineers say both are feasible, so the debate continues...
+In the 1-to-100 stage, you've found PMF and have stable user traffic. Now you need an experiment-driven approach, data validation, rapid iteration, and scaled optimization. As Marshall Goldsmith's widely quoted saying goes: "What got you here won't get you there." The methodologies of the two stages are completely different. Confuse them, and you'll either over-optimize during 0-to-1 or keep making gut calls during 1-to-100.
 
-When should we trigger the paywall popup? What's the pricing strategy? How should the interaction design work? These relatively detailed questions easily devolve into subjective back-and-forth.
+Experiment-driven development isn't a panacea either. It has clear prerequisites: PMF is established and the product direction is clear, so you're no longer exploring the basics; there's enough traffic to produce statistically significant results; and the metrics are clearly defined, so you know what matters and what doesn't. It also has traps to watch out for. Many people misunderstand data-driven and become data-centric instead, optimizing metrics for metrics' sake, chasing vanity metrics, and in the end harming the user experience. The right approach is data-driven but user-centric: data is the means, user value is the end. You can't sacrifice the overall experience by showing a popup the moment users arrive just to boost conversion by 5%. Brian Chesky is clear on this: if you optimize short-term conversion at the expense of the 10-star experience, you're killing the golden goose.
 
-You can make an argument, someone else can make the opposite argument. Human rationality—or more accurately, theory and reasoning—becomes largely irrelevant here. You can say anything: "I think users need this," "my experience tells me this," "I feel it should be designed this way"...
+Another trap is chasing metrics blindly. If you define the wrong metric, or over-optimize a single metric, that can be worse than ignoring data entirely. A metric should reflect real user value: if your metric is "number of videos generated," you might optimize your way into a pile of low-quality videos; if it's "average video quality users can achieve," then you're really solving the problem. Pure data-driven approaches also have a classic trap, the conflict between local optimization and global innovation, which can kill disruptive innovation. When the iPhone launched, critics argued that users needed physical keyboards. In Airbnb's early days, conventional wisdom said no one would stay in a stranger's home. When Netflix shifted from DVD to streaming, the short-term data was indeed negative. So during a paradigm shift, you need human judgment and taste; during the optimization phase, you need experiments and data.
 
-The result is endless meetings, hours of discussion with no conclusion.
+## Momentum Is the Moat
 
-Worse still, **the vast majority of our hypotheses are actually wrong**. According to experiment data from companies like Google and Microsoft, only 10-33% of product hypotheses ultimately prove effective—meaning 67-90% fail. These assumptions based on imagination and reasoning often don't match real user needs.
+As I discussed in a [previous piece on experiment culture](https://www.hancezhang.blog/en/posts/experiment-culture/), besides raising productivity, AI lets us turn "I think" into "I tried." When experiment costs drop dramatically, the need for debate disappears. A typical experiment cycle goes like this: define a clear hypothesis and success metrics; build an MVP in a few days with AI's help; roll it out gradually, to a subset of users first, without rushing to a 100% rollout; see the data change the next day; then decide quickly whether to continue, adjust, or kill it. As long as your traffic is sufficient and PMF is confirmed, there's no need to argue for hours in a conference room. You can ship the feature and let the data speak.
 
-The fundamental problem: **we're using reasoning to solve empirical problems**. And the only answer to empirical problems lies with users.
+The key to this cycle is speed: the faster you get from hypothesis to validation, the better, and that's why momentum matters so much in the AI era. If you can ship and test 5 product features per day or per week in a data-driven way, and use data to verify whether they work or not, then compared with teams still debating in meetings and writing PRDs, that's a generational gap. It's like you're already using nuclear weapons while they're still fighting with cold steel. In this growth battle, they don't stand a chance. So momentum itself is the moat. HeyGen's product development handbook has a passage on this: "Competitors ship one feature per month; we ship five experiments. We learn five times faster. That learning compounds into superior products." The value of speed is that the learning loop turns faster; what you're really delivering quickly is learning.
 
-### 0-to-1 vs 1-to-100: The Methodological Divide
+Iterating this fast naturally makes people worry about technical debt and user experience consistency. My view is that technical debt is a lot like financial debt: it's a form of leverage, and there's no need to steer clear of it. You trade technical debt for product growth velocity, and in this momentum-defined AI era, that's a reasonable trade-off. Only when technical debt accumulates faster than you grow is it time to stop and deal with it.
 
-But this doesn't mean all stages should be experiment-driven. Different product development phases require completely different methodologies.
+As for user experience consistency, rapid experimentation does create problems: run multiple experiments at once, and different users might see completely different product interfaces, which causes confusion and raises support costs. But this is a feature gate and gradual rollout problem. You don't need to roll out every experiment to 100% of users. You can test on new users first, on only 10% of users, by region, or by scenario. The key is making sure each individual user sees a consistent experience; don't let anyone see a button on the left today and on the right tomorrow.
 
-**The 0-to-1 Phase**: You're seeking Product-Market Fit, still figuring out what users truly need. This stage requires:
-- Intuition and gut instinct
-- Rapid iteration
-- Deep user interviews
-- Doing things that don't scale
+## The Machine That Builds the Machine
 
-As I discussed in a [previous article](https://www.hancezhang.blog/en/posts/user-experience/), prematurely pursuing A/B testing and growth hacking before PMF is futile. Airbnb's success didn't come from optimizing button colors—it came from founders Brian Chesky and Joe Gebbia personally photographing NYC listings and manually crafting 10-star experiences.
+An AI Native company designs its entire product development process from scratch to be AI-first, and what separates it from a traditional company lies in organizational structure and mindset. HeyGen systematically lays out this philosophy in their [product development handbook](https://x.com/joshua_xu_/status/1978837502787219578): in the AI era, we operate without a stable technology foundation; every few months AI technology evolves dramatically, and model capabilities are unknown and changing fast. Traditional software development assumes a stable foundation, but in the AI era, this foundation changes every 2-3 months. That instability is actually an opportunity. The thing to do is ride the wave, not fight the current.
 
-At this stage, **product direction requires taste—insight into human nature**. If you keep A/B testing better horses, you'll never invent the car.
+Traditional-era thinking is to build on stable foundations, optimize for longevity, plan 12-18 months ahead, and polish before shipping; in the AI era, you ship to learn and run experiments in parallel. There are a few principles. Distinguish what changes from what stays constant: models change and capabilities change, but users' core problems and workflows don't, so build systems around what stays the same while riding the wave of model improvements. Design products that improve on their own: when GPT-5 arrives, your product should automatically get better without needing a refactor, which takes abstraction layers that let the product experience ride on top of AI advancement. Keep the architecture flexible: expect change, version everything, and make systems replaceable. Set planning cycles at 2 months, long enough to build meaningful things and short enough to adjust quickly, in step with AI model upgrade cycles. And although realistic planning runs on 2 months, strategically you need to predict capabilities 6-12 months out and position early.
 
-**The 1-to-100 Phase**: You've found PMF and have stable user traffic. This stage requires:
-- Experiment-driven approach
-- Data validation
-- Rapid iteration
-- Scaled optimization
+Elon Musk once said: "It's important to build the machine that builds the machine." I now have a deeper understanding of this statement. Pursuing extreme attention to product detail is reasonable, and you must have that pursuit. But it can't be the subjective "it's good if I think it's good"; it needs an objective standard of measurement, and that standard is whether users love it. Whether users love it is largely evidenced by the metrics you define and the data behind them. So building your product optimization workflow well matters far more than building any single product well. That's what I mean by "build the machine": building a better assembly line.
 
-As Marshall Goldsmith's widely quoted saying goes: **"What got you here won't get you there."**
+This machine is a complete, self-evolving product development system that keeps producing better products, and it has three layers. One is technical infrastructure: a feature flag system for toggling features quickly and rolling them out gradually; an A/B testing platform that supports multivariate experiments and statistical analysis; real-time monitoring and analytics tools for spotting problems and opportunities quickly; and the abstraction layers for model upgrades mentioned above. Another is organizational capability: an experiment culture where data does the talking; a fast decision-making mechanism, with two-way door decisions made the same day so you don't fall into the consensus trap; 2-month planning cycles synchronized with model upgrades; and disagree and commit, putting speed first and correcting quickly when wrong. The last is strategic judgment, which we've already covered: how to define metrics so they reflect real user value, how to stay data-driven but user-centric, when to rely on taste and when on data, and what changes (AI capabilities) and what stays the same (user needs).
 
-These two phases have fundamentally different methodologies. Confuse them, and you'll either over-optimize during 0-to-1 or keep guessing during 1-to-100.
+This is a meta-capability: what you're optimizing is the "optimization capability" itself. Most startups lack the capability to build this machine, which is why 0-to-1 and 1-to-100 are completely different problems. But in the AI era, this is a machine you have to build.
 
-### Prerequisites and Traps of Experiment-Driven Development
+Moving fast and pursuing excellence don't contradict each other; in fact, moving fast is the prerequisite for building better products over the long term. Moving fast doesn't mean shipping features quickly. It means delivering customer value quickly (and learning quickly). Speed serves the ultimate goal: being the absolute best. HeyGen's quality bar is clear: for creative tools like video content, quality is non-negotiable, and users love products that solve their problems with exceptional quality. Their success metric is the one mentioned earlier: the average video quality any user can achieve on the platform. I think this is the right north star.
 
-Experiment-driven development isn't a panacea. It has clear prerequisites and pitfalls to watch for.
-
-**Prerequisites:**
-1. **PMF established**: Product direction is clear, no longer fundamental exploration
-2. **Sufficient traffic**: Can run statistically significant experiments
-3. **Clear metrics definition**: Know what matters and what doesn't
-
-**Trap One: Data-Centric Instead of User-Centric**
-
-Many people misunderstand data-driven. They become data-centric—optimizing metrics for metrics' sake, chasing vanity metrics, ultimately harming user experience.
-
-The correct approach: **Data-driven but user-centric**.
-
-Data is the means; user value is the end. You can't sacrifice overall experience by showing popups the moment users arrive just to boost conversion by 5%. Brian Chesky is clear: if you optimize short-term conversion at the expense of the 10-star experience, you're killing the golden goose.
-
-**Trap Two: Blindly Pursuing Metrics**
-
-If you define the wrong metric or over-optimize a single metric, it might be worse than ignoring data entirely.
-
-Metrics should reflect genuine user value. If your metric is "number of videos generated," you might optimize for a pile of low-quality videos. If your metric is "average video quality users can achieve," you're actually solving the real problem.
-
-**Trap Three: Killing Disruptive Innovation**
-
-Pure data-driven approaches have a classic trap: local optimization vs global innovation.
-
-When iPhone launched, critics argued users needed physical keyboards. In Airbnb's early days, conventional wisdom said no one would stay in strangers' homes. When Netflix shifted from DVD to streaming, short-term data was indeed negative.
-
-**The key: during paradigm shifts, rely on human judgment and taste. During optimization phases, rely on experiments and data.**
-
-### The Experiment Cycle: From Hypothesis to Validation
-
-With experiment-driven principles established, the product development process fundamentally transforms.
-
-As I discussed in a [previous piece on experiment culture](https://www.hancezhang.blog/en/posts/experiment-culture/), AI's true value isn't just boosting productivity—it's enabling us to transform "I think" into "I tried." When experiment costs drop dramatically, the necessity of debate vanishes.
-
-A typical experiment cycle:
-
-1. **Define hypothesis**: Clear hypothesis and success metrics
-2. **Rapid build**: Use AI assistance to create MVP in days
-3. **Gradual rollout**: Not 100% release, but first to a subset of users
-4. **Data validation**: See data changes the next day
-5. **Fast decision**: Continue, adjust, or kill
-
-No need to argue for hours in conference rooms—you can ship the feature and let data speak. The premise: sufficient traffic and confirmed PMF.
-
-The key to this cycle is **speed**. The faster you go from hypothesis to validation, the better. This is why momentum matters so much in the AI era.
-
-### Momentum as Moat
-
-Now we can understand why momentum matters so much in the AI era.
-
-If you can drive your shipping and experiments with data, delivering 5 product features per day or week, validating what works and what doesn't with data, compared to teams still debating in meetings and writing PRDs, **this is a generational gap**.
-
-Essentially, you're wielding nuclear weapons while they're still using cold steel. This growth battle isn't even close to fair.
-
-**Momentum itself is the moat**.
-
-Competitors ship one feature per month; you ship five experiments. You learn five times faster. This learning compounds into better products. It's not about "speed" itself, but about **the velocity of the learning loop**.
-
-HeyGen's product development handbook captures this beautifully: "Competitors ship one feature per month; we ship five experiments. We learn five times faster. That learning compounds into superior products." This is speed's true value—**not delivering features quickly, but delivering learning quickly**.
-
-Some will ask: with such rapid iteration, what about technical debt? What about user experience consistency?
-
-My view: **Technical debt is much like financial debt**. It's not something to avoid, but a form of leverage.
-
-You trade technical debt for product growth velocity. In this momentum-defined AI era, this is a reasonable trade-off. **When technical debt accumulation outpaces growth velocity, that's when you pause to address it**.
-
-As for user experience consistency, rapid experimentation does create challenges—if you run multiple experiments simultaneously, different users might see completely different product interfaces, causing confusion and increased support costs.
-
-But this is a feature gate and gradual rollout problem. You don't need to 100% rollout every experiment to all users. You can test on new users first, on only 10% of users, by region, by scenario. The key is ensuring **each individual user sees a consistent experience**, not a button on the left today and on the right tomorrow.
-
-This requires more flexible thinking, not rigidly believing "experiment = full rollout."
-
-### What AI Native Really Means: Ride the Wave
-
-So what is an AI Native company?
-
-Not just "using AI tools to accelerate development," but **designing the entire product development process from scratch as AI-first**.
-
-HeyGen systematically articulates this philosophy in their [product development handbook](https://x.com/joshua_xu_/status/1978837502787219578). Their core insight: In the AI era, we operate without a stable technology foundation. Every few months, AI technology evolves dramatically. Model capabilities are unknown and changing rapidly.
-
-Traditional software development assumes stable foundations. But in the AI era, **this foundation changes every 2-3 months**.
-
-This isn't a bug—it's an opportunity. The key: **Ride the wave, don't fight the current**.
-
-**From Stable Foundation to Surfing:**
-
-Traditional era thinking:
-- Build on stable foundations
-- Optimize for longevity
-- Plan 12-18 months ahead
-- Polish, then ship
-
-AI era thinking:
-- Surf the technology wave
-- Build products that automatically improve
-- 2-month realistic planning cycles (aligned with model upgrade cycles)
-- Ship to learn
-- Parallel experimentation
-
-**Core AI Native Principles:**
-
-1. **Distinguish what changes vs. what stays constant**: Models change, capabilities change, but users' core problems and workflows don't. Build systems around what doesn't change while surfing model improvements.
-
-2. **Design self-improving products**: When GPT-5 arrives, your product should automatically get better, not require refactoring. Build abstraction layers that let product experience ride on top of AI advancement.
-
-3. **Flexible architecture**: Expect change. Version everything aggressively. Build replaceable systems.
-
-4. **2-month planning cycles**: Long enough to build meaningful things, short enough to adapt when the landscape shifts. Synchronized with AI model upgrade cycles.
-
-5. **6-12 month strategic bets**: While realistic planning is 2 months, predict capabilities 6-12 months out and position early.
-
-This isn't a difference in tools, but **a fundamental difference in organizational structure and mindset**.
-
-### Build the Machine that Builds the Machine
-
-Elon Musk once said: "It's important to build the machine that builds the machine."
-
-I now have a deeper understanding of this statement.
-
-Pursuing extreme attention to product detail is reasonable—necessary, even. But these pursuits can't be subjective "I think it's good." They require objective measurement standards. That objective standard: **do users love it**.
-
-Whether users love it is largely evidenced by the metrics you define and the data you collect.
-
-Therefore, **building your product optimization workflow well matters more than building any single product**. This is what I mean by "build the machine."
-
-What is this machine? It's a complete, self-evolving product development system with three layers:
-
-**Technical Infrastructure Layer:**
-- Feature flag system: Enables rapid feature toggles and gradual rollout
-- A/B testing platform: Supports multivariate experiments and statistical analysis
-- Real-time monitoring and analytics tools: Quickly identifies issues and opportunities
-- Abstraction layers designed for AI model upgrades: Products automatically improve as models evolve
-
-**Organizational Capability Layer:**
-- Experiment-driven culture: Let data speak, not opinions debate
-- Rapid decision mechanisms: Two-way door decisions same day, avoid consensus traps
-- 2-month planning cycles synchronized with AI model upgrades
-- Disagree and commit principle: Prioritize speed, correct quickly if wrong
-
-**Strategic Mindset Layer:**
-- Correct metrics definition: Reflects genuine user value, avoids vanity metrics
-- Data-driven but user-centric: Data is the means, users are the end
-- Distinguish 0-to-1 vs 1-to-100 methodologies: Know when to rely on taste, when on data
-- Understand what changes (AI capabilities) vs. what doesn't (user needs)
-
-**This is a meta-capability—you're not optimizing individual products, but optimizing the "optimization capability" itself**.
-
-All the elements discussed earlier—experiment cycles, momentum, AI Native, Ride the Wave—converge in this machine. You're not building a product; you're building a system that continuously produces better products.
-
-Most startups lack the capability to build this machine, which is why 0-to-1 and 1-to-100 are completely different problems.
-
-But in the AI era, this is no longer optional—it's required coursework.
-
-### The Quality Paradox
-
-Some will ask: isn't moving fast contradictory to pursuing excellence?
-
-Answer: No contradiction. In fact, **moving fast is the prerequisite for building better products long-term**.
-
-When competitors ship one feature per month, you ship five experiments. You learn five times faster. This learning compounds into superior products.
-
-Moving fast doesn't mean shipping features quickly—it means **delivering customer value quickly** (and learning quickly). Speed serves the ultimate goal: being the absolute best.
-
-HeyGen's quality bar is clear: for video content and creative tools especially, quality is non-negotiable. Users don't love products because of polished UI—they love products that solve their problems with exceptional quality. The success metric: **the average video quality any user can achieve on the platform**.
-
-This is the right north star.
-
-### The Game Has Changed
-
-Back to the engineer's concern: will AI leave us with nothing to do?
-
-Answer: **It won't leave you with nothing to do, but it will fundamentally change what you do**.
-
-Delivery costs drop, demand explodes. But the real question is: are you adapting to new rules with old methods, or are you building the machine?
-
-Product development in the AI era isn't about building better products—it's about **building better assembly lines**.
-
-Stop debating. Start experimenting. Build your experiment machine.
-
-This is the only way to compete in the AI era.
+Back to the engineering lead's worry. I don't think AI will leave us with nothing to do, but what we do will change completely. Once delivery gets cheaper, there will only be more demand, and what separates teams is whether they're still handling the new rules of the game the old way or have already built the experiment machine. So he doesn't need to worry about running out of work. There won't be less of it; we'll just spend much less time arguing in meeting rooms, and the time we save can go into running experiments.

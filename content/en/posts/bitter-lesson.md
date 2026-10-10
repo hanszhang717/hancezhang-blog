@@ -2,84 +2,59 @@
 title: "Bitter Lesson, End-to-end Coding, Creator Economy"
 date: "2025-08-01"
 draft: false
-summary: "The Bitter Lesson is true for research, but product development requires working with the model's grain, not against it."
+summary: "The Bitter Lesson is true for research, but product development requires working with the model's grain."
 categories: ["AI"]
 slug: "bitter-lesson"
 ---
 
+It’s become a kind of mantra in AI circles: “The Bitter Lesson.” The idea, from researcher Rich Sutton, is that trying to bake human knowledge into models is a short-term crutch. History shows the biggest gains come from applying massive computation to general-purpose methods.
 
-### The Misreading of Bitter Lesson
+Many industry leaders now champion this take. They suggest the purest path is to let the LLM figure things out for itself, and the more your product does this, the more “agentic” it’s considered to be. But from my experience building products, it isn't that simple. The Bitter Lesson is true for research, but on the product side you need a more dialectical view of it.
 
-It has become a **central dogma** in AI circles: **"The Bitter Lesson."**
+Giving an LLM too much external knowledge can be a disaster. I call the right approach "going with the grain." An LLM has a natural inclination, like the grain in wood, and it already has vast prior knowledge of coding patterns and architectures. If you align your requests with what it already knows, you get the most out of it and keep the damage from hallucinations to a minimum.
 
-The idea, from researcher Rich Sutton, is that trying to **embed human priors** into models is a **temporary expedient**. History shows the biggest gains come from applying massive computation to general-purpose methods.
+Forcing an LLM to learn a completely foreign architecture is a recipe for failure. It performs poorly, and it also uses up the model's limited context, which is its most precious resource. When we measure a model, the size of its context window matters less than its "in-context capability," the complexity of logic it can reliably execute.
 
-Many industry leaders now champion this take. They suggest the purest path is to let the LLM figure things out for itself. The more your product does this, the more “agentic” it’s considered to be.
+This is where a purely dogmatic view of the Bitter Lesson falls apart. The most pragmatic and effective tools, like Base44, are fast and reliable precisely because they rely heavily on pre-built templates, and the LLM’s job is simply to "fill in the blanks." The more dogmatic route is to rely on the LLM to generate a production-ready app from scratch, which usually produces terrible results. That is a core problem for many AI coding products today.
 
-But my experience building products tells a different story. **The Bitter Lesson is true for pure research, but building a product requires a more dialectical view.**
+Base44's approach has a cost (once a user's request goes beyond its templates, quality drops sharply), but it shows that in product development, the window of opportunity is what matters. It's perfectly fine to build a transitional product that the next wave of models might make obsolete. If adding human heuristics helps you solve users' problems and create business value within the current window, it's a good technical choice.
 
-### Principle: Work *With* the Model, Not Against It
+## The Four Stages of AI Coding
 
-Giving an LLM too much external knowledge can be a disaster. I call the correct approach **"going with the grain."**
+The AI coding game is unfolding in four stages, with stages 2 and 3 happening concurrently. The first stage is AI-Assisted Coding, represented by tab-to-complete in early versions of tools like Cursor.
 
-An LLM has a natural inclination, like the grain in wood. It already possesses vast prior knowledge of coding patterns and architectures. **If you align your requests with its existing knowledge, you maximize effectiveness and minimize hallucinations.**
+The second stage is AI Pair Coding, with more agentic tools like Cursor Composer and Windsurf Cascade. It's best for experienced developers, who get a massive productivity boost from it, but you still need to understand the basics to use it well. The experience is like the invention of the manual transmission: you still have to learn the clutch, and even roughly understand how a car is built, before you can drive. But because it's the first time many people get to drive such an advanced vehicle, the aha moment is very strong, and it's a lot like the driving feel many people still chase today.
 
-Attempting to force an LLM to learn a completely foreign architecture is **destined to fail**. It not only performs poorly but also consumes the model's finite context—its most precious resource. We should measure a model not just by its context window size, but by its **"in-context capability":** the complexity of logic it can reliably execute.
+The third stage is Vibe Coding 1.0, represented by products like Lovable and Bolt.new, which aim to help non-developers build software. Still, it requires huge enthusiasm and patience. The interaction is often a "say one thing, do one thing" process, and the people using it are mostly AI enthusiasts and tech-savvy professionals (designers and PMs, for example), still far from the mass market.
 
-This is where a purely dogmatic view of the Bitter Lesson **encounters its limits**. The most pragmatic and effective tools, like **Base44**, are fast and reliable precisely because they rely heavily on pre-built templates where the LLM’s job is simply to "fill in the blanks." In contrast, the more dogmatic approach of relying on an LLM to generate a production-ready app from scratch usually produces terrible results, a core problem for many AI coding products today.
+Most of these tools are also "front-end only" and rely on platforms like Supabase, so users still face a steep learning curve: they need to learn about prompting, databases, CDNs, and component variables, concepts an AI can't easily guess for them. To continue the driving analogy, this is a bit like the invention of the automatic transmission. The barrier to learning to drive dropped sharply, and although some of the fine-grained feel of driving was lost, many people who never had the skill to learn a manual car got to drive.
 
-Base44's approach has trade-offs—its quality drops dramatically on requests outside its templates—but it proves a crucial point. In product development, **the window of opportunity is what matters.** It's okay to build transitional products that the next model wave might render obsolete. **If adding human heuristics solves a user's problem now, it's the right choice.** Technology is a means, not an end.
+One product that really impressed me recently is Trickle AI. It uses a canvas to visualize all the essentials of website development (database, assets, version control), has put real thought into deployment, including SEO, and makes visual edits much more intuitive. I think it's probably the best interaction vibe coding 1.0 has achieved so far, like a top-of-the-line automatic car where the ride, comfort, and dashboard are all maxed out.
 
-### How AI Coding is Evolving: The Four Stages
+As a small aside, many vibe coding 1.0 tools are now obsessed with competing on front-end page generation and deployment. Personally, I don't want to get dragged into that frenzy. Building a good UI is hard because visual taste is subjective, so it's difficult for an AI to satisfy a user in one shot. A complete, visually appealing webpage takes an immense amount of work, like changing the corner radius of cards, the overall color scheme, adding a top navigation bar, and adapting the page for mobile.
 
-The AI coding **landscape is evolving** in four stages, with stages 2 and 3 happening concurrently.
+More importantly, in an increasingly agentic future, I question whether webpages will keep the value they've had for the past 20 years. For 20 years, websites have been key carriers of information and GUIs. But agents are now automating information retrieval and back-end service calls. Information is being covered by products like Deep Research, and GUI operations will likely be handled by an agent's computer-use capabilities. We already see this with ChatGPT changing how we use browsers. My worry is that there will be a flood of tools making a flood of webpages that only agents will ever visit.
 
-**1. AI-Assisted Coding**
-This is the earliest stage, represented by tab-to-complete features in early versions of tools like Cursor.
+The fourth stage is Fully Autonomous Coding, which is where I believe the future is headed. It won't conflict with the earlier products and markets; it will expand to a much broader audience. AI can complete coding tasks end-to-end and fully on its own, the way Deep Research does for information retrieval today. You only need to give it a request, and it doesn't even have to be very detailed. The AI infers the thinking behind the request and what you want to achieve, and builds the whole thing end-to-end, ready to use. Later edits should then go into new features, not into fiddling with visuals or fixing bugs. Clearly this is still a future paradigm, and companies like Devin are going into enterprise-level codebases to solve exactly this problem.
 
-**2. AI Pair Coding**
-This stage includes more agentic tools like Cursor Composer. The experience is like the invention of the **manual transmission**: powerful, but still requiring significant skill. It's best used by experienced developers who can get a massive productivity boost, but you still need to understand the fundamentals to use it effectively.
+Still, we think there may be an opportunity here. Building a full web app end-to-end is immensely hard because of GUIs, cloud deployment, visual adjustments, and databases, not to mention token costs. But if we betray the Bitter Lesson and use a pre-filled, template-based approach, we can constrain the UI to its simplest, most essential forms: a few buttons, a natural-language box that calls a backend, or a simple H5 app with preset GUI templates. This lands squarely in the comfort zone of current AI. Of course there is a trade-off: anything outside that range of interaction, anything that needs complex dashboards or fancy visual pages, can't be generated at all. But at least we can try to make fully end-to-end work in a small scope, and the value there already seems large enough.
 
-**3. Vibe Coding 1.0**
-This stage, represented by products like Lovable and Bolt.new, aims to help non-developers build software. It's like the invention of the **automatic transmission**, dramatically lowering the barrier to entry, even if some fine-grained control is lost. However, it still requires huge enthusiasm and patience. The interaction is often a **turn-by-turn** process, and its adopters are not yet the mass market, but rather **AI enthusiasts and tech-savvy professionals** like designers and PMs.
+It's like Waymo achieving fully driverless cars in only a handful of cities, with HD maps and LiDAR: a powerful but geographically limited solution. Perhaps in two years a "Tesla-level" product will come along and run us over. But in an AI startup, you can't count on a lasting moat; in the face of absolute intelligence, moats are fleeting. If you can build a product that works for a year, focus on that year. Don't make too many predictions.
 
-Most of these tools are also "front-end only" and rely on platforms like Supabase. This means users still face a steep learning curve: they need to learn about prompting, databases, CDNs, and component variables—concepts an AI can't easily guess for them.
+## After Everyone Could Take Photos
 
-A product called **Trickle AI** is particularly impressive here. It uses a canvas to visualize development essentials (database, assets, version control) and has put real thought into intuitive visual edits and deployment. It’s like a top-of-the-line automatic car where the ride, comfort, and dashboard are all maxed out.
+Take photography as an example. To people born in the 21st century, it seems perfectly reasonable and intuitive that you open your phone, tap the camera, press the shutter and get exactly what you see, as if cameras were simply meant to work this way. But camera and imaging technology took countless years to get to today's millisecond shots, so fast that you don't even notice the huge amount of underlying work.
 
-**A Personal Aside on Vibe Coding and the Future of Websites:**
-I'm personally avoiding the **rush** to compete on front-end generation. Building a good UI is hard because visual taste is subjective, making it difficult for an AI to satisfy a human in one shot. The amount of work for a complete, visually appealing webpage is immense.
+When you press the shutter, a multi-stage process finishes in milliseconds. Light passes through the lenses, is focused onto a CMOS sensor, and the photons are converted into a raw digital signal. Then an Image Signal Processor (ISP) "fills in" color for each pixel, reduces noise, corrects white balance, and merges multiple exposures for HDR. Finally, the processor maps the colors to the sRGB space, sharpens edges for clarity, and compresses a 12 MB data stream into a 2 MB JPEG or HEIF file.
 
-More importantly, **I question the long-term value of webpages in an agentic future.** For 20 years, websites have been key carriers of information and GUIs. But agents are now automating information retrieval and service calls. Information is being covered by products like Deep Research, and GUI operations will likely be handled by an agent's computer-use capabilities. We already see this with ChatGPT changing how we use browsers. I worry we're building a future with a flood of tools to create websites that only other agents will ever visit.
+This entire pipeline is the magic that creates the "point-and-shoot" experience. I still remember when photography required a darkroom to develop film, a long, tedious, and professional process. It took years of iteration to achieve the universal access we have today, which in turn gave birth to new markets and products like Instagram.
 
-**4. Fully Autonomous Coding**
-This is where I believe the future is headed, expanding the market to a much broader audience. The vision is for an AI to complete coding tasks end-to-end from a simple, high-level request, much like Deep Research does for information retrieval. The AI would infer your underlying intent and build a ready-to-use application, with subsequent edits focused on functional improvements.
+But even today, the convenience of smartphone cameras hasn't eliminated professional photographers, hobbyists, or the market for professional cameras. As the cost and complexity of a technology drop, the new market grows beyond imagination: the smartphone expanded the photography market a hundredfold. I believe the same will be true for software. One day, with AI, creating software will feel as simple and self-evident as taking a picture with our phones today.
 
-While this is still a future paradigm, we can achieve a constrained version of it now. The challenge with building a *full web app* end-to-end is immense due to the complexity of GUIs, cloud deployment, visual adjustments, and databases—not to mention token costs. But what if we **defy the Bitter Lesson** and use a pre-filled, template-based approach? We could constrain the UI to its simplest, most essential forms: a few buttons, using natural language to call a backend, or a simple H5 app with pre-set GUI templates. This lands squarely in the comfort zone of current AI.
+## From Ads to APIs
 
-This approach has a clear trade-off. It's like **Waymo achieving self-driving, but only in San Francisco:** a powerful but geographically limited solution. Anything outside the pre-defined scope is impossible. Perhaps a "Tesla-level" product will make this obsolete in two years. But in an AI startup, you can't wait for a lasting moat. In the face of absolute intelligence, moats are fleeting. **If you can build a product that works for a year, focus on that year.** Don't make too many predictions.
+The rise of agents makes me deeply worried about the future of the creator economy. Many creators, like podcasters, currently live on ad revenue. But AI has already changed how many people listen to podcasts. Either an AI pulls the podcast's content and writes a text summary, or people throw a pile of audio into a product like NotebookLM and get back a more complete podcast, more to their personal taste and with no ads at all. On some podcasts you can already find comments saying, "No AI summary? I'm not listening to this episode." More and more of the entry points to information, content, and services will be taken over by agents, and that is almost certain to happen. So in that situation, where does the creator economy go?
 
-### Why Democratized Coding Won't Kill the Market
+As the entry point moves from platforms to personal agents, advertising will be forced to change massively, just as SEO is now adapting to AI search. The old logic of capturing user attention on a specific page is ending; in the future, user attention will be held by each user's personal agent.
 
-Think about the magic behind taking a photo with your phone. To a modern user, the process feels instantaneous and intuitive. But this simplicity hides immense underlying complexity, a technological marvel that evolved over decades.
-
-**The Hidden Complexity of a Smartphone Photo:**
-When you press the shutter, a multi-stage process executes in milliseconds:
-
-1. **Light Capture:** Light passes through lenses, is focused, and hits a CMOS sensor, which converts photons into a raw digital signal.
-2. **Image Processing:** An Image Signal Processor (ISP) "fills in" color for each pixel, reduces noise, corrects white balance, and merges multiple exposures for HDR.
-3. **Final Touches:** The processor maps colors to the sRGB space, sharpens edges for clarity, and finally compresses a 12 MB data stream into a 2 MB JPEG or HEIF file.
-
-This entire pipeline is the magic that creates the "point-and-shoot" experience. I still remember when photography required a darkroom to develop film—a long, tedious, and professional process. It took years of iteration to achieve the universal access we have today, which in turn gave birth to new markets and products like Instagram.
-
-But even today, **the convenience of smartphone cameras hasn't eliminated professional photographers,** hobbyists, or the market for professional cameras. As the cost and complexity of a technology drop, the new market size becomes unimaginable. The smartphone expanded the photography market a hundredfold without destroying the professional niche.
-
-I believe the same will be true for software. **AI will one day make software creation feel as simple, as instinctive, and as self-evident as taking a picture with our phones today.**
-
-### The Future of the Creator Economy: From Ads to APIs
-
-The rise of agents leads to a deep concern for the creator economy. Many creators, like podcasters, currently survive on ad revenue. But **AI is fundamentally changing consumption habits and threatening this model.** Users now feed podcast audio into tools like NotebookLM to generate personalized, ad-free summaries. This behavior is becoming an expectation; you can already find comments on podcasts saying, "No AI summary? I'm not listening to this episode."
-
-This is part of a larger, inevitable shift: **the entry point for information, content, and services is moving from platforms to personal agents.** This will force a massive transformation in advertising, just as SEO is now adapting to AI search. The old logic of capturing user attention on a specific page is ending. In the future, user attention will be held by their personal agent.
-
-For creators, the best path forward is to **charge for their content, functions, or information directly.** They can expose their services as an API that agents call, charging on a per-use basis. I believe this is a more rational and sustainable model than advertising. In productivity scenarios, the "browse and discover" model of app stores will be replaced by agent-led recommendations and search. Entertainment and e-commerce will be trickier, as users often enjoy the process of browsing itself.
+For creators, the best path forward is to charge directly for their content, functions, or information. They can expose their services as an API that agents call, charging on a per-use basis. I believe this is a more rational and sustainable model than advertising. In productivity scenarios, the "browse and discover" model of app stores will be replaced by agent-led recommendations and search. Entertainment and e-commerce will be trickier, as users often enjoy the process of browsing itself.

@@ -2,7 +2,7 @@
 title: "Managing Your Decision Rights"
 date: 2026-03-17
 draft: false
-summary: "Most people don't lack judgment. They lack the room to exercise it when it matters."
+summary: "When the time comes to use their judgment, most people have no room left to use it."
 categories: ["Mindsets"]
 slug: "managing-decision-rights"
 ---
@@ -27,7 +27,7 @@ Once your margin is gone, you start doing things you don't actually want to do. 
 
 So keeping margin often feels like a waste in daily life. Money sitting uninvested feels like you're leaving returns on the table. Free time in your schedule, while everyone around you is running at full capacity, feels like laziness.
 
-But when volatility hits, the slack that looked "inefficient" turns out to be the most valuable thing you have. People with low enough expenses can afford to wait when markets turn bad. People with cash on hand don't need to beg for help at the worst possible moment. Margin has another function that's easy to overlook: it lets you catch good luck. A friend of mine once spotted an exceptional investment opportunity, but his money was entirely tied up elsewhere. He watched it pass by. His judgment was exactly right. His margin was zero. Being right became meaningless.
+But when volatility hits, the slack that looked "inefficient" turns out to be the most valuable thing you have. People with low enough expenses can afford to wait when markets turn bad. People with cash on hand don't need to beg for help at the worst possible moment. Margin has another function that's easy to overlook: it lets you catch good luck. A friend of mine once spotted an exceptional investment opportunity, but his money was entirely tied up elsewhere. He watched it pass by. His judgment was exactly right, but with zero margin, being right did him no good.
 
 There's something even deeper behind this. Your current self understands the world less well than your future self will. Information arrives over time. Locking up all your resources too early means letting a less-informed version of yourself make irrevocable decisions on behalf of a better-informed one. Part of the value of margin is the room it gives your future, smarter self to act.
 
@@ -41,21 +41,21 @@ First, the thing you're holding has to be right. Compounding is an amplifier, an
 
 Even if you pick right, there's a brutal prerequisite: the process can't be interrupted. In theory you can compound for many years straight, but in practice a single large enough drawdown can wipe out a significant chunk of what you've built. You were rolling a snowball, and once it breaks, you often have to start over. Buffett's "don't lose money" sounds like a platitude. It's actually about protecting the most fragile link in the compounding chain.
 
-Then there's the variable that gets underestimated most: whether the rate of return can be sustained over the long term. Even Munger, looking back, was probably too optimistic about Coca-Cola's long-term growth. The industry a company operates in, its competitive position, its organizational efficiency — these are all moving targets. The real rate of return ten years from now can look nothing like it does today. So compounding is first a business judgment problem. The math just extends whatever your judgment produces into the future.
+Then there's the variable that gets underestimated most: whether the rate of return can be sustained over the long term. Even Munger, looking back, was probably too optimistic about Coca-Cola's long-term growth. The industry a company operates in, its competitive position, its organizational efficiency: these are all moving targets. The real rate of return ten years from now can look nothing like it does today. So compounding is first a business judgment problem. The math just extends whatever your judgment produces into the future.
 
 Buying stock is buying a company. The core of value investing is figuring out what a company actually does, where its cash flows come from, and how much room it has to reinvest. Compounding is more like an after-the-fact phenomenon. You picked the right company, the company kept reinvesting at high quality, and compounding emerged as a natural result.
 
 Most things don't actually grow on exponential curves anyway. They follow S-curves. Growth starts fast, then slows as the market fills up, competition intensifies, and the organization itself becomes more complex. The truly critical ability is recognizing when a curve is approaching diminishing returns and moving your resources to the next steeper one before it's too late. Both companies and individual careers, viewed over long enough periods, are really stacks of multiple curves rather than a single line going up.
 
-All of the conditions above — picking the right thing, not getting interrupted, migrating before growth stalls — require that you still have the right and the resources to make decisions at the critical moment. Which brings us back to decision rights.
+All of the conditions above (picking the right thing, not getting interrupted, migrating before growth stalls) require that you still have the right and the resources to make decisions at the critical moment. Which brings us back to decision rights.
 
 ## How to stay at the plate
 
 Some people lock themselves in too early, committing to long-term obligations before they've understood the full picture. Others have the opposite problem: they watch from the sidelines forever, never accumulating real depth in anything. Munger said he spent his whole life waiting for a few fat pitches, doing nothing most of the time, and swinging hard when one came. But you need to have earned the right to stand at the plate.
 
-The mature approach is to layer things. At the base level — living expenses, capital structure, how you allocate your time — you want to stay as flexible as possible. This is your operating system, and the primary requirement for an operating system is stability. But within the direction you've chosen, you can be intensely concentrated, even obsessive. The key is not to confuse these two layers.
+The mature approach is to layer things. At the base level (living expenses, capital structure, how you allocate your time), you want to stay as flexible as possible. This is your operating system, and the primary requirement for an operating system is stability. But within the direction you've chosen, you can be intensely concentrated, even obsessive. The key is not to confuse these two layers.
 
-Rationality deserves a separate note here. A lot of people equate being rational with being cautious, with spreading everything evenly, with never going too hard on anything. But the distribution of returns in the real world is itself uneven. Treating every opportunity the same is actually irrational. When you don't have enough information, of course you should stay light. But when you genuinely see something you understand, can hold, and believe improves with time, and you're still "diversifying" for safety, you're not being prudent. You're avoiding judgment.
+Rationality deserves a separate note here. A lot of people equate being rational with being cautious, with spreading everything evenly, with never going too hard on anything. But the distribution of returns in the real world is itself uneven. Treating every opportunity the same is actually irrational. When you don't have enough information, of course you should stay light. But when you genuinely see something you understand, can hold, and believe improves with time, and you're still "diversifying" for safety, you're just avoiding judgment.
 
 The same opportunity means completely different things to different people. Someone with low living costs, no debt, and the ability to ride out volatility is facing an investment with downside risk. Someone with high fixed monthly expenses, existing loans, and pressure to produce results in the short term is facing something closer to a test of whether they can stay in the game at all. Whether your judgment is correct is one question. Whether you can survive long enough for your judgment to be proven right is a different one entirely.
 
