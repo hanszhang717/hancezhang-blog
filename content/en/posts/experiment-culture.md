@@ -2,6 +2,7 @@
 title: "From 'I Think' to 'I Tried': Building an Experiment-Centric Team Culture with AI"
 date: "2025-05-15"
 draft: false
+summary: "AI has made trying things cheap, so teams can argue less from opinion and decide more from the facts small experiments produce."
 categories: ["AI"]
 slug: "experiment-culture"
 ---
@@ -36,4 +37,4 @@ Also, with the barrier to "trying it out" lowered, members who usually "haven't 
 
 Of course, the change won't happen overnight. Putting it into practice will run into some practical difficulties, but they can all be overcome. Team members need to know how to use the relevant AI tools, which may take some training or guidance. The team needs to learn to design meaningful, lightweight experiments, and avoid experimenting for experimentation's sake. And you have to watch out for over-interpreting or misinterpreting experimental data. The biggest challenge probably comes from cultural inertia: the habit of "meetings are for debating" took a long time to form, and breaking it takes time, as well as leaders who keep pushing and setting an example.
 
-Besides raising productivity, AI is also changing the way we collaborate and our team cultures. Going from "I think" to "I tried" changes the way we work, and also the way we think. In an era of innovation full of uncertainty, this may be one of the most important changes we can make. So the next time someone says "I think users will like this feature," don't argue yet. Ask: "Can we quickly try this with AI?"
+Besides raising productivity, AI is also changing how teams work together. In the past, disagreements in meetings were often settled by whoever was loudest, most senior, or most stubborn; now many of them can be settled by spending a little time trying things out with AI and then discussing the results. In innovation work, which is uncertain by nature, I think this is one of the most practical changes AI brings to a team.

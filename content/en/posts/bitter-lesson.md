@@ -41,7 +41,7 @@ Still, we think there may be an opportunity here. Building a full web app end-to
 
 It's like Waymo achieving fully driverless cars in only a handful of cities, with HD maps and LiDAR: a powerful but geographically limited solution. Perhaps in two years a "Tesla-level" product will come along and run us over. But in an AI startup, you can't count on a lasting moat; in the face of absolute intelligence, moats are fleeting. If you can build a product that works for a year, focus on that year. Don't make too many predictions.
 
-## Why Democratized Coding Won't Kill the Professional Market
+## After Everyone Could Take Photos
 
 Take photography as an example. To people born in the 21st century, it seems perfectly reasonable and intuitive that you open your phone, tap the camera, press the shutter and get exactly what you see, as if cameras were simply meant to work this way. But camera and imaging technology took countless years to get to today's millisecond shots, so fast that you don't even notice the huge amount of underlying work.
 

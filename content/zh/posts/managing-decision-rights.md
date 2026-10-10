@@ -2,7 +2,7 @@
 title: "管理你的决策权"
 date: 2026-03-17
 draft: false
-summary: "大多数人不是判断力不行，是做判断的时候已经没有余地了。"
+summary: "大多数人到了需要做判断的时候，手里已经没有余地了。"
 categories: ["Mindsets"]
 slug: "managing-decision-rights"
 lang: zh

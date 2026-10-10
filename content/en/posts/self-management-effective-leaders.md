@@ -28,30 +28,30 @@ Once you have an objective (or your boss gives you one), strategy becomes essent
 
 ### Executive Management
 
-This is the least glamorous part of leadership—it's repetitive, action-heavy, and often boring. But it compounds over time. You get better at it day by day.
+This is the least glamorous part of leadership: it's repetitive, action-heavy, and often boring. But it compounds over time. You get better at it day by day.
 
-I spend my "not-so-productive" hours here: listening to reports, talking to users, speaking with frontline developers, and using the product myself. I minimize indirect reports because they make me lose touch with the ground truth. If a product is underperforming, don't delegate your way out of the problem—use it yourself and talk to users. Lead by example so your team does the same.
+I spend my "not-so-productive" hours here: listening to reports, talking to users, speaking with frontline developers, and using the product myself. I minimize indirect reports because they make me lose touch with the ground truth. If a product is underperforming, don't delegate your way out of the problem. Use it yourself and talk to users. Lead by example so your team does the same.
 
 ### People Management
 
-People management rarely feels urgent until something goes wrong—like when you need to fire someone or deal with attrition. When it becomes a problem, however, it should be your top priority.
+People management rarely feels urgent until something goes wrong, like when you need to fire someone or deal with attrition. When it becomes a problem, however, it should be your top priority.
 
-Sam Altman once said the highest ROI for a leader is in hiring. My contrarian view is that I don't trust HR for this task—not just here but in general. Hiring is too important to delegate to someone who has little understanding of your business. The risk is too high.
+I remember Sam Altman saying that the highest ROI for a leader is in hiring. My contrarian view is that I don't trust HR for this task, not just here but in general. Hiring is too important to delegate to someone who has little understanding of your business. The risk is too high.
 
 Use HR as a tool: let them handle logistics like posting jobs and managing processes. But as a leader, you should proactively seek out great talent yourself. You should know where to find the best people because you are one of them.
 
 ## How should you manage your reports
 
-This question depends heavily on your personality and the type of business you're running. For example, my leader doesn't endorse all of my methods—he has his philosophy, and it works for him but not quite for me. My approach is rooted in two principles:
+This question depends heavily on your personality and the type of business you're running. For example, my leader doesn't endorse all of my methods. He has his philosophy, and it works for him but not quite for me. My approach is rooted in two principles:
 
 1. Being Detail-Oriented
 2. Being Importance-Oriented
 
 ### 1. Being Detail-Oriented
 
-Being detail-oriented does not mean micromanaging. For a better understanding, you can refer to my blog on [Brian Chesky and Founder Mode](https://www.hancezhang.blog/en/posts/founder-mode/). Being detail-oriented means you need to know as much as possible—if not all—about the projects you're overseeing, both technical and non-technical. This is easier than it sounds.
+Being detail-oriented does not mean micromanaging. For a better understanding, you can refer to my blog on [Brian Chesky and Founder Mode](https://www.hancezhang.blog/en/posts/founder-mode/). Being detail-oriented means you need to know as much as possible, if not all, about the projects you're overseeing, both technical and non-technical. This is harder than it sounds.
 
-However, you must control the urge to manage every detail directly. If you fail to do this, you'll make life miserable for the people working for you and, worse, erode their initiative—which is key to building a sustainable organization.
+However, you must control the urge to manage every detail directly. If you fail to do this, you'll make life miserable for the people working for you and, worse, erode their initiative, which is key to building a sustainable organization.
 
 Being detail-oriented also requires that you talk directly to the people doing the actual work, not their managers. Bureaucracy thrives when you need to talk to a VP, who then relays the request to a middle manager, who finally asks the people writing the code. This chain is inefficient and prone to information loss.
 

@@ -1,5 +1,5 @@
 ---
-title: "The Scorecard Fallacy: How Promotion Decisions Are Really Made"
+title: "The Scorecard Fallacy"
 date: 2025-05-14
 draft: false
 summary: "Promotions are decided by people, and understanding them matters more than a perfect scorecard."

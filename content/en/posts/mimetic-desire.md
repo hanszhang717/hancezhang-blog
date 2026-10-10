@@ -22,13 +22,13 @@ Being an independent thinker still matters. It's the only way to do great work o
 
 But in the current AI gold rush, the consensus is that you should be a contrarian. The most mimetic thing you can do is announce that you're not driven by mimesis. You see it at events. People perform contrarianism. They dress and talk in deliberately eccentric ways, hoping to seem a little manic, because they think that's the archetype VCs look for in great founders.
 
-Wanting to be seen as a contrarian is the opposite of being one. It's a signal that you care deeply what other people think. It's a costume. Darkly funny, after the media decided Elon Musk was on the autism spectrum, you started to see founders performing that persona too.
+Wanting to be seen as a contrarian is the opposite of being one. It's a signal that you care deeply what other people think. It's a costume. Darkly funny, after Elon Musk said he has Asperger's, you started to see founders performing that persona too.
 
 We're social animals. You can't just delete the desire for recognition. It's as fundamental as the drive for food or sex. I went through a phase of trying to prove I was a contrarian. It got me some attention, but it also pushed me into a kind of self-imposed isolation. I felt a need to disagree with people almost by default, and what it left me with was a deep loneliness.
 
 What I learned is that desire is like any other force. Trying to suppress it with pure rationality makes you miserable, and so does letting it run your life. You have to learn to steer it.
 
-I used to think that my old life—the one that followed consensus—was simply wrong. Then I reacted against it, running to the opposite extreme. Now, after seeing the trap of performed nonconformity, I'm trying to find a balance.
+I used to think that my old life, the one that followed consensus, was simply wrong. Then I reacted against it, running to the opposite extreme. Now, after seeing the trap of performed nonconformity, I'm trying to find a balance.
 
 Perhaps the truly contrarian move, right now, is to ignore the pressure to drop out and build a startup. Perhaps it's to quietly choose the life that fits you, not the costume that fits the moment.
 

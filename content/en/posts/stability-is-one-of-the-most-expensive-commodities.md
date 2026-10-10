@@ -10,7 +10,7 @@ slug: "stability-is-one-of-the-most-expensive-commodities"
 
 For a while I was studying the business models of Costco and Apple pretty intensely. The question I started with was simple: how do they get prices from suppliers that nobody else can get?
 
-The standard answer is scale. Big order volumes, strong bargaining power. That's true, but what I found more interesting was another layer: these companies offer their suppliers something extremely scarce, a *high-credibility future*.
+The standard answer is scale. Big order volumes, strong bargaining power. That's true, but what I found more interesting was another layer: these companies offer their suppliers something extremely scarce, a high-credibility future.
 
 They have brands, distribution networks, loyal customer bases, and relatively predictable demand curves. So they can place orders earlier, forecast volumes more accurately, default less often, and change plans less frequently.
 
@@ -20,19 +20,19 @@ Suppliers give these buyers better prices partly because they're big. But there'
 
 ---
 
-Take employment. We usually say companies pay wages and employees provide labor. That's correct, but it misses the most interesting part. A more honest description: *the company takes on the uncertainty so the employee doesn't have to.* Say a major client cuts their orders in half this month. The company's revenue drops 30%. But the number in the employee's bank account at the end of the month stays the same. That difference is invisible most of the time, but it's worth a lot of money.
+Take employment. We usually say companies pay wages and employees provide labor. That's correct, but it misses the most interesting part. A more honest description: the company takes on the uncertainty so the employee doesn't have to. Say a major client cuts their orders in half this month. The company's revenue drops 30%. But the number in the employee's bank account at the end of the month stays the same. That difference is invisible most of the time, but it's worth a lot of money.
 
 An independent worker facing the market directly could, in theory, earn more. But they'd have to absorb all the uncertainty themselves: finding clients, negotiating rates, delivering work, chasing payments, surviving dry spells, building trust from scratch, eating bad debts. Skill is just one piece of that, and often not the hardest one.
 
 What a company does is take all those transaction costs, fluctuations, and risks that would otherwise land on individuals, and absorb them centrally. In exchange, it gives you a relatively stable salary. You don't have to reprove your market value every month. The company has already settled that question for you.
 
-On the surface, the company is buying labor. But look at it from another angle and *the employee is also buying stability from the company*. Besides paying for work, a salary is also a risk-adjusted number. The income an employee takes home is the version where the market's wild swings have already been flattened out.
+On the surface, the company is buying labor. But look at it from another angle and the employee is also buying stability from the company. Besides paying for work, a salary is also a risk-adjusted number. The income an employee takes home is the version where the market's wild swings have already been flattened out.
 
-Company profits can be reframed through this lens too. Management skill, technical advantages and economies of scale all count, of course. But the company is also doing something that rarely gets named on its own: *turning uncertainty into certainty, and getting paid for it.*
+Company profits can be reframed through this lens too. Management skill, technical advantages and economies of scale all count, of course. But the company is also doing something that rarely gets named on its own: turning uncertainty into certainty, and getting paid for it.
 
 ---
 
-There's another layer here that often gets missed. Markets don't usually buy "skills" directly; they buy *solved problems*. What a client actually wants is a product shipped on time, a project that goes smoothly, a system that keeps running, and someone to call when things break. Clients pay for "this feature goes live next week"; hardly anyone sets out to buy "a person who can write code."
+There's another layer here that often gets missed. Markets don't usually buy "skills" directly; they buy solved problems. What a client actually wants is a product shipped on time, a project that goes smoothly, a system that keeps running, and someone to call when things break. Clients pay for "this feature goes live next week"; hardly anyone sets out to buy "a person who can write code."
 
 Between a skill and that kind of result sits a lot of stuff: client acquisition, trust, brand credibility, pricing, contracts, coordination, management, support, cash flow. An individual worker may not lack skill, but what they often lack is everything needed to turn that skill into something the market will pay for, and a company is exactly that. It sells results to the market and stability to employees, and profit tends to show up in the space between those two.
 
@@ -44,7 +44,7 @@ But stability has a cost. Stay at a big company long enough and you'll quietly h
 
 This works like muscle. Abilities you don't use will atrophy. People leaving big companies often say "I feel like I know everything and nothing at the same time." Usually the problem isn't their expertise but the fact that they haven't independently walked the full chain from skill to revenue in years. They have never done any of the steps between finding a client and collecting payment on their own.
 
-Stability works a bit like a painkiller. At the right dose, it lets you focus on your work, but take it too long and your tolerance for volatility drops. Eventually you might find yourself unable to leave the place providing the stability, even though you're perfectly capable of making it on your own. That is also the subtlest thing about the stability business: *the seller is helping you while also making you more and more dependent on it.* It's usually not deliberate, but it does happen.
+Stability works a bit like a painkiller. At the right dose, it lets you focus on your work, but take it too long and your tolerance for volatility drops. Eventually you might find yourself unable to leave the place providing the stability, even though you're perfectly capable of making it on your own. That is also the subtlest thing about the stability business: the seller is helping you while also making you more and more dependent on it. It's usually not deliberate, but it does happen.
 
 ---
 
@@ -60,4 +60,4 @@ So I'd say the most powerful players in business tend to be those who can turn o
 
 Maybe that's why "stability" looks like such a gentle thing but carries such commanding power. Once you're in the middle of volatility, you'll instinctively give up a lot for stability: margin, time, optionality, even some of your freedom.
 
-Stability isn't free. Someone manufactures it and someone pays for it. Costco and Apple are on the manufacturing side; most people on a fixed salary are on the paying side.
+So stability is never free. Someone puts in the work to manufacture it and then puts a price on it. People on a fixed salary are paying for it too; the price is just folded into the salary, so they rarely notice it.

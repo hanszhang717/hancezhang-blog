@@ -42,7 +42,7 @@ But there are strong counter-forces. Open-source models are putting compute with
 
 Over the long run, compute prices are falling and more and more people can get access to compute, which in a sense follows Wright's Law. Still, cutting-edge, high-performance compute will probably remain something only a few can get for some time, and that will create a new kind of inequality.
 
-## Where This Model Breaks
+## When Compute Isn't the Answer
 
 Compute is the best lever only under certain conditions: the problem can be formally defined, data is abundant, and distribution is a problem that can be solved. If what you need to do is build a brand, deal with a complex regulatory environment, or manage a physical supply chain, then capital, media, or even old-fashioned labor may still be the better lever. Take building a new hospital. You can use compute to design the building and optimize how patients move through it (handling the "bits"), but you still have to deal with zoning laws, get permits, manage construction crews, and build trust with the local community. These are problems of the human world, where relationships, trust, and the skill of working your way through bureaucracy (the traditional levers of labor and social capital) matter far more than raw compute.
 

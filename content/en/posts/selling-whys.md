@@ -2,7 +2,7 @@
 title: "Selling Whys"
 date: 2024-08-19
 draft: false
-summary: "Find a compelling why and sell it."
+summary: "Most people are struggling to find a “why” for their work and life. Be the person who finds a good “why” and sell it to them."
 categories: ["Leadership"]
 slug: "selling-whys"
 ---
@@ -15,7 +15,7 @@ Mediocre salespeople sell you a product, and good ones sell you a lifestyle, an 
 
 I find it astonishing that most people don't proactively think of the "why" in their own work. They complain about being treated like tools in a corporate machine, yet they willingly instrumentalize themselves. They've programmed their minds to function like a tool: receive input, produce the desired output, repeat. They don't question why the work is being done, in what context it adds value, or whether there might be a better way. They clock in, complete the tasks assigned, submit their work, and do it all over again the next day. How can anyone be surprised when the corporate machine treats them like a tool if that's the life they've chosen?
 
-In our workplace, there's a principle we call the 7/2/1 rule. It means that in an ideal business unit, 70% of the people are focused on the tasks handed to them (the what). Their role is to take the inputs and deliver quality outputs. 20% are tasked with figuring out the best way to accomplish those tasks (the how). And the remaining 10% engage in the strategic discussions, deciding what to do and why to do it (the why). In real-world practice, I find it's more like an 85/10/5 division.
+In our workplace, there's a principle we call the 7/2/1 rule. It means that in an ideal business unit, 70% of the people handle the what: they focus on the tasks handed to them, take the inputs and deliver quality outputs. 20% handle the how, figuring out the best way to accomplish those tasks. And the remaining 10% handle the why, engaging in the strategic discussions about what to do and why to do it. In real-world practice, I find it's more like an 85/10/5 division.
 
 Many people struggle to find a "why" in their work or life. This sense of meaninglessness is, in part, a byproduct of capitalism's rise and the decline of religion. Yet, people need a "why." And if you can be the person who identifies a compelling "why" and sells it to others, they'll work tirelessly for it, and it won't even be about the money.
 

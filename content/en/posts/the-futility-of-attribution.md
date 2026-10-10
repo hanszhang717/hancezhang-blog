@@ -2,7 +2,7 @@
 title: "The Futility of Attribution"
 date: 2025-11-19
 draft: false
-summary: "Why psychological theories don't make you happier, and how the illusion of control creates more anxiety than ignorance ever did"
+summary: "Knowing more psychological theories doesn't make you happier, and the illusion of control brings more anxiety than ignorance ever did"
 categories: ["Mindsets"]
 slug: "the-futility-of-attribution"
 ---

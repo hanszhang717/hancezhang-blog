@@ -1,5 +1,5 @@
 ---
-title: "Corporates Hire by Abundance, Not by Necessity"
+title: "Big Tech Hires Because It Can Afford To"
 date: 2025-05-13
 draft: false
 summary: "Big tech companies mostly hire because they can afford to, which makes those jobs less secure than they look."

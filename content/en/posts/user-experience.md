@@ -1,5 +1,5 @@
 ---
-title: "Why Growth Hacking and A/B testing is Bullshit Before PMF"
+title: "Why Growth Hacking and A/B Testing Are Bullshit Before PMF"
 date: 2025-05-16
 draft: false
 summary: "Before PMF, growth hacks and A/B tests won't help you much. What you should do is use unscalable methods to build a '10-star' experience that users rave about."
@@ -31,7 +31,7 @@ The founders also stayed in hosts' homes and took notes as they went, and featur
 
 ## Don't Hand the Decision to the User
 
-Chesky said, "A/B testing is moving the product decision responsibility to the user." He wasn't against all A/B tests. What he was against was misusing them for big decisions, or getting stuck on tiny improvements while missing the big picture. If Ford had only A/B tested faster horses, he never would have invented the car. Airbnb's usual approach was to start with a strong, experience-driven hypothesis (for example, "pro photos build trust") and test it qualitatively, on a small and unscalable scale. If it worked, they put resources into scaling it and measured it with long-term metrics such as retention and referrals. Only then did they use A/B tests to fine-tune the scaled version, for example, how to offer the photo service to hosts.
+Chesky said, "A/B testing is abdicating your responsibility to the users." He wasn't against all A/B tests. What he was against was misusing them for big decisions, or getting stuck on tiny improvements while missing the big picture. If Ford had only A/B tested faster horses, he never would have invented the car. Airbnb's usual approach was to start with a strong, experience-driven hypothesis (for example, "pro photos build trust") and test it qualitatively, on a small and unscalable scale. If it worked, they put resources into scaling it and measured it with long-term metrics such as retention and referrals. Only then did they use A/B tests to fine-tune the scaled version, for example, how to offer the photo service to hosts.
 
 Once you start obsessing over user experience while searching for PMF, it never stops. After PMF, piling growth hacks on top of a clunky experience won't get you far either; users can tell a carefully designed journey from a patchwork of optimizations. Early growth is often unscalable. It takes manual work, deep empathy, and a constant effort to delight users. Do things that don't scale to find what's truly valuable, and only then will you have something worth scaling.
 

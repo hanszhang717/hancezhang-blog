@@ -25,7 +25,7 @@ Using the advantage of vertical integration in one area means this: when our eco
 
 ## Principle 2: Proximate Objectives
 
-> All leaders have an important responsibility: to reduce the complexity and ambiguity of a problem and, once it is simplified, hand it to the organization as a problem that can be solved. Many leaders do this job very badly. They keep announcing grand goals but never properly plan which obstacles will have to be overcome. Being "responsible" means more than being willing to take the blame once a problem shows up. It also means setting proximate objectives and giving the organization a problem it can actually solve.
+> An important duty of any leader is to absorb a large part of that complexity and ambiguity, passing on to the organization a simpler problem—one that is solvable. Many leaders fail badly at this responsibility, announcing ambitious goals without resolving a good chunk of ambiguity about the specific obstacles to be overcome. To take responsibility is more than a willingness to accept the blame. It is setting proximate objectives and handing the organization a problem it can actually solve.
 — *Good Strategy, Bad Strategy*
 > 
 
@@ -45,7 +45,7 @@ Going to the market again and again has three big benefits:
 - It uses what we've just built to probe what the market really needs (scout thinking).
 - It tests whether our own team is reliable.
 
-Building products is basically a process of running social experiments. There has never been a genius product manager who made something everyone needed but nobody had thought of. The market is really our lab, and how fast we get results out of the lab is what will set us apart from our competitors. The truth is: speed up the process of exposing problems and increase their exposure, so people have to take responsibility for what they make, and everyone has to be tied closely to the situations where the things they make get used.
+Building products is basically a process of running social experiments. There has never been a genius product manager who made something everyone needed but nobody had thought of. The market is really our lab, and how fast we get results out of the lab is what will set us apart from our competitors. Mark Zuckerberg once said that building products is a turn-based strategy game, and the secret to winning is to ship fast so you get more turns than everyone else. The truth is: speed up the process of exposing problems and increase their exposure, so people have to take responsibility for what they make, and everyone has to be tied closely to the situations where the things they make get used.
 
 Getting feedback from the market is an art too. We can't forget our big-picture strategy and rush to build feature X as soon as a user says they need it; that would have us running around like headless chickens. Nor can we follow only our own urge to build and ignore the market's feedback completely, with our eyes shut and our ears stopped. There is no standard answer to this. The only way out is to keep going to the market more often and faster, reduce the bias in our feedback, and understand where the market's real core needs are.
 

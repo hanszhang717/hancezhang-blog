@@ -2,7 +2,7 @@
 title: "Managing Your Decision Rights"
 date: 2026-03-17
 draft: false
-summary: "Most people don't lack judgment. They lack the room to exercise it when it matters."
+summary: "When the time comes to use their judgment, most people have no room left to use it."
 categories: ["Mindsets"]
 slug: "managing-decision-rights"
 ---
@@ -41,19 +41,19 @@ First, the thing you're holding has to be right. Compounding is an amplifier, an
 
 Even if you pick right, there's a brutal prerequisite: the process can't be interrupted. In theory you can compound for many years straight, but in practice a single large enough drawdown can wipe out a significant chunk of what you've built. You were rolling a snowball, and once it breaks, you often have to start over. Buffett's "don't lose money" sounds like a platitude. It's actually about protecting the most fragile link in the compounding chain.
 
-Then there's the variable that gets underestimated most: whether the rate of return can be sustained over the long term. Even Munger, looking back, was probably too optimistic about Coca-Cola's long-term growth. The industry a company operates in, its competitive position, its organizational efficiency — these are all moving targets. The real rate of return ten years from now can look nothing like it does today. So compounding is first a business judgment problem. The math just extends whatever your judgment produces into the future.
+Then there's the variable that gets underestimated most: whether the rate of return can be sustained over the long term. Even Munger, looking back, was probably too optimistic about Coca-Cola's long-term growth. The industry a company operates in, its competitive position, its organizational efficiency: these are all moving targets. The real rate of return ten years from now can look nothing like it does today. So compounding is first a business judgment problem. The math just extends whatever your judgment produces into the future.
 
 Buying stock is buying a company. The core of value investing is figuring out what a company actually does, where its cash flows come from, and how much room it has to reinvest. Compounding is more like an after-the-fact phenomenon. You picked the right company, the company kept reinvesting at high quality, and compounding emerged as a natural result.
 
 Most things don't actually grow on exponential curves anyway. They follow S-curves. Growth starts fast, then slows as the market fills up, competition intensifies, and the organization itself becomes more complex. The truly critical ability is recognizing when a curve is approaching diminishing returns and moving your resources to the next steeper one before it's too late. Both companies and individual careers, viewed over long enough periods, are really stacks of multiple curves rather than a single line going up.
 
-All of the conditions above — picking the right thing, not getting interrupted, migrating before growth stalls — require that you still have the right and the resources to make decisions at the critical moment. Which brings us back to decision rights.
+All of the conditions above (picking the right thing, not getting interrupted, migrating before growth stalls) require that you still have the right and the resources to make decisions at the critical moment. Which brings us back to decision rights.
 
 ## How to stay at the plate
 
 Some people lock themselves in too early, committing to long-term obligations before they've understood the full picture. Others have the opposite problem: they watch from the sidelines forever, never accumulating real depth in anything. Munger said he spent his whole life waiting for a few fat pitches, doing nothing most of the time, and swinging hard when one came. But you need to have earned the right to stand at the plate.
 
-The mature approach is to layer things. At the base level — living expenses, capital structure, how you allocate your time — you want to stay as flexible as possible. This is your operating system, and the primary requirement for an operating system is stability. But within the direction you've chosen, you can be intensely concentrated, even obsessive. The key is not to confuse these two layers.
+The mature approach is to layer things. At the base level (living expenses, capital structure, how you allocate your time), you want to stay as flexible as possible. This is your operating system, and the primary requirement for an operating system is stability. But within the direction you've chosen, you can be intensely concentrated, even obsessive. The key is not to confuse these two layers.
 
 Rationality deserves a separate note here. A lot of people equate being rational with being cautious, with spreading everything evenly, with never going too hard on anything. But the distribution of returns in the real world is itself uneven. Treating every opportunity the same is actually irrational. When you don't have enough information, of course you should stay light. But when you genuinely see something you understand, can hold, and believe improves with time, and you're still "diversifying" for safety, you're just avoiding judgment.
 
