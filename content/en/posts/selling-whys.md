@@ -11,9 +11,9 @@ I've been digging into the phenomenon known as Steve Jobs' reality distortion fi
 
 https://www.youtube.com/watch?v=qp0HIF3SfI4
 
-Mediocre salespeople sell you a product, and good ones sell you a lifestyle, an idea to buy into. The truly extraordinary, those who often become charismatic leaders, sell visions: they sell the "why."
+Mediocre salespeople sell you a product, and good ones sell you a lifestyle, an idea to buy into. The truly extraordinary, those who often become charismatic leaders, sell visions, the "why."
 
-I find it astonishing that most people don't proactively think of the "why" in their own work. They complain about being treated like tools in a corporate machine, yet they willingly instrumentalize themselves. They've programmed their minds to function like a tool: receive input, produce the desired output, repeat. They don't question why the work is being done, in what context it adds value, or whether there might be a better way. They clock in, complete the tasks assigned, submit their work, and do it all over again the next day. How can anyone be surprised when the corporate machine treats them like a tool if that's the life they've chosen?
+I find it astonishing that most people don't proactively think of the "why" in their own work. They complain about being treated like tools in a corporate machine, yet they willingly instrumentalize themselves. They clock in, complete the tasks assigned, submit their work, and do it all over again the next day. How can anyone be surprised when the corporate machine treats them like a tool if that's the life they've chosen?
 
 In our workplace, there's a principle we call the 7/2/1 rule. It means that in an ideal business unit, 70% of the people handle the what: they focus on the tasks handed to them, take the inputs and deliver quality outputs. 20% handle the how, figuring out the best way to accomplish those tasks. And the remaining 10% handle the why, engaging in the strategic discussions about what to do and why to do it. In real-world practice, I find it's more like an 85/10/5 division.
 
