@@ -11,7 +11,7 @@ slug: "self-management-effective-leaders"
 
 In one sentence: A leader's job is to ensure the team produces the outcomes that matter most to the company.
 
-To break this down, there are four key areas:
+There are four parts to it:
 
 1. Objective: Identifying what's important and what's not.
 2. Strategy: Creating a step-by-step plan to achieve the objective.
@@ -57,7 +57,7 @@ Being detail-oriented also requires that you talk directly to the people doing t
 
 Skipping the reporting line is often treated as a taboo in many organizations. But I believe this taboo exists mainly to protect incompetent managers. The people on the front lines are what I call the ground truth of your business. You have no excuse not to access that truth directly.
 
-One huge advantage of being detail-oriented is that you can use your unique influence to unblock bottlenecks. Businesses often stall not because the people are incompetent but because they face obstacles they can't resolve on their own. Due to bureaucracy or inertia, they might not ask for help, allowing these bottlenecks to persist. As a leader, being detail-oriented allows you to identify and eliminate these issues effectively.
+One huge advantage of being detail-oriented is that you can use your unique influence to unblock bottlenecks. Businesses often stall not because the people are incompetent but because they face obstacles they can't resolve on their own. Due to bureaucracy or inertia, they might not ask for help, allowing these bottlenecks to persist.
 
 ### 2. Being Importance-Oriented
 
@@ -65,4 +65,4 @@ Being importance-oriented means ensuring that most of your team's efforts are di
 
 This is a task only leaders can do because it requires having a broader perspective of the entire business to determine what's important and what's not.
 
-Being detail-oriented helps here, too. You can only verify whether your team is working on the most important problem if you're close to the details. Without this connection, you risk leading the team in the wrong direction.
+Being detail-oriented helps here, too. You can only verify whether your team is working on the most important problem if you're close to the details.

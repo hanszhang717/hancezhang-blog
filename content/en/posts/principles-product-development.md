@@ -31,7 +31,7 @@ Using the advantage of vertical integration in one area means this: when our eco
 
 Goals that are too grand bring enthusiasm, but they also bring confusion and fear. If we set only big-picture goals and no proximate objectives, our engineers won't know where to start. We need to give the frontline engineering teams the power to make product decisions, and at the same time greatly reduce the ambiguity of the situation they make those decisions in. The more our goals are broken down to look like tasks, the better.
 
-Another big benefit of setting proximate objectives is that it lets us motivate the team in time. Product competition is a protracted war, and a protracted war means we can't expect to keep getting lots of big positive feedback from the market. It is bound to be a war full of hardship and negative feedback. Setting one proximate objective after another, and motivating the team to reach them, gives the team very good positive feedback and lifts its morale. This matters especially in a protracted war.
+Another big benefit of setting proximate objectives is that it keeps the team motivated along the way. Product competition is a protracted war, and a protracted war means we can't expect to keep getting lots of big positive feedback from the market. It is bound to be a war full of hardship and negative feedback. Setting one proximate objective after another, and motivating the team to reach them, gives the team very good positive feedback and lifts its morale. This matters especially in a protracted war.
 
 ## Principle 3: Keep Going to the Market
 
@@ -45,15 +45,15 @@ Going to the market again and again has three big benefits:
 - It uses what we've just built to probe what the market really needs (scout thinking).
 - It tests whether our own team is reliable.
 
-Building products is basically a process of running social experiments. There has never been a genius product manager who made something everyone needed but nobody had thought of. The market is really our lab, and how fast we get results out of the lab is what will set us apart from our competitors. Mark Zuckerberg once said that building products is a turn-based strategy game, and the secret to winning is to ship fast so you get more turns than everyone else. The truth is: speed up the process of exposing problems and increase their exposure, so people have to take responsibility for what they make, and everyone has to be tied closely to the situations where the things they make get used.
+Building products is basically a process of running social experiments. There has never been a genius product manager who made something everyone needed but nobody had thought of. The market is really our lab, and how fast we get results out of the lab is what will set us apart from our competitors. Mark Zuckerberg once said that building products is a turn-based strategy game, and the secret to winning is to ship fast so you get more turns than everyone else. The truth is: expose problems faster and more widely, so people have to take responsibility for what they make, and everyone has to be tied closely to how the things they make get used.
 
-Getting feedback from the market is an art too. We can't forget our big-picture strategy and rush to build feature X as soon as a user says they need it; that would have us running around like headless chickens. Nor can we follow only our own urge to build and ignore the market's feedback completely, with our eyes shut and our ears stopped. There is no standard answer to this. The only way out is to keep going to the market more often and faster, reduce the bias in our feedback, and understand where the market's real core needs are.
+Getting feedback from the market is an art too. We can't forget our big-picture strategy and rush to build feature X as soon as a user says they need it; that would have us running around like headless chickens. Nor can we follow only our own urge to build and ignore the market's feedback completely. There is no standard answer to this. The only way out is to keep going to the market more often and faster, reduce the bias in our feedback, and understand where the market's real core needs are.
 
 ## Principle 4: Build a User Culture
 
 Once we understand why product competition is bound to be a protracted war, we quickly realize that what we need is a rock-solid, excellent team to carry out this mission. As the part above about the three stages of competition said, we are still early in stage one, and this is not the hardest it will get. The competition ahead will only get bloodier and more hand-to-hand, and holding on to our drive will matter even more.
 
-Any team member who pays no attention to users, doesn't care where the business is going, or isn't willing to stay for the long run will drag the team down someday. That said, building a great team is also a protracted war, and rushing to replace people often is the same mistake of counting on a quick victory. But we must treat building a great team with real seriousness and urgency. We need to see clearly that a team full of people who don't understand users will never get far. So pushing a user culture, hard and in earnest, is in no way optional; it is a must.
+Any team member who pays no attention to users, doesn't care where the business is going, or isn't willing to stay for the long run will drag the team down someday. Building a great team is also a protracted war, though, and rushing to replace people often is the same mistake of counting on a quick victory. But we must treat building a great team with real seriousness and urgency. We need to see clearly that a team full of people who don't understand users will never get far. So pushing a user culture, hard and in earnest, is in no way optional; it is a must.
 
 Why do we have to push a user culture, that is, why must our development team understand users so well?
 
@@ -71,7 +71,7 @@ We must always stay alert to what competitors are doing and how far they've gott
 
 ### Recognize That Things Twist and Turn
 
-Things move back and forth and twist and turn; they don't go straight to where we want. We're not gods, and we don't know what the right road looks like. All we can do is keep trying and failing (by going to the market) and keep adjusting our direction. Never fall into the student mindset that doing A will get you B. A new feature won't necessarily get used, and there can be many reasons for that: we misjudged the need, the product wasn't good enough, and so on. What we can do is try and fail as widely as possible at the lowest possible cost.
+Things twist and turn; they don't go straight to where we want. We're not gods, and we don't know what the right road looks like. All we can do is keep trying and failing (by going to the market) and keep adjusting our direction. Never fall into the student mindset that doing A will get you B. A new feature won't necessarily get used, and there can be many reasons for that: we misjudged the need, the product wasn't good enough, and so on. What we can do is try and fail as widely as possible at the lowest possible cost.
 
 Always remember: negative feedback is still feedback. And among negative feedback, being scolded by users is better than dead silence; at the very least, it proves that we defined the need reasonably.
 

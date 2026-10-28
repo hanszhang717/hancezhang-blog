@@ -30,7 +30,7 @@ What I learned is that desire is like any other force. Trying to suppress it wit
 
 I used to think that my old life, the one that followed consensus, was simply wrong. Then I reacted against it, running to the opposite extreme. Now, after seeing the trap of performed nonconformity, I'm trying to find a balance.
 
-Perhaps the truly contrarian move, right now, is to ignore the pressure to drop out and build a startup. Perhaps it's to quietly choose the life that fits you, not the costume that fits the moment.
+Perhaps the truly contrarian move, right now, is to ignore the pressure to drop out and build a startup. Perhaps it's to quietly choose the life that fits you.
 
 
 
