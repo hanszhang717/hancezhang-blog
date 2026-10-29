@@ -58,6 +58,7 @@ const en = {
   // Says nothing about email: the email form only exists once SITE.newsletter is configured.
   endnote: 'Thanks for reading.',
   endnoteLink: 'Subscribe to new essays',
+  coverCredit: 'The painting at the top was made with AI.',
 
   notFoundTitle: 'Page not found',
   notFoundBody: 'This page doesn’t exist, or it moved when the site was rebuilt.',
@@ -114,6 +115,7 @@ const zh: UIStrings = {
   emailMe: '邮件',
   endnote: '感谢阅读。',
   endnoteLink: '订阅新文章',
+  coverCredit: '题图由 AI 生成。',
 
   notFoundTitle: '页面不存在',
   notFoundBody: '这个页面不存在，或者在网站改版时换了地址。',
